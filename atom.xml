@@ -5,9 +5,9 @@
   <subtitle>此火为大.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://jwjawa.github.io/"/>
+  <link href="https://jwjawa.github.io/"/>
   <updated>2020-07-13T10:43:12.688Z</updated>
-  <id>http://jwjawa.github.io/</id>
+  <id>https://jwjawa.github.io/</id>
   
   <author>
     <name>jwj</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>洛谷试炼场</title>
-    <link href="http://jwjawa.github.io/luogushilianchang/"/>
-    <id>http://jwjawa.github.io/luogushilianchang/</id>
+    <link href="https://jwjawa.github.io/luogushilianchang/"/>
+    <id>https://jwjawa.github.io/luogushilianchang/</id>
     <published>2020-07-12T11:03:36.889Z</published>
     <updated>2020-07-13T10:43:12.688Z</updated>
     
@@ -40,21 +40,21 @@
     </summary>
     
     
-      <category term="OI" scheme="http://jwjawa.github.io/categories/OI/"/>
+      <category term="OI" scheme="https://jwjawa.github.io/categories/OI/"/>
     
-      <category term="洛谷" scheme="http://jwjawa.github.io/categories/OI/%E6%B4%9B%E8%B0%B7/"/>
+      <category term="洛谷" scheme="https://jwjawa.github.io/categories/OI/%E6%B4%9B%E8%B0%B7/"/>
     
     
-      <category term="整理" scheme="http://jwjawa.github.io/tags/%E6%95%B4%E7%90%86/"/>
+      <category term="整理" scheme="https://jwjawa.github.io/tags/%E6%95%B4%E7%90%86/"/>
     
-      <category term="OI题目" scheme="http://jwjawa.github.io/tags/OI%E9%A2%98%E7%9B%AE/"/>
+      <category term="OI题目" scheme="https://jwjawa.github.io/tags/OI%E9%A2%98%E7%9B%AE/"/>
     
   </entry>
   
   <entry>
     <title>模板题目汇总</title>
-    <link href="http://jwjawa.github.io/luogumobanti/"/>
-    <id>http://jwjawa.github.io/luogumobanti/</id>
+    <link href="https://jwjawa.github.io/luogumobanti/"/>
+    <id>https://jwjawa.github.io/luogumobanti/</id>
     <published>2020-07-12T11:03:36.887Z</published>
     <updated>2020-07-13T10:43:02.397Z</updated>
     
@@ -67,21 +67,21 @@
     </summary>
     
     
-      <category term="OI" scheme="http://jwjawa.github.io/categories/OI/"/>
+      <category term="OI" scheme="https://jwjawa.github.io/categories/OI/"/>
     
-      <category term="洛谷" scheme="http://jwjawa.github.io/categories/OI/%E6%B4%9B%E8%B0%B7/"/>
+      <category term="洛谷" scheme="https://jwjawa.github.io/categories/OI/%E6%B4%9B%E8%B0%B7/"/>
     
     
-      <category term="整理" scheme="http://jwjawa.github.io/tags/%E6%95%B4%E7%90%86/"/>
+      <category term="整理" scheme="https://jwjawa.github.io/tags/%E6%95%B4%E7%90%86/"/>
     
-      <category term="OI题目" scheme="http://jwjawa.github.io/tags/OI%E9%A2%98%E7%9B%AE/"/>
+      <category term="OI题目" scheme="https://jwjawa.github.io/tags/OI%E9%A2%98%E7%9B%AE/"/>
     
   </entry>
   
   <entry>
     <title>网课推荐（知乎答案收集）</title>
-    <link href="http://jwjawa.github.io/whkwangke/"/>
-    <id>http://jwjawa.github.io/whkwangke/</id>
+    <link href="https://jwjawa.github.io/whkwangke/"/>
+    <id>https://jwjawa.github.io/whkwangke/</id>
     <published>2020-07-12T11:03:36.884Z</published>
     <updated>2020-07-13T10:43:26.205Z</updated>
     
@@ -94,21 +94,21 @@
     </summary>
     
     
-      <category term="其他" scheme="http://jwjawa.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+      <category term="其他" scheme="https://jwjawa.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
-      <category term="文化课" scheme="http://jwjawa.github.io/categories/%E5%85%B6%E4%BB%96/%E6%96%87%E5%8C%96%E8%AF%BE/"/>
+      <category term="文化课" scheme="https://jwjawa.github.io/categories/%E5%85%B6%E4%BB%96/%E6%96%87%E5%8C%96%E8%AF%BE/"/>
     
     
-      <category term="整理" scheme="http://jwjawa.github.io/tags/%E6%95%B4%E7%90%86/"/>
+      <category term="整理" scheme="https://jwjawa.github.io/tags/%E6%95%B4%E7%90%86/"/>
     
-      <category term="网课" scheme="http://jwjawa.github.io/tags/%E7%BD%91%E8%AF%BE/"/>
+      <category term="网课" scheme="https://jwjawa.github.io/tags/%E7%BD%91%E8%AF%BE/"/>
     
   </entry>
   
   <entry>
     <title>在手机上使用termux写C++代码</title>
-    <link href="http://jwjawa.github.io/termuxandcpp/"/>
-    <id>http://jwjawa.github.io/termuxandcpp/</id>
+    <link href="https://jwjawa.github.io/termuxandcpp/"/>
+    <id>https://jwjawa.github.io/termuxandcpp/</id>
     <published>2020-07-12T11:03:36.877Z</published>
     <updated>2020-07-13T13:32:32.069Z</updated>
     
@@ -123,19 +123,19 @@
     </summary>
     
     
-      <category term="其他" scheme="http://jwjawa.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+      <category term="其他" scheme="https://jwjawa.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-      <category term="原创" scheme="http://jwjawa.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+      <category term="原创" scheme="https://jwjawa.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
     
-      <category term="C++" scheme="http://jwjawa.github.io/tags/C/"/>
+      <category term="C++" scheme="https://jwjawa.github.io/tags/C/"/>
     
   </entry>
   
   <entry>
     <title>bilibili屏蔽区块代码</title>
-    <link href="http://jwjawa.github.io/bilibilipingbiqukuai/"/>
-    <id>http://jwjawa.github.io/bilibilipingbiqukuai/</id>
+    <link href="https://jwjawa.github.io/bilibilipingbiqukuai/"/>
+    <id>https://jwjawa.github.io/bilibilipingbiqukuai/</id>
     <published>2020-07-12T11:03:36.873Z</published>
     <updated>2020-07-13T10:44:05.133Z</updated>
     
@@ -148,12 +148,12 @@
     </summary>
     
     
-      <category term="其他" scheme="http://jwjawa.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+      <category term="其他" scheme="https://jwjawa.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
-      <category term="美化网站" scheme="http://jwjawa.github.io/categories/%E5%85%B6%E4%BB%96/%E7%BE%8E%E5%8C%96%E7%BD%91%E7%AB%99/"/>
+      <category term="美化网站" scheme="https://jwjawa.github.io/categories/%E5%85%B6%E4%BB%96/%E7%BE%8E%E5%8C%96%E7%BD%91%E7%AB%99/"/>
     
     
-      <category term="CSS" scheme="http://jwjawa.github.io/tags/CSS/"/>
+      <category term="CSS" scheme="https://jwjawa.github.io/tags/CSS/"/>
     
   </entry>
   
