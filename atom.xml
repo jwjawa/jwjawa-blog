@@ -3,7 +3,7 @@
   <title>jwj&#39;s blog</title>
   
   <subtitle>此火为大.</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/jwj-blog/atom.xml" rel="self"/>
   
   <link href="https://jwjawa.js.org/"/>
   <updated>2020-07-14T09:41:03.351Z</updated>
@@ -39,9 +39,9 @@
       <category term="工具" scheme="https://jwjawa.js.org/categories/%E5%85%B6%E4%BB%96/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="原创" scheme="https://jwjawa.js.org/tags/%E5%8E%9F%E5%88%9B/"/>
-    
       <category term="CSS" scheme="https://jwjawa.js.org/tags/CSS/"/>
+    
+      <category term="原创" scheme="https://jwjawa.js.org/tags/%E5%8E%9F%E5%88%9B/"/>
     
   </entry>
   
