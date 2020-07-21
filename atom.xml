@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jwjawa.js.org/"/>
-  <updated>2020-07-21T04:57:31.094Z</updated>
+  <updated>2020-07-21T11:50:56.097Z</updated>
   <id>https://jwjawa.js.org/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>newhome</title>
+    <link href="https://jwjawa.js.org/newhome/"/>
+    <id>https://jwjawa.js.org/newhome/</id>
+    <published>2020-07-21T11:42:51.659Z</published>
+    <updated>2020-07-21T11:50:56.097Z</updated>
+    
+    <content type="html"><![CDATA[<p>搬家啦！</p><p>之前博客用了一段时间的阮行止大佬的生成器（经过同意了），后来自己想拓展一些功能，然后就发现要拓展功能的话只能自己写代码，可我太菜了不会PHP不会HTML不会CSS，所以只能改用Hexo/kk</p><p>以后可能会出关于Hexo的搭建教程和调教教程吧qwq</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;搬家啦！&lt;/p&gt;
+&lt;p&gt;之前博客用了一段时间的阮行止大佬的生成器（经过同意了），后来自己想拓展一些功能，然后就发现要拓展功能的话只能自己写代码，可我太菜了不会PHP不会HTML不会CSS，所以只能改用Hexo/kk&lt;/p&gt;
+&lt;p&gt;以后可能会出关于Hexo的搭建教程和调教教程
+      
+    
+    </summary>
+    
+    
+      <category term="日常" scheme="https://jwjawa.js.org/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+      <category term="日常" scheme="https://jwjawa.js.org/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>洛谷题目打印机使用说明书</title>
