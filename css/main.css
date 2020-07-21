@@ -1982,7 +1982,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7dd1cb;
+  background: #502d63;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3284,4 +3284,7 @@ img:hover {
 }
 .sidebar {
   left: 0px;
+}
+.vcopy.txt-right {
+  display: none;
 }
