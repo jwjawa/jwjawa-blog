@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>bilibili屏蔽区块代码</title>
-    <url>/bilibilipingbiqukuai/</url>
-    <content><![CDATA[<p>不喜欢b站的某些板块？来看看这篇文章吧awa</p>
-<a id="more"></a>
-
-<p>准备：谷歌浏览器、机场</p>
-<p>使用方法：</p>
-<ol>
-<li>谷歌浏览器下载<code>stylish</code>这个插件</li>
-<li>打开<a href="https://userstyles.org/styles/144506/2019-9-13-bilibili" target="_blank" rel="noopener">这个链接</a>，安装</li>
-<li>点击<code>stylish</code>插件按钮，点右上角三个点，管理样式</li>
-<li>点击修改，全选删除，将下面这段代码粘贴在上面，保存，生效（可以根据自己的情况删改）</li>
-</ol>
-<p>注：配合这个<a href="https://userstyles.org/styles/176432/bilibili" target="_blank" rel="noopener">美化插件</a>使用更佳</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;*分区块中的横条广告(全站)*&#x2F;</span><br><span class="line">.banner-card &#123;display: none;&#125;</span><br><span class="line">&#x2F;*分区块中的横条广告(全站) 旧版*&#x2F;</span><br><span class="line">.gg-floor-module &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*页尾部分(全站)*&#x2F;</span><br><span class="line">.international-footer &#123;display: none;&#125;</span><br><span class="line">&#x2F;*整个导航栏(全站)*&#x2F;</span><br><span class="line">&#x2F;*</span><br><span class="line">.b-wrap &#123;display: none;&#125;</span><br><span class="line">*&#x2F;</span><br><span class="line">&#x2F;*最顶行(幻灯片行)*&#x2F;</span><br><span class="line">#reportFirst1 &#123;display: none;&#125;</span><br><span class="line">&#x2F;*最顶行(幻灯片行)旧版*&#x2F;</span><br><span class="line">#chief_recommend &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*推广(顶部第二行)*&#x2F;</span><br><span class="line">#reportFirst2 &#123;display: none;&#125;</span><br><span class="line">&#x2F;*推广(顶部第二行) 旧版*&#x2F;</span><br><span class="line">#home_popularize &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*侧边栏*&#x2F;</span><br><span class="line">#elevator &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*导航栏两边*&#x2F;</span><br><span class="line">#primaryPageTab &#123;display: none;&#125;</span><br><span class="line">#primaryFriendshipLink &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*直播(顶部第三行)*&#x2F;</span><br><span class="line">#bili_live &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;0&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*动画*&#x2F;</span><br><span class="line">#bili_douga &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;1&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*番剧*&#x2F;</span><br><span class="line">#bili_anime &#123;display: none;&#125;</span><br><span class="line">&#x2F;*番剧 旧版*&#x2F;</span><br><span class="line">#bili_bangumi &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;2&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*国创*&#x2F;</span><br><span class="line">#bili_guochuang &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;3&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*漫画 旧版*&#x2F;</span><br><span class="line">#bili_manga &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;4&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*音乐*&#x2F;</span><br><span class="line">#bili_music &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;5&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*舞蹈*&#x2F;</span><br><span class="line">#bili_dance &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;6&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*游戏*&#x2F;</span><br><span class="line">#bili_game &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;7&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*科技*&#x2F;</span><br><span class="line">#bili_technology &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;8&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*数码*&#x2F;</span><br><span class="line">#bili_digital &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;9&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*生活*&#x2F;</span><br><span class="line">#bili_life &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;10&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*鬼畜*&#x2F;</span><br><span class="line">#bili_kichiku &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;11&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*广告*&#x2F;</span><br><span class="line">#bili_ad &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;13&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*时尚*&#x2F;</span><br><span class="line">#bili_fashion &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;12&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*资讯*&#x2F;</span><br><span class="line">#bili_report_information &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;13&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*娱乐*&#x2F;</span><br><span class="line">#bili_ent &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;14&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*专栏*&#x2F;</span><br><span class="line">#bili_read &#123;display: none;&#125;</span><br><span class="line">&#x2F;*专栏 旧版*&#x2F;</span><br><span class="line">#bili_article &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;15&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*电影*&#x2F;</span><br><span class="line">#bili_movie &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;16&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*TV剧*&#x2F;</span><br><span class="line">#bili_teleplay &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;17&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*影视*&#x2F;</span><br><span class="line">#bili_cinephile &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;18&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*纪录片*&#x2F;</span><br><span class="line">#bili_documentary &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;19&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*特别推荐(最后一行)*&#x2F;</span><br><span class="line">#bili_report_spe_rec &#123;display: none;&#125;</span><br><span class="line">&#x2F;*特别推荐(最后一行) 旧版*&#x2F;</span><br><span class="line">#special_recommend &#123;display: none;&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>其他</category>
-        <category>美化网站</category>
-      </categories>
-      <tags>
-        <tag>CSS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>模板题目汇总</title>
     <url>/luogumobanti/</url>
     <content><![CDATA[<p>目前洛谷总题库最后一题题号为P6534。<br>欢迎联系作者添加模板题。</p>
@@ -202,20 +177,6 @@
       <tags>
         <tag>整理</tag>
         <tag>OI题目</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>newhome</title>
-    <url>/newhome/</url>
-    <content><![CDATA[<p>搬家啦！</p>
-<p>之前博客用了一段时间的阮行止大佬的生成器（经过同意了），后来自己想拓展一些功能，然后就发现要拓展功能的话只能自己写代码，可我太菜了不会PHP不会HTML不会CSS，所以只能改用Hexo/kk</p>
-<p>以后可能会出关于Hexo的搭建教程和调教教程吧qwq</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
       </tags>
   </entry>
   <entry>
@@ -1142,6 +1103,103 @@
       </tags>
   </entry>
   <entry>
+    <title>博客搬家啦</title>
+    <url>/newhome/</url>
+    <content><![CDATA[<p>搬家啦！</p>
+<p>之前博客用了一段时间的阮行止大佬的生成器（经过同意了），后来自己想拓展一些功能，然后就发现要拓展功能的话只能自己写代码，可我太菜了不会PHP不会HTML不会CSS，所以只能改用Hexo/kk</p>
+<p>以后可能会出关于Hexo的搭建教程和调教教程吧qwq</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>洛谷题目打印机使用说明书</title>
+    <url>/printluoguproblem/</url>
+    <content><![CDATA[<p>身处弱校，不能天天上机？</p>
+<p>希望我的<code>洛谷题目打印机</code>可以帮到您！</p>
+<p>这篇博客将会帮助您安装并使用<code>洛谷题目打印机</code>。</p>
+<a id="more"></a>
+
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>您可以使用它来屏蔽一些妨碍打印题目或者与题目无关的网页元素，从而比较完美地打印洛谷题目，或者把洛谷题目导出为PDF格式。</p>
+<p>作者是一条酸菜鱼，如果在打印机里面发现了虫子或者有更好的修改建议可以联系作者修复，如果有不懂的地方也可以联系作者询问。祝您使用愉快！</p>
+<p><a href="https://userstyles.org/styles/186569/by-jwj" target="_blank" rel="noopener">洛谷题目打印机链接</a></p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><blockquote>
+<p><code>洛谷题目打印机</code>安装方法与安装<code>氩洛谷</code>类似。如果您安装了或者安装过氩洛谷，那么您可以忽略下面的安装教程直接点击链接安装。</p>
+</blockquote>
+<p><del>您得拥有一台电脑。</del></p>
+<p>您需要在电脑上装有谷歌浏览器。</p>
+<p>您需要在谷歌浏览器上安装一个名为<code>Stylish</code>的插件。</p>
+<p>啥？怎么安装插件？您可能需要打开<code>Chrome 网上应用店</code>进行搜索安装。</p>
+<p>啥？打不开？您可能需要一个机场才能打开。</p>
+<p>啥？没有机场？ <del>您可以选择运用搜索引擎搜索如何下载<code>Stylish</code>这个插件。</del></p>
+<p>嗯好的，此时您安装完了<code>Stylish</code>这个插件，那么您可以点开上面的链接了。</p>
+<p>点开链接后，如果不出所料，会出现下面的界面：</p>
+<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125452.png" alt=""></p>
+<p>看到下面的那个蓝色的按钮没有？ <del>把鼠标指针拖到那个蓝色的按钮上面，然后轻轻按下鼠标左键，</del> 当蓝色按钮变成了如下图所示的绿色按钮时，恭喜您，安装成功了。</p>
+<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125454.png" alt=""></p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>平时在电脑上做题不用打印的时候，建议关闭<code>洛谷题目打印机</code>以避免妨碍您的刷题体验。</p>
+<p>点击谷歌浏览器右上方的<code>Stylish</code>图标，点击“已安装样式”就可以选择开启或关闭<code>洛谷题目打印机</code>。或者您也可以点击<code>Stylish</code>图标后点击右上方的三个点选择“管理样式”即可选择开启或关闭。</p>
+<p>如果您需要打印题目了，请按照如上方式开启<code>洛谷题目打印机</code>。</p>
+<p>打开您需要打印的题目链接，您会发现界面变成了这样：</p>
+<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125450.png" alt=""></p>
+<p>此时，右键选择打印，或者按下快捷键Ctrl键+P键，将会弹出打印界面：</p>
+<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125459.png" alt=""></p>
+<p>此时选择打印机即可打印，“目标打印机”选择“另存为PDF”即可转存为PDF。</p>
+<h2 id="打印设置"><a href="#打印设置" class="headerlink" title="打印设置"></a>打印设置</h2><p>如果需要设置，请在打印界面点开“更多设置”。</p>
+<ul>
+<li><p>“纸张尺寸”可以选择您打印出来的纸张大小，推荐设置为<code>A4</code>。</p>
+</li>
+<li><p>“每个工作表的页数”可以选择打印的格式，在一面纸中打印多少面题目，推荐设置为1或2。</p>
+</li>
+<li><p>“边距”和“缩放”可以分别选择打印的页边距和内容（字体）大小，推荐设置为“默认”。</p>
+</li>
+<li><p>“选项”中的“页眉和页脚”可以选择是否打印打印日期、网页名称、网页地址和页码，请按自己需求设置。推荐不勾选“背景图形”，<del>但是勾选也行。</del></p>
+</li>
+<li><p>其他选项根据需求自行设置。</p>
+</li>
+</ul>
+<hr>
+<p>本说明书到此结束，如果在打印机里面发现了虫子或者有更好的修改建议可以联系作者修复，如果有不懂的地方也可以联系作者询问。祝您使用愉快！</p>
+]]></content>
+      <categories>
+        <category>其他</category>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>原创</tag>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>bilibili屏蔽区块代码</title>
+    <url>/bilibilipingbiqukuai/</url>
+    <content><![CDATA[<p>不喜欢b站的某些板块？来看看这篇文章吧awa</p>
+<a id="more"></a>
+
+<p>准备：谷歌浏览器、机场</p>
+<p>使用方法：</p>
+<ol>
+<li>谷歌浏览器下载<code>stylish</code>这个插件</li>
+<li>打开<a href="https://userstyles.org/styles/144506/2019-9-13-bilibili" target="_blank" rel="noopener">这个链接</a>，安装</li>
+<li>点击<code>stylish</code>插件按钮，点右上角三个点，管理样式</li>
+<li>点击修改，全选删除，将下面这段代码粘贴在上面，保存，生效（可以根据自己的情况删改）</li>
+</ol>
+<p>注：配合这个<a href="https://userstyles.org/styles/176432/bilibili" target="_blank" rel="noopener">美化插件</a>使用更佳</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;*分区块中的横条广告(全站)*&#x2F;</span><br><span class="line">.banner-card &#123;display: none;&#125;</span><br><span class="line">&#x2F;*分区块中的横条广告(全站) 旧版*&#x2F;</span><br><span class="line">.gg-floor-module &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*页尾部分(全站)*&#x2F;</span><br><span class="line">.international-footer &#123;display: none;&#125;</span><br><span class="line">&#x2F;*整个导航栏(全站)*&#x2F;</span><br><span class="line">&#x2F;*</span><br><span class="line">.b-wrap &#123;display: none;&#125;</span><br><span class="line">*&#x2F;</span><br><span class="line">&#x2F;*最顶行(幻灯片行)*&#x2F;</span><br><span class="line">#reportFirst1 &#123;display: none;&#125;</span><br><span class="line">&#x2F;*最顶行(幻灯片行)旧版*&#x2F;</span><br><span class="line">#chief_recommend &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*推广(顶部第二行)*&#x2F;</span><br><span class="line">#reportFirst2 &#123;display: none;&#125;</span><br><span class="line">&#x2F;*推广(顶部第二行) 旧版*&#x2F;</span><br><span class="line">#home_popularize &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*侧边栏*&#x2F;</span><br><span class="line">#elevator &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*导航栏两边*&#x2F;</span><br><span class="line">#primaryPageTab &#123;display: none;&#125;</span><br><span class="line">#primaryFriendshipLink &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*直播(顶部第三行)*&#x2F;</span><br><span class="line">#bili_live &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;0&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*动画*&#x2F;</span><br><span class="line">#bili_douga &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;1&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*番剧*&#x2F;</span><br><span class="line">#bili_anime &#123;display: none;&#125;</span><br><span class="line">&#x2F;*番剧 旧版*&#x2F;</span><br><span class="line">#bili_bangumi &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;2&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*国创*&#x2F;</span><br><span class="line">#bili_guochuang &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;3&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*漫画 旧版*&#x2F;</span><br><span class="line">#bili_manga &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;4&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*音乐*&#x2F;</span><br><span class="line">#bili_music &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;5&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*舞蹈*&#x2F;</span><br><span class="line">#bili_dance &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;6&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*游戏*&#x2F;</span><br><span class="line">#bili_game &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;7&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*科技*&#x2F;</span><br><span class="line">#bili_technology &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;8&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*数码*&#x2F;</span><br><span class="line">#bili_digital &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;9&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*生活*&#x2F;</span><br><span class="line">#bili_life &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;10&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*鬼畜*&#x2F;</span><br><span class="line">#bili_kichiku &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;11&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*广告*&#x2F;</span><br><span class="line">#bili_ad &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;13&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*时尚*&#x2F;</span><br><span class="line">#bili_fashion &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;12&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*资讯*&#x2F;</span><br><span class="line">#bili_report_information &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;13&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*娱乐*&#x2F;</span><br><span class="line">#bili_ent &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;14&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*专栏*&#x2F;</span><br><span class="line">#bili_read &#123;display: none;&#125;</span><br><span class="line">&#x2F;*专栏 旧版*&#x2F;</span><br><span class="line">#bili_article &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;15&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*电影*&#x2F;</span><br><span class="line">#bili_movie &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;16&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*TV剧*&#x2F;</span><br><span class="line">#bili_teleplay &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;17&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*影视*&#x2F;</span><br><span class="line">#bili_cinephile &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;18&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*纪录片*&#x2F;</span><br><span class="line">#bili_documentary &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;19&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*特别推荐(最后一行)*&#x2F;</span><br><span class="line">#bili_report_spe_rec &#123;display: none;&#125;</span><br><span class="line">&#x2F;*特别推荐(最后一行) 旧版*&#x2F;</span><br><span class="line">#special_recommend &#123;display: none;&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>其他</category>
+        <category>美化网站</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>在手机上使用termux写C++代码</title>
     <url>/termuxandcpp/</url>
     <content><![CDATA[<p>本文将会介绍如何使用termux写C++代码并编译运行。</p>
@@ -1370,64 +1428,6 @@
       <tags>
         <tag>原创</tag>
         <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>洛谷题目打印机使用说明书</title>
-    <url>/printluoguproblem/</url>
-    <content><![CDATA[<p>身处弱校，不能天天上机？</p>
-<p>希望我的<code>洛谷题目打印机</code>可以帮到您！</p>
-<p>这篇博客将会帮助您安装并使用<code>洛谷题目打印机</code>。</p>
-<a id="more"></a>
-
-<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>您可以使用它来屏蔽一些妨碍打印题目或者与题目无关的网页元素，从而比较完美地打印洛谷题目，或者把洛谷题目导出为PDF格式。</p>
-<p>作者是一条酸菜鱼，如果在打印机里面发现了虫子或者有更好的修改建议可以联系作者修复，如果有不懂的地方也可以联系作者询问。祝您使用愉快！</p>
-<p><a href="https://userstyles.org/styles/186569/by-jwj" target="_blank" rel="noopener">洛谷题目打印机链接</a></p>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><blockquote>
-<p><code>洛谷题目打印机</code>安装方法与安装<code>氩洛谷</code>类似。如果您安装了或者安装过氩洛谷，那么您可以忽略下面的安装教程直接点击链接安装。</p>
-</blockquote>
-<p><del>您得拥有一台电脑。</del></p>
-<p>您需要在电脑上装有谷歌浏览器。</p>
-<p>您需要在谷歌浏览器上安装一个名为<code>Stylish</code>的插件。</p>
-<p>啥？怎么安装插件？您可能需要打开<code>Chrome 网上应用店</code>进行搜索安装。</p>
-<p>啥？打不开？您可能需要一个机场才能打开。</p>
-<p>啥？没有机场？ <del>您可以选择运用搜索引擎搜索如何下载<code>Stylish</code>这个插件。</del></p>
-<p>嗯好的，此时您安装完了<code>Stylish</code>这个插件，那么您可以点开上面的链接了。</p>
-<p>点开链接后，如果不出所料，会出现下面的界面：</p>
-<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125452.png" alt=""></p>
-<p>看到下面的那个蓝色的按钮没有？ <del>把鼠标指针拖到那个蓝色的按钮上面，然后轻轻按下鼠标左键，</del> 当蓝色按钮变成了如下图所示的绿色按钮时，恭喜您，安装成功了。</p>
-<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125454.png" alt=""></p>
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>平时在电脑上做题不用打印的时候，建议关闭<code>洛谷题目打印机</code>以避免妨碍您的刷题体验。</p>
-<p>点击谷歌浏览器右上方的<code>Stylish</code>图标，点击“已安装样式”就可以选择开启或关闭<code>洛谷题目打印机</code>。或者您也可以点击<code>Stylish</code>图标后点击右上方的三个点选择“管理样式”即可选择开启或关闭。</p>
-<p>如果您需要打印题目了，请按照如上方式开启<code>洛谷题目打印机</code>。</p>
-<p>打开您需要打印的题目链接，您会发现界面变成了这样：</p>
-<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125450.png" alt=""></p>
-<p>此时，右键选择打印，或者按下快捷键Ctrl键+P键，将会弹出打印界面：</p>
-<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125459.png" alt=""></p>
-<p>此时选择打印机即可打印，“目标打印机”选择“另存为PDF”即可转存为PDF。</p>
-<h2 id="打印设置"><a href="#打印设置" class="headerlink" title="打印设置"></a>打印设置</h2><p>如果需要设置，请在打印界面点开“更多设置”。</p>
-<ul>
-<li><p>“纸张尺寸”可以选择您打印出来的纸张大小，推荐设置为<code>A4</code>。</p>
-</li>
-<li><p>“每个工作表的页数”可以选择打印的格式，在一面纸中打印多少面题目，推荐设置为1或2。</p>
-</li>
-<li><p>“边距”和“缩放”可以分别选择打印的页边距和内容（字体）大小，推荐设置为“默认”。</p>
-</li>
-<li><p>“选项”中的“页眉和页脚”可以选择是否打印打印日期、网页名称、网页地址和页码，请按自己需求设置。推荐不勾选“背景图形”，<del>但是勾选也行。</del></p>
-</li>
-<li><p>其他选项根据需求自行设置。</p>
-</li>
-</ul>
-<hr>
-<p>本说明书到此结束，如果在打印机里面发现了虫子或者有更好的修改建议可以联系作者修复，如果有不懂的地方也可以联系作者询问。祝您使用愉快！</p>
-]]></content>
-      <categories>
-        <category>其他</category>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>CSS</tag>
-        <tag>原创</tag>
       </tags>
   </entry>
   <entry>
