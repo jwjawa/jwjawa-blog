@@ -26,6 +26,20 @@
       </tags>
   </entry>
   <entry>
+    <title>博客搬家啦</title>
+    <url>/newhome/</url>
+    <content><![CDATA[<p>搬家啦！</p>
+<p>之前博客用了一段时间的阮行止大佬的生成器（经过同意了），后来自己想拓展一些功能，然后就发现要拓展功能的话只能自己写代码，可我太菜了不会PHP不会HTML不会CSS，所以只能改用Hexo/kk</p>
+<p>以后可能会出关于Hexo的搭建教程和调教教程吧qwq</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>模板题目汇总</title>
     <url>/luogumobanti/</url>
     <content><![CDATA[<p>目前洛谷总题库最后一题题号为P6534。<br>欢迎联系作者添加模板题。</p>
@@ -1125,20 +1139,6 @@
       <tags>
         <tag>整理</tag>
         <tag>OI题目</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搬家啦</title>
-    <url>/newhome/</url>
-    <content><![CDATA[<p>搬家啦！</p>
-<p>之前博客用了一段时间的阮行止大佬的生成器（经过同意了），后来自己想拓展一些功能，然后就发现要拓展功能的话只能自己写代码，可我太菜了不会PHP不会HTML不会CSS，所以只能改用Hexo/kk</p>
-<p>以后可能会出关于Hexo的搭建教程和调教教程吧qwq</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
       </tags>
   </entry>
   <entry>
