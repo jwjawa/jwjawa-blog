@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jwjawa.js.org/"/>
-  <updated>2020-07-21T11:56:24.888Z</updated>
+  <updated>2020-08-08T01:54:41.112Z</updated>
   <id>https://jwjawa.js.org/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>jwj的训练日志</title>
+    <link href="https://jwjawa.js.org/xunlianrizhi/"/>
+    <id>https://jwjawa.js.org/xunlianrizhi/</id>
+    <published>2020-08-08T01:51:14.727Z</published>
+    <updated>2020-08-08T01:54:41.112Z</updated>
+    
+    <content type="html"><![CDATA[<p>这里用来存放jwj的训练日志，以供教练和班主任监督。</p><p>训练日志见评论区，本评论区禁止其他人回复。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这里用来存放jwj的训练日志，以供教练和班主任监督。&lt;/p&gt;
+&lt;p&gt;训练日志见评论区，本评论区禁止其他人回复。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="日常" scheme="https://jwjawa.js.org/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+      <category term="日常" scheme="https://jwjawa.js.org/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+      <category term="记录" scheme="https://jwjawa.js.org/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
   
   <entry>
     <title>博客搬家啦</title>
