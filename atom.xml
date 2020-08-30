@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jwjawa.js.org/"/>
-  <updated>2020-08-08T02:44:48.104Z</updated>
+  <updated>2020-08-30T09:38:32.679Z</updated>
   <id>https://jwjawa.js.org/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ultimium</title>
+    <link href="https://jwjawa.js.org/ultimium/"/>
+    <id>https://jwjawa.js.org/ultimium/</id>
+    <published>2020-08-30T09:33:20.476Z</published>
+    <updated>2020-08-30T09:38:32.679Z</updated>
+    
+    <content type="html"><![CDATA[<p>你好啊ultimium！</p><p>以后就在这聊天吧awa</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;你好啊ultimium！&lt;/p&gt;
+&lt;p&gt;以后就在这聊天吧awa&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>欢迎来到jwj的博客awa</title>
