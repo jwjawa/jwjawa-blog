@@ -1,0 +1,6 @@
+wget https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts -O hosts
+git add .
+git commit -m"更新hosts"
+git push blog master
+
+sudo cp hosts /etc/hosts
