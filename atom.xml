@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jwjawa.js.org/"/>
-  <updated>2020-08-30T09:50:09.626Z</updated>
+  <updated>2020-08-08T02:44:48.104Z</updated>
   <id>https://jwjawa.js.org/</id>
   
   <author>
@@ -15,25 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>jwj和Ultimium的加密会话</title>
-    <link href="https://jwjawa.js.org/ultimium/"/>
-    <id>https://jwjawa.js.org/ultimium/</id>
-    <published>2020-08-30T09:33:20.476Z</published>
-    <updated>2020-08-30T09:50:09.626Z</updated>
-    
-    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">请输入密码以阅读这篇私密文章。</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="4b6cc634a1e7c37d28fbe336653988aa57b9cc581dbc2b18b520c07e7bf0bc9f">ccb3c57f499b4d4dd76e62625ba13cd71d7630329bcca4fb75629055429cf261f17fdd21abdfa8ea1a024a4ee55eea6d4621b845c134665799be163661e23277</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-    
-    <summary type="html">
-    
-      此文章已被加密，需要输入密码访问。
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>欢迎来到jwj的博客awa</title>
