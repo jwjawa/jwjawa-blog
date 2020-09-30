@@ -219,6 +219,20 @@
       </tags>
   </entry>
   <entry>
+    <title>博客搬家啦</title>
+    <url>/newhome/</url>
+    <content><![CDATA[<p>搬家啦！</p>
+<p>之前博客用了一段时间的阮行止大佬的生成器（经过同意了），后来自己想拓展一些功能，然后就发现要拓展功能的话只能自己写代码，可我太菜了不会PHP不会HTML不会CSS，所以只能改用Hexo/kk</p>
+<p>以后可能会出关于Hexo的搭建教程和调教教程吧qwq</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>洛谷试炼场</title>
     <url>/luogushilianchang/</url>
     <content><![CDATA[<p>这里是洛谷试炼场备份，供参考awa</p>
@@ -1142,20 +1156,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客搬家啦</title>
-    <url>/newhome/</url>
-    <content><![CDATA[<p>搬家啦！</p>
-<p>之前博客用了一段时间的阮行止大佬的生成器（经过同意了），后来自己想拓展一些功能，然后就发现要拓展功能的话只能自己写代码，可我太菜了不会PHP不会HTML不会CSS，所以只能改用Hexo/kk</p>
-<p>以后可能会出关于Hexo的搭建教程和调教教程吧qwq</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>洛谷题目打印机使用说明书</title>
     <url>/printluoguproblem/</url>
     <content><![CDATA[<p>身处弱校，不能天天上机？</p>
@@ -1442,6 +1442,332 @@
       <tags>
         <tag>原创</tag>
         <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网课推荐（知乎答案收集）</title>
+    <url>/whkwangke/</url>
+    <content><![CDATA[<p>这里是jwj翻了很多知乎答案收集得到的结果，希望对大家有所帮助qwq</p>
+<a id="more"></a>
+
+
+<h3 id="语文"><a href="#语文" class="headerlink" title="语文"></a>语文</h3><ul>
+<li>乘风-腾讯课堂x9</li>
+<li><ul>
+<li>提分快，适合理科生</li>
+</ul>
+</li>
+<li><ul>
+<li>文言文</li>
+</ul>
+</li>
+<li>杨洋-腾讯课堂x8</li>
+<li><ul>
+<li>培养思维，作文讲的很好</li>
+</ul>
+</li>
+<li>国家玮-新东方、大黄蜂课堂x6</li>
+<li><ul>
+<li>社科文古文都讲的不错</li>
+</ul>
+</li>
+<li><ul>
+<li>偏向于思维提升，讲法别出心裁</li>
+</ul>
+</li>
+<li>董腾-有道精品课x2</li>
+<li><ul>
+<li>幽默风趣应试很强</li>
+</ul>
+</li>
+<li>王大绩-简单学习网</li>
+<li>谢明波</li>
+<li>王丹宁-原新东方</li>
+<li>陈焕文-乐学</li>
+<li><ul>
+<li>理科思维，理解难度会大</li>
+</ul>
+</li>
+</ul>
+<h3 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h3><ul>
+<li>周帅-高德x9</li>
+<li><ul>
+<li>每一个知识点都讲得特别全面，各个题型都有涉及</li>
+</ul>
+</li>
+<li><ul>
+<li>偏基础一点</li>
+</ul>
+</li>
+<li><ul>
+<li>授课内容集中、信息量大，讲题侧重培养思维，而非机械操作，课时多，知识点细。</li>
+</ul>
+</li>
+<li>郭化楠-有道精品课、学而思x5</li>
+<li><ul>
+<li>重视基础</li>
+</ul>
+</li>
+<li><ul>
+<li>非常注重基础，潜移默化的拓展知识之间的延伸</li>
+</ul>
+</li>
+<li><ul>
+<li>拔高（有道精品课）</li>
+</ul>
+</li>
+<li><ul>
+<li>全网最完美的“自学”视频，适合零基础。把知识点的来龙去脉讲的透彻，可以培养出真正的学术性人才</li>
+</ul>
+</li>
+<li>赵礼显-跟谁学x5</li>
+<li><ul>
+<li>拔高</li>
+</ul>
+</li>
+<li><ul>
+<li>课时少，课程主讲题型解题法，对基础知识讲解少，不适合基础差的人群。短期提分快。</li>
+</ul>
+</li>
+<li>凉学长-腾讯课堂x3</li>
+<li><ul>
+<li>方法巧妙</li>
+</ul>
+</li>
+<li>蔡德锦-腾讯课堂x2</li>
+<li><ul>
+<li>通过带你做题来深刻的理解这个知识点，适合拔高的同学</li>
+</ul>
+</li>
+<li><ul>
+<li>给人踏实很值得信赖的感觉，讲的真的很吸引人，效率很高，方法总结很到位，简介明了</li>
+</ul>
+</li>
+<li>鲲哥带你学数学-哔哩哔哩x2</li>
+<li>蒋叶光-领世培优</li>
+<li>建哥数学</li>
+<li>高中数学北师math杨-哔哩哔哩</li>
+<li>佟大大是ETT-哔哩哔哩</li>
+<li>讲高中数学的邓老师-哔哩哔哩</li>
+<li>高中数学蔡德锦老师-哔哩哔哩</li>
+<li>猪猪老师教数学-哔哩哔哩</li>
+<li>成都高中数学cdgzsxfml-哔哩哔哩</li>
+<li>司马红丽老师-精华在线</li>
+<li>李永乐老师-原精华、美提课堂</li>
+<li><ul>
+<li>思维训练</li>
+</ul>
+</li>
+<li>王梦抒-腾讯课堂</li>
+<li>数学超人-腾讯课堂</li>
+<li>关旭-前有道</li>
+<li><ul>
+<li>圆锥曲线</li>
+</ul>
+</li>
+<li>蒋叶光</li>
+<li><ul>
+<li>强推他的圆锥曲线，全网算是比较好的了,其他课程拔高，门槛较高</li>
+</ul>
+</li>
+<li>王文勇老师-勇哥数学APP</li>
+</ul>
+<h3 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h3><ul>
+<li>徐磊-跟谁学x10</li>
+<li><ul>
+<li>磊神，名不虚传</li>
+</ul>
+</li>
+<li>李辉-有道精品课x4</li>
+<li><ul>
+<li>方法论好，提分快</li>
+</ul>
+</li>
+<li>刘晓峰老师-原新东方</li>
+<li>麻雪玲老师-简单学习网</li>
+</ul>
+<h3 id="物理"><a href="#物理" class="headerlink" title="物理"></a>物理</h3><ul>
+<li>坤哥-腾讯课堂x7</li>
+<li><ul>
+<li>构造一个完美的物理知识体系，题型全部在他的课程之中，非常的优秀</li>
+</ul>
+</li>
+<li><ul>
+<li>基础</li>
+</ul>
+</li>
+<li>王羽-腾讯课堂x6</li>
+<li><ul>
+<li>拔高 </li>
+</ul>
+</li>
+<li>刘杰-有道精品课x3</li>
+<li><ul>
+<li>拔高 </li>
+</ul>
+</li>
+<li>坤哥物理-哔哩哔哩x2</li>
+<li>李楠老师-有道精品课x2</li>
+<li><ul>
+<li>拔高 </li>
+</ul>
+</li>
+<li>夏梦迪老师-新东方x2</li>
+<li><ul>
+<li>他能从最基础的内容说到最深层的知识，循序渐进，课堂生动有趣，有基础也有大招，同样课时较多</li>
+</ul>
+</li>
+<li><ul>
+<li>拔高 </li>
+</ul>
+</li>
+<li>陈老师敲黑板-哔哩哔哩</li>
+<li><ul>
+<li>清华附中物理老师，力学电学内容都有</li>
+</ul>
+</li>
+<li>物理X学姐-哔哩哔哩</li>
+<li><ul>
+<li>南京大学天文系的一位学姐，颜值与才华并存的一位up主，非常优秀。</li>
+</ul>
+</li>
+<li>大宽物理-哔哩哔哩</li>
+<li>曾珍</li>
+<li>珍哥物理</li>
+<li>郑少龙老师-猿辅导</li>
+<li><ul>
+<li>基础</li>
+</ul>
+</li>
+<li>李永乐老师-美提课堂</li>
+<li><ul>
+<li>基础</li>
+</ul>
+</li>
+<li>王文博</li>
+<li>肖嗣光（现在只做线下了）</li>
+<li>于冲-乐学</li>
+</ul>
+<h3 id="化学"><a href="#化学" class="headerlink" title="化学"></a>化学</h3><ul>
+<li>陆艳华-伴学优课、金榜在线x8</li>
+<li><ul>
+<li>适合基础差的，过掉所有高中知识点</li>
+</ul>
+</li>
+<li><ul>
+<li>选五看陆姐</li>
+</ul>
+</li>
+<li><ul>
+<li>全网风评最好的老师，没有之一</li>
+</ul>
+</li>
+<li>李政-乐学x8</li>
+<li><ul>
+<li>适合基础好的，完全不一样的眼界和视角，电化学直接打开新世界的大门</li>
+</ul>
+</li>
+<li><ul>
+<li>选三看政神</li>
+</ul>
+</li>
+<li>木子-腾讯课堂x2</li>
+<li><ul>
+<li>通俗易懂，方法好</li>
+</ul>
+</li>
+<li>高东辉老师-精华在线</li>
+<li><ul>
+<li>基础</li>
+</ul>
+</li>
+</ul>
+<h3 id="生物"><a href="#生物" class="headerlink" title="生物"></a>生物</h3><ul>
+<li>周芳煜-腾讯课堂x8</li>
+<li><ul>
+<li>可爱（？）</li>
+</ul>
+</li>
+<li><ul>
+<li>提分最快，遗传秒解</li>
+</ul>
+</li>
+<li>张继光-跟谁学x6</li>
+<li>万猛-有道精品课x2</li>
+<li><ul>
+<li>提高思维提分快</li>
+</ul>
+</li>
+<li>万猛老师-作业帮x2</li>
+<li>张云翼_channel-哔哩哔哩</li>
+<li><ul>
+<li>为清华大学在读博士</li>
+</ul>
+</li>
+<li>冯博</li>
+</ul>
+<h3 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h3><ul>
+<li>马宇轩x4</li>
+<li>刘勖雯-腾讯课堂x3</li>
+<li><ul>
+<li>技巧讲解，题库强大</li>
+</ul>
+</li>
+<li>桑宏斌</li>
+<li>李谓</li>
+<li><ul>
+<li>基础</li>
+</ul>
+</li>
+</ul>
+<h3 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h3><ul>
+<li>刘勖雯-腾讯课堂x3</li>
+<li><ul>
+<li>技巧讲解，题库强大，推荐</li>
+</ul>
+</li>
+<li>定哥x3</li>
+<li><ul>
+<li>零基础</li>
+</ul>
+</li>
+<li>李光-精华课堂x2</li>
+<li><ul>
+<li>拔高</li>
+</ul>
+</li>
+<li>褚润x2</li>
+<li>韩校-简单学习网</li>
+<li>刘旭</li>
+<li>关也</li>
+<li><ul>
+<li>拔高</li>
+</ul>
+</li>
+</ul>
+<h3 id="地理"><a href="#地理" class="headerlink" title="地理"></a>地理</h3><ul>
+<li>包易正-有道x4</li>
+<li><ul>
+<li>基础，推荐</li>
+</ul>
+</li>
+<li>刘勖雯-腾讯课堂x3</li>
+<li><ul>
+<li>技巧讲解，题库强大</li>
+</ul>
+</li>
+<li>张艳萍x3</li>
+<li>张艳平-大地经纬网校x2</li>
+</ul>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721123841.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>其他</category>
+        <category>文化课</category>
+      </categories>
+      <tags>
+        <tag>整理</tag>
+        <tag>网课</tag>
       </tags>
   </entry>
   <entry>
@@ -1772,332 +2098,6 @@
       <tags>
         <tag>日常</tag>
         <tag>记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>网课推荐（知乎答案收集）</title>
-    <url>/whkwangke/</url>
-    <content><![CDATA[<p>这里是jwj翻了很多知乎答案收集得到的结果，希望对大家有所帮助qwq</p>
-<a id="more"></a>
-
-
-<h3 id="语文"><a href="#语文" class="headerlink" title="语文"></a>语文</h3><ul>
-<li>乘风-腾讯课堂x9</li>
-<li><ul>
-<li>提分快，适合理科生</li>
-</ul>
-</li>
-<li><ul>
-<li>文言文</li>
-</ul>
-</li>
-<li>杨洋-腾讯课堂x8</li>
-<li><ul>
-<li>培养思维，作文讲的很好</li>
-</ul>
-</li>
-<li>国家玮-新东方、大黄蜂课堂x6</li>
-<li><ul>
-<li>社科文古文都讲的不错</li>
-</ul>
-</li>
-<li><ul>
-<li>偏向于思维提升，讲法别出心裁</li>
-</ul>
-</li>
-<li>董腾-有道精品课x2</li>
-<li><ul>
-<li>幽默风趣应试很强</li>
-</ul>
-</li>
-<li>王大绩-简单学习网</li>
-<li>谢明波</li>
-<li>王丹宁-原新东方</li>
-<li>陈焕文-乐学</li>
-<li><ul>
-<li>理科思维，理解难度会大</li>
-</ul>
-</li>
-</ul>
-<h3 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h3><ul>
-<li>周帅-高德x9</li>
-<li><ul>
-<li>每一个知识点都讲得特别全面，各个题型都有涉及</li>
-</ul>
-</li>
-<li><ul>
-<li>偏基础一点</li>
-</ul>
-</li>
-<li><ul>
-<li>授课内容集中、信息量大，讲题侧重培养思维，而非机械操作，课时多，知识点细。</li>
-</ul>
-</li>
-<li>郭化楠-有道精品课、学而思x5</li>
-<li><ul>
-<li>重视基础</li>
-</ul>
-</li>
-<li><ul>
-<li>非常注重基础，潜移默化的拓展知识之间的延伸</li>
-</ul>
-</li>
-<li><ul>
-<li>拔高（有道精品课）</li>
-</ul>
-</li>
-<li><ul>
-<li>全网最完美的“自学”视频，适合零基础。把知识点的来龙去脉讲的透彻，可以培养出真正的学术性人才</li>
-</ul>
-</li>
-<li>赵礼显-跟谁学x5</li>
-<li><ul>
-<li>拔高</li>
-</ul>
-</li>
-<li><ul>
-<li>课时少，课程主讲题型解题法，对基础知识讲解少，不适合基础差的人群。短期提分快。</li>
-</ul>
-</li>
-<li>凉学长-腾讯课堂x3</li>
-<li><ul>
-<li>方法巧妙</li>
-</ul>
-</li>
-<li>蔡德锦-腾讯课堂x2</li>
-<li><ul>
-<li>通过带你做题来深刻的理解这个知识点，适合拔高的同学</li>
-</ul>
-</li>
-<li><ul>
-<li>给人踏实很值得信赖的感觉，讲的真的很吸引人，效率很高，方法总结很到位，简介明了</li>
-</ul>
-</li>
-<li>鲲哥带你学数学-哔哩哔哩x2</li>
-<li>蒋叶光-领世培优</li>
-<li>建哥数学</li>
-<li>高中数学北师math杨-哔哩哔哩</li>
-<li>佟大大是ETT-哔哩哔哩</li>
-<li>讲高中数学的邓老师-哔哩哔哩</li>
-<li>高中数学蔡德锦老师-哔哩哔哩</li>
-<li>猪猪老师教数学-哔哩哔哩</li>
-<li>成都高中数学cdgzsxfml-哔哩哔哩</li>
-<li>司马红丽老师-精华在线</li>
-<li>李永乐老师-原精华、美提课堂</li>
-<li><ul>
-<li>思维训练</li>
-</ul>
-</li>
-<li>王梦抒-腾讯课堂</li>
-<li>数学超人-腾讯课堂</li>
-<li>关旭-前有道</li>
-<li><ul>
-<li>圆锥曲线</li>
-</ul>
-</li>
-<li>蒋叶光</li>
-<li><ul>
-<li>强推他的圆锥曲线，全网算是比较好的了,其他课程拔高，门槛较高</li>
-</ul>
-</li>
-<li>王文勇老师-勇哥数学APP</li>
-</ul>
-<h3 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h3><ul>
-<li>徐磊-跟谁学x10</li>
-<li><ul>
-<li>磊神，名不虚传</li>
-</ul>
-</li>
-<li>李辉-有道精品课x4</li>
-<li><ul>
-<li>方法论好，提分快</li>
-</ul>
-</li>
-<li>刘晓峰老师-原新东方</li>
-<li>麻雪玲老师-简单学习网</li>
-</ul>
-<h3 id="物理"><a href="#物理" class="headerlink" title="物理"></a>物理</h3><ul>
-<li>坤哥-腾讯课堂x7</li>
-<li><ul>
-<li>构造一个完美的物理知识体系，题型全部在他的课程之中，非常的优秀</li>
-</ul>
-</li>
-<li><ul>
-<li>基础</li>
-</ul>
-</li>
-<li>王羽-腾讯课堂x6</li>
-<li><ul>
-<li>拔高 </li>
-</ul>
-</li>
-<li>刘杰-有道精品课x3</li>
-<li><ul>
-<li>拔高 </li>
-</ul>
-</li>
-<li>坤哥物理-哔哩哔哩x2</li>
-<li>李楠老师-有道精品课x2</li>
-<li><ul>
-<li>拔高 </li>
-</ul>
-</li>
-<li>夏梦迪老师-新东方x2</li>
-<li><ul>
-<li>他能从最基础的内容说到最深层的知识，循序渐进，课堂生动有趣，有基础也有大招，同样课时较多</li>
-</ul>
-</li>
-<li><ul>
-<li>拔高 </li>
-</ul>
-</li>
-<li>陈老师敲黑板-哔哩哔哩</li>
-<li><ul>
-<li>清华附中物理老师，力学电学内容都有</li>
-</ul>
-</li>
-<li>物理X学姐-哔哩哔哩</li>
-<li><ul>
-<li>南京大学天文系的一位学姐，颜值与才华并存的一位up主，非常优秀。</li>
-</ul>
-</li>
-<li>大宽物理-哔哩哔哩</li>
-<li>曾珍</li>
-<li>珍哥物理</li>
-<li>郑少龙老师-猿辅导</li>
-<li><ul>
-<li>基础</li>
-</ul>
-</li>
-<li>李永乐老师-美提课堂</li>
-<li><ul>
-<li>基础</li>
-</ul>
-</li>
-<li>王文博</li>
-<li>肖嗣光（现在只做线下了）</li>
-<li>于冲-乐学</li>
-</ul>
-<h3 id="化学"><a href="#化学" class="headerlink" title="化学"></a>化学</h3><ul>
-<li>陆艳华-伴学优课、金榜在线x8</li>
-<li><ul>
-<li>适合基础差的，过掉所有高中知识点</li>
-</ul>
-</li>
-<li><ul>
-<li>选五看陆姐</li>
-</ul>
-</li>
-<li><ul>
-<li>全网风评最好的老师，没有之一</li>
-</ul>
-</li>
-<li>李政-乐学x8</li>
-<li><ul>
-<li>适合基础好的，完全不一样的眼界和视角，电化学直接打开新世界的大门</li>
-</ul>
-</li>
-<li><ul>
-<li>选三看政神</li>
-</ul>
-</li>
-<li>木子-腾讯课堂x2</li>
-<li><ul>
-<li>通俗易懂，方法好</li>
-</ul>
-</li>
-<li>高东辉老师-精华在线</li>
-<li><ul>
-<li>基础</li>
-</ul>
-</li>
-</ul>
-<h3 id="生物"><a href="#生物" class="headerlink" title="生物"></a>生物</h3><ul>
-<li>周芳煜-腾讯课堂x8</li>
-<li><ul>
-<li>可爱（？）</li>
-</ul>
-</li>
-<li><ul>
-<li>提分最快，遗传秒解</li>
-</ul>
-</li>
-<li>张继光-跟谁学x6</li>
-<li>万猛-有道精品课x2</li>
-<li><ul>
-<li>提高思维提分快</li>
-</ul>
-</li>
-<li>万猛老师-作业帮x2</li>
-<li>张云翼_channel-哔哩哔哩</li>
-<li><ul>
-<li>为清华大学在读博士</li>
-</ul>
-</li>
-<li>冯博</li>
-</ul>
-<h3 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h3><ul>
-<li>马宇轩x4</li>
-<li>刘勖雯-腾讯课堂x3</li>
-<li><ul>
-<li>技巧讲解，题库强大</li>
-</ul>
-</li>
-<li>桑宏斌</li>
-<li>李谓</li>
-<li><ul>
-<li>基础</li>
-</ul>
-</li>
-</ul>
-<h3 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h3><ul>
-<li>刘勖雯-腾讯课堂x3</li>
-<li><ul>
-<li>技巧讲解，题库强大，推荐</li>
-</ul>
-</li>
-<li>定哥x3</li>
-<li><ul>
-<li>零基础</li>
-</ul>
-</li>
-<li>李光-精华课堂x2</li>
-<li><ul>
-<li>拔高</li>
-</ul>
-</li>
-<li>褚润x2</li>
-<li>韩校-简单学习网</li>
-<li>刘旭</li>
-<li>关也</li>
-<li><ul>
-<li>拔高</li>
-</ul>
-</li>
-</ul>
-<h3 id="地理"><a href="#地理" class="headerlink" title="地理"></a>地理</h3><ul>
-<li>包易正-有道x4</li>
-<li><ul>
-<li>基础，推荐</li>
-</ul>
-</li>
-<li>刘勖雯-腾讯课堂x3</li>
-<li><ul>
-<li>技巧讲解，题库强大</li>
-</ul>
-</li>
-<li>张艳萍x3</li>
-<li>张艳平-大地经纬网校x2</li>
-</ul>
-<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721123841.png" alt=""></p>
-]]></content>
-      <categories>
-        <category>其他</category>
-        <category>文化课</category>
-      </categories>
-      <tags>
-        <tag>整理</tag>
-        <tag>网课</tag>
       </tags>
   </entry>
 </search>
