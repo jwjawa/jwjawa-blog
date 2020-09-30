@@ -1,210 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>模板题目汇总</title>
-    <url>/luogumobanti/</url>
-    <content><![CDATA[<p>目前洛谷总题库最后一题题号为P6534。<br>欢迎联系作者添加模板题。</p>
-<a id="more"></a>
-
-<h3 id="题单版本："><a href="#题单版本：" class="headerlink" title="题单版本："></a>题单版本：</h3><ul>
-<li><a href="https://www.luogu.com.cn/training/8434" target="_blank" rel="noopener">[普及+/提高]及以下难度模板题汇总</a></li>
-<li><a href="https://www.luogu.com.cn/training/8435" target="_blank" rel="noopener">[提高+/省选-]难度模板题汇总</a></li>
-<li><a href="https://www.luogu.com.cn/training/8436" target="_blank" rel="noopener">[省选/NOI-]难度模板题汇总</a></li>
-<li><a href="https://www.luogu.com.cn/training/8437" target="_blank" rel="noopener">[省选/NOI-]及以上难度模板题汇总</a></li>
-</ul>
-<h3 id="普及"><a href="#普及" class="headerlink" title="普及-"></a>普及-</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P3367" target="_blank" rel="noopener">P3367 【模板】并查集</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1226" target="_blank" rel="noopener">P1226 【模板】快速幂||取余运算</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3371" target="_blank" rel="noopener">P3371 【模板】单源最短路径（弱化版）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3383" target="_blank" rel="noopener">P3383 【模板】线性筛素数</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3366" target="_blank" rel="noopener">P3366 【模板】最小生成树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3378" target="_blank" rel="noopener">P3378 【模板】堆</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1177" target="_blank" rel="noopener">P1177 【模板】快速排序</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3370" target="_blank" rel="noopener">P3370 【模板】字符串哈希</a></li>
-</ul>
-<h3 id="普及-提高"><a href="#普及-提高" class="headerlink" title="普及/提高-"></a>普及/提高-</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P3382" target="_blank" rel="noopener">P3382 【模板】三分法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1886" target="_blank" rel="noopener">P1886 滑动窗口 /【模板】单调队列</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3374" target="_blank" rel="noopener">P3374 【模板】树状数组 1</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3811" target="_blank" rel="noopener">P3811 【模板】乘法逆元</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3379" target="_blank" rel="noopener">P3379 【模板】最近公共祖先（LCA）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3368" target="_blank" rel="noopener">P3368 【模板】树状数组 2</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3375" target="_blank" rel="noopener">P3375 【模板】KMP字符串匹配</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3372" target="_blank" rel="noopener">P3372 【模板】线段树 1</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1939" target="_blank" rel="noopener">P1939 【模板】矩阵加速（数列）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3865" target="_blank" rel="noopener">P3865 【模板】ST表</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3385" target="_blank" rel="noopener">P3385 【模板】负环</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4549" target="_blank" rel="noopener">P4549 【模板】裴蜀定理</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5788" target="_blank" rel="noopener">P5788 【模板】单调栈</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4779" target="_blank" rel="noopener">P4779 【模板】单源最短路径（标准版）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3390" target="_blank" rel="noopener">P3390 【模板】矩阵快速幂</a></li>
-</ul>
-<h3 id="普及-提高-1"><a href="#普及-提高-1" class="headerlink" title="普及+/提高"></a>普及+/提高</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P5431" target="_blank" rel="noopener">P5431 【模板】乘法逆元2</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5367" target="_blank" rel="noopener">P5367 【模板】康托展开</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5960" target="_blank" rel="noopener">P5960 【模板】差分约束算法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2613" target="_blank" rel="noopener">P2613 【模板】有理数取余</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2197" target="_blank" rel="noopener">P2197 【模板】nim游戏</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3373" target="_blank" rel="noopener">P3373 【模板】线段树 2</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3387" target="_blank" rel="noopener">P3387 【模板】缩点</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5905" target="_blank" rel="noopener">P5905 【模板】Johnson 全源最短路</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5656" target="_blank" rel="noopener">P5656 【模板】二元一次不定方程(exgcd)</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1439" target="_blank" rel="noopener">P1439 【模板】最长公共子序列</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3388" target="_blank" rel="noopener">P3388 【模板】割点（割顶）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3386" target="_blank" rel="noopener">P3386 【模板】二分图最大匹配</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2252" target="_blank" rel="noopener">P2252 [SHOI2002]取石子游戏|【模板】威佐夫博弈</a></li>
-</ul>
-<h3 id="提高-省选"><a href="#提高-省选" class="headerlink" title="提高+/省选-"></a>提高+/省选-</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P5903" target="_blank" rel="noopener">P5903 【模板】树上 k 级祖先</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5854" target="_blank" rel="noopener">P5854 【模板】笛卡尔树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3369" target="_blank" rel="noopener">P3369 【模板】普通平衡树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3377" target="_blank" rel="noopener">P3377 【模板】左偏树（可并堆）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4781" target="_blank" rel="noopener">P4781 【模板】拉格朗日插值</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6091" target="_blank" rel="noopener">P6091 【模板】原根</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3381" target="_blank" rel="noopener">P3381 【模板】最小费用最大流</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5632" target="_blank" rel="noopener">P5632 【模板】Stoer-Wagner算法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1368" target="_blank" rel="noopener">P1368 工艺 /【模板】最小表示法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6086" target="_blank" rel="noopener">P6086 【模板】Prufer 序列</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3701" target="_blank" rel="noopener">P3701 「伪模板」主席树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5490" target="_blank" rel="noopener">P5490 【模板】扫描线</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3805" target="_blank" rel="noopener">P3805 【模板】manacher算法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3389" target="_blank" rel="noopener">P3389 【模板】高斯消元法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3808" target="_blank" rel="noopener">P3808 【模板】AC自动机（简单版）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3846" target="_blank" rel="noopener">P3846 [TJOI2007] 可爱的质数/【模板】BSGS</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3796" target="_blank" rel="noopener">P3796 【模板】AC自动机（加强版）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2742" target="_blank" rel="noopener">P2742 [USACO5.1]圈奶牛Fencing the Cows /【模板】二维凸包</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4783" target="_blank" rel="noopener">P4783 【模板】矩阵求逆</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5826" target="_blank" rel="noopener">P5826 【模板】子序列自动机</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1495" target="_blank" rel="noopener">P1495 【模板】中国剩余定理(CRT)/曹冲养猪</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3807" target="_blank" rel="noopener">P3807 【模板】卢卡斯定理</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3384" target="_blank" rel="noopener">P3384 【模板】轻重链剖分</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3391" target="_blank" rel="noopener">P3391 【模板】文艺平衡树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3376" target="_blank" rel="noopener">P3376 【模板】网络最大流</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5091" target="_blank" rel="noopener">P5091 【模板】扩展欧拉定理</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3812" target="_blank" rel="noopener">P3812 【模板】线性基</a></li>
-</ul>
-<h3 id="省选-NOI"><a href="#省选-NOI" class="headerlink" title="省选/NOI-"></a>省选/NOI-</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P3919" target="_blank" rel="noopener">P3919 【模板】可持久化数组（可持久化线段树/平衡树）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4196" target="_blank" rel="noopener">P4196 [CQOI2006]凸多边形 /【模板】半平面交</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5055" target="_blank" rel="noopener">P5055 【模板】可持久化文艺平衡树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5236" target="_blank" rel="noopener">P5236 【模板】静态仙人掌</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5394" target="_blank" rel="noopener">P5394 【模板】下降幂多项式乘法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1452" target="_blank" rel="noopener">P1452 [USACO03FALL]Beauty Contest G /【模板】旋转卡壳</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6136" target="_blank" rel="noopener">P6136 【模板】普通平衡树（数据加强版）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4238" target="_blank" rel="noopener">P4238 【模板】多项式乘法逆</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5906" target="_blank" rel="noopener">P5906 【模板】回滚莫队&amp;不删除莫队</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6177" target="_blank" rel="noopener">P6177 Count on a tree II/【模板】树分块</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5357" target="_blank" rel="noopener">P5357 【模板】AC自动机（二次加强版）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5496" target="_blank" rel="noopener">P5496 【模板】回文自动机（PAM）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5494" target="_blank" rel="noopener">P5494 【模板】线段树分裂</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3809" target="_blank" rel="noopener">P3809 【模板】后缀排序</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4719" target="_blank" rel="noopener">P4719 【模板】”动态 DP”&amp;动态树分治</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6114" target="_blank" rel="noopener">P6114 【模板】Lyndon 分解</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4782" target="_blank" rel="noopener">P4782 【模板】2-SAT 问题</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4717" target="_blank" rel="noopener">P4717 【模板】快速沃尔什变换 (FWT)</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5043" target="_blank" rel="noopener">P5043 【模板】树同构（[BJOI2015]树的同构）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5491" target="_blank" rel="noopener">P5491 【模板】二次剩余</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6139" target="_blank" rel="noopener">P6139 【模板】广义后缀自动机（广义SAM）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6329" target="_blank" rel="noopener">P6329 【模板】点分树 | 震波</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4213" target="_blank" rel="noopener">P4213 【模板】杜教筛（Sum）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5192" target="_blank" rel="noopener">P5192 Zoj3229 Shoot the Bullet|东方文花帖|【模板】有源汇上下界最大流</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4526" target="_blank" rel="noopener">P4526 【模板】自适应辛普森法2</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4716" target="_blank" rel="noopener">P4716 【模板】最小树形图</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4929" target="_blank" rel="noopener">P4929 【模板】舞蹈链（DLX）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3834" target="_blank" rel="noopener">P3834 【模板】可持久化线段树 1（主席树）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3804" target="_blank" rel="noopener">P3804 【模板】后缀自动机 (SAM)</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5787" target="_blank" rel="noopener">P5787 二分图 /【模板】线段树分治</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3810" target="_blank" rel="noopener">P3810 【模板】三维偏序（陌上花开）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4777" target="_blank" rel="noopener">P4777 【模板】扩展中国剩余定理（EXCRT）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6113" target="_blank" rel="noopener">P6113 【模板】一般图最大匹配</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4718" target="_blank" rel="noopener">P4718 【模板】Pollard-Rho算法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4725" target="_blank" rel="noopener">P4725 【模板】多项式对数函数（多项式 ln）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3835" target="_blank" rel="noopener">P3835 【模板】可持久化平衡树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6097" target="_blank" rel="noopener">P6097 【模板】子集卷积</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6242" target="_blank" rel="noopener">P6242 【模板】线段树 3</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6178" target="_blank" rel="noopener">P6178 【模板】Matrix-Tree 定理</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6164" target="_blank" rel="noopener">P6164 【模板】后缀平衡树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4195" target="_blank" rel="noopener">P4195 【模板】扩展BSGS</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4525" target="_blank" rel="noopener">P4525 【模板】自适应辛普森法1</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4556" target="_blank" rel="noopener">P4556 [Vani有约会]雨天的尾巴 /【模板】线段树合并</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5829" target="_blank" rel="noopener">P5829 【模板】失配树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4721" target="_blank" rel="noopener">P4721 【模板】分治 FFT</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5410" target="_blank" rel="noopener">P5410 【模板】扩展 KMP（Z 函数）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6192" target="_blank" rel="noopener">P6192 【模板】最小斯坦纳树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1919" target="_blank" rel="noopener">P1919 【模板】A*B Problem升级版（FFT快速傅里叶）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3803" target="_blank" rel="noopener">P3803 【模板】多项式乘法（FFT）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3690" target="_blank" rel="noopener">P3690 【模板】Link Cut Tree （动态树）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3806" target="_blank" rel="noopener">P3806 【模板】点分治1</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4720" target="_blank" rel="noopener">P4720 【模板】扩展卢卡斯</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4751" target="_blank" rel="noopener">P4751 【模板】”动态DP”&amp;动态树分治（加强版）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4722" target="_blank" rel="noopener">P4722 【模板】最大流 加强版 / 预流推进</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3380" target="_blank" rel="noopener">P3380 【模板】二逼平衡树（树套树）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4245" target="_blank" rel="noopener">P4245 【模板】任意模数NTT</a></li>
-</ul>
-<h3 id="NOI-NOI-CTSC"><a href="#NOI-NOI-CTSC" class="headerlink" title="NOI/NOI+/CTSC"></a>NOI/NOI+/CTSC</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P4724" target="_blank" rel="noopener">P4724 【模板】三维凸包</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5180" target="_blank" rel="noopener">P5180 【模板】支配树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4980" target="_blank" rel="noopener">P4980 【模板】Polya定理</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5245" target="_blank" rel="noopener">P5245 【模板】多项式快速幂</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2483" target="_blank" rel="noopener">P2483 【模板】k短路 / [SDOI2010]魔法猪学院</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4897" target="_blank" rel="noopener">P4897 【模板】最小割树（Gomory-Hu Tree）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4723" target="_blank" rel="noopener">P4723 【模板】常系数齐次线性递推</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5050" target="_blank" rel="noopener">P5050 【模板】多项式多点求值</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5247" target="_blank" rel="noopener">P5247 【模板】动态图完全连通性</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5282" target="_blank" rel="noopener">P5282 【模板】快速阶乘算法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5325" target="_blank" rel="noopener">P5325 【模板】Min_25筛</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5809" target="_blank" rel="noopener">P5809 【模板】多项式复合逆</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4512" target="_blank" rel="noopener">P4512 【模板】多项式除法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5277" target="_blank" rel="noopener">P5277 【模板】多项式开根（加强版）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5373" target="_blank" rel="noopener">P5373 【模板】多项式复合函数</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5487" target="_blank" rel="noopener">P5487 【模板】Berlekamp-Massey算法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5056" target="_blank" rel="noopener">P5056 【模板】插头dp</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5808" target="_blank" rel="noopener">P5808 【模板】常系数非齐次线性递推</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5205" target="_blank" rel="noopener">P5205 【模板】多项式开根</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4726" target="_blank" rel="noopener">P4726 【模板】多项式指数函数（多项式 exp）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5158" target="_blank" rel="noopener">P5158 【模板】多项式快速插值</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6115" target="_blank" rel="noopener">P6115 【模板】整式递推</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5668" target="_blank" rel="noopener">P5668 【模板】N次剩余</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4887" target="_blank" rel="noopener">P4887 【模板】莫队二次离线（第十四分块(前体)）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5273" target="_blank" rel="noopener">P5273 【模板】多项式幂函数 (加强版)</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5170" target="_blank" rel="noopener">P5170 【模板】类欧几里得算法</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>OI</category>
-        <category>洛谷</category>
-      </categories>
-      <tags>
-        <tag>整理</tag>
-        <tag>OI题目</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>bilibili屏蔽区块代码</title>
-    <url>/bilibilipingbiqukuai/</url>
-    <content><![CDATA[<p>不喜欢b站的某些板块？来看看这篇文章吧awa</p>
-<a id="more"></a>
-
-<p>准备：谷歌浏览器、机场</p>
-<p>使用方法：</p>
-<ol>
-<li>谷歌浏览器下载<code>stylish</code>这个插件</li>
-<li>打开<a href="https://userstyles.org/styles/144506/2019-9-13-bilibili" target="_blank" rel="noopener">这个链接</a>，安装</li>
-<li>点击<code>stylish</code>插件按钮，点右上角三个点，管理样式</li>
-<li>点击修改，全选删除，将下面这段代码粘贴在上面，保存，生效（可以根据自己的情况删改）</li>
-</ol>
-<p>注：配合这个<a href="https://userstyles.org/styles/176432/bilibili" target="_blank" rel="noopener">美化插件</a>使用更佳</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;*分区块中的横条广告(全站)*&#x2F;</span><br><span class="line">.banner-card &#123;display: none;&#125;</span><br><span class="line">&#x2F;*分区块中的横条广告(全站) 旧版*&#x2F;</span><br><span class="line">.gg-floor-module &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*页尾部分(全站)*&#x2F;</span><br><span class="line">.international-footer &#123;display: none;&#125;</span><br><span class="line">&#x2F;*整个导航栏(全站)*&#x2F;</span><br><span class="line">&#x2F;*</span><br><span class="line">.b-wrap &#123;display: none;&#125;</span><br><span class="line">*&#x2F;</span><br><span class="line">&#x2F;*最顶行(幻灯片行)*&#x2F;</span><br><span class="line">#reportFirst1 &#123;display: none;&#125;</span><br><span class="line">&#x2F;*最顶行(幻灯片行)旧版*&#x2F;</span><br><span class="line">#chief_recommend &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*推广(顶部第二行)*&#x2F;</span><br><span class="line">#reportFirst2 &#123;display: none;&#125;</span><br><span class="line">&#x2F;*推广(顶部第二行) 旧版*&#x2F;</span><br><span class="line">#home_popularize &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*侧边栏*&#x2F;</span><br><span class="line">#elevator &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*导航栏两边*&#x2F;</span><br><span class="line">#primaryPageTab &#123;display: none;&#125;</span><br><span class="line">#primaryFriendshipLink &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*直播(顶部第三行)*&#x2F;</span><br><span class="line">#bili_live &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;0&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*动画*&#x2F;</span><br><span class="line">#bili_douga &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;1&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*番剧*&#x2F;</span><br><span class="line">#bili_anime &#123;display: none;&#125;</span><br><span class="line">&#x2F;*番剧 旧版*&#x2F;</span><br><span class="line">#bili_bangumi &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;2&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*国创*&#x2F;</span><br><span class="line">#bili_guochuang &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;3&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*漫画 旧版*&#x2F;</span><br><span class="line">#bili_manga &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;4&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*音乐*&#x2F;</span><br><span class="line">#bili_music &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;5&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*舞蹈*&#x2F;</span><br><span class="line">#bili_dance &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;6&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*游戏*&#x2F;</span><br><span class="line">#bili_game &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;7&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*科技*&#x2F;</span><br><span class="line">#bili_technology &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;8&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*数码*&#x2F;</span><br><span class="line">#bili_digital &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;9&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*生活*&#x2F;</span><br><span class="line">#bili_life &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;10&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*鬼畜*&#x2F;</span><br><span class="line">#bili_kichiku &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;11&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*广告*&#x2F;</span><br><span class="line">#bili_ad &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;13&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*时尚*&#x2F;</span><br><span class="line">#bili_fashion &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;12&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*资讯*&#x2F;</span><br><span class="line">#bili_report_information &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;13&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*娱乐*&#x2F;</span><br><span class="line">#bili_ent &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;14&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*专栏*&#x2F;</span><br><span class="line">#bili_read &#123;display: none;&#125;</span><br><span class="line">&#x2F;*专栏 旧版*&#x2F;</span><br><span class="line">#bili_article &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;15&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*电影*&#x2F;</span><br><span class="line">#bili_movie &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;16&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*TV剧*&#x2F;</span><br><span class="line">#bili_teleplay &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;17&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*影视*&#x2F;</span><br><span class="line">#bili_cinephile &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;18&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*纪录片*&#x2F;</span><br><span class="line">#bili_documentary &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;19&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*特别推荐(最后一行)*&#x2F;</span><br><span class="line">#bili_report_spe_rec &#123;display: none;&#125;</span><br><span class="line">&#x2F;*特别推荐(最后一行) 旧版*&#x2F;</span><br><span class="line">#special_recommend &#123;display: none;&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>其他</category>
-        <category>美化网站</category>
-      </categories>
-      <tags>
-        <tag>CSS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>洛谷试炼场</title>
     <url>/luogushilianchang/</url>
     <content><![CDATA[<p>这里是洛谷试炼场备份，供参考awa</p>
@@ -1128,6 +924,185 @@
       </tags>
   </entry>
   <entry>
+    <title>模板题目汇总</title>
+    <url>/luogumobanti/</url>
+    <content><![CDATA[<p>目前洛谷总题库最后一题题号为P6534。<br>欢迎联系作者添加模板题。</p>
+<a id="more"></a>
+
+<h3 id="题单版本："><a href="#题单版本：" class="headerlink" title="题单版本："></a>题单版本：</h3><ul>
+<li><a href="https://www.luogu.com.cn/training/8434" target="_blank" rel="noopener">[普及+/提高]及以下难度模板题汇总</a></li>
+<li><a href="https://www.luogu.com.cn/training/8435" target="_blank" rel="noopener">[提高+/省选-]难度模板题汇总</a></li>
+<li><a href="https://www.luogu.com.cn/training/8436" target="_blank" rel="noopener">[省选/NOI-]难度模板题汇总</a></li>
+<li><a href="https://www.luogu.com.cn/training/8437" target="_blank" rel="noopener">[省选/NOI-]及以上难度模板题汇总</a></li>
+</ul>
+<h3 id="普及"><a href="#普及" class="headerlink" title="普及-"></a>普及-</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P3367" target="_blank" rel="noopener">P3367 【模板】并查集</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1226" target="_blank" rel="noopener">P1226 【模板】快速幂||取余运算</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3371" target="_blank" rel="noopener">P3371 【模板】单源最短路径（弱化版）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3383" target="_blank" rel="noopener">P3383 【模板】线性筛素数</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3366" target="_blank" rel="noopener">P3366 【模板】最小生成树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3378" target="_blank" rel="noopener">P3378 【模板】堆</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1177" target="_blank" rel="noopener">P1177 【模板】快速排序</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3370" target="_blank" rel="noopener">P3370 【模板】字符串哈希</a></li>
+</ul>
+<h3 id="普及-提高"><a href="#普及-提高" class="headerlink" title="普及/提高-"></a>普及/提高-</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P3382" target="_blank" rel="noopener">P3382 【模板】三分法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1886" target="_blank" rel="noopener">P1886 滑动窗口 /【模板】单调队列</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3374" target="_blank" rel="noopener">P3374 【模板】树状数组 1</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3811" target="_blank" rel="noopener">P3811 【模板】乘法逆元</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3379" target="_blank" rel="noopener">P3379 【模板】最近公共祖先（LCA）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3368" target="_blank" rel="noopener">P3368 【模板】树状数组 2</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3375" target="_blank" rel="noopener">P3375 【模板】KMP字符串匹配</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3372" target="_blank" rel="noopener">P3372 【模板】线段树 1</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1939" target="_blank" rel="noopener">P1939 【模板】矩阵加速（数列）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3865" target="_blank" rel="noopener">P3865 【模板】ST表</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3385" target="_blank" rel="noopener">P3385 【模板】负环</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4549" target="_blank" rel="noopener">P4549 【模板】裴蜀定理</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5788" target="_blank" rel="noopener">P5788 【模板】单调栈</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4779" target="_blank" rel="noopener">P4779 【模板】单源最短路径（标准版）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3390" target="_blank" rel="noopener">P3390 【模板】矩阵快速幂</a></li>
+</ul>
+<h3 id="普及-提高-1"><a href="#普及-提高-1" class="headerlink" title="普及+/提高"></a>普及+/提高</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P5431" target="_blank" rel="noopener">P5431 【模板】乘法逆元2</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5367" target="_blank" rel="noopener">P5367 【模板】康托展开</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5960" target="_blank" rel="noopener">P5960 【模板】差分约束算法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2613" target="_blank" rel="noopener">P2613 【模板】有理数取余</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2197" target="_blank" rel="noopener">P2197 【模板】nim游戏</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3373" target="_blank" rel="noopener">P3373 【模板】线段树 2</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3387" target="_blank" rel="noopener">P3387 【模板】缩点</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5905" target="_blank" rel="noopener">P5905 【模板】Johnson 全源最短路</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5656" target="_blank" rel="noopener">P5656 【模板】二元一次不定方程(exgcd)</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1439" target="_blank" rel="noopener">P1439 【模板】最长公共子序列</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3388" target="_blank" rel="noopener">P3388 【模板】割点（割顶）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3386" target="_blank" rel="noopener">P3386 【模板】二分图最大匹配</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2252" target="_blank" rel="noopener">P2252 [SHOI2002]取石子游戏|【模板】威佐夫博弈</a></li>
+</ul>
+<h3 id="提高-省选"><a href="#提高-省选" class="headerlink" title="提高+/省选-"></a>提高+/省选-</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P5903" target="_blank" rel="noopener">P5903 【模板】树上 k 级祖先</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5854" target="_blank" rel="noopener">P5854 【模板】笛卡尔树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3369" target="_blank" rel="noopener">P3369 【模板】普通平衡树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3377" target="_blank" rel="noopener">P3377 【模板】左偏树（可并堆）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4781" target="_blank" rel="noopener">P4781 【模板】拉格朗日插值</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6091" target="_blank" rel="noopener">P6091 【模板】原根</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3381" target="_blank" rel="noopener">P3381 【模板】最小费用最大流</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5632" target="_blank" rel="noopener">P5632 【模板】Stoer-Wagner算法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1368" target="_blank" rel="noopener">P1368 工艺 /【模板】最小表示法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6086" target="_blank" rel="noopener">P6086 【模板】Prufer 序列</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3701" target="_blank" rel="noopener">P3701 「伪模板」主席树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5490" target="_blank" rel="noopener">P5490 【模板】扫描线</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3805" target="_blank" rel="noopener">P3805 【模板】manacher算法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3389" target="_blank" rel="noopener">P3389 【模板】高斯消元法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3808" target="_blank" rel="noopener">P3808 【模板】AC自动机（简单版）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3846" target="_blank" rel="noopener">P3846 [TJOI2007] 可爱的质数/【模板】BSGS</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3796" target="_blank" rel="noopener">P3796 【模板】AC自动机（加强版）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2742" target="_blank" rel="noopener">P2742 [USACO5.1]圈奶牛Fencing the Cows /【模板】二维凸包</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4783" target="_blank" rel="noopener">P4783 【模板】矩阵求逆</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5826" target="_blank" rel="noopener">P5826 【模板】子序列自动机</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1495" target="_blank" rel="noopener">P1495 【模板】中国剩余定理(CRT)/曹冲养猪</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3807" target="_blank" rel="noopener">P3807 【模板】卢卡斯定理</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3384" target="_blank" rel="noopener">P3384 【模板】轻重链剖分</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3391" target="_blank" rel="noopener">P3391 【模板】文艺平衡树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3376" target="_blank" rel="noopener">P3376 【模板】网络最大流</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5091" target="_blank" rel="noopener">P5091 【模板】扩展欧拉定理</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3812" target="_blank" rel="noopener">P3812 【模板】线性基</a></li>
+</ul>
+<h3 id="省选-NOI"><a href="#省选-NOI" class="headerlink" title="省选/NOI-"></a>省选/NOI-</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P3919" target="_blank" rel="noopener">P3919 【模板】可持久化数组（可持久化线段树/平衡树）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4196" target="_blank" rel="noopener">P4196 [CQOI2006]凸多边形 /【模板】半平面交</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5055" target="_blank" rel="noopener">P5055 【模板】可持久化文艺平衡树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5236" target="_blank" rel="noopener">P5236 【模板】静态仙人掌</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5394" target="_blank" rel="noopener">P5394 【模板】下降幂多项式乘法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1452" target="_blank" rel="noopener">P1452 [USACO03FALL]Beauty Contest G /【模板】旋转卡壳</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6136" target="_blank" rel="noopener">P6136 【模板】普通平衡树（数据加强版）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4238" target="_blank" rel="noopener">P4238 【模板】多项式乘法逆</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5906" target="_blank" rel="noopener">P5906 【模板】回滚莫队&amp;不删除莫队</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6177" target="_blank" rel="noopener">P6177 Count on a tree II/【模板】树分块</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5357" target="_blank" rel="noopener">P5357 【模板】AC自动机（二次加强版）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5496" target="_blank" rel="noopener">P5496 【模板】回文自动机（PAM）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5494" target="_blank" rel="noopener">P5494 【模板】线段树分裂</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3809" target="_blank" rel="noopener">P3809 【模板】后缀排序</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4719" target="_blank" rel="noopener">P4719 【模板】”动态 DP”&amp;动态树分治</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6114" target="_blank" rel="noopener">P6114 【模板】Lyndon 分解</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4782" target="_blank" rel="noopener">P4782 【模板】2-SAT 问题</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4717" target="_blank" rel="noopener">P4717 【模板】快速沃尔什变换 (FWT)</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5043" target="_blank" rel="noopener">P5043 【模板】树同构（[BJOI2015]树的同构）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5491" target="_blank" rel="noopener">P5491 【模板】二次剩余</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6139" target="_blank" rel="noopener">P6139 【模板】广义后缀自动机（广义SAM）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6329" target="_blank" rel="noopener">P6329 【模板】点分树 | 震波</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4213" target="_blank" rel="noopener">P4213 【模板】杜教筛（Sum）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5192" target="_blank" rel="noopener">P5192 Zoj3229 Shoot the Bullet|东方文花帖|【模板】有源汇上下界最大流</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4526" target="_blank" rel="noopener">P4526 【模板】自适应辛普森法2</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4716" target="_blank" rel="noopener">P4716 【模板】最小树形图</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4929" target="_blank" rel="noopener">P4929 【模板】舞蹈链（DLX）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3834" target="_blank" rel="noopener">P3834 【模板】可持久化线段树 1（主席树）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3804" target="_blank" rel="noopener">P3804 【模板】后缀自动机 (SAM)</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5787" target="_blank" rel="noopener">P5787 二分图 /【模板】线段树分治</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3810" target="_blank" rel="noopener">P3810 【模板】三维偏序（陌上花开）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4777" target="_blank" rel="noopener">P4777 【模板】扩展中国剩余定理（EXCRT）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6113" target="_blank" rel="noopener">P6113 【模板】一般图最大匹配</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4718" target="_blank" rel="noopener">P4718 【模板】Pollard-Rho算法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4725" target="_blank" rel="noopener">P4725 【模板】多项式对数函数（多项式 ln）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3835" target="_blank" rel="noopener">P3835 【模板】可持久化平衡树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6097" target="_blank" rel="noopener">P6097 【模板】子集卷积</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6242" target="_blank" rel="noopener">P6242 【模板】线段树 3</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6178" target="_blank" rel="noopener">P6178 【模板】Matrix-Tree 定理</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6164" target="_blank" rel="noopener">P6164 【模板】后缀平衡树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4195" target="_blank" rel="noopener">P4195 【模板】扩展BSGS</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4525" target="_blank" rel="noopener">P4525 【模板】自适应辛普森法1</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4556" target="_blank" rel="noopener">P4556 [Vani有约会]雨天的尾巴 /【模板】线段树合并</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5829" target="_blank" rel="noopener">P5829 【模板】失配树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4721" target="_blank" rel="noopener">P4721 【模板】分治 FFT</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5410" target="_blank" rel="noopener">P5410 【模板】扩展 KMP（Z 函数）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6192" target="_blank" rel="noopener">P6192 【模板】最小斯坦纳树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1919" target="_blank" rel="noopener">P1919 【模板】A*B Problem升级版（FFT快速傅里叶）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3803" target="_blank" rel="noopener">P3803 【模板】多项式乘法（FFT）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3690" target="_blank" rel="noopener">P3690 【模板】Link Cut Tree （动态树）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3806" target="_blank" rel="noopener">P3806 【模板】点分治1</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4720" target="_blank" rel="noopener">P4720 【模板】扩展卢卡斯</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4751" target="_blank" rel="noopener">P4751 【模板】”动态DP”&amp;动态树分治（加强版）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4722" target="_blank" rel="noopener">P4722 【模板】最大流 加强版 / 预流推进</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3380" target="_blank" rel="noopener">P3380 【模板】二逼平衡树（树套树）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4245" target="_blank" rel="noopener">P4245 【模板】任意模数NTT</a></li>
+</ul>
+<h3 id="NOI-NOI-CTSC"><a href="#NOI-NOI-CTSC" class="headerlink" title="NOI/NOI+/CTSC"></a>NOI/NOI+/CTSC</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P4724" target="_blank" rel="noopener">P4724 【模板】三维凸包</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5180" target="_blank" rel="noopener">P5180 【模板】支配树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4980" target="_blank" rel="noopener">P4980 【模板】Polya定理</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5245" target="_blank" rel="noopener">P5245 【模板】多项式快速幂</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2483" target="_blank" rel="noopener">P2483 【模板】k短路 / [SDOI2010]魔法猪学院</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4897" target="_blank" rel="noopener">P4897 【模板】最小割树（Gomory-Hu Tree）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4723" target="_blank" rel="noopener">P4723 【模板】常系数齐次线性递推</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5050" target="_blank" rel="noopener">P5050 【模板】多项式多点求值</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5247" target="_blank" rel="noopener">P5247 【模板】动态图完全连通性</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5282" target="_blank" rel="noopener">P5282 【模板】快速阶乘算法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5325" target="_blank" rel="noopener">P5325 【模板】Min_25筛</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5809" target="_blank" rel="noopener">P5809 【模板】多项式复合逆</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4512" target="_blank" rel="noopener">P4512 【模板】多项式除法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5277" target="_blank" rel="noopener">P5277 【模板】多项式开根（加强版）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5373" target="_blank" rel="noopener">P5373 【模板】多项式复合函数</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5487" target="_blank" rel="noopener">P5487 【模板】Berlekamp-Massey算法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5056" target="_blank" rel="noopener">P5056 【模板】插头dp</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5808" target="_blank" rel="noopener">P5808 【模板】常系数非齐次线性递推</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5205" target="_blank" rel="noopener">P5205 【模板】多项式开根</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4726" target="_blank" rel="noopener">P4726 【模板】多项式指数函数（多项式 exp）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5158" target="_blank" rel="noopener">P5158 【模板】多项式快速插值</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6115" target="_blank" rel="noopener">P6115 【模板】整式递推</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5668" target="_blank" rel="noopener">P5668 【模板】N次剩余</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4887" target="_blank" rel="noopener">P4887 【模板】莫队二次离线（第十四分块(前体)）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5273" target="_blank" rel="noopener">P5273 【模板】多项式幂函数 (加强版)</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5170" target="_blank" rel="noopener">P5170 【模板】类欧几里得算法</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>OI</category>
+        <category>洛谷</category>
+      </categories>
+      <tags>
+        <tag>整理</tag>
+        <tag>OI题目</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>洛谷题目打印机使用说明书</title>
     <url>/printluoguproblem/</url>
     <content><![CDATA[<p>身处弱校，不能天天上机？</p>
@@ -1181,239 +1156,334 @@
         <category>工具</category>
       </categories>
       <tags>
-        <tag>CSS</tag>
         <tag>原创</tag>
+        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>
-    <title>在手机上使用termux写C++代码</title>
-    <url>/termuxandcpp/</url>
-    <content><![CDATA[<p>本文将会介绍如何使用termux写C++代码并编译运行。</p>
-<p>本文无任何图片 （惊了） ，流量党可放心围观。</p>
-<p>纯手打，请大家多多支持一下~</p>
+    <title>网课推荐（知乎答案收集）</title>
+    <url>/whkwangke/</url>
+    <content><![CDATA[<p>这里是jwj翻了很多知乎答案收集得到的结果，希望对大家有所帮助qwq</p>
 <a id="more"></a>
 
-<hr>
-<h3 id="下载安装termux"><a href="#下载安装termux" class="headerlink" title="下载安装termux"></a>下载安装termux</h3><p>下载安装前手机建议腾出500MB以上的空间。<br>如果可以科学上网建议在谷歌应用商店下载。<br>如果不能科学上网建议在酷安下载。</p>
-<ul>
-<li><h6 id="谷歌的termux的下载链接：点此下载"><a href="#谷歌的termux的下载链接：点此下载" class="headerlink" title="谷歌的termux的下载链接：点此下载"></a>谷歌的termux的下载链接：<a href="https://play.google.com/store/apps/details?id=com.termux" target="_blank" rel="noopener">点此下载</a></h6></li>
-<li><h6 id="酷安的termux的下载链接：点此下载"><a href="#酷安的termux的下载链接：点此下载" class="headerlink" title="酷安的termux的下载链接：点此下载"></a>酷安的termux的下载链接：<a href="https://www.coolapk.com/apk/com.termux" target="_blank" rel="noopener">点此下载</a></h6></li>
+
+<h3 id="语文"><a href="#语文" class="headerlink" title="语文"></a>语文</h3><ul>
+<li>乘风-腾讯课堂x9</li>
+<li><ul>
+<li>提分快，适合理科生</li>
 </ul>
-<h3 id="更换国内镜像源"><a href="#更换国内镜像源" class="headerlink" title="更换国内镜像源"></a>更换国内镜像源</h3><p>安装好后建议先换上国内镜像源，避免未科学上网时下载失败或网速过慢。</p>
-<h6 id="更换清华大学镜像源使用如下命令："><a href="#更换清华大学镜像源使用如下命令：" class="headerlink" title="更换清华大学镜像源使用如下命令："></a>更换清华大学镜像源使用如下命令：</h6><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sed -i &#39;s@^\(deb.*stable main\)$@#\1\ndeb https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;termux stable main@&#39; $PREFIX&#x2F;etc&#x2F;apt&#x2F;sources.list</span><br></pre></td></tr></table></figure>
-
-<p>相关帮助链接：<a href="https://mirror.tuna.tsinghua.edu.cn/help/termux/" target="_blank" rel="noopener">帮助链接</a></p>
-<h6 id="更换中国科学技术大学镜像源使用如下命令："><a href="#更换中国科学技术大学镜像源使用如下命令：" class="headerlink" title="更换中国科学技术大学镜像源使用如下命令："></a>更换中国科学技术大学镜像源使用如下命令：</h6><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sed -i &#39;s@^\(deb.*stable main\)$@#\1\ndeb https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;termux stable main@&#39; $PREFIX&#x2F;etc&#x2F;apt&#x2F;sources.list</span><br></pre></td></tr></table></figure>
-
-<p>相关帮助链接：<a href="http://mirrors.ustc.edu.cn/help/termux.html" target="_blank" rel="noopener">帮助链接</a></p>
-<p>换源后应及时更新镜像源，使用如下命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">apt clean</span><br><span class="line">pkg up</span><br></pre></td></tr></table></figure>
-
-<p>如国内镜像源出现问题、出现错误或不能下载到想要的软件，可以换回官方镜像源：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sed -i &#39;s@^\(deb.*stable main\)$@#\1\ndeb https:&#x2F;&#x2F;termux.net&#x2F; stable main@&#39; $PREFIX&#x2F;etc&#x2F;apt&#x2F;sources.list</span><br></pre></td></tr></table></figure>
-
-<p>当无法连接官方镜像源时应科学上网再次尝试。</p>
-<h3 id="linux基础命令"><a href="#linux基础命令" class="headerlink" title="linux基础命令"></a>linux基础命令</h3><p>termux是一个免root的linux模拟器，所以使用时应掌握一些linux的命令。当然没掌握也没关系，下面会有一些linux的基础命令供参考。</p>
-<table>
-<thead>
-<tr>
-<th align="center">命令</th>
-<th align="center">含义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">cd &lt;目录地址&gt;</td>
-<td align="center">打开目录地址</td>
-</tr>
-<tr>
-<td align="center">cp &lt;文件名&gt; &lt;目标目录地址&gt;</td>
-<td align="center">拷贝到目标目录地址</td>
-</tr>
-<tr>
-<td align="center">mkdir &lt;文件夹名&gt;</td>
-<td align="center">新建文件夹</td>
-</tr>
-<tr>
-<td align="center">rm &lt;文件名&gt;</td>
-<td align="center">删除文件</td>
-</tr>
-<tr>
-<td align="center">rm -rf &lt;文件夹名&gt;</td>
-<td align="center">删除文件夹</td>
-</tr>
-<tr>
-<td align="center">ls</td>
-<td align="center">查询该文件夹下文件及文件夹</td>
-</tr>
-</tbody></table>
-<p>更多命令请自行搜索相关资料。</p>
-<h3 id="安装软件及工具"><a href="#安装软件及工具" class="headerlink" title="安装软件及工具"></a>安装软件及工具</h3><p>这里给出安装我们需要的软件的命令，可根据需求自行更改。</p>
-<p>如使用官方镜像源，请科学上网。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pkg install vim clang python gdb cgdb curl</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><p>vim为编辑器，可自行更改为其它编辑器，但非常建议使用vim。学习vim的操作不会很难，常用的命令只有那么几个，习惯了就好。</p>
 </li>
-<li><p>curl可以优化termux终端界面，酌情下载安装。</p>
+<li><ul>
+<li>文言文</li>
+</ul>
 </li>
-<li><p>clang为C和C++编译器。</p>
+<li>杨洋-腾讯课堂x8</li>
+<li><ul>
+<li>培养思维，作文讲的很好</li>
+</ul>
 </li>
-<li><p>python可以让我们制作一些对拍小程序，也有很多其它的玩法，酌情下载安装。</p>
+<li>国家玮-新东方、大黄蜂课堂x6</li>
+<li><ul>
+<li>社科文古文都讲的不错</li>
+</ul>
 </li>
-<li><p>gdb和cgdb为调试工具，可根据需要酌情下载安装。</p>
+<li><ul>
+<li>偏向于思维提升，讲法别出心裁</li>
+</ul>
 </li>
-<li><p>也可自行安装其它软件及工具。</p>
+<li>董腾-有道精品课x2</li>
+<li><ul>
+<li>幽默风趣应试很强</li>
+</ul>
+</li>
+<li>王大绩-简单学习网</li>
+<li>谢明波</li>
+<li>王丹宁-原新东方</li>
+<li>陈焕文-乐学</li>
+<li><ul>
+<li>理科思维，理解难度会大</li>
+</ul>
 </li>
 </ul>
-<h3 id="vim的使用"><a href="#vim的使用" class="headerlink" title="vim的使用"></a>vim的使用</h3><p>下面是vim的一些简单命令。</p>
-<table>
-<thead>
-<tr>
-<th align="center">命令</th>
-<th align="center">含义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">vim &lt;文件名&gt;</td>
-<td align="center">编辑文件，若文件不存在则自动创建新文件</td>
-</tr>
-<tr>
-<td align="center">i</td>
-<td align="center">切换到编辑模式</td>
-</tr>
-<tr>
-<td align="center">ESC</td>
-<td align="center">退出编辑模式</td>
-</tr>
-<tr>
-<td align="center">:x</td>
-<td align="center">保存退出</td>
-</tr>
-<tr>
-<td align="center">:q</td>
-<td align="center">未改动退出</td>
-</tr>
-<tr>
-<td align="center">:q!</td>
-<td align="center">不保存退出</td>
-</tr>
-</tbody></table>
-<p>更多命令请自行搜索相关资料。</p>
-<h3 id="C-的编译与运行"><a href="#C-的编译与运行" class="headerlink" title="C++的编译与运行"></a>C++的编译与运行</h3><h4 id="编译："><a href="#编译：" class="headerlink" title="编译："></a>编译：</h4><p>切换到cpp文件目录（cd &lt;目录&gt;）后命令如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">g++ &lt;cpp代码文件&gt; -o &lt;生成程序名&gt;</span><br></pre></td></tr></table></figure>
-
-<p>如：</p>
-<p>g++ hello.cpp -o hello</p>
-<p>即可在该目录下生成名为hello的可执行文件。</p>
-<h4 id="运行："><a href="#运行：" class="headerlink" title="运行："></a>运行：</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.&#x2F;&lt;可执行文件名&gt;</span><br></pre></td></tr></table></figure>
-
-<p>如:</p>
-<p>./hello</p>
-<p>即可执行hello程序。</p>
-<p>如出现错误：permission denied</p>
-<p>则说明没有权限访问该程序，此时输入：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">chmod +x &lt;程序名&gt;</span><br></pre></td></tr></table></figure>
-
-<p>如：</p>
-<p>chmod +x hello</p>
-<p>即可执行。</p>
-<h3 id="可选步骤"><a href="#可选步骤" class="headerlink" title="可选步骤"></a>可选步骤</h3><p>以下为可选步骤，但非常建议做一做。</p>
-<ul>
-<li><h5 id="创建工作目录"><a href="#创建工作目录" class="headerlink" title="创建工作目录"></a>创建工作目录</h5></li>
+<h3 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h3><ul>
+<li>周帅-高德x9</li>
+<li><ul>
+<li>每一个知识点都讲得特别全面，各个题型都有涉及</li>
 </ul>
-<p>建议在根目录中新建一个文件夹作为工作目录，如果你比较懒，之后直接在根目录中编辑文件也是可以的。</p>
-<p>名字建议用纯英文字母，方便进入。</p>
-<p>建议不使用会与命令起冲突的名字，比如gcc，cpp。</p>
-<ul>
-<li><h5 id="配置vim"><a href="#配置vim" class="headerlink" title="配置vim"></a>配置vim</h5></li>
+</li>
+<li><ul>
+<li>偏基础一点</li>
 </ul>
-<p>其实可以不配置，但是非常建议配置。</p>
-<p>配置之后会给打代码增添不少便利。</p>
-<p>执行如下命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vim ~&#x2F;.vimrc</span><br></pre></td></tr></table></figure>
-<p>将以下内容复制粘贴进去保存即可。</p>
-<p>可根据需要自行修改。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">&quot; 设置当文件被改动时自动载入&quot;</span><br><span class="line">set autoread</span><br><span class="line">&quot; quickfix模式&quot;</span><br><span class="line">autocmd FileType c,cpp map &lt;buffer&gt; &lt;leader&gt;&lt;space&gt; :w&lt;cr&gt;:make&lt;cr&gt;</span><br><span class="line">&quot;代码补全 &quot;</span><br><span class="line">set completeopt&#x3D;preview,menu </span><br><span class="line">&quot;允许插件  &quot;</span><br><span class="line">filetype plugin on</span><br><span class="line">&quot;共享剪贴板  &quot;</span><br><span class="line">set clipboard&#x3D;unnamed </span><br><span class="line">&quot;从不备份  &quot;</span><br><span class="line">set nobackup</span><br><span class="line">&quot;自动保存&quot;</span><br><span class="line">set autowrite</span><br><span class="line">set ruler  &quot; 打开状态栏标尺&quot;</span><br><span class="line">set cursorline  &quot;突出显示当前行&quot;</span><br><span class="line">set magic  &quot; 设置魔术&quot;</span><br><span class="line">set guioptions-&#x3D;T  &quot;隐藏工具栏&quot;</span><br><span class="line">set guioptions-&#x3D;m  &quot;隐藏菜单栏&quot;</span><br><span class="line">set foldcolumn&#x3D;0</span><br><span class="line">set foldmethod&#x3D;indent </span><br><span class="line">set foldlevel&#x3D;3 </span><br><span class="line">set foldenable  &quot; 开始折叠&quot;</span><br><span class="line">&quot; 不要使用vi的键盘模式，而是vim自己的&quot;</span><br><span class="line">set nocompatible</span><br><span class="line">&quot; 语法高亮&quot;</span><br><span class="line">set syntax&#x3D;on</span><br><span class="line">&quot; 去掉输入错误的提示声音&quot;</span><br><span class="line">set noeb</span><br><span class="line">&quot; 在处理未保存或只读文件的时候，弹出确认&quot;</span><br><span class="line">set confirm</span><br><span class="line">&quot;自动缩进 &quot;</span><br><span class="line">set autoindent</span><br><span class="line">set cindent</span><br><span class="line">&quot; Tab键的宽度&quot;</span><br><span class="line">set tabstop&#x3D;4</span><br><span class="line">&quot; 统一缩进为4&quot;</span><br><span class="line">set softtabstop&#x3D;4</span><br><span class="line">set shiftwidth&#x3D;4</span><br><span class="line">&quot; 不要用空格代替制表符&quot;</span><br><span class="line">set noexpandtab</span><br><span class="line">&quot; 在行和段开始处使用制表符&quot;</span><br><span class="line">set smarttab</span><br><span class="line">&quot; 显示行号&quot;</span><br><span class="line">set number</span><br><span class="line">&quot; 历史记录数&quot;</span><br><span class="line">set history&#x3D;1000</span><br><span class="line">&quot;禁止生成临时文件&quot;</span><br><span class="line">set nobackup</span><br><span class="line">set noswapfile</span><br><span class="line">&quot;搜索忽略大小写&quot;</span><br><span class="line">set ignorecase</span><br><span class="line">&quot;搜索逐字符高亮&quot;</span><br><span class="line">set hlsearch</span><br><span class="line">set incsearch</span><br><span class="line">&quot;行内替换&quot;</span><br><span class="line">set gdefault</span><br><span class="line">&quot;编码设置&quot;</span><br><span class="line">set enc&#x3D;utf-8</span><br><span class="line">set fencs&#x3D;utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936</span><br><span class="line">&quot;语言设置&quot;</span><br><span class="line">set langmenu&#x3D;zh_CN.UTF-8</span><br><span class="line">set helplang&#x3D;cn</span><br><span class="line">&quot; 我的状态行显示的内容（包括文件类型和解码）&quot;</span><br><span class="line">set statusline&#x3D;[%F]%y%r%m%*%&#x3D;[Line:%l&#x2F;%L,Column:%c][%p%%]</span><br><span class="line">&quot; 总是显示状态行&quot;</span><br><span class="line">set laststatus&#x3D;2</span><br><span class="line">&quot; 命令行（在状态行下）的高度，默认为1，这里是2&quot;</span><br><span class="line">set cmdheight&#x3D;2</span><br><span class="line">&quot; 侦测文件类型&quot;</span><br><span class="line">filetype on</span><br><span class="line">&quot; 载入文件类型插件&quot;</span><br><span class="line">filetype plugin on</span><br><span class="line">&quot; 为特定文件类型载入相关缩进文件&quot;</span><br><span class="line">filetype indent on</span><br><span class="line">&quot; 保存全局变量&quot;</span><br><span class="line">set viminfo+&#x3D;!</span><br><span class="line">&quot; 带有如下符号的单词不要被换行分割&quot;</span><br><span class="line">set iskeyword+&#x3D;_,$,@,%,#,-</span><br><span class="line">&quot; 字符间插入的像素行数目&quot;</span><br><span class="line">set linespace&#x3D;0</span><br><span class="line">&quot; 增强模式中的命令行自动完成操作&quot;</span><br><span class="line">set wildmenu</span><br><span class="line">&quot; 使回格键（backspace）正常处理indent, eol, start等&quot;</span><br><span class="line">set backspace&#x3D;2</span><br><span class="line">&quot; 允许backspace和光标键跨越行边界&quot;</span><br><span class="line">set whichwrap+&#x3D;&lt;,&gt;,h,l</span><br><span class="line">&quot; 可以在buffer的任何地方使用鼠标（类似office中在工作区双击鼠标定位）&quot;</span><br><span class="line">set mouse&#x3D;a</span><br><span class="line">set selection&#x3D;exclusive</span><br><span class="line">set selectmode&#x3D;mouse,key</span><br><span class="line">&quot; 通过使用: commands命令，告诉我们文件的哪一行被改变过&quot;</span><br><span class="line">set report&#x3D;0</span><br><span class="line">&quot; 高亮显示匹配的括号&quot;</span><br><span class="line">set showmatch</span><br><span class="line">&quot; 匹配括号高亮的时间（单位是十分之一秒）&quot;</span><br><span class="line">set matchtime&#x3D;1</span><br><span class="line">&quot; 光标移动到buffer的顶部和底部时保持3行距离&quot;</span><br><span class="line">set scrolloff&#x3D;3</span><br><span class="line">&quot; 为C程序提供自动缩进&quot;</span><br><span class="line">set smartindent</span><br><span class="line">&quot; 高亮显示普通txt文件（需要txt.vim脚本）&quot;</span><br><span class="line"> au BufRead,BufNewFile *  setfiletype txt</span><br><span class="line">&quot;自动补全&quot;</span><br><span class="line">:inoremap ( ()&lt;ESC&gt;i</span><br><span class="line">:inoremap ) &lt;c-r&gt;&#x3D;ClosePair(&#39;)&#39;)&lt;CR&gt;</span><br><span class="line">:inoremap &#123; &#123;&lt;CR&gt;&#125;&lt;ESC&gt;O</span><br><span class="line">:inoremap &#125; &lt;c-r&gt;&#x3D;ClosePair(&#39;&#125;&#39;)&lt;CR&gt;</span><br><span class="line">:inoremap [ []&lt;ESC&gt;i</span><br><span class="line">:inoremap ] &lt;c-r&gt;&#x3D;ClosePair(&#39;]&#39;)&lt;CR&gt;</span><br><span class="line">:inoremap &quot; &quot;&quot;&lt;ESC&gt;i</span><br><span class="line">:inoremap &#39; &#39;&#39;&lt;ESC&gt;i</span><br><span class="line">function! ClosePair(char)</span><br><span class="line">    if getline(&#39;.&#39;)[col(&#39;.&#39;) - 1] &#x3D;&#x3D; a:char</span><br><span class="line">        return &quot;&#x2F;&lt;Right&gt;&quot;</span><br><span class="line">    else</span><br><span class="line">        return a:char</span><br><span class="line">    endif</span><br><span class="line">endfunction</span><br><span class="line">filetype plugin indent on </span><br><span class="line">&quot;打开文件类型检测, 加了这句才可以用智能补全&quot;</span><br><span class="line">set completeopt&#x3D;longest,menu</span><br><span class="line">&quot;C++的编译和运行  &quot;</span><br><span class="line">&quot;编译运行&quot;</span><br><span class="line">map &lt;F10&gt; :call CompileRunGpp()&lt;CR&gt;  </span><br><span class="line">func! CompileRunGpp()  </span><br><span class="line">exec &quot;w&quot;  </span><br><span class="line">exec &quot;!g++ % -o %&lt;&quot;  </span><br><span class="line">exec &quot;! .&#x2F;%&lt;&quot;  </span><br><span class="line">endfunc</span><br><span class="line">&quot;编译&quot;</span><br><span class="line">map &lt;F8&gt; :call CompileGpp()&lt;cr&gt;  </span><br><span class="line">func! CompileGpp()  </span><br><span class="line">exec &quot;w&quot;  </span><br><span class="line">exec &quot;!g++ % -o %&lt;&quot;  </span><br><span class="line">endfunc</span><br><span class="line">&quot;运行&quot;</span><br><span class="line">map &lt;F9&gt; :call RunGpp()&lt;cr&gt;    </span><br><span class="line">func! RunGpp()    </span><br><span class="line">exec &quot;w&quot;    </span><br><span class="line">exec &quot;! .&#x2F;%&lt;&quot;    </span><br><span class="line">endfunc</span><br></pre></td></tr></table></figure>
-
-<p>保存后再次进入一个cpp文件时，编辑将会更加方便，并可以在vim编辑器中直接编译和运行。</p>
-<h6 id="操作方法为："><a href="#操作方法为：" class="headerlink" title="操作方法为："></a>操作方法为：</h6><table>
-<thead>
-<tr>
-<th align="center">按键</th>
-<th align="center">作用</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">F8（音量+键+ 8）</td>
-<td align="center">编译</td>
-</tr>
-<tr>
-<td align="center">F9（音量+键 + 9）</td>
-<td align="center">运行</td>
-</tr>
-<tr>
-<td align="center">F10（音量+键 + 0）</td>
-<td align="center">编译并运行</td>
-</tr>
-</tbody></table>
-<p>当然，也可以模仿上面的代码创造自己的快捷键，比如gdb调试。</p>
-<ul>
-<li><h5 id="优化termux终端界面"><a href="#优化termux终端界面" class="headerlink" title="优化termux终端界面"></a>优化termux终端界面</h5></li>
+</li>
+<li><ul>
+<li>授课内容集中、信息量大，讲题侧重培养思维，而非机械操作，课时多，知识点细。</li>
 </ul>
-<p>使用zsh来替代bash作为默认shell。</p>
-<p>在已安装curl的情况下使用以下命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">sh -c &quot;$(curl -fsSL https:&#x2F;&#x2F;github.com&#x2F;Cabbagec&#x2F;termux-ohmyzsh&#x2F;raw&#x2F;master&#x2F;install.sh)&quot;</span><br></pre></td></tr></table></figure>
-
-<p>Android 6.0以上可能会弹框确认是否授权访问文件，点击允许，之后会在termux根目录生成storage目录，可以方便地对外部文件进行操作。</p>
-<p>安装成功后先后会有两个选项，分别选择背景色和字体，如下：</p>
-<p>Enter a number, leave blank to not to change:</p>
-<p>Enter a number, leave blank to not to change: </p>
-<p>我选的是14和6，仅供参考。</p>
-<p>如果希望再次更改配色，可执行如下命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">~&#x2F;termux-ohmyzsh&#x2F;install.sh</span><br></pre></td></tr></table></figure>
-<p>重启软件或开启新session生效。</p>
-<ul>
-<li><h5 id="修改启动问候语"><a href="#修改启动问候语" class="headerlink" title="修改启动问候语"></a>修改启动问候语</h5></li>
+</li>
+<li>郭化楠-有道精品课、学而思x5</li>
+<li><ul>
+<li>重视基础</li>
 </ul>
-<p>可以编辑问候语文件直接修改问候语。</p>
-<p>输入如下命令即可修改：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vim $PREFIX&#x2F;etc&#x2F;motd</span><br></pre></td></tr></table></figure>
-<p>保存重启即可。</p>
-<h3 id="termux的其他玩法"><a href="#termux的其他玩法" class="headerlink" title="termux的其他玩法"></a>termux的其他玩法</h3><ul>
-<li><p>termux可以在手机上安装正规linux，比如ubuntu、kali，并能安装桌面（也就是说可以图形化操作）， 但NOI linux除外（大雾） ；</p>
 </li>
-<li><p>termux可以愉快地玩耍python，制作网络爬虫、微信机器人以及其它；</p>
+<li><ul>
+<li>非常注重基础，潜移默化的拓展知识之间的延伸</li>
+</ul>
 </li>
-<li><p>在termux上安装kali-linux及其它安全工具，靠自己来暴力破解WIFI， 并从此走上CTF的不归路（大雾） ；</p>
+<li><ul>
+<li>拔高（有道精品课）</li>
+</ul>
 </li>
-<li><p>在termux上运用php和WordPress或hexo搭建网站和博客；</p>
+<li><ul>
+<li>全网最完美的“自学”视频，适合零基础。把知识点的来龙去脉讲的透彻，可以培养出真正的学术性人才</li>
+</ul>
 </li>
-<li><p>用termux ssh远程连接电脑，从此躺在床上就可以操作电脑；</p>
+<li>赵礼显-跟谁学x5</li>
+<li><ul>
+<li>拔高</li>
+</ul>
 </li>
-<li><p>在termux上使用Aria2打造自己的下载工具，配置好的话还可以高速下载百度云文件；</p>
+<li><ul>
+<li>课时少，课程主讲题型解题法，对基础知识讲解少，不适合基础差的人群。短期提分快。</li>
+</ul>
 </li>
-<li><p>安装Termux-api，直接操作调动系统底层，用代码发短信、打电话。</p>
+<li>凉学长-腾讯课堂x3</li>
+<li><ul>
+<li>方法巧妙</li>
+</ul>
+</li>
+<li>蔡德锦-腾讯课堂x2</li>
+<li><ul>
+<li>通过带你做题来深刻的理解这个知识点，适合拔高的同学</li>
+</ul>
+</li>
+<li><ul>
+<li>给人踏实很值得信赖的感觉，讲的真的很吸引人，效率很高，方法总结很到位，简介明了</li>
+</ul>
+</li>
+<li>鲲哥带你学数学-哔哩哔哩x2</li>
+<li>蒋叶光-领世培优</li>
+<li>建哥数学</li>
+<li>高中数学北师math杨-哔哩哔哩</li>
+<li>佟大大是ETT-哔哩哔哩</li>
+<li>讲高中数学的邓老师-哔哩哔哩</li>
+<li>高中数学蔡德锦老师-哔哩哔哩</li>
+<li>猪猪老师教数学-哔哩哔哩</li>
+<li>成都高中数学cdgzsxfml-哔哩哔哩</li>
+<li>司马红丽老师-精华在线</li>
+<li>李永乐老师-原精华、美提课堂</li>
+<li><ul>
+<li>思维训练</li>
+</ul>
+</li>
+<li>王梦抒-腾讯课堂</li>
+<li>数学超人-腾讯课堂</li>
+<li>关旭-前有道</li>
+<li><ul>
+<li>圆锥曲线</li>
+</ul>
+</li>
+<li>蒋叶光</li>
+<li><ul>
+<li>强推他的圆锥曲线，全网算是比较好的了,其他课程拔高，门槛较高</li>
+</ul>
+</li>
+<li>王文勇老师-勇哥数学APP</li>
+</ul>
+<h3 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h3><ul>
+<li>徐磊-跟谁学x10</li>
+<li><ul>
+<li>磊神，名不虚传</li>
+</ul>
+</li>
+<li>李辉-有道精品课x4</li>
+<li><ul>
+<li>方法论好，提分快</li>
+</ul>
+</li>
+<li>刘晓峰老师-原新东方</li>
+<li>麻雪玲老师-简单学习网</li>
+</ul>
+<h3 id="物理"><a href="#物理" class="headerlink" title="物理"></a>物理</h3><ul>
+<li>坤哥-腾讯课堂x7</li>
+<li><ul>
+<li>构造一个完美的物理知识体系，题型全部在他的课程之中，非常的优秀</li>
+</ul>
+</li>
+<li><ul>
+<li>基础</li>
+</ul>
+</li>
+<li>王羽-腾讯课堂x6</li>
+<li><ul>
+<li>拔高 </li>
+</ul>
+</li>
+<li>刘杰-有道精品课x3</li>
+<li><ul>
+<li>拔高 </li>
+</ul>
+</li>
+<li>坤哥物理-哔哩哔哩x2</li>
+<li>李楠老师-有道精品课x2</li>
+<li><ul>
+<li>拔高 </li>
+</ul>
+</li>
+<li>夏梦迪老师-新东方x2</li>
+<li><ul>
+<li>他能从最基础的内容说到最深层的知识，循序渐进，课堂生动有趣，有基础也有大招，同样课时较多</li>
+</ul>
+</li>
+<li><ul>
+<li>拔高 </li>
+</ul>
+</li>
+<li>陈老师敲黑板-哔哩哔哩</li>
+<li><ul>
+<li>清华附中物理老师，力学电学内容都有</li>
+</ul>
+</li>
+<li>物理X学姐-哔哩哔哩</li>
+<li><ul>
+<li>南京大学天文系的一位学姐，颜值与才华并存的一位up主，非常优秀。</li>
+</ul>
+</li>
+<li>大宽物理-哔哩哔哩</li>
+<li>曾珍</li>
+<li>珍哥物理</li>
+<li>郑少龙老师-猿辅导</li>
+<li><ul>
+<li>基础</li>
+</ul>
+</li>
+<li>李永乐老师-美提课堂</li>
+<li><ul>
+<li>基础</li>
+</ul>
+</li>
+<li>王文博</li>
+<li>肖嗣光（现在只做线下了）</li>
+<li>于冲-乐学</li>
+</ul>
+<h3 id="化学"><a href="#化学" class="headerlink" title="化学"></a>化学</h3><ul>
+<li>陆艳华-伴学优课、金榜在线x8</li>
+<li><ul>
+<li>适合基础差的，过掉所有高中知识点</li>
+</ul>
+</li>
+<li><ul>
+<li>选五看陆姐</li>
+</ul>
+</li>
+<li><ul>
+<li>全网风评最好的老师，没有之一</li>
+</ul>
+</li>
+<li>李政-乐学x8</li>
+<li><ul>
+<li>适合基础好的，完全不一样的眼界和视角，电化学直接打开新世界的大门</li>
+</ul>
+</li>
+<li><ul>
+<li>选三看政神</li>
+</ul>
+</li>
+<li>木子-腾讯课堂x2</li>
+<li><ul>
+<li>通俗易懂，方法好</li>
+</ul>
+</li>
+<li>高东辉老师-精华在线</li>
+<li><ul>
+<li>基础</li>
+</ul>
 </li>
 </ul>
-<hr>
-<p>termux作为一个linux模拟器，可实现的功能远远不止打打C++和python的代码，希望有更多的人能够认识termux的强大并挖掘出更多玩法，也希望能够有更多关于termux的优秀文章出现。</p>
-<h6 id="文章部分内容引用地址："><a href="#文章部分内容引用地址：" class="headerlink" title="文章部分内容引用地址："></a>文章部分内容引用地址：</h6><p><a href="https://www.sqlsec.com/2018/05/termux.html" target="_blank" rel="noopener">https://www.sqlsec.com/2018/05/termux.html</a></p>
-<p><a href="https://www.cnblogs.com/jokerBi/articles/10609264.html" target="_blank" rel="noopener">https://www.cnblogs.com/jokerBi/articles/10609264.html</a></p>
-<h6 id="推荐阅读："><a href="#推荐阅读：" class="headerlink" title="推荐阅读："></a>推荐阅读：</h6><p>知乎专栏：<a href="https://zhuanlan.zhihu.com/c_1208079877376901120" target="_blank" rel="noopener">安卓手机配合linux新玩法挖掘</a></p>
-<p>…</p>
-<p>…</p>
-<p>…</p>
-<p>…</p>
-<p>…</p>
-<p>彩蛋：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pkg install nyancat</span><br><span class="line">nyancat</span><br></pre></td></tr></table></figure>
+<h3 id="生物"><a href="#生物" class="headerlink" title="生物"></a>生物</h3><ul>
+<li>周芳煜-腾讯课堂x8</li>
+<li><ul>
+<li>可爱（？）</li>
+</ul>
+</li>
+<li><ul>
+<li>提分最快，遗传秒解</li>
+</ul>
+</li>
+<li>张继光-跟谁学x6</li>
+<li>万猛-有道精品课x2</li>
+<li><ul>
+<li>提高思维提分快</li>
+</ul>
+</li>
+<li>万猛老师-作业帮x2</li>
+<li>张云翼_channel-哔哩哔哩</li>
+<li><ul>
+<li>为清华大学在读博士</li>
+</ul>
+</li>
+<li>冯博</li>
+</ul>
+<h3 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h3><ul>
+<li>马宇轩x4</li>
+<li>刘勖雯-腾讯课堂x3</li>
+<li><ul>
+<li>技巧讲解，题库强大</li>
+</ul>
+</li>
+<li>桑宏斌</li>
+<li>李谓</li>
+<li><ul>
+<li>基础</li>
+</ul>
+</li>
+</ul>
+<h3 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h3><ul>
+<li>刘勖雯-腾讯课堂x3</li>
+<li><ul>
+<li>技巧讲解，题库强大，推荐</li>
+</ul>
+</li>
+<li>定哥x3</li>
+<li><ul>
+<li>零基础</li>
+</ul>
+</li>
+<li>李光-精华课堂x2</li>
+<li><ul>
+<li>拔高</li>
+</ul>
+</li>
+<li>褚润x2</li>
+<li>韩校-简单学习网</li>
+<li>刘旭</li>
+<li>关也</li>
+<li><ul>
+<li>拔高</li>
+</ul>
+</li>
+</ul>
+<h3 id="地理"><a href="#地理" class="headerlink" title="地理"></a>地理</h3><ul>
+<li>包易正-有道x4</li>
+<li><ul>
+<li>基础，推荐</li>
+</ul>
+</li>
+<li>刘勖雯-腾讯课堂x3</li>
+<li><ul>
+<li>技巧讲解，题库强大</li>
+</ul>
+</li>
+<li>张艳萍x3</li>
+<li>张艳平-大地经纬网校x2</li>
+</ul>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721123841.png" alt=""></p>
 ]]></content>
       <categories>
         <category>其他</category>
+        <category>文化课</category>
       </categories>
       <tags>
-        <tag>原创</tag>
-        <tag>C++</tag>
+        <tag>整理</tag>
+        <tag>网课</tag>
       </tags>
   </entry>
   <entry>
@@ -1747,20 +1817,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客搬家啦</title>
-    <url>/newhome/</url>
-    <content><![CDATA[<p>搬家啦！</p>
-<p>之前博客用了一段时间的阮行止大佬的生成器（经过同意了），后来自己想拓展一些功能，然后就发现要拓展功能的话只能自己写代码，可我太菜了不会PHP不会HTML不会CSS，所以只能改用Hexo/kk</p>
-<p>以后可能会出关于Hexo的搭建教程和调教教程吧qwq</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>欢迎来到jwj的博客awa</title>
     <url>/index/</url>
     <content><![CDATA[<p>欢迎来到我的博客！</p>
@@ -1775,329 +1831,273 @@
       </tags>
   </entry>
   <entry>
-    <title>网课推荐（知乎答案收集）</title>
-    <url>/whkwangke/</url>
-    <content><![CDATA[<p>这里是jwj翻了很多知乎答案收集得到的结果，希望对大家有所帮助qwq</p>
+    <title>在手机上使用termux写C++代码</title>
+    <url>/termuxandcpp/</url>
+    <content><![CDATA[<p>本文将会介绍如何使用termux写C++代码并编译运行。</p>
+<p>本文无任何图片 （惊了） ，流量党可放心围观。</p>
+<p>纯手打，请大家多多支持一下~</p>
 <a id="more"></a>
 
+<hr>
+<h3 id="下载安装termux"><a href="#下载安装termux" class="headerlink" title="下载安装termux"></a>下载安装termux</h3><p>下载安装前手机建议腾出500MB以上的空间。<br>如果可以科学上网建议在谷歌应用商店下载。<br>如果不能科学上网建议在酷安下载。</p>
+<ul>
+<li><h6 id="谷歌的termux的下载链接：点此下载"><a href="#谷歌的termux的下载链接：点此下载" class="headerlink" title="谷歌的termux的下载链接：点此下载"></a>谷歌的termux的下载链接：<a href="https://play.google.com/store/apps/details?id=com.termux" target="_blank" rel="noopener">点此下载</a></h6></li>
+<li><h6 id="酷安的termux的下载链接：点此下载"><a href="#酷安的termux的下载链接：点此下载" class="headerlink" title="酷安的termux的下载链接：点此下载"></a>酷安的termux的下载链接：<a href="https://www.coolapk.com/apk/com.termux" target="_blank" rel="noopener">点此下载</a></h6></li>
+</ul>
+<h3 id="更换国内镜像源"><a href="#更换国内镜像源" class="headerlink" title="更换国内镜像源"></a>更换国内镜像源</h3><p>安装好后建议先换上国内镜像源，避免未科学上网时下载失败或网速过慢。</p>
+<h6 id="更换清华大学镜像源使用如下命令："><a href="#更换清华大学镜像源使用如下命令：" class="headerlink" title="更换清华大学镜像源使用如下命令："></a>更换清华大学镜像源使用如下命令：</h6><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sed -i &#39;s@^\(deb.*stable main\)$@#\1\ndeb https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;termux stable main@&#39; $PREFIX&#x2F;etc&#x2F;apt&#x2F;sources.list</span><br></pre></td></tr></table></figure>
 
-<h3 id="语文"><a href="#语文" class="headerlink" title="语文"></a>语文</h3><ul>
-<li>乘风-腾讯课堂x9</li>
-<li><ul>
-<li>提分快，适合理科生</li>
-</ul>
+<p>相关帮助链接：<a href="https://mirror.tuna.tsinghua.edu.cn/help/termux/" target="_blank" rel="noopener">帮助链接</a></p>
+<h6 id="更换中国科学技术大学镜像源使用如下命令："><a href="#更换中国科学技术大学镜像源使用如下命令：" class="headerlink" title="更换中国科学技术大学镜像源使用如下命令："></a>更换中国科学技术大学镜像源使用如下命令：</h6><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sed -i &#39;s@^\(deb.*stable main\)$@#\1\ndeb https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;termux stable main@&#39; $PREFIX&#x2F;etc&#x2F;apt&#x2F;sources.list</span><br></pre></td></tr></table></figure>
+
+<p>相关帮助链接：<a href="http://mirrors.ustc.edu.cn/help/termux.html" target="_blank" rel="noopener">帮助链接</a></p>
+<p>换源后应及时更新镜像源，使用如下命令：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">apt clean</span><br><span class="line">pkg up</span><br></pre></td></tr></table></figure>
+
+<p>如国内镜像源出现问题、出现错误或不能下载到想要的软件，可以换回官方镜像源：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sed -i &#39;s@^\(deb.*stable main\)$@#\1\ndeb https:&#x2F;&#x2F;termux.net&#x2F; stable main@&#39; $PREFIX&#x2F;etc&#x2F;apt&#x2F;sources.list</span><br></pre></td></tr></table></figure>
+
+<p>当无法连接官方镜像源时应科学上网再次尝试。</p>
+<h3 id="linux基础命令"><a href="#linux基础命令" class="headerlink" title="linux基础命令"></a>linux基础命令</h3><p>termux是一个免root的linux模拟器，所以使用时应掌握一些linux的命令。当然没掌握也没关系，下面会有一些linux的基础命令供参考。</p>
+<table>
+<thead>
+<tr>
+<th align="center">命令</th>
+<th align="center">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">cd &lt;目录地址&gt;</td>
+<td align="center">打开目录地址</td>
+</tr>
+<tr>
+<td align="center">cp &lt;文件名&gt; &lt;目标目录地址&gt;</td>
+<td align="center">拷贝到目标目录地址</td>
+</tr>
+<tr>
+<td align="center">mkdir &lt;文件夹名&gt;</td>
+<td align="center">新建文件夹</td>
+</tr>
+<tr>
+<td align="center">rm &lt;文件名&gt;</td>
+<td align="center">删除文件</td>
+</tr>
+<tr>
+<td align="center">rm -rf &lt;文件夹名&gt;</td>
+<td align="center">删除文件夹</td>
+</tr>
+<tr>
+<td align="center">ls</td>
+<td align="center">查询该文件夹下文件及文件夹</td>
+</tr>
+</tbody></table>
+<p>更多命令请自行搜索相关资料。</p>
+<h3 id="安装软件及工具"><a href="#安装软件及工具" class="headerlink" title="安装软件及工具"></a>安装软件及工具</h3><p>这里给出安装我们需要的软件的命令，可根据需求自行更改。</p>
+<p>如使用官方镜像源，请科学上网。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pkg install vim clang python gdb cgdb curl</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>vim为编辑器，可自行更改为其它编辑器，但非常建议使用vim。学习vim的操作不会很难，常用的命令只有那么几个，习惯了就好。</p>
 </li>
-<li><ul>
-<li>文言文</li>
-</ul>
+<li><p>curl可以优化termux终端界面，酌情下载安装。</p>
 </li>
-<li>杨洋-腾讯课堂x8</li>
-<li><ul>
-<li>培养思维，作文讲的很好</li>
-</ul>
+<li><p>clang为C和C++编译器。</p>
 </li>
-<li>国家玮-新东方、大黄蜂课堂x6</li>
-<li><ul>
-<li>社科文古文都讲的不错</li>
-</ul>
+<li><p>python可以让我们制作一些对拍小程序，也有很多其它的玩法，酌情下载安装。</p>
 </li>
-<li><ul>
-<li>偏向于思维提升，讲法别出心裁</li>
-</ul>
+<li><p>gdb和cgdb为调试工具，可根据需要酌情下载安装。</p>
 </li>
-<li>董腾-有道精品课x2</li>
-<li><ul>
-<li>幽默风趣应试很强</li>
-</ul>
-</li>
-<li>王大绩-简单学习网</li>
-<li>谢明波</li>
-<li>王丹宁-原新东方</li>
-<li>陈焕文-乐学</li>
-<li><ul>
-<li>理科思维，理解难度会大</li>
-</ul>
-</li>
-</ul>
-<h3 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h3><ul>
-<li>周帅-高德x9</li>
-<li><ul>
-<li>每一个知识点都讲得特别全面，各个题型都有涉及</li>
-</ul>
-</li>
-<li><ul>
-<li>偏基础一点</li>
-</ul>
-</li>
-<li><ul>
-<li>授课内容集中、信息量大，讲题侧重培养思维，而非机械操作，课时多，知识点细。</li>
-</ul>
-</li>
-<li>郭化楠-有道精品课、学而思x5</li>
-<li><ul>
-<li>重视基础</li>
-</ul>
-</li>
-<li><ul>
-<li>非常注重基础，潜移默化的拓展知识之间的延伸</li>
-</ul>
-</li>
-<li><ul>
-<li>拔高（有道精品课）</li>
-</ul>
-</li>
-<li><ul>
-<li>全网最完美的“自学”视频，适合零基础。把知识点的来龙去脉讲的透彻，可以培养出真正的学术性人才</li>
-</ul>
-</li>
-<li>赵礼显-跟谁学x5</li>
-<li><ul>
-<li>拔高</li>
-</ul>
-</li>
-<li><ul>
-<li>课时少，课程主讲题型解题法，对基础知识讲解少，不适合基础差的人群。短期提分快。</li>
-</ul>
-</li>
-<li>凉学长-腾讯课堂x3</li>
-<li><ul>
-<li>方法巧妙</li>
-</ul>
-</li>
-<li>蔡德锦-腾讯课堂x2</li>
-<li><ul>
-<li>通过带你做题来深刻的理解这个知识点，适合拔高的同学</li>
-</ul>
-</li>
-<li><ul>
-<li>给人踏实很值得信赖的感觉，讲的真的很吸引人，效率很高，方法总结很到位，简介明了</li>
-</ul>
-</li>
-<li>鲲哥带你学数学-哔哩哔哩x2</li>
-<li>蒋叶光-领世培优</li>
-<li>建哥数学</li>
-<li>高中数学北师math杨-哔哩哔哩</li>
-<li>佟大大是ETT-哔哩哔哩</li>
-<li>讲高中数学的邓老师-哔哩哔哩</li>
-<li>高中数学蔡德锦老师-哔哩哔哩</li>
-<li>猪猪老师教数学-哔哩哔哩</li>
-<li>成都高中数学cdgzsxfml-哔哩哔哩</li>
-<li>司马红丽老师-精华在线</li>
-<li>李永乐老师-原精华、美提课堂</li>
-<li><ul>
-<li>思维训练</li>
-</ul>
-</li>
-<li>王梦抒-腾讯课堂</li>
-<li>数学超人-腾讯课堂</li>
-<li>关旭-前有道</li>
-<li><ul>
-<li>圆锥曲线</li>
-</ul>
-</li>
-<li>蒋叶光</li>
-<li><ul>
-<li>强推他的圆锥曲线，全网算是比较好的了,其他课程拔高，门槛较高</li>
-</ul>
-</li>
-<li>王文勇老师-勇哥数学APP</li>
-</ul>
-<h3 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h3><ul>
-<li>徐磊-跟谁学x10</li>
-<li><ul>
-<li>磊神，名不虚传</li>
-</ul>
-</li>
-<li>李辉-有道精品课x4</li>
-<li><ul>
-<li>方法论好，提分快</li>
-</ul>
-</li>
-<li>刘晓峰老师-原新东方</li>
-<li>麻雪玲老师-简单学习网</li>
-</ul>
-<h3 id="物理"><a href="#物理" class="headerlink" title="物理"></a>物理</h3><ul>
-<li>坤哥-腾讯课堂x7</li>
-<li><ul>
-<li>构造一个完美的物理知识体系，题型全部在他的课程之中，非常的优秀</li>
-</ul>
-</li>
-<li><ul>
-<li>基础</li>
-</ul>
-</li>
-<li>王羽-腾讯课堂x6</li>
-<li><ul>
-<li>拔高 </li>
-</ul>
-</li>
-<li>刘杰-有道精品课x3</li>
-<li><ul>
-<li>拔高 </li>
-</ul>
-</li>
-<li>坤哥物理-哔哩哔哩x2</li>
-<li>李楠老师-有道精品课x2</li>
-<li><ul>
-<li>拔高 </li>
-</ul>
-</li>
-<li>夏梦迪老师-新东方x2</li>
-<li><ul>
-<li>他能从最基础的内容说到最深层的知识，循序渐进，课堂生动有趣，有基础也有大招，同样课时较多</li>
-</ul>
-</li>
-<li><ul>
-<li>拔高 </li>
-</ul>
-</li>
-<li>陈老师敲黑板-哔哩哔哩</li>
-<li><ul>
-<li>清华附中物理老师，力学电学内容都有</li>
-</ul>
-</li>
-<li>物理X学姐-哔哩哔哩</li>
-<li><ul>
-<li>南京大学天文系的一位学姐，颜值与才华并存的一位up主，非常优秀。</li>
-</ul>
-</li>
-<li>大宽物理-哔哩哔哩</li>
-<li>曾珍</li>
-<li>珍哥物理</li>
-<li>郑少龙老师-猿辅导</li>
-<li><ul>
-<li>基础</li>
-</ul>
-</li>
-<li>李永乐老师-美提课堂</li>
-<li><ul>
-<li>基础</li>
-</ul>
-</li>
-<li>王文博</li>
-<li>肖嗣光（现在只做线下了）</li>
-<li>于冲-乐学</li>
-</ul>
-<h3 id="化学"><a href="#化学" class="headerlink" title="化学"></a>化学</h3><ul>
-<li>陆艳华-伴学优课、金榜在线x8</li>
-<li><ul>
-<li>适合基础差的，过掉所有高中知识点</li>
-</ul>
-</li>
-<li><ul>
-<li>选五看陆姐</li>
-</ul>
-</li>
-<li><ul>
-<li>全网风评最好的老师，没有之一</li>
-</ul>
-</li>
-<li>李政-乐学x8</li>
-<li><ul>
-<li>适合基础好的，完全不一样的眼界和视角，电化学直接打开新世界的大门</li>
-</ul>
-</li>
-<li><ul>
-<li>选三看政神</li>
-</ul>
-</li>
-<li>木子-腾讯课堂x2</li>
-<li><ul>
-<li>通俗易懂，方法好</li>
-</ul>
-</li>
-<li>高东辉老师-精华在线</li>
-<li><ul>
-<li>基础</li>
-</ul>
+<li><p>也可自行安装其它软件及工具。</p>
 </li>
 </ul>
-<h3 id="生物"><a href="#生物" class="headerlink" title="生物"></a>生物</h3><ul>
-<li>周芳煜-腾讯课堂x8</li>
-<li><ul>
-<li>可爱（？）</li>
+<h3 id="vim的使用"><a href="#vim的使用" class="headerlink" title="vim的使用"></a>vim的使用</h3><p>下面是vim的一些简单命令。</p>
+<table>
+<thead>
+<tr>
+<th align="center">命令</th>
+<th align="center">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">vim &lt;文件名&gt;</td>
+<td align="center">编辑文件，若文件不存在则自动创建新文件</td>
+</tr>
+<tr>
+<td align="center">i</td>
+<td align="center">切换到编辑模式</td>
+</tr>
+<tr>
+<td align="center">ESC</td>
+<td align="center">退出编辑模式</td>
+</tr>
+<tr>
+<td align="center">:x</td>
+<td align="center">保存退出</td>
+</tr>
+<tr>
+<td align="center">:q</td>
+<td align="center">未改动退出</td>
+</tr>
+<tr>
+<td align="center">:q!</td>
+<td align="center">不保存退出</td>
+</tr>
+</tbody></table>
+<p>更多命令请自行搜索相关资料。</p>
+<h3 id="C-的编译与运行"><a href="#C-的编译与运行" class="headerlink" title="C++的编译与运行"></a>C++的编译与运行</h3><h4 id="编译："><a href="#编译：" class="headerlink" title="编译："></a>编译：</h4><p>切换到cpp文件目录（cd &lt;目录&gt;）后命令如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">g++ &lt;cpp代码文件&gt; -o &lt;生成程序名&gt;</span><br></pre></td></tr></table></figure>
+
+<p>如：</p>
+<p>g++ hello.cpp -o hello</p>
+<p>即可在该目录下生成名为hello的可执行文件。</p>
+<h4 id="运行："><a href="#运行：" class="headerlink" title="运行："></a>运行：</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.&#x2F;&lt;可执行文件名&gt;</span><br></pre></td></tr></table></figure>
+
+<p>如:</p>
+<p>./hello</p>
+<p>即可执行hello程序。</p>
+<p>如出现错误：permission denied</p>
+<p>则说明没有权限访问该程序，此时输入：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">chmod +x &lt;程序名&gt;</span><br></pre></td></tr></table></figure>
+
+<p>如：</p>
+<p>chmod +x hello</p>
+<p>即可执行。</p>
+<h3 id="可选步骤"><a href="#可选步骤" class="headerlink" title="可选步骤"></a>可选步骤</h3><p>以下为可选步骤，但非常建议做一做。</p>
+<ul>
+<li><h5 id="创建工作目录"><a href="#创建工作目录" class="headerlink" title="创建工作目录"></a>创建工作目录</h5></li>
 </ul>
+<p>建议在根目录中新建一个文件夹作为工作目录，如果你比较懒，之后直接在根目录中编辑文件也是可以的。</p>
+<p>名字建议用纯英文字母，方便进入。</p>
+<p>建议不使用会与命令起冲突的名字，比如gcc，cpp。</p>
+<ul>
+<li><h5 id="配置vim"><a href="#配置vim" class="headerlink" title="配置vim"></a>配置vim</h5></li>
+</ul>
+<p>其实可以不配置，但是非常建议配置。</p>
+<p>配置之后会给打代码增添不少便利。</p>
+<p>执行如下命令：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vim ~&#x2F;.vimrc</span><br></pre></td></tr></table></figure>
+<p>将以下内容复制粘贴进去保存即可。</p>
+<p>可根据需要自行修改。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">&quot; 设置当文件被改动时自动载入&quot;</span><br><span class="line">set autoread</span><br><span class="line">&quot; quickfix模式&quot;</span><br><span class="line">autocmd FileType c,cpp map &lt;buffer&gt; &lt;leader&gt;&lt;space&gt; :w&lt;cr&gt;:make&lt;cr&gt;</span><br><span class="line">&quot;代码补全 &quot;</span><br><span class="line">set completeopt&#x3D;preview,menu </span><br><span class="line">&quot;允许插件  &quot;</span><br><span class="line">filetype plugin on</span><br><span class="line">&quot;共享剪贴板  &quot;</span><br><span class="line">set clipboard&#x3D;unnamed </span><br><span class="line">&quot;从不备份  &quot;</span><br><span class="line">set nobackup</span><br><span class="line">&quot;自动保存&quot;</span><br><span class="line">set autowrite</span><br><span class="line">set ruler  &quot; 打开状态栏标尺&quot;</span><br><span class="line">set cursorline  &quot;突出显示当前行&quot;</span><br><span class="line">set magic  &quot; 设置魔术&quot;</span><br><span class="line">set guioptions-&#x3D;T  &quot;隐藏工具栏&quot;</span><br><span class="line">set guioptions-&#x3D;m  &quot;隐藏菜单栏&quot;</span><br><span class="line">set foldcolumn&#x3D;0</span><br><span class="line">set foldmethod&#x3D;indent </span><br><span class="line">set foldlevel&#x3D;3 </span><br><span class="line">set foldenable  &quot; 开始折叠&quot;</span><br><span class="line">&quot; 不要使用vi的键盘模式，而是vim自己的&quot;</span><br><span class="line">set nocompatible</span><br><span class="line">&quot; 语法高亮&quot;</span><br><span class="line">set syntax&#x3D;on</span><br><span class="line">&quot; 去掉输入错误的提示声音&quot;</span><br><span class="line">set noeb</span><br><span class="line">&quot; 在处理未保存或只读文件的时候，弹出确认&quot;</span><br><span class="line">set confirm</span><br><span class="line">&quot;自动缩进 &quot;</span><br><span class="line">set autoindent</span><br><span class="line">set cindent</span><br><span class="line">&quot; Tab键的宽度&quot;</span><br><span class="line">set tabstop&#x3D;4</span><br><span class="line">&quot; 统一缩进为4&quot;</span><br><span class="line">set softtabstop&#x3D;4</span><br><span class="line">set shiftwidth&#x3D;4</span><br><span class="line">&quot; 不要用空格代替制表符&quot;</span><br><span class="line">set noexpandtab</span><br><span class="line">&quot; 在行和段开始处使用制表符&quot;</span><br><span class="line">set smarttab</span><br><span class="line">&quot; 显示行号&quot;</span><br><span class="line">set number</span><br><span class="line">&quot; 历史记录数&quot;</span><br><span class="line">set history&#x3D;1000</span><br><span class="line">&quot;禁止生成临时文件&quot;</span><br><span class="line">set nobackup</span><br><span class="line">set noswapfile</span><br><span class="line">&quot;搜索忽略大小写&quot;</span><br><span class="line">set ignorecase</span><br><span class="line">&quot;搜索逐字符高亮&quot;</span><br><span class="line">set hlsearch</span><br><span class="line">set incsearch</span><br><span class="line">&quot;行内替换&quot;</span><br><span class="line">set gdefault</span><br><span class="line">&quot;编码设置&quot;</span><br><span class="line">set enc&#x3D;utf-8</span><br><span class="line">set fencs&#x3D;utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936</span><br><span class="line">&quot;语言设置&quot;</span><br><span class="line">set langmenu&#x3D;zh_CN.UTF-8</span><br><span class="line">set helplang&#x3D;cn</span><br><span class="line">&quot; 我的状态行显示的内容（包括文件类型和解码）&quot;</span><br><span class="line">set statusline&#x3D;[%F]%y%r%m%*%&#x3D;[Line:%l&#x2F;%L,Column:%c][%p%%]</span><br><span class="line">&quot; 总是显示状态行&quot;</span><br><span class="line">set laststatus&#x3D;2</span><br><span class="line">&quot; 命令行（在状态行下）的高度，默认为1，这里是2&quot;</span><br><span class="line">set cmdheight&#x3D;2</span><br><span class="line">&quot; 侦测文件类型&quot;</span><br><span class="line">filetype on</span><br><span class="line">&quot; 载入文件类型插件&quot;</span><br><span class="line">filetype plugin on</span><br><span class="line">&quot; 为特定文件类型载入相关缩进文件&quot;</span><br><span class="line">filetype indent on</span><br><span class="line">&quot; 保存全局变量&quot;</span><br><span class="line">set viminfo+&#x3D;!</span><br><span class="line">&quot; 带有如下符号的单词不要被换行分割&quot;</span><br><span class="line">set iskeyword+&#x3D;_,$,@,%,#,-</span><br><span class="line">&quot; 字符间插入的像素行数目&quot;</span><br><span class="line">set linespace&#x3D;0</span><br><span class="line">&quot; 增强模式中的命令行自动完成操作&quot;</span><br><span class="line">set wildmenu</span><br><span class="line">&quot; 使回格键（backspace）正常处理indent, eol, start等&quot;</span><br><span class="line">set backspace&#x3D;2</span><br><span class="line">&quot; 允许backspace和光标键跨越行边界&quot;</span><br><span class="line">set whichwrap+&#x3D;&lt;,&gt;,h,l</span><br><span class="line">&quot; 可以在buffer的任何地方使用鼠标（类似office中在工作区双击鼠标定位）&quot;</span><br><span class="line">set mouse&#x3D;a</span><br><span class="line">set selection&#x3D;exclusive</span><br><span class="line">set selectmode&#x3D;mouse,key</span><br><span class="line">&quot; 通过使用: commands命令，告诉我们文件的哪一行被改变过&quot;</span><br><span class="line">set report&#x3D;0</span><br><span class="line">&quot; 高亮显示匹配的括号&quot;</span><br><span class="line">set showmatch</span><br><span class="line">&quot; 匹配括号高亮的时间（单位是十分之一秒）&quot;</span><br><span class="line">set matchtime&#x3D;1</span><br><span class="line">&quot; 光标移动到buffer的顶部和底部时保持3行距离&quot;</span><br><span class="line">set scrolloff&#x3D;3</span><br><span class="line">&quot; 为C程序提供自动缩进&quot;</span><br><span class="line">set smartindent</span><br><span class="line">&quot; 高亮显示普通txt文件（需要txt.vim脚本）&quot;</span><br><span class="line"> au BufRead,BufNewFile *  setfiletype txt</span><br><span class="line">&quot;自动补全&quot;</span><br><span class="line">:inoremap ( ()&lt;ESC&gt;i</span><br><span class="line">:inoremap ) &lt;c-r&gt;&#x3D;ClosePair(&#39;)&#39;)&lt;CR&gt;</span><br><span class="line">:inoremap &#123; &#123;&lt;CR&gt;&#125;&lt;ESC&gt;O</span><br><span class="line">:inoremap &#125; &lt;c-r&gt;&#x3D;ClosePair(&#39;&#125;&#39;)&lt;CR&gt;</span><br><span class="line">:inoremap [ []&lt;ESC&gt;i</span><br><span class="line">:inoremap ] &lt;c-r&gt;&#x3D;ClosePair(&#39;]&#39;)&lt;CR&gt;</span><br><span class="line">:inoremap &quot; &quot;&quot;&lt;ESC&gt;i</span><br><span class="line">:inoremap &#39; &#39;&#39;&lt;ESC&gt;i</span><br><span class="line">function! ClosePair(char)</span><br><span class="line">    if getline(&#39;.&#39;)[col(&#39;.&#39;) - 1] &#x3D;&#x3D; a:char</span><br><span class="line">        return &quot;&#x2F;&lt;Right&gt;&quot;</span><br><span class="line">    else</span><br><span class="line">        return a:char</span><br><span class="line">    endif</span><br><span class="line">endfunction</span><br><span class="line">filetype plugin indent on </span><br><span class="line">&quot;打开文件类型检测, 加了这句才可以用智能补全&quot;</span><br><span class="line">set completeopt&#x3D;longest,menu</span><br><span class="line">&quot;C++的编译和运行  &quot;</span><br><span class="line">&quot;编译运行&quot;</span><br><span class="line">map &lt;F10&gt; :call CompileRunGpp()&lt;CR&gt;  </span><br><span class="line">func! CompileRunGpp()  </span><br><span class="line">exec &quot;w&quot;  </span><br><span class="line">exec &quot;!g++ % -o %&lt;&quot;  </span><br><span class="line">exec &quot;! .&#x2F;%&lt;&quot;  </span><br><span class="line">endfunc</span><br><span class="line">&quot;编译&quot;</span><br><span class="line">map &lt;F8&gt; :call CompileGpp()&lt;cr&gt;  </span><br><span class="line">func! CompileGpp()  </span><br><span class="line">exec &quot;w&quot;  </span><br><span class="line">exec &quot;!g++ % -o %&lt;&quot;  </span><br><span class="line">endfunc</span><br><span class="line">&quot;运行&quot;</span><br><span class="line">map &lt;F9&gt; :call RunGpp()&lt;cr&gt;    </span><br><span class="line">func! RunGpp()    </span><br><span class="line">exec &quot;w&quot;    </span><br><span class="line">exec &quot;! .&#x2F;%&lt;&quot;    </span><br><span class="line">endfunc</span><br></pre></td></tr></table></figure>
+
+<p>保存后再次进入一个cpp文件时，编辑将会更加方便，并可以在vim编辑器中直接编译和运行。</p>
+<h6 id="操作方法为："><a href="#操作方法为：" class="headerlink" title="操作方法为："></a>操作方法为：</h6><table>
+<thead>
+<tr>
+<th align="center">按键</th>
+<th align="center">作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">F8（音量+键+ 8）</td>
+<td align="center">编译</td>
+</tr>
+<tr>
+<td align="center">F9（音量+键 + 9）</td>
+<td align="center">运行</td>
+</tr>
+<tr>
+<td align="center">F10（音量+键 + 0）</td>
+<td align="center">编译并运行</td>
+</tr>
+</tbody></table>
+<p>当然，也可以模仿上面的代码创造自己的快捷键，比如gdb调试。</p>
+<ul>
+<li><h5 id="优化termux终端界面"><a href="#优化termux终端界面" class="headerlink" title="优化termux终端界面"></a>优化termux终端界面</h5></li>
+</ul>
+<p>使用zsh来替代bash作为默认shell。</p>
+<p>在已安装curl的情况下使用以下命令：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">sh -c &quot;$(curl -fsSL https:&#x2F;&#x2F;github.com&#x2F;Cabbagec&#x2F;termux-ohmyzsh&#x2F;raw&#x2F;master&#x2F;install.sh)&quot;</span><br></pre></td></tr></table></figure>
+
+<p>Android 6.0以上可能会弹框确认是否授权访问文件，点击允许，之后会在termux根目录生成storage目录，可以方便地对外部文件进行操作。</p>
+<p>安装成功后先后会有两个选项，分别选择背景色和字体，如下：</p>
+<p>Enter a number, leave blank to not to change:</p>
+<p>Enter a number, leave blank to not to change: </p>
+<p>我选的是14和6，仅供参考。</p>
+<p>如果希望再次更改配色，可执行如下命令：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">~&#x2F;termux-ohmyzsh&#x2F;install.sh</span><br></pre></td></tr></table></figure>
+<p>重启软件或开启新session生效。</p>
+<ul>
+<li><h5 id="修改启动问候语"><a href="#修改启动问候语" class="headerlink" title="修改启动问候语"></a>修改启动问候语</h5></li>
+</ul>
+<p>可以编辑问候语文件直接修改问候语。</p>
+<p>输入如下命令即可修改：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vim $PREFIX&#x2F;etc&#x2F;motd</span><br></pre></td></tr></table></figure>
+<p>保存重启即可。</p>
+<h3 id="termux的其他玩法"><a href="#termux的其他玩法" class="headerlink" title="termux的其他玩法"></a>termux的其他玩法</h3><ul>
+<li><p>termux可以在手机上安装正规linux，比如ubuntu、kali，并能安装桌面（也就是说可以图形化操作）， 但NOI linux除外（大雾） ；</p>
 </li>
-<li><ul>
-<li>提分最快，遗传秒解</li>
-</ul>
+<li><p>termux可以愉快地玩耍python，制作网络爬虫、微信机器人以及其它；</p>
 </li>
-<li>张继光-跟谁学x6</li>
-<li>万猛-有道精品课x2</li>
-<li><ul>
-<li>提高思维提分快</li>
-</ul>
+<li><p>在termux上安装kali-linux及其它安全工具，靠自己来暴力破解WIFI， 并从此走上CTF的不归路（大雾） ；</p>
 </li>
-<li>万猛老师-作业帮x2</li>
-<li>张云翼_channel-哔哩哔哩</li>
-<li><ul>
-<li>为清华大学在读博士</li>
-</ul>
+<li><p>在termux上运用php和WordPress或hexo搭建网站和博客；</p>
 </li>
-<li>冯博</li>
-</ul>
-<h3 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h3><ul>
-<li>马宇轩x4</li>
-<li>刘勖雯-腾讯课堂x3</li>
-<li><ul>
-<li>技巧讲解，题库强大</li>
-</ul>
+<li><p>用termux ssh远程连接电脑，从此躺在床上就可以操作电脑；</p>
 </li>
-<li>桑宏斌</li>
-<li>李谓</li>
-<li><ul>
-<li>基础</li>
-</ul>
+<li><p>在termux上使用Aria2打造自己的下载工具，配置好的话还可以高速下载百度云文件；</p>
+</li>
+<li><p>安装Termux-api，直接操作调动系统底层，用代码发短信、打电话。</p>
 </li>
 </ul>
-<h3 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h3><ul>
-<li>刘勖雯-腾讯课堂x3</li>
-<li><ul>
-<li>技巧讲解，题库强大，推荐</li>
-</ul>
-</li>
-<li>定哥x3</li>
-<li><ul>
-<li>零基础</li>
-</ul>
-</li>
-<li>李光-精华课堂x2</li>
-<li><ul>
-<li>拔高</li>
-</ul>
-</li>
-<li>褚润x2</li>
-<li>韩校-简单学习网</li>
-<li>刘旭</li>
-<li>关也</li>
-<li><ul>
-<li>拔高</li>
-</ul>
-</li>
-</ul>
-<h3 id="地理"><a href="#地理" class="headerlink" title="地理"></a>地理</h3><ul>
-<li>包易正-有道x4</li>
-<li><ul>
-<li>基础，推荐</li>
-</ul>
-</li>
-<li>刘勖雯-腾讯课堂x3</li>
-<li><ul>
-<li>技巧讲解，题库强大</li>
-</ul>
-</li>
-<li>张艳萍x3</li>
-<li>张艳平-大地经纬网校x2</li>
-</ul>
-<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721123841.png" alt=""></p>
+<hr>
+<p>termux作为一个linux模拟器，可实现的功能远远不止打打C++和python的代码，希望有更多的人能够认识termux的强大并挖掘出更多玩法，也希望能够有更多关于termux的优秀文章出现。</p>
+<h6 id="文章部分内容引用地址："><a href="#文章部分内容引用地址：" class="headerlink" title="文章部分内容引用地址："></a>文章部分内容引用地址：</h6><p><a href="https://www.sqlsec.com/2018/05/termux.html" target="_blank" rel="noopener">https://www.sqlsec.com/2018/05/termux.html</a></p>
+<p><a href="https://www.cnblogs.com/jokerBi/articles/10609264.html" target="_blank" rel="noopener">https://www.cnblogs.com/jokerBi/articles/10609264.html</a></p>
+<h6 id="推荐阅读："><a href="#推荐阅读：" class="headerlink" title="推荐阅读："></a>推荐阅读：</h6><p>知乎专栏：<a href="https://zhuanlan.zhihu.com/c_1208079877376901120" target="_blank" rel="noopener">安卓手机配合linux新玩法挖掘</a></p>
+<p>…</p>
+<p>…</p>
+<p>…</p>
+<p>…</p>
+<p>…</p>
+<p>彩蛋：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pkg install nyancat</span><br><span class="line">nyancat</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>其他</category>
-        <category>文化课</category>
       </categories>
       <tags>
-        <tag>整理</tag>
-        <tag>网课</tag>
+        <tag>原创</tag>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搬家啦</title>
+    <url>/newhome/</url>
+    <content><![CDATA[<p>搬家啦！</p>
+<p>之前博客用了一段时间的阮行止大佬的生成器（经过同意了），后来自己想拓展一些功能，然后就发现要拓展功能的话只能自己写代码，可我太菜了不会PHP不会HTML不会CSS，所以只能改用Hexo/kk</p>
+<p>以后可能会出关于Hexo的搭建教程和调教教程吧qwq</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>bilibili屏蔽区块代码</title>
+    <url>/bilibilipingbiqukuai/</url>
+    <content><![CDATA[<p>不喜欢b站的某些板块？来看看这篇文章吧awa</p>
+<a id="more"></a>
+
+<p>准备：谷歌浏览器、机场</p>
+<p>使用方法：</p>
+<ol>
+<li>谷歌浏览器下载<code>stylish</code>这个插件</li>
+<li>打开<a href="https://userstyles.org/styles/144506/2019-9-13-bilibili" target="_blank" rel="noopener">这个链接</a>，安装</li>
+<li>点击<code>stylish</code>插件按钮，点右上角三个点，管理样式</li>
+<li>点击修改，全选删除，将下面这段代码粘贴在上面，保存，生效（可以根据自己的情况删改）</li>
+</ol>
+<p>注：配合这个<a href="https://userstyles.org/styles/176432/bilibili" target="_blank" rel="noopener">美化插件</a>使用更佳</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;*分区块中的横条广告(全站)*&#x2F;</span><br><span class="line">.banner-card &#123;display: none;&#125;</span><br><span class="line">&#x2F;*分区块中的横条广告(全站) 旧版*&#x2F;</span><br><span class="line">.gg-floor-module &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*页尾部分(全站)*&#x2F;</span><br><span class="line">.international-footer &#123;display: none;&#125;</span><br><span class="line">&#x2F;*整个导航栏(全站)*&#x2F;</span><br><span class="line">&#x2F;*</span><br><span class="line">.b-wrap &#123;display: none;&#125;</span><br><span class="line">*&#x2F;</span><br><span class="line">&#x2F;*最顶行(幻灯片行)*&#x2F;</span><br><span class="line">#reportFirst1 &#123;display: none;&#125;</span><br><span class="line">&#x2F;*最顶行(幻灯片行)旧版*&#x2F;</span><br><span class="line">#chief_recommend &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*推广(顶部第二行)*&#x2F;</span><br><span class="line">#reportFirst2 &#123;display: none;&#125;</span><br><span class="line">&#x2F;*推广(顶部第二行) 旧版*&#x2F;</span><br><span class="line">#home_popularize &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*侧边栏*&#x2F;</span><br><span class="line">#elevator &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*导航栏两边*&#x2F;</span><br><span class="line">#primaryPageTab &#123;display: none;&#125;</span><br><span class="line">#primaryFriendshipLink &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*直播(顶部第三行)*&#x2F;</span><br><span class="line">#bili_live &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;0&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*动画*&#x2F;</span><br><span class="line">#bili_douga &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;1&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*番剧*&#x2F;</span><br><span class="line">#bili_anime &#123;display: none;&#125;</span><br><span class="line">&#x2F;*番剧 旧版*&#x2F;</span><br><span class="line">#bili_bangumi &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;2&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*国创*&#x2F;</span><br><span class="line">#bili_guochuang &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;3&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*漫画 旧版*&#x2F;</span><br><span class="line">#bili_manga &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;4&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*音乐*&#x2F;</span><br><span class="line">#bili_music &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;5&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*舞蹈*&#x2F;</span><br><span class="line">#bili_dance &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;6&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*游戏*&#x2F;</span><br><span class="line">#bili_game &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;7&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*科技*&#x2F;</span><br><span class="line">#bili_technology &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;8&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*数码*&#x2F;</span><br><span class="line">#bili_digital &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;9&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*生活*&#x2F;</span><br><span class="line">#bili_life &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;10&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*鬼畜*&#x2F;</span><br><span class="line">#bili_kichiku &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;11&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*广告*&#x2F;</span><br><span class="line">#bili_ad &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;13&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*时尚*&#x2F;</span><br><span class="line">#bili_fashion &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;12&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*资讯*&#x2F;</span><br><span class="line">#bili_report_information &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;13&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*娱乐*&#x2F;</span><br><span class="line">#bili_ent &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;14&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*专栏*&#x2F;</span><br><span class="line">#bili_read &#123;display: none;&#125;</span><br><span class="line">&#x2F;*专栏 旧版*&#x2F;</span><br><span class="line">#bili_article &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;15&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*电影*&#x2F;</span><br><span class="line">#bili_movie &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;16&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*TV剧*&#x2F;</span><br><span class="line">#bili_teleplay &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;17&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*影视*&#x2F;</span><br><span class="line">#bili_cinephile &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;18&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*纪录片*&#x2F;</span><br><span class="line">#bili_documentary &#123;display: none;&#125;</span><br><span class="line">.nav-list&gt;[sortindex&#x3D;&quot;19&quot;] &#123;display: none;&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*特别推荐(最后一行)*&#x2F;</span><br><span class="line">#bili_report_spe_rec &#123;display: none;&#125;</span><br><span class="line">&#x2F;*特别推荐(最后一行) 旧版*&#x2F;</span><br><span class="line">#special_recommend &#123;display: none;&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>其他</category>
+        <category>美化网站</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
       </tags>
   </entry>
 </search>
