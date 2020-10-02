@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>欢迎来到jwj的博客awa</title>
+    <url>/index/</url>
+    <content><![CDATA[<p>欢迎来到我的博客！</p>
+<p>我是jwj，菜得一哔，但正在试图强大。</p>
+<p>这里将会存放一些杂七杂八的东西和日常，既然进来了就随便逛逛呗awa</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>bilibili屏蔽区块代码</title>
     <url>/bilibilipingbiqukuai/</url>
     <content><![CDATA[<p>不喜欢b站的某些板块？来看看这篇文章吧awa</p>
@@ -23,20 +37,6 @@
       </categories>
       <tags>
         <tag>CSS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搬家啦</title>
-    <url>/newhome/</url>
-    <content><![CDATA[<p>搬家啦！</p>
-<p>之前博客用了一段时间的阮行止大佬的生成器（经过同意了），后来自己想拓展一些功能，然后就发现要拓展功能的话只能自己写代码，可我太菜了不会PHP不会HTML不会CSS，所以只能改用Hexo/kk</p>
-<p>以后可能会出关于Hexo的搭建教程和调教教程吧qwq</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
       </tags>
   </entry>
   <entry>
@@ -216,237 +216,6 @@
       <tags>
         <tag>整理</tag>
         <tag>OI题目</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在手机上使用termux写C++代码</title>
-    <url>/termuxandcpp/</url>
-    <content><![CDATA[<p>本文将会介绍如何使用termux写C++代码并编译运行。</p>
-<p>本文无任何图片 （惊了） ，流量党可放心围观。</p>
-<p>纯手打，请大家多多支持一下~</p>
-<a id="more"></a>
-
-<hr>
-<h3 id="下载安装termux"><a href="#下载安装termux" class="headerlink" title="下载安装termux"></a>下载安装termux</h3><p>下载安装前手机建议腾出500MB以上的空间。<br>如果可以科学上网建议在谷歌应用商店下载。<br>如果不能科学上网建议在酷安下载。</p>
-<ul>
-<li><h6 id="谷歌的termux的下载链接：点此下载"><a href="#谷歌的termux的下载链接：点此下载" class="headerlink" title="谷歌的termux的下载链接：点此下载"></a>谷歌的termux的下载链接：<a href="https://play.google.com/store/apps/details?id=com.termux" target="_blank" rel="noopener">点此下载</a></h6></li>
-<li><h6 id="酷安的termux的下载链接：点此下载"><a href="#酷安的termux的下载链接：点此下载" class="headerlink" title="酷安的termux的下载链接：点此下载"></a>酷安的termux的下载链接：<a href="https://www.coolapk.com/apk/com.termux" target="_blank" rel="noopener">点此下载</a></h6></li>
-</ul>
-<h3 id="更换国内镜像源"><a href="#更换国内镜像源" class="headerlink" title="更换国内镜像源"></a>更换国内镜像源</h3><p>安装好后建议先换上国内镜像源，避免未科学上网时下载失败或网速过慢。</p>
-<h6 id="更换清华大学镜像源使用如下命令："><a href="#更换清华大学镜像源使用如下命令：" class="headerlink" title="更换清华大学镜像源使用如下命令："></a>更换清华大学镜像源使用如下命令：</h6><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sed -i &#39;s@^\(deb.*stable main\)$@#\1\ndeb https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;termux stable main@&#39; $PREFIX&#x2F;etc&#x2F;apt&#x2F;sources.list</span><br></pre></td></tr></table></figure>
-
-<p>相关帮助链接：<a href="https://mirror.tuna.tsinghua.edu.cn/help/termux/" target="_blank" rel="noopener">帮助链接</a></p>
-<h6 id="更换中国科学技术大学镜像源使用如下命令："><a href="#更换中国科学技术大学镜像源使用如下命令：" class="headerlink" title="更换中国科学技术大学镜像源使用如下命令："></a>更换中国科学技术大学镜像源使用如下命令：</h6><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sed -i &#39;s@^\(deb.*stable main\)$@#\1\ndeb https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;termux stable main@&#39; $PREFIX&#x2F;etc&#x2F;apt&#x2F;sources.list</span><br></pre></td></tr></table></figure>
-
-<p>相关帮助链接：<a href="http://mirrors.ustc.edu.cn/help/termux.html" target="_blank" rel="noopener">帮助链接</a></p>
-<p>换源后应及时更新镜像源，使用如下命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">apt clean</span><br><span class="line">pkg up</span><br></pre></td></tr></table></figure>
-
-<p>如国内镜像源出现问题、出现错误或不能下载到想要的软件，可以换回官方镜像源：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sed -i &#39;s@^\(deb.*stable main\)$@#\1\ndeb https:&#x2F;&#x2F;termux.net&#x2F; stable main@&#39; $PREFIX&#x2F;etc&#x2F;apt&#x2F;sources.list</span><br></pre></td></tr></table></figure>
-
-<p>当无法连接官方镜像源时应科学上网再次尝试。</p>
-<h3 id="linux基础命令"><a href="#linux基础命令" class="headerlink" title="linux基础命令"></a>linux基础命令</h3><p>termux是一个免root的linux模拟器，所以使用时应掌握一些linux的命令。当然没掌握也没关系，下面会有一些linux的基础命令供参考。</p>
-<table>
-<thead>
-<tr>
-<th align="center">命令</th>
-<th align="center">含义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">cd &lt;目录地址&gt;</td>
-<td align="center">打开目录地址</td>
-</tr>
-<tr>
-<td align="center">cp &lt;文件名&gt; &lt;目标目录地址&gt;</td>
-<td align="center">拷贝到目标目录地址</td>
-</tr>
-<tr>
-<td align="center">mkdir &lt;文件夹名&gt;</td>
-<td align="center">新建文件夹</td>
-</tr>
-<tr>
-<td align="center">rm &lt;文件名&gt;</td>
-<td align="center">删除文件</td>
-</tr>
-<tr>
-<td align="center">rm -rf &lt;文件夹名&gt;</td>
-<td align="center">删除文件夹</td>
-</tr>
-<tr>
-<td align="center">ls</td>
-<td align="center">查询该文件夹下文件及文件夹</td>
-</tr>
-</tbody></table>
-<p>更多命令请自行搜索相关资料。</p>
-<h3 id="安装软件及工具"><a href="#安装软件及工具" class="headerlink" title="安装软件及工具"></a>安装软件及工具</h3><p>这里给出安装我们需要的软件的命令，可根据需求自行更改。</p>
-<p>如使用官方镜像源，请科学上网。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pkg install vim clang python gdb cgdb curl</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><p>vim为编辑器，可自行更改为其它编辑器，但非常建议使用vim。学习vim的操作不会很难，常用的命令只有那么几个，习惯了就好。</p>
-</li>
-<li><p>curl可以优化termux终端界面，酌情下载安装。</p>
-</li>
-<li><p>clang为C和C++编译器。</p>
-</li>
-<li><p>python可以让我们制作一些对拍小程序，也有很多其它的玩法，酌情下载安装。</p>
-</li>
-<li><p>gdb和cgdb为调试工具，可根据需要酌情下载安装。</p>
-</li>
-<li><p>也可自行安装其它软件及工具。</p>
-</li>
-</ul>
-<h3 id="vim的使用"><a href="#vim的使用" class="headerlink" title="vim的使用"></a>vim的使用</h3><p>下面是vim的一些简单命令。</p>
-<table>
-<thead>
-<tr>
-<th align="center">命令</th>
-<th align="center">含义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">vim &lt;文件名&gt;</td>
-<td align="center">编辑文件，若文件不存在则自动创建新文件</td>
-</tr>
-<tr>
-<td align="center">i</td>
-<td align="center">切换到编辑模式</td>
-</tr>
-<tr>
-<td align="center">ESC</td>
-<td align="center">退出编辑模式</td>
-</tr>
-<tr>
-<td align="center">:x</td>
-<td align="center">保存退出</td>
-</tr>
-<tr>
-<td align="center">:q</td>
-<td align="center">未改动退出</td>
-</tr>
-<tr>
-<td align="center">:q!</td>
-<td align="center">不保存退出</td>
-</tr>
-</tbody></table>
-<p>更多命令请自行搜索相关资料。</p>
-<h3 id="C-的编译与运行"><a href="#C-的编译与运行" class="headerlink" title="C++的编译与运行"></a>C++的编译与运行</h3><h4 id="编译："><a href="#编译：" class="headerlink" title="编译："></a>编译：</h4><p>切换到cpp文件目录（cd &lt;目录&gt;）后命令如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">g++ &lt;cpp代码文件&gt; -o &lt;生成程序名&gt;</span><br></pre></td></tr></table></figure>
-
-<p>如：</p>
-<p>g++ hello.cpp -o hello</p>
-<p>即可在该目录下生成名为hello的可执行文件。</p>
-<h4 id="运行："><a href="#运行：" class="headerlink" title="运行："></a>运行：</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.&#x2F;&lt;可执行文件名&gt;</span><br></pre></td></tr></table></figure>
-
-<p>如:</p>
-<p>./hello</p>
-<p>即可执行hello程序。</p>
-<p>如出现错误：permission denied</p>
-<p>则说明没有权限访问该程序，此时输入：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">chmod +x &lt;程序名&gt;</span><br></pre></td></tr></table></figure>
-
-<p>如：</p>
-<p>chmod +x hello</p>
-<p>即可执行。</p>
-<h3 id="可选步骤"><a href="#可选步骤" class="headerlink" title="可选步骤"></a>可选步骤</h3><p>以下为可选步骤，但非常建议做一做。</p>
-<ul>
-<li><h5 id="创建工作目录"><a href="#创建工作目录" class="headerlink" title="创建工作目录"></a>创建工作目录</h5></li>
-</ul>
-<p>建议在根目录中新建一个文件夹作为工作目录，如果你比较懒，之后直接在根目录中编辑文件也是可以的。</p>
-<p>名字建议用纯英文字母，方便进入。</p>
-<p>建议不使用会与命令起冲突的名字，比如gcc，cpp。</p>
-<ul>
-<li><h5 id="配置vim"><a href="#配置vim" class="headerlink" title="配置vim"></a>配置vim</h5></li>
-</ul>
-<p>其实可以不配置，但是非常建议配置。</p>
-<p>配置之后会给打代码增添不少便利。</p>
-<p>执行如下命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vim ~&#x2F;.vimrc</span><br></pre></td></tr></table></figure>
-<p>将以下内容复制粘贴进去保存即可。</p>
-<p>可根据需要自行修改。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">&quot; 设置当文件被改动时自动载入&quot;</span><br><span class="line">set autoread</span><br><span class="line">&quot; quickfix模式&quot;</span><br><span class="line">autocmd FileType c,cpp map &lt;buffer&gt; &lt;leader&gt;&lt;space&gt; :w&lt;cr&gt;:make&lt;cr&gt;</span><br><span class="line">&quot;代码补全 &quot;</span><br><span class="line">set completeopt&#x3D;preview,menu </span><br><span class="line">&quot;允许插件  &quot;</span><br><span class="line">filetype plugin on</span><br><span class="line">&quot;共享剪贴板  &quot;</span><br><span class="line">set clipboard&#x3D;unnamed </span><br><span class="line">&quot;从不备份  &quot;</span><br><span class="line">set nobackup</span><br><span class="line">&quot;自动保存&quot;</span><br><span class="line">set autowrite</span><br><span class="line">set ruler  &quot; 打开状态栏标尺&quot;</span><br><span class="line">set cursorline  &quot;突出显示当前行&quot;</span><br><span class="line">set magic  &quot; 设置魔术&quot;</span><br><span class="line">set guioptions-&#x3D;T  &quot;隐藏工具栏&quot;</span><br><span class="line">set guioptions-&#x3D;m  &quot;隐藏菜单栏&quot;</span><br><span class="line">set foldcolumn&#x3D;0</span><br><span class="line">set foldmethod&#x3D;indent </span><br><span class="line">set foldlevel&#x3D;3 </span><br><span class="line">set foldenable  &quot; 开始折叠&quot;</span><br><span class="line">&quot; 不要使用vi的键盘模式，而是vim自己的&quot;</span><br><span class="line">set nocompatible</span><br><span class="line">&quot; 语法高亮&quot;</span><br><span class="line">set syntax&#x3D;on</span><br><span class="line">&quot; 去掉输入错误的提示声音&quot;</span><br><span class="line">set noeb</span><br><span class="line">&quot; 在处理未保存或只读文件的时候，弹出确认&quot;</span><br><span class="line">set confirm</span><br><span class="line">&quot;自动缩进 &quot;</span><br><span class="line">set autoindent</span><br><span class="line">set cindent</span><br><span class="line">&quot; Tab键的宽度&quot;</span><br><span class="line">set tabstop&#x3D;4</span><br><span class="line">&quot; 统一缩进为4&quot;</span><br><span class="line">set softtabstop&#x3D;4</span><br><span class="line">set shiftwidth&#x3D;4</span><br><span class="line">&quot; 不要用空格代替制表符&quot;</span><br><span class="line">set noexpandtab</span><br><span class="line">&quot; 在行和段开始处使用制表符&quot;</span><br><span class="line">set smarttab</span><br><span class="line">&quot; 显示行号&quot;</span><br><span class="line">set number</span><br><span class="line">&quot; 历史记录数&quot;</span><br><span class="line">set history&#x3D;1000</span><br><span class="line">&quot;禁止生成临时文件&quot;</span><br><span class="line">set nobackup</span><br><span class="line">set noswapfile</span><br><span class="line">&quot;搜索忽略大小写&quot;</span><br><span class="line">set ignorecase</span><br><span class="line">&quot;搜索逐字符高亮&quot;</span><br><span class="line">set hlsearch</span><br><span class="line">set incsearch</span><br><span class="line">&quot;行内替换&quot;</span><br><span class="line">set gdefault</span><br><span class="line">&quot;编码设置&quot;</span><br><span class="line">set enc&#x3D;utf-8</span><br><span class="line">set fencs&#x3D;utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936</span><br><span class="line">&quot;语言设置&quot;</span><br><span class="line">set langmenu&#x3D;zh_CN.UTF-8</span><br><span class="line">set helplang&#x3D;cn</span><br><span class="line">&quot; 我的状态行显示的内容（包括文件类型和解码）&quot;</span><br><span class="line">set statusline&#x3D;[%F]%y%r%m%*%&#x3D;[Line:%l&#x2F;%L,Column:%c][%p%%]</span><br><span class="line">&quot; 总是显示状态行&quot;</span><br><span class="line">set laststatus&#x3D;2</span><br><span class="line">&quot; 命令行（在状态行下）的高度，默认为1，这里是2&quot;</span><br><span class="line">set cmdheight&#x3D;2</span><br><span class="line">&quot; 侦测文件类型&quot;</span><br><span class="line">filetype on</span><br><span class="line">&quot; 载入文件类型插件&quot;</span><br><span class="line">filetype plugin on</span><br><span class="line">&quot; 为特定文件类型载入相关缩进文件&quot;</span><br><span class="line">filetype indent on</span><br><span class="line">&quot; 保存全局变量&quot;</span><br><span class="line">set viminfo+&#x3D;!</span><br><span class="line">&quot; 带有如下符号的单词不要被换行分割&quot;</span><br><span class="line">set iskeyword+&#x3D;_,$,@,%,#,-</span><br><span class="line">&quot; 字符间插入的像素行数目&quot;</span><br><span class="line">set linespace&#x3D;0</span><br><span class="line">&quot; 增强模式中的命令行自动完成操作&quot;</span><br><span class="line">set wildmenu</span><br><span class="line">&quot; 使回格键（backspace）正常处理indent, eol, start等&quot;</span><br><span class="line">set backspace&#x3D;2</span><br><span class="line">&quot; 允许backspace和光标键跨越行边界&quot;</span><br><span class="line">set whichwrap+&#x3D;&lt;,&gt;,h,l</span><br><span class="line">&quot; 可以在buffer的任何地方使用鼠标（类似office中在工作区双击鼠标定位）&quot;</span><br><span class="line">set mouse&#x3D;a</span><br><span class="line">set selection&#x3D;exclusive</span><br><span class="line">set selectmode&#x3D;mouse,key</span><br><span class="line">&quot; 通过使用: commands命令，告诉我们文件的哪一行被改变过&quot;</span><br><span class="line">set report&#x3D;0</span><br><span class="line">&quot; 高亮显示匹配的括号&quot;</span><br><span class="line">set showmatch</span><br><span class="line">&quot; 匹配括号高亮的时间（单位是十分之一秒）&quot;</span><br><span class="line">set matchtime&#x3D;1</span><br><span class="line">&quot; 光标移动到buffer的顶部和底部时保持3行距离&quot;</span><br><span class="line">set scrolloff&#x3D;3</span><br><span class="line">&quot; 为C程序提供自动缩进&quot;</span><br><span class="line">set smartindent</span><br><span class="line">&quot; 高亮显示普通txt文件（需要txt.vim脚本）&quot;</span><br><span class="line"> au BufRead,BufNewFile *  setfiletype txt</span><br><span class="line">&quot;自动补全&quot;</span><br><span class="line">:inoremap ( ()&lt;ESC&gt;i</span><br><span class="line">:inoremap ) &lt;c-r&gt;&#x3D;ClosePair(&#39;)&#39;)&lt;CR&gt;</span><br><span class="line">:inoremap &#123; &#123;&lt;CR&gt;&#125;&lt;ESC&gt;O</span><br><span class="line">:inoremap &#125; &lt;c-r&gt;&#x3D;ClosePair(&#39;&#125;&#39;)&lt;CR&gt;</span><br><span class="line">:inoremap [ []&lt;ESC&gt;i</span><br><span class="line">:inoremap ] &lt;c-r&gt;&#x3D;ClosePair(&#39;]&#39;)&lt;CR&gt;</span><br><span class="line">:inoremap &quot; &quot;&quot;&lt;ESC&gt;i</span><br><span class="line">:inoremap &#39; &#39;&#39;&lt;ESC&gt;i</span><br><span class="line">function! ClosePair(char)</span><br><span class="line">    if getline(&#39;.&#39;)[col(&#39;.&#39;) - 1] &#x3D;&#x3D; a:char</span><br><span class="line">        return &quot;&#x2F;&lt;Right&gt;&quot;</span><br><span class="line">    else</span><br><span class="line">        return a:char</span><br><span class="line">    endif</span><br><span class="line">endfunction</span><br><span class="line">filetype plugin indent on </span><br><span class="line">&quot;打开文件类型检测, 加了这句才可以用智能补全&quot;</span><br><span class="line">set completeopt&#x3D;longest,menu</span><br><span class="line">&quot;C++的编译和运行  &quot;</span><br><span class="line">&quot;编译运行&quot;</span><br><span class="line">map &lt;F10&gt; :call CompileRunGpp()&lt;CR&gt;  </span><br><span class="line">func! CompileRunGpp()  </span><br><span class="line">exec &quot;w&quot;  </span><br><span class="line">exec &quot;!g++ % -o %&lt;&quot;  </span><br><span class="line">exec &quot;! .&#x2F;%&lt;&quot;  </span><br><span class="line">endfunc</span><br><span class="line">&quot;编译&quot;</span><br><span class="line">map &lt;F8&gt; :call CompileGpp()&lt;cr&gt;  </span><br><span class="line">func! CompileGpp()  </span><br><span class="line">exec &quot;w&quot;  </span><br><span class="line">exec &quot;!g++ % -o %&lt;&quot;  </span><br><span class="line">endfunc</span><br><span class="line">&quot;运行&quot;</span><br><span class="line">map &lt;F9&gt; :call RunGpp()&lt;cr&gt;    </span><br><span class="line">func! RunGpp()    </span><br><span class="line">exec &quot;w&quot;    </span><br><span class="line">exec &quot;! .&#x2F;%&lt;&quot;    </span><br><span class="line">endfunc</span><br></pre></td></tr></table></figure>
-
-<p>保存后再次进入一个cpp文件时，编辑将会更加方便，并可以在vim编辑器中直接编译和运行。</p>
-<h6 id="操作方法为："><a href="#操作方法为：" class="headerlink" title="操作方法为："></a>操作方法为：</h6><table>
-<thead>
-<tr>
-<th align="center">按键</th>
-<th align="center">作用</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">F8（音量+键+ 8）</td>
-<td align="center">编译</td>
-</tr>
-<tr>
-<td align="center">F9（音量+键 + 9）</td>
-<td align="center">运行</td>
-</tr>
-<tr>
-<td align="center">F10（音量+键 + 0）</td>
-<td align="center">编译并运行</td>
-</tr>
-</tbody></table>
-<p>当然，也可以模仿上面的代码创造自己的快捷键，比如gdb调试。</p>
-<ul>
-<li><h5 id="优化termux终端界面"><a href="#优化termux终端界面" class="headerlink" title="优化termux终端界面"></a>优化termux终端界面</h5></li>
-</ul>
-<p>使用zsh来替代bash作为默认shell。</p>
-<p>在已安装curl的情况下使用以下命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">sh -c &quot;$(curl -fsSL https:&#x2F;&#x2F;github.com&#x2F;Cabbagec&#x2F;termux-ohmyzsh&#x2F;raw&#x2F;master&#x2F;install.sh)&quot;</span><br></pre></td></tr></table></figure>
-
-<p>Android 6.0以上可能会弹框确认是否授权访问文件，点击允许，之后会在termux根目录生成storage目录，可以方便地对外部文件进行操作。</p>
-<p>安装成功后先后会有两个选项，分别选择背景色和字体，如下：</p>
-<p>Enter a number, leave blank to not to change:</p>
-<p>Enter a number, leave blank to not to change: </p>
-<p>我选的是14和6，仅供参考。</p>
-<p>如果希望再次更改配色，可执行如下命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">~&#x2F;termux-ohmyzsh&#x2F;install.sh</span><br></pre></td></tr></table></figure>
-<p>重启软件或开启新session生效。</p>
-<ul>
-<li><h5 id="修改启动问候语"><a href="#修改启动问候语" class="headerlink" title="修改启动问候语"></a>修改启动问候语</h5></li>
-</ul>
-<p>可以编辑问候语文件直接修改问候语。</p>
-<p>输入如下命令即可修改：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vim $PREFIX&#x2F;etc&#x2F;motd</span><br></pre></td></tr></table></figure>
-<p>保存重启即可。</p>
-<h3 id="termux的其他玩法"><a href="#termux的其他玩法" class="headerlink" title="termux的其他玩法"></a>termux的其他玩法</h3><ul>
-<li><p>termux可以在手机上安装正规linux，比如ubuntu、kali，并能安装桌面（也就是说可以图形化操作）， 但NOI linux除外（大雾） ；</p>
-</li>
-<li><p>termux可以愉快地玩耍python，制作网络爬虫、微信机器人以及其它；</p>
-</li>
-<li><p>在termux上安装kali-linux及其它安全工具，靠自己来暴力破解WIFI， 并从此走上CTF的不归路（大雾） ；</p>
-</li>
-<li><p>在termux上运用php和WordPress或hexo搭建网站和博客；</p>
-</li>
-<li><p>用termux ssh远程连接电脑，从此躺在床上就可以操作电脑；</p>
-</li>
-<li><p>在termux上使用Aria2打造自己的下载工具，配置好的话还可以高速下载百度云文件；</p>
-</li>
-<li><p>安装Termux-api，直接操作调动系统底层，用代码发短信、打电话。</p>
-</li>
-</ul>
-<hr>
-<p>termux作为一个linux模拟器，可实现的功能远远不止打打C++和python的代码，希望有更多的人能够认识termux的强大并挖掘出更多玩法，也希望能够有更多关于termux的优秀文章出现。</p>
-<h6 id="文章部分内容引用地址："><a href="#文章部分内容引用地址：" class="headerlink" title="文章部分内容引用地址："></a>文章部分内容引用地址：</h6><p><a href="https://www.sqlsec.com/2018/05/termux.html" target="_blank" rel="noopener">https://www.sqlsec.com/2018/05/termux.html</a></p>
-<p><a href="https://www.cnblogs.com/jokerBi/articles/10609264.html" target="_blank" rel="noopener">https://www.cnblogs.com/jokerBi/articles/10609264.html</a></p>
-<h6 id="推荐阅读："><a href="#推荐阅读：" class="headerlink" title="推荐阅读："></a>推荐阅读：</h6><p>知乎专栏：<a href="https://zhuanlan.zhihu.com/c_1208079877376901120" target="_blank" rel="noopener">安卓手机配合linux新玩法挖掘</a></p>
-<p>…</p>
-<p>…</p>
-<p>…</p>
-<p>…</p>
-<p>…</p>
-<p>彩蛋：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pkg install nyancat</span><br><span class="line">nyancat</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>其他</category>
-      </categories>
-      <tags>
-        <tag>原创</tag>
-        <tag>C++</tag>
       </tags>
   </entry>
   <entry>
@@ -1373,11 +1142,69 @@
       </tags>
   </entry>
   <entry>
-    <title>欢迎来到jwj的博客awa</title>
-    <url>/index/</url>
-    <content><![CDATA[<p>欢迎来到我的博客！</p>
-<p>我是jwj，菜得一哔，但正在试图强大。</p>
-<p>这里将会存放一些杂七杂八的东西和日常，既然进来了就随便逛逛呗awa</p>
+    <title>洛谷题目打印机使用说明书</title>
+    <url>/printluoguproblem/</url>
+    <content><![CDATA[<p>身处弱校，不能天天上机？</p>
+<p>希望我的<code>洛谷题目打印机</code>可以帮到您！</p>
+<p>这篇博客将会帮助您安装并使用<code>洛谷题目打印机</code>。</p>
+<a id="more"></a>
+
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>您可以使用它来屏蔽一些妨碍打印题目或者与题目无关的网页元素，从而比较完美地打印洛谷题目，或者把洛谷题目导出为PDF格式。</p>
+<p>作者是一条酸菜鱼，如果在打印机里面发现了虫子或者有更好的修改建议可以联系作者修复，如果有不懂的地方也可以联系作者询问。祝您使用愉快！</p>
+<p><a href="https://userstyles.org/styles/186569/by-jwj" target="_blank" rel="noopener">洛谷题目打印机链接</a></p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><blockquote>
+<p><code>洛谷题目打印机</code>安装方法与安装<code>氩洛谷</code>类似。如果您安装了或者安装过氩洛谷，那么您可以忽略下面的安装教程直接点击链接安装。</p>
+</blockquote>
+<p><del>您得拥有一台电脑。</del></p>
+<p>您需要在电脑上装有谷歌浏览器。</p>
+<p>您需要在谷歌浏览器上安装一个名为<code>Stylish</code>的插件。</p>
+<p>啥？怎么安装插件？您可能需要打开<code>Chrome 网上应用店</code>进行搜索安装。</p>
+<p>啥？打不开？您可能需要一个机场才能打开。</p>
+<p>啥？没有机场？ <del>您可以选择运用搜索引擎搜索如何下载<code>Stylish</code>这个插件。</del></p>
+<p>嗯好的，此时您安装完了<code>Stylish</code>这个插件，那么您可以点开上面的链接了。</p>
+<p>点开链接后，如果不出所料，会出现下面的界面：</p>
+<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125452.png" alt=""></p>
+<p>看到下面的那个蓝色的按钮没有？ <del>把鼠标指针拖到那个蓝色的按钮上面，然后轻轻按下鼠标左键，</del> 当蓝色按钮变成了如下图所示的绿色按钮时，恭喜您，安装成功了。</p>
+<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125454.png" alt=""></p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>平时在电脑上做题不用打印的时候，建议关闭<code>洛谷题目打印机</code>以避免妨碍您的刷题体验。</p>
+<p>点击谷歌浏览器右上方的<code>Stylish</code>图标，点击“已安装样式”就可以选择开启或关闭<code>洛谷题目打印机</code>。或者您也可以点击<code>Stylish</code>图标后点击右上方的三个点选择“管理样式”即可选择开启或关闭。</p>
+<p>如果您需要打印题目了，请按照如上方式开启<code>洛谷题目打印机</code>。</p>
+<p>打开您需要打印的题目链接，您会发现界面变成了这样：</p>
+<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125450.png" alt=""></p>
+<p>此时，右键选择打印，或者按下快捷键Ctrl键+P键，将会弹出打印界面：</p>
+<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125459.png" alt=""></p>
+<p>此时选择打印机即可打印，“目标打印机”选择“另存为PDF”即可转存为PDF。</p>
+<h2 id="打印设置"><a href="#打印设置" class="headerlink" title="打印设置"></a>打印设置</h2><p>如果需要设置，请在打印界面点开“更多设置”。</p>
+<ul>
+<li><p>“纸张尺寸”可以选择您打印出来的纸张大小，推荐设置为<code>A4</code>。</p>
+</li>
+<li><p>“每个工作表的页数”可以选择打印的格式，在一面纸中打印多少面题目，推荐设置为1或2。</p>
+</li>
+<li><p>“边距”和“缩放”可以分别选择打印的页边距和内容（字体）大小，推荐设置为“默认”。</p>
+</li>
+<li><p>“选项”中的“页眉和页脚”可以选择是否打印打印日期、网页名称、网页地址和页码，请按自己需求设置。推荐不勾选“背景图形”，<del>但是勾选也行。</del></p>
+</li>
+<li><p>其他选项根据需求自行设置。</p>
+</li>
+</ul>
+<hr>
+<p>本说明书到此结束，如果在打印机里面发现了虫子或者有更好的修改建议可以联系作者修复，如果有不懂的地方也可以联系作者询问。祝您使用愉快！</p>
+]]></content>
+      <categories>
+        <category>其他</category>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+        <tag>原创</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搬家啦</title>
+    <url>/newhome/</url>
+    <content><![CDATA[<p>搬家啦！</p>
+<p>之前博客用了一段时间的阮行止大佬的生成器（经过同意了），后来自己想拓展一些功能，然后就发现要拓展功能的话只能自己写代码，可我太菜了不会PHP不会HTML不会CSS，所以只能改用Hexo/kk</p>
+<p>以后可能会出关于Hexo的搭建教程和调教教程吧qwq</p>
 ]]></content>
       <categories>
         <category>日常</category>
@@ -1387,329 +1214,234 @@
       </tags>
   </entry>
   <entry>
-    <title>网课推荐（知乎答案收集）</title>
-    <url>/whkwangke/</url>
-    <content><![CDATA[<p>这里是jwj翻了很多知乎答案收集得到的结果，希望对大家有所帮助qwq</p>
+    <title>在手机上使用termux写C++代码</title>
+    <url>/termuxandcpp/</url>
+    <content><![CDATA[<p>本文将会介绍如何使用termux写C++代码并编译运行。</p>
+<p>本文无任何图片 （惊了） ，流量党可放心围观。</p>
+<p>纯手打，请大家多多支持一下~</p>
 <a id="more"></a>
 
+<hr>
+<h3 id="下载安装termux"><a href="#下载安装termux" class="headerlink" title="下载安装termux"></a>下载安装termux</h3><p>下载安装前手机建议腾出500MB以上的空间。<br>如果可以科学上网建议在谷歌应用商店下载。<br>如果不能科学上网建议在酷安下载。</p>
+<ul>
+<li><h6 id="谷歌的termux的下载链接：点此下载"><a href="#谷歌的termux的下载链接：点此下载" class="headerlink" title="谷歌的termux的下载链接：点此下载"></a>谷歌的termux的下载链接：<a href="https://play.google.com/store/apps/details?id=com.termux" target="_blank" rel="noopener">点此下载</a></h6></li>
+<li><h6 id="酷安的termux的下载链接：点此下载"><a href="#酷安的termux的下载链接：点此下载" class="headerlink" title="酷安的termux的下载链接：点此下载"></a>酷安的termux的下载链接：<a href="https://www.coolapk.com/apk/com.termux" target="_blank" rel="noopener">点此下载</a></h6></li>
+</ul>
+<h3 id="更换国内镜像源"><a href="#更换国内镜像源" class="headerlink" title="更换国内镜像源"></a>更换国内镜像源</h3><p>安装好后建议先换上国内镜像源，避免未科学上网时下载失败或网速过慢。</p>
+<h6 id="更换清华大学镜像源使用如下命令："><a href="#更换清华大学镜像源使用如下命令：" class="headerlink" title="更换清华大学镜像源使用如下命令："></a>更换清华大学镜像源使用如下命令：</h6><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sed -i &#39;s@^\(deb.*stable main\)$@#\1\ndeb https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;termux stable main@&#39; $PREFIX&#x2F;etc&#x2F;apt&#x2F;sources.list</span><br></pre></td></tr></table></figure>
 
-<h3 id="语文"><a href="#语文" class="headerlink" title="语文"></a>语文</h3><ul>
-<li>乘风-腾讯课堂x9</li>
-<li><ul>
-<li>提分快，适合理科生</li>
-</ul>
+<p>相关帮助链接：<a href="https://mirror.tuna.tsinghua.edu.cn/help/termux/" target="_blank" rel="noopener">帮助链接</a></p>
+<h6 id="更换中国科学技术大学镜像源使用如下命令："><a href="#更换中国科学技术大学镜像源使用如下命令：" class="headerlink" title="更换中国科学技术大学镜像源使用如下命令："></a>更换中国科学技术大学镜像源使用如下命令：</h6><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sed -i &#39;s@^\(deb.*stable main\)$@#\1\ndeb https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;termux stable main@&#39; $PREFIX&#x2F;etc&#x2F;apt&#x2F;sources.list</span><br></pre></td></tr></table></figure>
+
+<p>相关帮助链接：<a href="http://mirrors.ustc.edu.cn/help/termux.html" target="_blank" rel="noopener">帮助链接</a></p>
+<p>换源后应及时更新镜像源，使用如下命令：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">apt clean</span><br><span class="line">pkg up</span><br></pre></td></tr></table></figure>
+
+<p>如国内镜像源出现问题、出现错误或不能下载到想要的软件，可以换回官方镜像源：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sed -i &#39;s@^\(deb.*stable main\)$@#\1\ndeb https:&#x2F;&#x2F;termux.net&#x2F; stable main@&#39; $PREFIX&#x2F;etc&#x2F;apt&#x2F;sources.list</span><br></pre></td></tr></table></figure>
+
+<p>当无法连接官方镜像源时应科学上网再次尝试。</p>
+<h3 id="linux基础命令"><a href="#linux基础命令" class="headerlink" title="linux基础命令"></a>linux基础命令</h3><p>termux是一个免root的linux模拟器，所以使用时应掌握一些linux的命令。当然没掌握也没关系，下面会有一些linux的基础命令供参考。</p>
+<table>
+<thead>
+<tr>
+<th align="center">命令</th>
+<th align="center">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">cd &lt;目录地址&gt;</td>
+<td align="center">打开目录地址</td>
+</tr>
+<tr>
+<td align="center">cp &lt;文件名&gt; &lt;目标目录地址&gt;</td>
+<td align="center">拷贝到目标目录地址</td>
+</tr>
+<tr>
+<td align="center">mkdir &lt;文件夹名&gt;</td>
+<td align="center">新建文件夹</td>
+</tr>
+<tr>
+<td align="center">rm &lt;文件名&gt;</td>
+<td align="center">删除文件</td>
+</tr>
+<tr>
+<td align="center">rm -rf &lt;文件夹名&gt;</td>
+<td align="center">删除文件夹</td>
+</tr>
+<tr>
+<td align="center">ls</td>
+<td align="center">查询该文件夹下文件及文件夹</td>
+</tr>
+</tbody></table>
+<p>更多命令请自行搜索相关资料。</p>
+<h3 id="安装软件及工具"><a href="#安装软件及工具" class="headerlink" title="安装软件及工具"></a>安装软件及工具</h3><p>这里给出安装我们需要的软件的命令，可根据需求自行更改。</p>
+<p>如使用官方镜像源，请科学上网。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pkg install vim clang python gdb cgdb curl</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>vim为编辑器，可自行更改为其它编辑器，但非常建议使用vim。学习vim的操作不会很难，常用的命令只有那么几个，习惯了就好。</p>
 </li>
-<li><ul>
-<li>文言文</li>
-</ul>
+<li><p>curl可以优化termux终端界面，酌情下载安装。</p>
 </li>
-<li>杨洋-腾讯课堂x8</li>
-<li><ul>
-<li>培养思维，作文讲的很好</li>
-</ul>
+<li><p>clang为C和C++编译器。</p>
 </li>
-<li>国家玮-新东方、大黄蜂课堂x6</li>
-<li><ul>
-<li>社科文古文都讲的不错</li>
-</ul>
+<li><p>python可以让我们制作一些对拍小程序，也有很多其它的玩法，酌情下载安装。</p>
 </li>
-<li><ul>
-<li>偏向于思维提升，讲法别出心裁</li>
-</ul>
+<li><p>gdb和cgdb为调试工具，可根据需要酌情下载安装。</p>
 </li>
-<li>董腾-有道精品课x2</li>
-<li><ul>
-<li>幽默风趣应试很强</li>
-</ul>
-</li>
-<li>王大绩-简单学习网</li>
-<li>谢明波</li>
-<li>王丹宁-原新东方</li>
-<li>陈焕文-乐学</li>
-<li><ul>
-<li>理科思维，理解难度会大</li>
-</ul>
-</li>
-</ul>
-<h3 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h3><ul>
-<li>周帅-高德x9</li>
-<li><ul>
-<li>每一个知识点都讲得特别全面，各个题型都有涉及</li>
-</ul>
-</li>
-<li><ul>
-<li>偏基础一点</li>
-</ul>
-</li>
-<li><ul>
-<li>授课内容集中、信息量大，讲题侧重培养思维，而非机械操作，课时多，知识点细。</li>
-</ul>
-</li>
-<li>郭化楠-有道精品课、学而思x5</li>
-<li><ul>
-<li>重视基础</li>
-</ul>
-</li>
-<li><ul>
-<li>非常注重基础，潜移默化的拓展知识之间的延伸</li>
-</ul>
-</li>
-<li><ul>
-<li>拔高（有道精品课）</li>
-</ul>
-</li>
-<li><ul>
-<li>全网最完美的“自学”视频，适合零基础。把知识点的来龙去脉讲的透彻，可以培养出真正的学术性人才</li>
-</ul>
-</li>
-<li>赵礼显-跟谁学x5</li>
-<li><ul>
-<li>拔高</li>
-</ul>
-</li>
-<li><ul>
-<li>课时少，课程主讲题型解题法，对基础知识讲解少，不适合基础差的人群。短期提分快。</li>
-</ul>
-</li>
-<li>凉学长-腾讯课堂x3</li>
-<li><ul>
-<li>方法巧妙</li>
-</ul>
-</li>
-<li>蔡德锦-腾讯课堂x2</li>
-<li><ul>
-<li>通过带你做题来深刻的理解这个知识点，适合拔高的同学</li>
-</ul>
-</li>
-<li><ul>
-<li>给人踏实很值得信赖的感觉，讲的真的很吸引人，效率很高，方法总结很到位，简介明了</li>
-</ul>
-</li>
-<li>鲲哥带你学数学-哔哩哔哩x2</li>
-<li>蒋叶光-领世培优</li>
-<li>建哥数学</li>
-<li>高中数学北师math杨-哔哩哔哩</li>
-<li>佟大大是ETT-哔哩哔哩</li>
-<li>讲高中数学的邓老师-哔哩哔哩</li>
-<li>高中数学蔡德锦老师-哔哩哔哩</li>
-<li>猪猪老师教数学-哔哩哔哩</li>
-<li>成都高中数学cdgzsxfml-哔哩哔哩</li>
-<li>司马红丽老师-精华在线</li>
-<li>李永乐老师-原精华、美提课堂</li>
-<li><ul>
-<li>思维训练</li>
-</ul>
-</li>
-<li>王梦抒-腾讯课堂</li>
-<li>数学超人-腾讯课堂</li>
-<li>关旭-前有道</li>
-<li><ul>
-<li>圆锥曲线</li>
-</ul>
-</li>
-<li>蒋叶光</li>
-<li><ul>
-<li>强推他的圆锥曲线，全网算是比较好的了,其他课程拔高，门槛较高</li>
-</ul>
-</li>
-<li>王文勇老师-勇哥数学APP</li>
-</ul>
-<h3 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h3><ul>
-<li>徐磊-跟谁学x10</li>
-<li><ul>
-<li>磊神，名不虚传</li>
-</ul>
-</li>
-<li>李辉-有道精品课x4</li>
-<li><ul>
-<li>方法论好，提分快</li>
-</ul>
-</li>
-<li>刘晓峰老师-原新东方</li>
-<li>麻雪玲老师-简单学习网</li>
-</ul>
-<h3 id="物理"><a href="#物理" class="headerlink" title="物理"></a>物理</h3><ul>
-<li>坤哥-腾讯课堂x7</li>
-<li><ul>
-<li>构造一个完美的物理知识体系，题型全部在他的课程之中，非常的优秀</li>
-</ul>
-</li>
-<li><ul>
-<li>基础</li>
-</ul>
-</li>
-<li>王羽-腾讯课堂x6</li>
-<li><ul>
-<li>拔高 </li>
-</ul>
-</li>
-<li>刘杰-有道精品课x3</li>
-<li><ul>
-<li>拔高 </li>
-</ul>
-</li>
-<li>坤哥物理-哔哩哔哩x2</li>
-<li>李楠老师-有道精品课x2</li>
-<li><ul>
-<li>拔高 </li>
-</ul>
-</li>
-<li>夏梦迪老师-新东方x2</li>
-<li><ul>
-<li>他能从最基础的内容说到最深层的知识，循序渐进，课堂生动有趣，有基础也有大招，同样课时较多</li>
-</ul>
-</li>
-<li><ul>
-<li>拔高 </li>
-</ul>
-</li>
-<li>陈老师敲黑板-哔哩哔哩</li>
-<li><ul>
-<li>清华附中物理老师，力学电学内容都有</li>
-</ul>
-</li>
-<li>物理X学姐-哔哩哔哩</li>
-<li><ul>
-<li>南京大学天文系的一位学姐，颜值与才华并存的一位up主，非常优秀。</li>
-</ul>
-</li>
-<li>大宽物理-哔哩哔哩</li>
-<li>曾珍</li>
-<li>珍哥物理</li>
-<li>郑少龙老师-猿辅导</li>
-<li><ul>
-<li>基础</li>
-</ul>
-</li>
-<li>李永乐老师-美提课堂</li>
-<li><ul>
-<li>基础</li>
-</ul>
-</li>
-<li>王文博</li>
-<li>肖嗣光（现在只做线下了）</li>
-<li>于冲-乐学</li>
-</ul>
-<h3 id="化学"><a href="#化学" class="headerlink" title="化学"></a>化学</h3><ul>
-<li>陆艳华-伴学优课、金榜在线x8</li>
-<li><ul>
-<li>适合基础差的，过掉所有高中知识点</li>
-</ul>
-</li>
-<li><ul>
-<li>选五看陆姐</li>
-</ul>
-</li>
-<li><ul>
-<li>全网风评最好的老师，没有之一</li>
-</ul>
-</li>
-<li>李政-乐学x8</li>
-<li><ul>
-<li>适合基础好的，完全不一样的眼界和视角，电化学直接打开新世界的大门</li>
-</ul>
-</li>
-<li><ul>
-<li>选三看政神</li>
-</ul>
-</li>
-<li>木子-腾讯课堂x2</li>
-<li><ul>
-<li>通俗易懂，方法好</li>
-</ul>
-</li>
-<li>高东辉老师-精华在线</li>
-<li><ul>
-<li>基础</li>
-</ul>
+<li><p>也可自行安装其它软件及工具。</p>
 </li>
 </ul>
-<h3 id="生物"><a href="#生物" class="headerlink" title="生物"></a>生物</h3><ul>
-<li>周芳煜-腾讯课堂x8</li>
-<li><ul>
-<li>可爱（？）</li>
+<h3 id="vim的使用"><a href="#vim的使用" class="headerlink" title="vim的使用"></a>vim的使用</h3><p>下面是vim的一些简单命令。</p>
+<table>
+<thead>
+<tr>
+<th align="center">命令</th>
+<th align="center">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">vim &lt;文件名&gt;</td>
+<td align="center">编辑文件，若文件不存在则自动创建新文件</td>
+</tr>
+<tr>
+<td align="center">i</td>
+<td align="center">切换到编辑模式</td>
+</tr>
+<tr>
+<td align="center">ESC</td>
+<td align="center">退出编辑模式</td>
+</tr>
+<tr>
+<td align="center">:x</td>
+<td align="center">保存退出</td>
+</tr>
+<tr>
+<td align="center">:q</td>
+<td align="center">未改动退出</td>
+</tr>
+<tr>
+<td align="center">:q!</td>
+<td align="center">不保存退出</td>
+</tr>
+</tbody></table>
+<p>更多命令请自行搜索相关资料。</p>
+<h3 id="C-的编译与运行"><a href="#C-的编译与运行" class="headerlink" title="C++的编译与运行"></a>C++的编译与运行</h3><h4 id="编译："><a href="#编译：" class="headerlink" title="编译："></a>编译：</h4><p>切换到cpp文件目录（cd &lt;目录&gt;）后命令如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">g++ &lt;cpp代码文件&gt; -o &lt;生成程序名&gt;</span><br></pre></td></tr></table></figure>
+
+<p>如：</p>
+<p>g++ hello.cpp -o hello</p>
+<p>即可在该目录下生成名为hello的可执行文件。</p>
+<h4 id="运行："><a href="#运行：" class="headerlink" title="运行："></a>运行：</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.&#x2F;&lt;可执行文件名&gt;</span><br></pre></td></tr></table></figure>
+
+<p>如:</p>
+<p>./hello</p>
+<p>即可执行hello程序。</p>
+<p>如出现错误：permission denied</p>
+<p>则说明没有权限访问该程序，此时输入：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">chmod +x &lt;程序名&gt;</span><br></pre></td></tr></table></figure>
+
+<p>如：</p>
+<p>chmod +x hello</p>
+<p>即可执行。</p>
+<h3 id="可选步骤"><a href="#可选步骤" class="headerlink" title="可选步骤"></a>可选步骤</h3><p>以下为可选步骤，但非常建议做一做。</p>
+<ul>
+<li><h5 id="创建工作目录"><a href="#创建工作目录" class="headerlink" title="创建工作目录"></a>创建工作目录</h5></li>
 </ul>
+<p>建议在根目录中新建一个文件夹作为工作目录，如果你比较懒，之后直接在根目录中编辑文件也是可以的。</p>
+<p>名字建议用纯英文字母，方便进入。</p>
+<p>建议不使用会与命令起冲突的名字，比如gcc，cpp。</p>
+<ul>
+<li><h5 id="配置vim"><a href="#配置vim" class="headerlink" title="配置vim"></a>配置vim</h5></li>
+</ul>
+<p>其实可以不配置，但是非常建议配置。</p>
+<p>配置之后会给打代码增添不少便利。</p>
+<p>执行如下命令：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vim ~&#x2F;.vimrc</span><br></pre></td></tr></table></figure>
+<p>将以下内容复制粘贴进去保存即可。</p>
+<p>可根据需要自行修改。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">&quot; 设置当文件被改动时自动载入&quot;</span><br><span class="line">set autoread</span><br><span class="line">&quot; quickfix模式&quot;</span><br><span class="line">autocmd FileType c,cpp map &lt;buffer&gt; &lt;leader&gt;&lt;space&gt; :w&lt;cr&gt;:make&lt;cr&gt;</span><br><span class="line">&quot;代码补全 &quot;</span><br><span class="line">set completeopt&#x3D;preview,menu </span><br><span class="line">&quot;允许插件  &quot;</span><br><span class="line">filetype plugin on</span><br><span class="line">&quot;共享剪贴板  &quot;</span><br><span class="line">set clipboard&#x3D;unnamed </span><br><span class="line">&quot;从不备份  &quot;</span><br><span class="line">set nobackup</span><br><span class="line">&quot;自动保存&quot;</span><br><span class="line">set autowrite</span><br><span class="line">set ruler  &quot; 打开状态栏标尺&quot;</span><br><span class="line">set cursorline  &quot;突出显示当前行&quot;</span><br><span class="line">set magic  &quot; 设置魔术&quot;</span><br><span class="line">set guioptions-&#x3D;T  &quot;隐藏工具栏&quot;</span><br><span class="line">set guioptions-&#x3D;m  &quot;隐藏菜单栏&quot;</span><br><span class="line">set foldcolumn&#x3D;0</span><br><span class="line">set foldmethod&#x3D;indent </span><br><span class="line">set foldlevel&#x3D;3 </span><br><span class="line">set foldenable  &quot; 开始折叠&quot;</span><br><span class="line">&quot; 不要使用vi的键盘模式，而是vim自己的&quot;</span><br><span class="line">set nocompatible</span><br><span class="line">&quot; 语法高亮&quot;</span><br><span class="line">set syntax&#x3D;on</span><br><span class="line">&quot; 去掉输入错误的提示声音&quot;</span><br><span class="line">set noeb</span><br><span class="line">&quot; 在处理未保存或只读文件的时候，弹出确认&quot;</span><br><span class="line">set confirm</span><br><span class="line">&quot;自动缩进 &quot;</span><br><span class="line">set autoindent</span><br><span class="line">set cindent</span><br><span class="line">&quot; Tab键的宽度&quot;</span><br><span class="line">set tabstop&#x3D;4</span><br><span class="line">&quot; 统一缩进为4&quot;</span><br><span class="line">set softtabstop&#x3D;4</span><br><span class="line">set shiftwidth&#x3D;4</span><br><span class="line">&quot; 不要用空格代替制表符&quot;</span><br><span class="line">set noexpandtab</span><br><span class="line">&quot; 在行和段开始处使用制表符&quot;</span><br><span class="line">set smarttab</span><br><span class="line">&quot; 显示行号&quot;</span><br><span class="line">set number</span><br><span class="line">&quot; 历史记录数&quot;</span><br><span class="line">set history&#x3D;1000</span><br><span class="line">&quot;禁止生成临时文件&quot;</span><br><span class="line">set nobackup</span><br><span class="line">set noswapfile</span><br><span class="line">&quot;搜索忽略大小写&quot;</span><br><span class="line">set ignorecase</span><br><span class="line">&quot;搜索逐字符高亮&quot;</span><br><span class="line">set hlsearch</span><br><span class="line">set incsearch</span><br><span class="line">&quot;行内替换&quot;</span><br><span class="line">set gdefault</span><br><span class="line">&quot;编码设置&quot;</span><br><span class="line">set enc&#x3D;utf-8</span><br><span class="line">set fencs&#x3D;utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936</span><br><span class="line">&quot;语言设置&quot;</span><br><span class="line">set langmenu&#x3D;zh_CN.UTF-8</span><br><span class="line">set helplang&#x3D;cn</span><br><span class="line">&quot; 我的状态行显示的内容（包括文件类型和解码）&quot;</span><br><span class="line">set statusline&#x3D;[%F]%y%r%m%*%&#x3D;[Line:%l&#x2F;%L,Column:%c][%p%%]</span><br><span class="line">&quot; 总是显示状态行&quot;</span><br><span class="line">set laststatus&#x3D;2</span><br><span class="line">&quot; 命令行（在状态行下）的高度，默认为1，这里是2&quot;</span><br><span class="line">set cmdheight&#x3D;2</span><br><span class="line">&quot; 侦测文件类型&quot;</span><br><span class="line">filetype on</span><br><span class="line">&quot; 载入文件类型插件&quot;</span><br><span class="line">filetype plugin on</span><br><span class="line">&quot; 为特定文件类型载入相关缩进文件&quot;</span><br><span class="line">filetype indent on</span><br><span class="line">&quot; 保存全局变量&quot;</span><br><span class="line">set viminfo+&#x3D;!</span><br><span class="line">&quot; 带有如下符号的单词不要被换行分割&quot;</span><br><span class="line">set iskeyword+&#x3D;_,$,@,%,#,-</span><br><span class="line">&quot; 字符间插入的像素行数目&quot;</span><br><span class="line">set linespace&#x3D;0</span><br><span class="line">&quot; 增强模式中的命令行自动完成操作&quot;</span><br><span class="line">set wildmenu</span><br><span class="line">&quot; 使回格键（backspace）正常处理indent, eol, start等&quot;</span><br><span class="line">set backspace&#x3D;2</span><br><span class="line">&quot; 允许backspace和光标键跨越行边界&quot;</span><br><span class="line">set whichwrap+&#x3D;&lt;,&gt;,h,l</span><br><span class="line">&quot; 可以在buffer的任何地方使用鼠标（类似office中在工作区双击鼠标定位）&quot;</span><br><span class="line">set mouse&#x3D;a</span><br><span class="line">set selection&#x3D;exclusive</span><br><span class="line">set selectmode&#x3D;mouse,key</span><br><span class="line">&quot; 通过使用: commands命令，告诉我们文件的哪一行被改变过&quot;</span><br><span class="line">set report&#x3D;0</span><br><span class="line">&quot; 高亮显示匹配的括号&quot;</span><br><span class="line">set showmatch</span><br><span class="line">&quot; 匹配括号高亮的时间（单位是十分之一秒）&quot;</span><br><span class="line">set matchtime&#x3D;1</span><br><span class="line">&quot; 光标移动到buffer的顶部和底部时保持3行距离&quot;</span><br><span class="line">set scrolloff&#x3D;3</span><br><span class="line">&quot; 为C程序提供自动缩进&quot;</span><br><span class="line">set smartindent</span><br><span class="line">&quot; 高亮显示普通txt文件（需要txt.vim脚本）&quot;</span><br><span class="line"> au BufRead,BufNewFile *  setfiletype txt</span><br><span class="line">&quot;自动补全&quot;</span><br><span class="line">:inoremap ( ()&lt;ESC&gt;i</span><br><span class="line">:inoremap ) &lt;c-r&gt;&#x3D;ClosePair(&#39;)&#39;)&lt;CR&gt;</span><br><span class="line">:inoremap &#123; &#123;&lt;CR&gt;&#125;&lt;ESC&gt;O</span><br><span class="line">:inoremap &#125; &lt;c-r&gt;&#x3D;ClosePair(&#39;&#125;&#39;)&lt;CR&gt;</span><br><span class="line">:inoremap [ []&lt;ESC&gt;i</span><br><span class="line">:inoremap ] &lt;c-r&gt;&#x3D;ClosePair(&#39;]&#39;)&lt;CR&gt;</span><br><span class="line">:inoremap &quot; &quot;&quot;&lt;ESC&gt;i</span><br><span class="line">:inoremap &#39; &#39;&#39;&lt;ESC&gt;i</span><br><span class="line">function! ClosePair(char)</span><br><span class="line">    if getline(&#39;.&#39;)[col(&#39;.&#39;) - 1] &#x3D;&#x3D; a:char</span><br><span class="line">        return &quot;&#x2F;&lt;Right&gt;&quot;</span><br><span class="line">    else</span><br><span class="line">        return a:char</span><br><span class="line">    endif</span><br><span class="line">endfunction</span><br><span class="line">filetype plugin indent on </span><br><span class="line">&quot;打开文件类型检测, 加了这句才可以用智能补全&quot;</span><br><span class="line">set completeopt&#x3D;longest,menu</span><br><span class="line">&quot;C++的编译和运行  &quot;</span><br><span class="line">&quot;编译运行&quot;</span><br><span class="line">map &lt;F10&gt; :call CompileRunGpp()&lt;CR&gt;  </span><br><span class="line">func! CompileRunGpp()  </span><br><span class="line">exec &quot;w&quot;  </span><br><span class="line">exec &quot;!g++ % -o %&lt;&quot;  </span><br><span class="line">exec &quot;! .&#x2F;%&lt;&quot;  </span><br><span class="line">endfunc</span><br><span class="line">&quot;编译&quot;</span><br><span class="line">map &lt;F8&gt; :call CompileGpp()&lt;cr&gt;  </span><br><span class="line">func! CompileGpp()  </span><br><span class="line">exec &quot;w&quot;  </span><br><span class="line">exec &quot;!g++ % -o %&lt;&quot;  </span><br><span class="line">endfunc</span><br><span class="line">&quot;运行&quot;</span><br><span class="line">map &lt;F9&gt; :call RunGpp()&lt;cr&gt;    </span><br><span class="line">func! RunGpp()    </span><br><span class="line">exec &quot;w&quot;    </span><br><span class="line">exec &quot;! .&#x2F;%&lt;&quot;    </span><br><span class="line">endfunc</span><br></pre></td></tr></table></figure>
+
+<p>保存后再次进入一个cpp文件时，编辑将会更加方便，并可以在vim编辑器中直接编译和运行。</p>
+<h6 id="操作方法为："><a href="#操作方法为：" class="headerlink" title="操作方法为："></a>操作方法为：</h6><table>
+<thead>
+<tr>
+<th align="center">按键</th>
+<th align="center">作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">F8（音量+键+ 8）</td>
+<td align="center">编译</td>
+</tr>
+<tr>
+<td align="center">F9（音量+键 + 9）</td>
+<td align="center">运行</td>
+</tr>
+<tr>
+<td align="center">F10（音量+键 + 0）</td>
+<td align="center">编译并运行</td>
+</tr>
+</tbody></table>
+<p>当然，也可以模仿上面的代码创造自己的快捷键，比如gdb调试。</p>
+<ul>
+<li><h5 id="优化termux终端界面"><a href="#优化termux终端界面" class="headerlink" title="优化termux终端界面"></a>优化termux终端界面</h5></li>
+</ul>
+<p>使用zsh来替代bash作为默认shell。</p>
+<p>在已安装curl的情况下使用以下命令：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">sh -c &quot;$(curl -fsSL https:&#x2F;&#x2F;github.com&#x2F;Cabbagec&#x2F;termux-ohmyzsh&#x2F;raw&#x2F;master&#x2F;install.sh)&quot;</span><br></pre></td></tr></table></figure>
+
+<p>Android 6.0以上可能会弹框确认是否授权访问文件，点击允许，之后会在termux根目录生成storage目录，可以方便地对外部文件进行操作。</p>
+<p>安装成功后先后会有两个选项，分别选择背景色和字体，如下：</p>
+<p>Enter a number, leave blank to not to change:</p>
+<p>Enter a number, leave blank to not to change: </p>
+<p>我选的是14和6，仅供参考。</p>
+<p>如果希望再次更改配色，可执行如下命令：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">~&#x2F;termux-ohmyzsh&#x2F;install.sh</span><br></pre></td></tr></table></figure>
+<p>重启软件或开启新session生效。</p>
+<ul>
+<li><h5 id="修改启动问候语"><a href="#修改启动问候语" class="headerlink" title="修改启动问候语"></a>修改启动问候语</h5></li>
+</ul>
+<p>可以编辑问候语文件直接修改问候语。</p>
+<p>输入如下命令即可修改：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vim $PREFIX&#x2F;etc&#x2F;motd</span><br></pre></td></tr></table></figure>
+<p>保存重启即可。</p>
+<h3 id="termux的其他玩法"><a href="#termux的其他玩法" class="headerlink" title="termux的其他玩法"></a>termux的其他玩法</h3><ul>
+<li><p>termux可以在手机上安装正规linux，比如ubuntu、kali，并能安装桌面（也就是说可以图形化操作）， 但NOI linux除外（大雾） ；</p>
 </li>
-<li><ul>
-<li>提分最快，遗传秒解</li>
-</ul>
+<li><p>termux可以愉快地玩耍python，制作网络爬虫、微信机器人以及其它；</p>
 </li>
-<li>张继光-跟谁学x6</li>
-<li>万猛-有道精品课x2</li>
-<li><ul>
-<li>提高思维提分快</li>
-</ul>
+<li><p>在termux上安装kali-linux及其它安全工具，靠自己来暴力破解WIFI， 并从此走上CTF的不归路（大雾） ；</p>
 </li>
-<li>万猛老师-作业帮x2</li>
-<li>张云翼_channel-哔哩哔哩</li>
-<li><ul>
-<li>为清华大学在读博士</li>
-</ul>
+<li><p>在termux上运用php和WordPress或hexo搭建网站和博客；</p>
 </li>
-<li>冯博</li>
-</ul>
-<h3 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h3><ul>
-<li>马宇轩x4</li>
-<li>刘勖雯-腾讯课堂x3</li>
-<li><ul>
-<li>技巧讲解，题库强大</li>
-</ul>
+<li><p>用termux ssh远程连接电脑，从此躺在床上就可以操作电脑；</p>
 </li>
-<li>桑宏斌</li>
-<li>李谓</li>
-<li><ul>
-<li>基础</li>
-</ul>
+<li><p>在termux上使用Aria2打造自己的下载工具，配置好的话还可以高速下载百度云文件；</p>
+</li>
+<li><p>安装Termux-api，直接操作调动系统底层，用代码发短信、打电话。</p>
 </li>
 </ul>
-<h3 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h3><ul>
-<li>刘勖雯-腾讯课堂x3</li>
-<li><ul>
-<li>技巧讲解，题库强大，推荐</li>
-</ul>
-</li>
-<li>定哥x3</li>
-<li><ul>
-<li>零基础</li>
-</ul>
-</li>
-<li>李光-精华课堂x2</li>
-<li><ul>
-<li>拔高</li>
-</ul>
-</li>
-<li>褚润x2</li>
-<li>韩校-简单学习网</li>
-<li>刘旭</li>
-<li>关也</li>
-<li><ul>
-<li>拔高</li>
-</ul>
-</li>
-</ul>
-<h3 id="地理"><a href="#地理" class="headerlink" title="地理"></a>地理</h3><ul>
-<li>包易正-有道x4</li>
-<li><ul>
-<li>基础，推荐</li>
-</ul>
-</li>
-<li>刘勖雯-腾讯课堂x3</li>
-<li><ul>
-<li>技巧讲解，题库强大</li>
-</ul>
-</li>
-<li>张艳萍x3</li>
-<li>张艳平-大地经纬网校x2</li>
-</ul>
-<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721123841.png" alt=""></p>
+<hr>
+<p>termux作为一个linux模拟器，可实现的功能远远不止打打C++和python的代码，希望有更多的人能够认识termux的强大并挖掘出更多玩法，也希望能够有更多关于termux的优秀文章出现。</p>
+<h6 id="文章部分内容引用地址："><a href="#文章部分内容引用地址：" class="headerlink" title="文章部分内容引用地址："></a>文章部分内容引用地址：</h6><p><a href="https://www.sqlsec.com/2018/05/termux.html" target="_blank" rel="noopener">https://www.sqlsec.com/2018/05/termux.html</a></p>
+<p><a href="https://www.cnblogs.com/jokerBi/articles/10609264.html" target="_blank" rel="noopener">https://www.cnblogs.com/jokerBi/articles/10609264.html</a></p>
+<h6 id="推荐阅读："><a href="#推荐阅读：" class="headerlink" title="推荐阅读："></a>推荐阅读：</h6><p>知乎专栏：<a href="https://zhuanlan.zhihu.com/c_1208079877376901120" target="_blank" rel="noopener">安卓手机配合linux新玩法挖掘</a></p>
+<p>…</p>
+<p>…</p>
+<p>…</p>
+<p>…</p>
+<p>…</p>
+<p>彩蛋：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pkg install nyancat</span><br><span class="line">nyancat</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>其他</category>
-        <category>文化课</category>
       </categories>
       <tags>
-        <tag>整理</tag>
-        <tag>网课</tag>
+        <tag>原创</tag>
+        <tag>C++</tag>
       </tags>
   </entry>
   <entry>
@@ -2043,61 +1775,329 @@
       </tags>
   </entry>
   <entry>
-    <title>洛谷题目打印机使用说明书</title>
-    <url>/printluoguproblem/</url>
-    <content><![CDATA[<p>身处弱校，不能天天上机？</p>
-<p>希望我的<code>洛谷题目打印机</code>可以帮到您！</p>
-<p>这篇博客将会帮助您安装并使用<code>洛谷题目打印机</code>。</p>
+    <title>网课推荐（知乎答案收集）</title>
+    <url>/whkwangke/</url>
+    <content><![CDATA[<p>这里是jwj翻了很多知乎答案收集得到的结果，希望对大家有所帮助qwq</p>
 <a id="more"></a>
 
-<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>您可以使用它来屏蔽一些妨碍打印题目或者与题目无关的网页元素，从而比较完美地打印洛谷题目，或者把洛谷题目导出为PDF格式。</p>
-<p>作者是一条酸菜鱼，如果在打印机里面发现了虫子或者有更好的修改建议可以联系作者修复，如果有不懂的地方也可以联系作者询问。祝您使用愉快！</p>
-<p><a href="https://userstyles.org/styles/186569/by-jwj" target="_blank" rel="noopener">洛谷题目打印机链接</a></p>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><blockquote>
-<p><code>洛谷题目打印机</code>安装方法与安装<code>氩洛谷</code>类似。如果您安装了或者安装过氩洛谷，那么您可以忽略下面的安装教程直接点击链接安装。</p>
-</blockquote>
-<p><del>您得拥有一台电脑。</del></p>
-<p>您需要在电脑上装有谷歌浏览器。</p>
-<p>您需要在谷歌浏览器上安装一个名为<code>Stylish</code>的插件。</p>
-<p>啥？怎么安装插件？您可能需要打开<code>Chrome 网上应用店</code>进行搜索安装。</p>
-<p>啥？打不开？您可能需要一个机场才能打开。</p>
-<p>啥？没有机场？ <del>您可以选择运用搜索引擎搜索如何下载<code>Stylish</code>这个插件。</del></p>
-<p>嗯好的，此时您安装完了<code>Stylish</code>这个插件，那么您可以点开上面的链接了。</p>
-<p>点开链接后，如果不出所料，会出现下面的界面：</p>
-<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125452.png" alt=""></p>
-<p>看到下面的那个蓝色的按钮没有？ <del>把鼠标指针拖到那个蓝色的按钮上面，然后轻轻按下鼠标左键，</del> 当蓝色按钮变成了如下图所示的绿色按钮时，恭喜您，安装成功了。</p>
-<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125454.png" alt=""></p>
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>平时在电脑上做题不用打印的时候，建议关闭<code>洛谷题目打印机</code>以避免妨碍您的刷题体验。</p>
-<p>点击谷歌浏览器右上方的<code>Stylish</code>图标，点击“已安装样式”就可以选择开启或关闭<code>洛谷题目打印机</code>。或者您也可以点击<code>Stylish</code>图标后点击右上方的三个点选择“管理样式”即可选择开启或关闭。</p>
-<p>如果您需要打印题目了，请按照如上方式开启<code>洛谷题目打印机</code>。</p>
-<p>打开您需要打印的题目链接，您会发现界面变成了这样：</p>
-<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125450.png" alt=""></p>
-<p>此时，右键选择打印，或者按下快捷键Ctrl键+P键，将会弹出打印界面：</p>
-<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125459.png" alt=""></p>
-<p>此时选择打印机即可打印，“目标打印机”选择“另存为PDF”即可转存为PDF。</p>
-<h2 id="打印设置"><a href="#打印设置" class="headerlink" title="打印设置"></a>打印设置</h2><p>如果需要设置，请在打印界面点开“更多设置”。</p>
-<ul>
-<li><p>“纸张尺寸”可以选择您打印出来的纸张大小，推荐设置为<code>A4</code>。</p>
+
+<h3 id="语文"><a href="#语文" class="headerlink" title="语文"></a>语文</h3><ul>
+<li>乘风-腾讯课堂x9</li>
+<li><ul>
+<li>提分快，适合理科生</li>
+</ul>
 </li>
-<li><p>“每个工作表的页数”可以选择打印的格式，在一面纸中打印多少面题目，推荐设置为1或2。</p>
+<li><ul>
+<li>文言文</li>
+</ul>
 </li>
-<li><p>“边距”和“缩放”可以分别选择打印的页边距和内容（字体）大小，推荐设置为“默认”。</p>
+<li>杨洋-腾讯课堂x8</li>
+<li><ul>
+<li>培养思维，作文讲的很好</li>
+</ul>
 </li>
-<li><p>“选项”中的“页眉和页脚”可以选择是否打印打印日期、网页名称、网页地址和页码，请按自己需求设置。推荐不勾选“背景图形”，<del>但是勾选也行。</del></p>
+<li>国家玮-新东方、大黄蜂课堂x6</li>
+<li><ul>
+<li>社科文古文都讲的不错</li>
+</ul>
 </li>
-<li><p>其他选项根据需求自行设置。</p>
+<li><ul>
+<li>偏向于思维提升，讲法别出心裁</li>
+</ul>
+</li>
+<li>董腾-有道精品课x2</li>
+<li><ul>
+<li>幽默风趣应试很强</li>
+</ul>
+</li>
+<li>王大绩-简单学习网</li>
+<li>谢明波</li>
+<li>王丹宁-原新东方</li>
+<li>陈焕文-乐学</li>
+<li><ul>
+<li>理科思维，理解难度会大</li>
+</ul>
 </li>
 </ul>
-<hr>
-<p>本说明书到此结束，如果在打印机里面发现了虫子或者有更好的修改建议可以联系作者修复，如果有不懂的地方也可以联系作者询问。祝您使用愉快！</p>
+<h3 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h3><ul>
+<li>周帅-高德x9</li>
+<li><ul>
+<li>每一个知识点都讲得特别全面，各个题型都有涉及</li>
+</ul>
+</li>
+<li><ul>
+<li>偏基础一点</li>
+</ul>
+</li>
+<li><ul>
+<li>授课内容集中、信息量大，讲题侧重培养思维，而非机械操作，课时多，知识点细。</li>
+</ul>
+</li>
+<li>郭化楠-有道精品课、学而思x5</li>
+<li><ul>
+<li>重视基础</li>
+</ul>
+</li>
+<li><ul>
+<li>非常注重基础，潜移默化的拓展知识之间的延伸</li>
+</ul>
+</li>
+<li><ul>
+<li>拔高（有道精品课）</li>
+</ul>
+</li>
+<li><ul>
+<li>全网最完美的“自学”视频，适合零基础。把知识点的来龙去脉讲的透彻，可以培养出真正的学术性人才</li>
+</ul>
+</li>
+<li>赵礼显-跟谁学x5</li>
+<li><ul>
+<li>拔高</li>
+</ul>
+</li>
+<li><ul>
+<li>课时少，课程主讲题型解题法，对基础知识讲解少，不适合基础差的人群。短期提分快。</li>
+</ul>
+</li>
+<li>凉学长-腾讯课堂x3</li>
+<li><ul>
+<li>方法巧妙</li>
+</ul>
+</li>
+<li>蔡德锦-腾讯课堂x2</li>
+<li><ul>
+<li>通过带你做题来深刻的理解这个知识点，适合拔高的同学</li>
+</ul>
+</li>
+<li><ul>
+<li>给人踏实很值得信赖的感觉，讲的真的很吸引人，效率很高，方法总结很到位，简介明了</li>
+</ul>
+</li>
+<li>鲲哥带你学数学-哔哩哔哩x2</li>
+<li>蒋叶光-领世培优</li>
+<li>建哥数学</li>
+<li>高中数学北师math杨-哔哩哔哩</li>
+<li>佟大大是ETT-哔哩哔哩</li>
+<li>讲高中数学的邓老师-哔哩哔哩</li>
+<li>高中数学蔡德锦老师-哔哩哔哩</li>
+<li>猪猪老师教数学-哔哩哔哩</li>
+<li>成都高中数学cdgzsxfml-哔哩哔哩</li>
+<li>司马红丽老师-精华在线</li>
+<li>李永乐老师-原精华、美提课堂</li>
+<li><ul>
+<li>思维训练</li>
+</ul>
+</li>
+<li>王梦抒-腾讯课堂</li>
+<li>数学超人-腾讯课堂</li>
+<li>关旭-前有道</li>
+<li><ul>
+<li>圆锥曲线</li>
+</ul>
+</li>
+<li>蒋叶光</li>
+<li><ul>
+<li>强推他的圆锥曲线，全网算是比较好的了,其他课程拔高，门槛较高</li>
+</ul>
+</li>
+<li>王文勇老师-勇哥数学APP</li>
+</ul>
+<h3 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h3><ul>
+<li>徐磊-跟谁学x10</li>
+<li><ul>
+<li>磊神，名不虚传</li>
+</ul>
+</li>
+<li>李辉-有道精品课x4</li>
+<li><ul>
+<li>方法论好，提分快</li>
+</ul>
+</li>
+<li>刘晓峰老师-原新东方</li>
+<li>麻雪玲老师-简单学习网</li>
+</ul>
+<h3 id="物理"><a href="#物理" class="headerlink" title="物理"></a>物理</h3><ul>
+<li>坤哥-腾讯课堂x7</li>
+<li><ul>
+<li>构造一个完美的物理知识体系，题型全部在他的课程之中，非常的优秀</li>
+</ul>
+</li>
+<li><ul>
+<li>基础</li>
+</ul>
+</li>
+<li>王羽-腾讯课堂x6</li>
+<li><ul>
+<li>拔高 </li>
+</ul>
+</li>
+<li>刘杰-有道精品课x3</li>
+<li><ul>
+<li>拔高 </li>
+</ul>
+</li>
+<li>坤哥物理-哔哩哔哩x2</li>
+<li>李楠老师-有道精品课x2</li>
+<li><ul>
+<li>拔高 </li>
+</ul>
+</li>
+<li>夏梦迪老师-新东方x2</li>
+<li><ul>
+<li>他能从最基础的内容说到最深层的知识，循序渐进，课堂生动有趣，有基础也有大招，同样课时较多</li>
+</ul>
+</li>
+<li><ul>
+<li>拔高 </li>
+</ul>
+</li>
+<li>陈老师敲黑板-哔哩哔哩</li>
+<li><ul>
+<li>清华附中物理老师，力学电学内容都有</li>
+</ul>
+</li>
+<li>物理X学姐-哔哩哔哩</li>
+<li><ul>
+<li>南京大学天文系的一位学姐，颜值与才华并存的一位up主，非常优秀。</li>
+</ul>
+</li>
+<li>大宽物理-哔哩哔哩</li>
+<li>曾珍</li>
+<li>珍哥物理</li>
+<li>郑少龙老师-猿辅导</li>
+<li><ul>
+<li>基础</li>
+</ul>
+</li>
+<li>李永乐老师-美提课堂</li>
+<li><ul>
+<li>基础</li>
+</ul>
+</li>
+<li>王文博</li>
+<li>肖嗣光（现在只做线下了）</li>
+<li>于冲-乐学</li>
+</ul>
+<h3 id="化学"><a href="#化学" class="headerlink" title="化学"></a>化学</h3><ul>
+<li>陆艳华-伴学优课、金榜在线x8</li>
+<li><ul>
+<li>适合基础差的，过掉所有高中知识点</li>
+</ul>
+</li>
+<li><ul>
+<li>选五看陆姐</li>
+</ul>
+</li>
+<li><ul>
+<li>全网风评最好的老师，没有之一</li>
+</ul>
+</li>
+<li>李政-乐学x8</li>
+<li><ul>
+<li>适合基础好的，完全不一样的眼界和视角，电化学直接打开新世界的大门</li>
+</ul>
+</li>
+<li><ul>
+<li>选三看政神</li>
+</ul>
+</li>
+<li>木子-腾讯课堂x2</li>
+<li><ul>
+<li>通俗易懂，方法好</li>
+</ul>
+</li>
+<li>高东辉老师-精华在线</li>
+<li><ul>
+<li>基础</li>
+</ul>
+</li>
+</ul>
+<h3 id="生物"><a href="#生物" class="headerlink" title="生物"></a>生物</h3><ul>
+<li>周芳煜-腾讯课堂x8</li>
+<li><ul>
+<li>可爱（？）</li>
+</ul>
+</li>
+<li><ul>
+<li>提分最快，遗传秒解</li>
+</ul>
+</li>
+<li>张继光-跟谁学x6</li>
+<li>万猛-有道精品课x2</li>
+<li><ul>
+<li>提高思维提分快</li>
+</ul>
+</li>
+<li>万猛老师-作业帮x2</li>
+<li>张云翼_channel-哔哩哔哩</li>
+<li><ul>
+<li>为清华大学在读博士</li>
+</ul>
+</li>
+<li>冯博</li>
+</ul>
+<h3 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h3><ul>
+<li>马宇轩x4</li>
+<li>刘勖雯-腾讯课堂x3</li>
+<li><ul>
+<li>技巧讲解，题库强大</li>
+</ul>
+</li>
+<li>桑宏斌</li>
+<li>李谓</li>
+<li><ul>
+<li>基础</li>
+</ul>
+</li>
+</ul>
+<h3 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h3><ul>
+<li>刘勖雯-腾讯课堂x3</li>
+<li><ul>
+<li>技巧讲解，题库强大，推荐</li>
+</ul>
+</li>
+<li>定哥x3</li>
+<li><ul>
+<li>零基础</li>
+</ul>
+</li>
+<li>李光-精华课堂x2</li>
+<li><ul>
+<li>拔高</li>
+</ul>
+</li>
+<li>褚润x2</li>
+<li>韩校-简单学习网</li>
+<li>刘旭</li>
+<li>关也</li>
+<li><ul>
+<li>拔高</li>
+</ul>
+</li>
+</ul>
+<h3 id="地理"><a href="#地理" class="headerlink" title="地理"></a>地理</h3><ul>
+<li>包易正-有道x4</li>
+<li><ul>
+<li>基础，推荐</li>
+</ul>
+</li>
+<li>刘勖雯-腾讯课堂x3</li>
+<li><ul>
+<li>技巧讲解，题库强大</li>
+</ul>
+</li>
+<li>张艳萍x3</li>
+<li>张艳平-大地经纬网校x2</li>
+</ul>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721123841.png" alt=""></p>
 ]]></content>
       <categories>
         <category>其他</category>
-        <category>工具</category>
+        <category>文化课</category>
       </categories>
       <tags>
-        <tag>CSS</tag>
-        <tag>原创</tag>
+        <tag>整理</tag>
+        <tag>网课</tag>
       </tags>
   </entry>
 </search>
