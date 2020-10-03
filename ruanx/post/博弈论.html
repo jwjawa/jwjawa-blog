@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="https://jwjawa.gitee.io/cdn/img/ruanx/favicon.ico">
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
+	<title>博弈论入门 - blue's blog</title>
+	<!-- css -->
+	<link href="https://jwjawa.gitee.io/cdn/css/ruanx/base.min.css" rel="stylesheet">
+	<link href="https://jwjawa.gitee.io/cdn/css/ruanx/project.min.css" rel="stylesheet">
+	<link href="https://jwjawa.gitee.io/cdn/css/ruanx/styles.css" rel="stylesheet">
+
+
+	<script type="text/x-mathjax-config">
+  		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+</head>
+<body class="page-brand">
+	
+	<nav class="menu menu-left nav-drawer nav-drawer-md" id="ui_menu">
+		<div class="menu-scroll">
+			<div class="menu-content">
+				<a class="menu-logo" href="/ruanx/index.html">blue的博客</a>
+				<ul class="nav">
+					<li>
+						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#posts">OI笔记</a>	
+						<ul class="menu-collapse collapse in" id="posts">
+						
+							<li>
+								<a class="waves-attach" href="/ruanx/post/特征方程.html">特征方程教程</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/近似算法.html">近似算法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/SG函数.html">SG函数</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/Matrix-Tree.html">Matrix-Tree定理</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/polya.html">polya定理</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/NOIP2016.html">NOIP2016游记</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/有限微积分.html">差分与有限微积分</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/概率论.html">概率论</a>
+							</li><li class="active">
+								<a class="waves-attach" href="/ruanx/post/博弈论.html">博弈论入门</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/级数相关.html">级数相关</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/母函数.html">浅谈母函数</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/FFT.html">FFT入门</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/三分查找.html">三分查找</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/Miller_Rabin.html">Miller_Rabin判素</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/HNSDFZ-Round4酱油记.html">HNSDFZ#4 酱油记</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/牛顿迭代.html">牛顿迭代法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/泰勒展开.html">泰勒展开</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/狄利克雷卷积.html">狄利克雷卷积</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/单调队列.html">单调队列</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/数值积分算法.html">数值积分算法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/字符串hash.html">字符串hash</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/MEET-IN-THE-MIDDLE.html">Meet in the Middle</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/定积分.html">定积分与牛顿-莱布尼兹公式</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/HNSDFZ-Round3胡策记.html">HNSDFZ#3 胡策记</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/数学归纳法.html">数学归纳法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/导数.html">导数</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/普通线段树.html">普通线段树</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/矩阵与递推.html">矩阵与递推</a>
+							</li>						</ul>
+
+						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#hack">渗透日志</a>	
+						<ul class="menu-collapse collapse in" id="hack">
+							
+							<li>
+								<a class="waves-attach" href="/ruanx/hack/XSS.html">初探XSS</a>
+							</li>						</ul>
+
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class="header header-transparent header-waterfall ui-header">
+		<ul class="nav nav-list pull-left hidden-md hidden-lg">
+			<li>
+				<a data-toggle="menu" href="#ui_menu">
+					<span class="icon icon-lg">menu</span>
+				</a>
+			</li>
+		</ul>
+		<span class="header-logo header-affix visible-md-block visible-lg-block margin-right-no" data-offset-top="0" data-spy="affix">
+			<p class="pagetitle">博弈论入门</p>
+		</span>
+		
+		<ul class="nav nav-list pull-right">
+			<li>
+				<a data-toggle="menu" href="/ruanx/index.html">
+					<span class="avatar avatar-sm"><img alt="blue" src="https://i.loli.net/2017/10/21/59eb6654682d2.png"></span>
+				</a>
+			</li>
+		</ul>
+	</header>
+	<main class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1">
+					<section class="content-inner margin-top-no">
+						<br>
+						
+<h1>博弈论</h1>
+<p>一些简单的定义：</p>
+<p>必胜点（N点）：走到必胜点的玩家一定胜利。
+必败点（P点）：走到必败点的玩家一定失败。</p>
+<div class="card"><div class="card-main"><div class="card-inner">
+<p>定理1.所有游戏终结的点都是必败点。<br />
+定理2.所有一步<strong>能</strong>走到必败点的就是必胜点。因为对手将面临必败点。<br />
+定理3.通过一步操作<strong>只能</strong>到必胜点的就是必败点。因为对手将获得必胜点。  </p>
+</div></div></div>
+<h2>取石子游戏</h2>
+<p>有两堆石子和两个玩家。<br />
+每回合，玩家可以选择从<strong>某一堆</strong>取走一个石子，或者从<strong>两堆</strong>中都取走一个石子。  </p>
+<p>最后无法操作的玩家失败。</p>
+<h2>分析</h2>
+<p>以<mathjax>$(A,B)$</mathjax>表示当前的状态：第一堆有<mathjax>$A$</mathjax>个石子，第二堆有<mathjax>$B$</mathjax>个石子。<br />
+由于这个游戏没有和局，所以<strong>某个状态不是必败点就是必胜点</strong>。</p>
+<p>首先考虑<code>终结点</code>：两堆石子都空了，面对这个状态的玩家必败。<br />
+于是有了第一个必败点：<mathjax>$(0,0)$</mathjax>。</p>
+<div class="card"><div class="card-main"><div class="card-inner">
+<p>定理2.所有一步能走到必败点的就是必胜点。因为对手将面临必败点。  </p>
+</div></div></div>
+<p>由于<mathjax>$(0,1)$</mathjax>和<mathjax>$(1,0)$</mathjax>能走到<mathjax>$(0,0)$</mathjax>，因此它们是必胜点。</p>
+<div class="card"><div class="card-main"><div class="card-inner">
+<p>定理3.通过一步操作<strong>只能</strong>到必胜点的就是必败点。因为对手将获得必胜点。  </p>
+</div></div></div>
+<p>考虑<mathjax>$(0,1)$</mathjax>，显然<mathjax>$(0,2)$</mathjax>只能走到<mathjax>$(0,1)$</mathjax>，所以<mathjax>$(0,2)$</mathjax>是必败点。由于<mathjax>$(0,3)$</mathjax>能走到<mathjax>$(0,2)$</mathjax>让对手必败，所以<mathjax>$(0,3)$</mathjax>是必胜点。<br />
+以此类推，我们得到结论：<mathjax>$(0,2k)$</mathjax>是必败点，<mathjax>$(0,2k+1)$</mathjax>是必胜点。</p>
+<p>如何让对手面临<mathjax>$(0,2k)$</mathjax>呢？显然，当目前局面是<mathjax>$(1,2k+1)$</mathjax>时，可以两堆各取一个石子，所以<mathjax>$(1,2k+1)$</mathjax>是必胜点。
+类似地，<mathjax>$(1,2k)$</mathjax>是必胜点，因为：<br />
+1. 先手不取<mathjax>$1$</mathjax>那一堆石子。则后手得到<mathjax>$(1,2k-1)$</mathjax>必胜。因此不会这样选。
+2. 先手取走<mathjax>$1$</mathjax>那一堆石子。则后手得到<mathjax>$(0,2k)$</mathjax>局面必败。先手胜。
+3. 两堆石子都取。则后手得到<mathjax>$(0,2k-1)$</mathjax>必胜，因此不会这样选。</p>
+<p>因此我们得到结论：<mathjax>$(1,*)$</mathjax>是必胜点。</p>
+<p>由于<mathjax>$(1,*)$</mathjax>必胜，且<mathjax>$(2,2)$</mathjax>只能走到<mathjax>$(1,*)$</mathjax>，所以<mathjax>$(2,2)$</mathjax>必败。<br />
+故<mathjax>$(2,3)$</mathjax>和<mathjax>$(3,3)$</mathjax>是必胜点。由于<mathjax>$(2,4)$</mathjax>是必败点，所以<mathjax>$(3,4)$</mathjax>是必胜点。</p>
+<p>稍微推理一番就得知：  </p>
+<div class="card"><div class="card-main"><div class="card-inner">
+<p><code>(偶数,偶数)</code>是必败点。<br />
+<code>(奇数,偶数)</code>是必胜点。<br />
+<code>(偶数,奇数)</code>是必胜点。<br />
+<code>(奇数,奇数)</code>是必胜点。  </p>
+</div></div></div>
+<p>历经艰险，总算把事情推完了。博弈论真是迷人……</p>
+<h2>Nim游戏</h2>
+<p>Alice和Bob正在玩一个游戏，Alice先手。</p>
+<p>他们面前有三堆石子。Alice和Bob轮流操作，每次从某堆中取走任意张。<br />
+没石子可取的玩家失败。</p>
+<p>那么这个博弈如何做？  </p>
+<p>抱歉，我也不会证，只知道结论，如果要证，请找<a href="http://link-arthur.github.io/">Link神</a>。</p>
+<p>像之前那样以<mathjax>$(a,b,c)$</mathjax>表示状态。结论是(<mathjax>$ \oplus$</mathjax>表示异或)：<br />
+1. 当且仅当<mathjax>$a \oplus b  \oplus c = 0$</mathjax>时，<mathjax>$(a,b,c)$</mathjax>是必败点。
+2. 否则就是必胜点。</p>
+<p>结论可以推广：<br />
+若有<mathjax>$n$</mathjax>堆石子，则当且仅当<mathjax>$a \oplus b  \oplus c  \oplus d\cdots = 0$</mathjax>时，此点是必败点。</p>
+<h2>SG函数</h2>
+<p>留坑待补</p>
+						
+					</section>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1">
+					<section class="content-inner margin-top-no">
+						<hr>
+						
+							CC0协议 @ ruanxingzhi 2017.
+						<a style="float:right" href="/ruanx/CC0.html">CC0是啥玩意?</a>
+					</section>
+				</div>
+			</div>
+
+
+		</div>
+
+
+	</main>
+	
+	<div class="fbtn-container">
+		<div class="fbtn-inner">
+			<a class="fbtn fbtn-lg fbtn-brand-accent waves-attach waves-circle waves-light" data-toggle="dropdown">
+				<span class="fbtn-text fbtn-text-left">Home</span>
+				<span class="fbtn-ori icon">apps</span>
+				<span class="fbtn-sub icon">close</span>
+			</a>
+			<div class="fbtn-dropup">
+				<a class="fbtn waves-attach waves-circle" href="/ruanx/about.html" target="_blank">
+					<span class="fbtn-text fbtn-text-left">关于作者</span><span class="icon">perm_identity</span>
+				</a>
+				<a class="fbtn waves-attach waves-circle" href="https://coding.net/u/ruanxingzhi/p/blog/topic" target="_blank">
+					<span class="fbtn-text fbtn-text-left">反馈</span><span class="icon">feedback</span>
+				</a>
+				<a class="fbtn fbtn-green waves-attach waves-circle" href="/ruanx/index.html" target="_self">
+					<span class="fbtn-text fbtn-text-left">返回主页</span><span class="icon">home</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<!-- js -->
+	<script src="https://jwjawa.gitee.io/cdn/js/ruanx/jquery.min.js"></script>
+	<script src="https://jwjawa.gitee.io/cdn/js/ruanx/base.min.js"></script>
+</body>
+</html>

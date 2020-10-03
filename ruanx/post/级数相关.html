@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="https://jwjawa.gitee.io/cdn/img/ruanx/favicon.ico">
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
+	<title>级数相关 - blue's blog</title>
+	<!-- css -->
+	<link href="https://jwjawa.gitee.io/cdn/css/ruanx/base.min.css" rel="stylesheet">
+	<link href="https://jwjawa.gitee.io/cdn/css/ruanx/project.min.css" rel="stylesheet">
+	<link href="https://jwjawa.gitee.io/cdn/css/ruanx/styles.css" rel="stylesheet">
+
+
+	<script type="text/x-mathjax-config">
+  		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+</head>
+<body class="page-brand">
+	
+	<nav class="menu menu-left nav-drawer nav-drawer-md" id="ui_menu">
+		<div class="menu-scroll">
+			<div class="menu-content">
+				<a class="menu-logo" href="/ruanx/index.html">blue的博客</a>
+				<ul class="nav">
+					<li>
+						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#posts">OI笔记</a>	
+						<ul class="menu-collapse collapse in" id="posts">
+						
+							<li>
+								<a class="waves-attach" href="/ruanx/post/特征方程.html">特征方程教程</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/近似算法.html">近似算法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/SG函数.html">SG函数</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/Matrix-Tree.html">Matrix-Tree定理</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/polya.html">polya定理</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/NOIP2016.html">NOIP2016游记</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/有限微积分.html">差分与有限微积分</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/概率论.html">概率论</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/博弈论.html">博弈论入门</a>
+							</li><li class="active">
+								<a class="waves-attach" href="/ruanx/post/级数相关.html">级数相关</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/母函数.html">浅谈母函数</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/FFT.html">FFT入门</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/三分查找.html">三分查找</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/Miller_Rabin.html">Miller_Rabin判素</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/HNSDFZ-Round4酱油记.html">HNSDFZ#4 酱油记</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/牛顿迭代.html">牛顿迭代法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/泰勒展开.html">泰勒展开</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/狄利克雷卷积.html">狄利克雷卷积</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/单调队列.html">单调队列</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/数值积分算法.html">数值积分算法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/字符串hash.html">字符串hash</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/MEET-IN-THE-MIDDLE.html">Meet in the Middle</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/定积分.html">定积分与牛顿-莱布尼兹公式</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/HNSDFZ-Round3胡策记.html">HNSDFZ#3 胡策记</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/数学归纳法.html">数学归纳法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/导数.html">导数</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/普通线段树.html">普通线段树</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/矩阵与递推.html">矩阵与递推</a>
+							</li>						</ul>
+
+						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#hack">渗透日志</a>	
+						<ul class="menu-collapse collapse in" id="hack">
+							
+							<li>
+								<a class="waves-attach" href="/ruanx/hack/XSS.html">初探XSS</a>
+							</li>						</ul>
+
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class="header header-transparent header-waterfall ui-header">
+		<ul class="nav nav-list pull-left hidden-md hidden-lg">
+			<li>
+				<a data-toggle="menu" href="#ui_menu">
+					<span class="icon icon-lg">menu</span>
+				</a>
+			</li>
+		</ul>
+		<span class="header-logo header-affix visible-md-block visible-lg-block margin-right-no" data-offset-top="0" data-spy="affix">
+			<p class="pagetitle">级数相关</p>
+		</span>
+		
+		<ul class="nav nav-list pull-right">
+			<li>
+				<a data-toggle="menu" href="/ruanx/index.html">
+					<span class="avatar avatar-sm"><img alt="blue" src="https://i.loli.net/2017/10/21/59eb6654682d2.png"></span>
+				</a>
+			</li>
+		</ul>
+	</header>
+	<main class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1">
+					<section class="content-inner margin-top-no">
+						<br>
+						
+<h1>级数相关</h1>
+<h2>定义</h2>
+<p>有数列<mathjax>${a_n}$</mathjax>，加号连接这些数，得到级数。<br />
+<mathjax>$\displaystyle S = \sum_{i=1}^\infty a_i$</mathjax>  </p>
+<p>如果<mathjax>$S$</mathjax>拥有极限，则称级数<mathjax>$S$</mathjax><strong>收敛</strong>。否则称级数<mathjax>$S$</mathjax><strong>发散</strong>。</p>
+<p>条件收敛：如果<mathjax>$S=\sum a_i$</mathjax>收敛而<mathjax>$\sum|a_i|$</mathjax>发散，则称<mathjax>$S$</mathjax><strong>条件收敛</strong>。</p>
+<p><strong>重要性质</strong>：对发散级数不能更改求和顺序。（加括号属于更改求和顺序）</p>
+<h2>黎曼级数定理</h2>
+<p>一个颠覆常规观念的结论：<br />
+如果级数<mathjax>$S$</mathjax>条件收敛，那么我们可以指定任意实数<mathjax>$M$</mathjax>，通过调整级数的求和顺序，使得<mathjax>$S=M$</mathjax>；也可以通过调整级数的求和顺序，使得<mathjax>$S=\infty$</mathjax>,<mathjax>$S=-\infty$</mathjax>或根本没有极限。</p>
+<h2>调和级数</h2>
+<p>级数<mathjax>$\displaystyle S=\sum_{i=1}^\infty \frac{1}{i}$</mathjax> 称为“调和级数”。  </p>
+<p>它的前<mathjax>$n$</mathjax>项和<mathjax>$S_n = \ln(n+1) + r$</mathjax>,其中<mathjax>$r$</mathjax>被称为“欧拉常数”。</p>
+<p>近年来出现了声称<a href="https://tieba.baidu.com/p/4105309781">调和级数收敛</a>的狗屁论调，我们容易证明调和级数发散：</p>
+<p><mathjax>$1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{1}{5}\cdots &gt; 1+\frac{1}{2}+\frac{1}{4}+\frac{1}{4}+\frac{1}{8}+\frac{1}{8}+\frac{1}{8}+\frac{1}{8}\cdots$</mathjax><br />
+又有右边柿子等于<mathjax>$1+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}\cdots$</mathjax>，发散。<br />
+故调和级数发散。   </p>
+<p>调和级数与<mathjax>$\ln n$</mathjax>同阶，故经常用来证明复杂度。例如下面的代码：</p>
+<pre class="codehilite"><code class="language-cpp">for(i=1;i&lt;=n;i++)
+    for(j=1;i*j&lt;=n;j++)
+        //do something excited in O(1)</code></pre>
+
+
+<p>考虑对于某个<mathjax>$i$</mathjax>，<mathjax>$j$</mathjax>将会有<mathjax>$\frac{n}{i}$</mathjax>个取值。<br />
+那么总的<mathjax>$j$</mathjax>的取值为：<mathjax>$\displaystyle \sum_{i=1}^n \frac{n}{i}=n*\sum_{i=1}^n\frac{1}{i}$</mathjax>。</p>
+<p>而<mathjax>$\displaystyle \sum_{i=1}^n\frac{1}{i}$</mathjax>与<mathjax>$\ln n$</mathjax>同阶，故算法复杂度是<mathjax>$O(n \log n)$</mathjax>.</p>
+<h2>证明复杂度</h2>
+<p>有时与微积分联系起来，证明复杂度。</p>
+<p>例如一个典型的例子。在CDQ分治套莫队算法的时候，会有这种复杂度：<mathjax>$T(n)=2T(\frac{n}{2})+O(n\sqrt{n})$</mathjax>.<br />
+惯用伎俩，把复杂度按层考虑。<br />
+<img style="max-width:100%" alt="按层考虑" src="https://i2.buimg.com/567571/d098aa100c3476fb.png" /></p>
+<p>如上图。对于每个大小为<mathjax>$d$</mathjax>的块，需要耗费<mathjax>$O(d\sqrt{d})$</mathjax>的复杂度来处理。</p>
+<p>那么以“第几层”为自变量<mathjax>$x$</mathjax>，则有：第<mathjax>$x$</mathjax>层有<mathjax>$2^{x}$</mathjax>个块，每块大小为<mathjax>$\frac{n}{2^x}$</mathjax>；故处理每块的复杂度是<mathjax>$O(\frac{n}{2^x} \sqrt{\frac{n}{2^x}})$</mathjax>.化简为<mathjax>$O(\frac{n^{1.5}}{2^{1.5x}})$</mathjax>.</p>
+<p>由于这层有<mathjax>$2^x$</mathjax>个块，则处理整层的复杂度是<mathjax>$O(\frac{n^{1.5}}{2^{0.5x}})$</mathjax>.</p>
+<p>共有<mathjax>$\log n$</mathjax>个块，故整个算法的复杂度为：<mathjax>$\displaystyle O(\sum_{x=0}^{\log_2 n}\frac{n^{1.5}}{2^{0.5x}})$</mathjax>.<br />
+由于<mathjax>$n^{1.5}$</mathjax>与<mathjax>$x$</mathjax>无关，故提取出来。整个算法复杂度为：<mathjax>$\displaystyle O(n^{1.5} *\sum_{x=0}^{\log_2 n} 2^{-0.5x})$</mathjax>.  <br />
+右边的和式并不好求，我们将它近似到微积分的形式：<mathjax>$\displaystyle \sum_{x=0}^{\log_2 n} 2^{-0.5x} ≤ \int_0^{\log_2 n}2^{-0.5x} dx$</mathjax><br />
+不妨乘上常数<mathjax>$\ln 2$</mathjax>（约等于<mathjax>$0.69315$</mathjax>）。则复杂度变成：
+<mathjax>$\displaystyle \sum_{x=0}^{\log_2 n} 2^{-0.5x} ≈ \int_0^{\log_2 n}(2^{-0.5x}*\ln 2)dx$</mathjax>  </p>
+<p>不妨令<mathjax>$f(x)=2^{-0.5x}*\ln 2$</mathjax>，则有<mathjax>$F(x)=2^{-0.5x}$</mathjax>.<br />
+于是<mathjax>$\displaystyle \left. \int_0^{\log_2 n}(2^{-0.5x}*\ln 2)dx = 2^{-0.5x}\right|_0^{\log_2 n}$</mathjax><br />
+直接解开，得到<mathjax>$1-\frac{1}{\sqrt{n}}$</mathjax>.</p>
+<p>因此我们的算法复杂度是：<mathjax>$\displaystyle O(n^{1.5} *(1-n^{-0.5})) = O(n^{1.5}-n) = O(n\sqrt{n})$</mathjax>.</p>
+<p>好神奇啊，连个<mathjax>$\log$</mathjax>都不带。</p>
+<hr />
+<p>Update on 2016.8.30:  </p>
+<p>uoj的人给出了一种很劲的方法：可以用“主定理”求出上面的递归式的复杂度.</p>
+<p><mathjax>$T(n) = 2T(\frac{n}{2}) + O(n^{1.5})$</mathjax>.<br />
+因为<mathjax>$2&lt;2^{1.5}$</mathjax>，故有<mathjax>$T(n)=O(n^{1.5})=O(n\sqrt{n})$</mathjax>.(主定理第二条)  </p>
+<p>这就完了……去看看算法导论，留坑待补。</p>
+<hr />
+<p>Update on 2016.10.3:  </p>
+<p>此坑已补。</p>
+						
+					</section>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1">
+					<section class="content-inner margin-top-no">
+						<hr>
+						
+							CC0协议 @ ruanxingzhi 2017.
+						<a style="float:right" href="/ruanx/CC0.html">CC0是啥玩意?</a>
+					</section>
+				</div>
+			</div>
+
+
+		</div>
+
+
+	</main>
+	
+	<div class="fbtn-container">
+		<div class="fbtn-inner">
+			<a class="fbtn fbtn-lg fbtn-brand-accent waves-attach waves-circle waves-light" data-toggle="dropdown">
+				<span class="fbtn-text fbtn-text-left">Home</span>
+				<span class="fbtn-ori icon">apps</span>
+				<span class="fbtn-sub icon">close</span>
+			</a>
+			<div class="fbtn-dropup">
+				<a class="fbtn waves-attach waves-circle" href="/ruanx/about.html" target="_blank">
+					<span class="fbtn-text fbtn-text-left">关于作者</span><span class="icon">perm_identity</span>
+				</a>
+				<a class="fbtn waves-attach waves-circle" href="https://coding.net/u/ruanxingzhi/p/blog/topic" target="_blank">
+					<span class="fbtn-text fbtn-text-left">反馈</span><span class="icon">feedback</span>
+				</a>
+				<a class="fbtn fbtn-green waves-attach waves-circle" href="/ruanx/index.html" target="_self">
+					<span class="fbtn-text fbtn-text-left">返回主页</span><span class="icon">home</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<!-- js -->
+	<script src="https://jwjawa.gitee.io/cdn/js/ruanx/jquery.min.js"></script>
+	<script src="https://jwjawa.gitee.io/cdn/js/ruanx/base.min.js"></script>
+</body>
+</html>

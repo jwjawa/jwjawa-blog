@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="https://jwjawa.gitee.io/cdn/img/ruanx/favicon.ico">
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
+	<title>概率论 - blue's blog</title>
+	<!-- css -->
+	<link href="https://jwjawa.gitee.io/cdn/css/ruanx/base.min.css" rel="stylesheet">
+	<link href="https://jwjawa.gitee.io/cdn/css/ruanx/project.min.css" rel="stylesheet">
+	<link href="https://jwjawa.gitee.io/cdn/css/ruanx/styles.css" rel="stylesheet">
+
+
+	<script type="text/x-mathjax-config">
+  		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+</head>
+<body class="page-brand">
+	
+	<nav class="menu menu-left nav-drawer nav-drawer-md" id="ui_menu">
+		<div class="menu-scroll">
+			<div class="menu-content">
+				<a class="menu-logo" href="/ruanx/index.html">blue的博客</a>
+				<ul class="nav">
+					<li>
+						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#posts">OI笔记</a>	
+						<ul class="menu-collapse collapse in" id="posts">
+						
+							<li>
+								<a class="waves-attach" href="/ruanx/post/特征方程.html">特征方程教程</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/近似算法.html">近似算法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/SG函数.html">SG函数</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/Matrix-Tree.html">Matrix-Tree定理</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/polya.html">polya定理</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/NOIP2016.html">NOIP2016游记</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/有限微积分.html">差分与有限微积分</a>
+							</li><li class="active">
+								<a class="waves-attach" href="/ruanx/post/概率论.html">概率论</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/博弈论.html">博弈论入门</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/级数相关.html">级数相关</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/母函数.html">浅谈母函数</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/FFT.html">FFT入门</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/三分查找.html">三分查找</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/Miller_Rabin.html">Miller_Rabin判素</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/HNSDFZ-Round4酱油记.html">HNSDFZ#4 酱油记</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/牛顿迭代.html">牛顿迭代法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/泰勒展开.html">泰勒展开</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/狄利克雷卷积.html">狄利克雷卷积</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/单调队列.html">单调队列</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/数值积分算法.html">数值积分算法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/字符串hash.html">字符串hash</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/MEET-IN-THE-MIDDLE.html">Meet in the Middle</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/定积分.html">定积分与牛顿-莱布尼兹公式</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/HNSDFZ-Round3胡策记.html">HNSDFZ#3 胡策记</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/数学归纳法.html">数学归纳法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/导数.html">导数</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/普通线段树.html">普通线段树</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/矩阵与递推.html">矩阵与递推</a>
+							</li>						</ul>
+
+						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#hack">渗透日志</a>	
+						<ul class="menu-collapse collapse in" id="hack">
+							
+							<li>
+								<a class="waves-attach" href="/ruanx/hack/XSS.html">初探XSS</a>
+							</li>						</ul>
+
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class="header header-transparent header-waterfall ui-header">
+		<ul class="nav nav-list pull-left hidden-md hidden-lg">
+			<li>
+				<a data-toggle="menu" href="#ui_menu">
+					<span class="icon icon-lg">menu</span>
+				</a>
+			</li>
+		</ul>
+		<span class="header-logo header-affix visible-md-block visible-lg-block margin-right-no" data-offset-top="0" data-spy="affix">
+			<p class="pagetitle">概率论</p>
+		</span>
+		
+		<ul class="nav nav-list pull-right">
+			<li>
+				<a data-toggle="menu" href="/ruanx/index.html">
+					<span class="avatar avatar-sm"><img alt="blue" src="https://i.loli.net/2017/10/21/59eb6654682d2.png"></span>
+				</a>
+			</li>
+		</ul>
+	</header>
+	<main class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1">
+					<section class="content-inner margin-top-no">
+						<br>
+						
+<h1>概率论</h1>
+<div class="card"><div class="card-main"><div class="card-inner">
+<p>这东西并不难学。<br />
+这片博客主要介绍离散概率、连续概率、期望与微积分……</p>
+</div></div></div>
+<h2>离散型概率入门</h2>
+<hr />
+<h3>计算方法</h3>
+<p>首先，我们来讨论一个最原始的问题：抛<strong>一个</strong>质地均匀的硬币，抛中正面的几率是多大？<br />
+显然<mathjax>$50\%$</mathjax>。</p>
+<p>那么问题加深一番：抛<strong>两个</strong>质地均匀的硬币，都抛中正面的几率是多大？<br />
+显然<mathjax>$25\%$</mathjax>。</p>
+<p>进一步，抛<mathjax>$n$</mathjax>个硬币，全都正面朝上的几率是<mathjax>$0.5 \times 0.5\times 0.5\cdots=0.5^n$</mathjax>.<br />
+如何理解这个概率？全部正面朝上，显然要求第一个朝上、第二个朝上……所有的要求都满足的时候，事件就达成了。</p>
+<p>由此总结出<strong>乘法法则</strong>：</p>
+<div class="card"><div class="card-main"><div class="card-inner">
+<p>考虑将一个事件<mathjax>$A$</mathjax>拆成小事件<mathjax>$a_i$</mathjax>，小事件必须全部发生。  <br />
+则<mathjax>$A$</mathjax>发生的概率为：<mathjax>$P(A)=P(a_1)\times P(a_2)\times P(a_3)\cdots$</mathjax></p>
+</div></div></div>
+<hr />
+<p>但是乘法法则显然不是万能的。我们总会遇到一些乘法法则不好用的情况。<br />
+还是抛<mathjax>$n$</mathjax>次硬币。问恰好<mathjax>$m$</mathjax>次正面朝上的概率。</p>
+<p>这时候乘法法则就不太好用了。你要钦定哪些时候抛中<mathjax>$1$</mathjax>，大大增加计算量。  <br />
+换一种思路。考虑所有可能的情况，共有<mathjax>$2^n$</mathjax>中；恰好抛中<mathjax>$m$</mathjax>个的情况有<mathjax>$C^m_n$</mathjax>种。故总概率是：<br />
+<mathjax>$\displaystyle P(抛中m个)=\frac{C^m_n}{2^n}$</mathjax>.</p>
+<p>这就是计数法则：</p>
+<div class="card"><div class="card-main"><div class="card-inner">
+<p>考虑事件所有可能发生的情况总数<mathjax>$S$</mathjax><br />
+考虑使得<mathjax>$x$</mathjax>成立的情况总数<mathjax>$T$</mathjax><br />
+则有：<mathjax>$\displaystyle P(x)=\frac{T}{S}$</mathjax>  </p>
+</div></div></div>
+<hr />
+<h3>例题：Link的游戏</h3>
+<p>Link很喜欢提交vijos某道题。他的程序随机生成答案，已知对于每个测试点，正确的几率是<mathjax>$0.5$</mathjax>.共有<mathjax>$10$</mathjax>个测试点，求Link通过<mathjax>$9$</mathjax>个测试点的概率。</p>
+<p>考虑所有可能情况共<mathjax>$1024$</mathjax>种，其中恰好错掉一个点的情况共<mathjax>$10$</mathjax>种。  <br />
+故有：<mathjax>$P(通过9个点)=\frac{10}{1024}$</mathjax>.</p>
+<h3>常识</h3>
+<p>概率为<mathjax>$0$</mathjax>的事件可能发生；概率为<mathjax>$1$</mathjax>的事件可能不发生。<br />
+一个例子：从数轴<mathjax>$[0,1]$</mathjax>上随机取一个实数，取到<mathjax>$0.5$</mathjax>的概率是<mathjax>$0$</mathjax>，但是它可能发生。  </p>
+<p>实际上，在概率论中，一个事件的概率为<mathjax>$0$</mathjax>，表示它<strong>几乎</strong>一定不发生。</p>
+<h2>数学期望</h2>
+<hr />
+<p>数学期望是指：对于每个可能发生的事件<mathjax>$x$</mathjax>，对答案造成<mathjax>$w(x)\times P(x)$</mathjax>的贡献。<br />
+其中<mathjax>$w(x)$</mathjax>是<mathjax>$x$</mathjax>的价值，<mathjax>$P(x)$</mathjax>是<mathjax>$x$</mathjax>发生的概率。</p>
+<h3>计算方法</h3>
+<p>扔硬币一次。记<strong>抛中正面为得一分，反面不得分</strong>。求得分的期望。</p>
+<p>依据定义，我们可以得到答案：  <br />
+- 抛中正面，对答案的贡献是<mathjax>$1\times 0.5 = 0.5$</mathjax>.    <br />
+- 抛中反面，对答案的贡献是<mathjax>$0 \times 0.5 = 0$</mathjax>.    </p>
+<p>故最终答案为：<mathjax>$E = 0.5$</mathjax>  </p>
+<p>进一步，我们扔硬币<mathjax>$n$</mathjax>次，求得分的期望。 <br />
+由于每次抛硬币都会对答案造个<mathjax>$0.5$</mathjax>的贡献，所以<mathjax>$E=0.5n$</mathjax>.  </p>
+<p>我们好像发现了世界的奥秘……  <br />
+期望的线性性质：  </p>
+<div class="card"><div class="card-main"><div class="card-inner">
+<p>无论何时，期望总是<strong>线性可加</strong>的。</p>
+</div></div></div>
+<p>有了这个性质，我们可以大大简化计算。 <br />
+考虑一个事件，每次尝试都有<mathjax>$p$</mathjax>的概率做成。问期望尝试多少次，可以把事情做成。</p>
+<p>我们定义“完成度”：完全完成是<mathjax>$1$</mathjax>，完全不完成是<mathjax>$0$</mathjax>.那么每次尝试，完成度的期望都是<mathjax>$p$</mathjax>.  <br />
+假设期望尝试<mathjax>$c$</mathjax>次，则根据<strong>期望的线性性质</strong>有：<mathjax>$c\cdot p=1$</mathjax>，故<mathjax>$c=\frac{1}{p}$</mathjax>.</p>
+<h2>连续型概率入门</h2>
+<hr />
+<p>上面的例子，可能发生的事情种类是<strong>有限</strong>的，我们可以直接枚举所有情况进行计算，例如古典概型。</p>
+<p>但是还有些问题，例如几何概型，可能发生的事情种类是无限的！  </p>
+<ul>
+<li>从数轴<mathjax>$[0,1]$</mathjax>上随机取一个实数<mathjax>$x$</mathjax>，求<mathjax>$x$</mathjax>的期望。  </li>
+<li>从<mathjax>$1\times 1$</mathjax>的正方形内随机取三个点，求围成三角形面积的期望。</li>
+<li>......</li>
+</ul>
+<p>面对这种情况，我们已经不能枚举所有的情况，所以开始寄希望于微积分。</p>
+<p>考虑黎曼积分的原始形式：<strong>将定义域分为很多份，对每一份构成矩形来求面积。</strong><br />
+<img style="max-width:100%" alt="黎曼积分" src="https://i4.piimg.com/567571/20c20fbaf8d460a0.png" /></p>
+<p>假设我们从数轴<mathjax>$[0,1]$</mathjax>上随机取一个实数<mathjax>$x$</mathjax>，求<mathjax>$x$</mathjax>的期望。  </p>
+<p>我们在<mathjax>$[0,1]$</mathjax>做<mathjax>$n$</mathjax>个等距的点，并且规定只能在这些点上取。那么取到每个点的概率都是<mathjax>$\frac{1}{n}$</mathjax>.  <br />
+考虑取<mathjax>$x$</mathjax>的价值，显然是<mathjax>$w(x)=x$</mathjax>.因此第<mathjax>$i$</mathjax>个点的价值是<mathjax>$\frac{1}{n}\cdot i=\frac{i}{n}$</mathjax>.因此期望是：<br />
+<mathjax>$\displaystyle E(x)\approx\sum_{i=1}^n\frac{1}{n}\cdot\frac{i}{n}=\frac{\sum_{i=1}^n i}{n^2}=\frac{n+1}{2n}=\frac{1}{2}+\frac{1}{2n}$</mathjax>.</p>
+<p>显然，我们将点取得越多，这个结果就越精确。当点取到无限多时，上面的结果已经无限接近于真实情况。故最后的答案是：  <br />
+<mathjax>$\displaystyle E(x) = \lim_{n \to \infty}(0.5+\frac{1}{2n})=0.5$</mathjax>.</p>
+<p>上面的求解方式已经相当类似于微积分的表述了。类似地，我们总结出一般规律：</p>
+<div class="card"><div class="card-main"><div class="card-inner">
+<p>对于一个离散型概率，有<mathjax>$\displaystyle E=\sum w(x)\cdot P(x) \cdot[x为合法事件]$</mathjax>  </p>
+<p>对于一个连续型概率，有<mathjax>$\displaystyle E=\int w(x)\cdot P(x) \cdot[x为合法事件]$</mathjax>  </p>
+</div></div></div>
+<p>微积分博大精深。</p>
+						
+					</section>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1">
+					<section class="content-inner margin-top-no">
+						<hr>
+						
+							CC0协议 @ ruanxingzhi 2017.
+						<a style="float:right" href="/ruanx/CC0.html">CC0是啥玩意?</a>
+					</section>
+				</div>
+			</div>
+
+
+		</div>
+
+
+	</main>
+	
+	<div class="fbtn-container">
+		<div class="fbtn-inner">
+			<a class="fbtn fbtn-lg fbtn-brand-accent waves-attach waves-circle waves-light" data-toggle="dropdown">
+				<span class="fbtn-text fbtn-text-left">Home</span>
+				<span class="fbtn-ori icon">apps</span>
+				<span class="fbtn-sub icon">close</span>
+			</a>
+			<div class="fbtn-dropup">
+				<a class="fbtn waves-attach waves-circle" href="/ruanx/about.html" target="_blank">
+					<span class="fbtn-text fbtn-text-left">关于作者</span><span class="icon">perm_identity</span>
+				</a>
+				<a class="fbtn waves-attach waves-circle" href="https://coding.net/u/ruanxingzhi/p/blog/topic" target="_blank">
+					<span class="fbtn-text fbtn-text-left">反馈</span><span class="icon">feedback</span>
+				</a>
+				<a class="fbtn fbtn-green waves-attach waves-circle" href="/ruanx/index.html" target="_self">
+					<span class="fbtn-text fbtn-text-left">返回主页</span><span class="icon">home</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<!-- js -->
+	<script src="https://jwjawa.gitee.io/cdn/js/ruanx/jquery.min.js"></script>
+	<script src="https://jwjawa.gitee.io/cdn/js/ruanx/base.min.js"></script>
+</body>
+</html>

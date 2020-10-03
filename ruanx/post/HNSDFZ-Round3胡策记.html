@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="https://jwjawa.gitee.io/cdn/img/ruanx/favicon.ico">
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
+	<title>HNSDFZ#3 - blue's blog</title>
+	<!-- css -->
+	<link href="https://jwjawa.gitee.io/cdn/css/ruanx/base.min.css" rel="stylesheet">
+	<link href="https://jwjawa.gitee.io/cdn/css/ruanx/project.min.css" rel="stylesheet">
+	<link href="https://jwjawa.gitee.io/cdn/css/ruanx/styles.css" rel="stylesheet">
+
+
+	<script type="text/x-mathjax-config">
+  		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+</head>
+<body class="page-brand">
+	
+	<nav class="menu menu-left nav-drawer nav-drawer-md" id="ui_menu">
+		<div class="menu-scroll">
+			<div class="menu-content">
+				<a class="menu-logo" href="/ruanx/index.html">blue的博客</a>
+				<ul class="nav">
+					<li>
+						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#posts">OI笔记</a>	
+						<ul class="menu-collapse collapse in" id="posts">
+						
+							<li>
+								<a class="waves-attach" href="/ruanx/post/特征方程.html">特征方程教程</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/近似算法.html">近似算法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/SG函数.html">SG函数</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/Matrix-Tree.html">Matrix-Tree定理</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/polya.html">polya定理</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/NOIP2016.html">NOIP2016游记</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/有限微积分.html">差分与有限微积分</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/概率论.html">概率论</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/博弈论.html">博弈论入门</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/级数相关.html">级数相关</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/母函数.html">浅谈母函数</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/FFT.html">FFT入门</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/三分查找.html">三分查找</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/Miller_Rabin.html">Miller_Rabin判素</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/HNSDFZ-Round4酱油记.html">HNSDFZ#4 酱油记</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/牛顿迭代.html">牛顿迭代法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/泰勒展开.html">泰勒展开</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/狄利克雷卷积.html">狄利克雷卷积</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/单调队列.html">单调队列</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/数值积分算法.html">数值积分算法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/字符串hash.html">字符串hash</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/MEET-IN-THE-MIDDLE.html">Meet in the Middle</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/定积分.html">定积分与牛顿-莱布尼兹公式</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/HNSDFZ-Round3胡策记.html">HNSDFZ#3 胡策记</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/数学归纳法.html">数学归纳法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/导数.html">导数</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/普通线段树.html">普通线段树</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/矩阵与递推.html">矩阵与递推</a>
+							</li>						</ul>
+
+						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#hack">渗透日志</a>	
+						<ul class="menu-collapse collapse in" id="hack">
+							
+							<li>
+								<a class="waves-attach" href="/ruanx/hack/XSS.html">初探XSS</a>
+							</li>						</ul>
+
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class="header header-transparent header-waterfall ui-header">
+		<ul class="nav nav-list pull-left hidden-md hidden-lg">
+			<li>
+				<a data-toggle="menu" href="#ui_menu">
+					<span class="icon icon-lg">menu</span>
+				</a>
+			</li>
+		</ul>
+		<span class="header-logo header-affix visible-md-block visible-lg-block margin-right-no" data-offset-top="0" data-spy="affix">
+			<p class="pagetitle">HNSDFZ#3</p>
+		</span>
+		
+		<ul class="nav nav-list pull-right">
+			<li>
+				<a data-toggle="menu" href="/ruanx/index.html">
+					<span class="avatar avatar-sm"><img alt="blue" src="https://i.loli.net/2017/10/21/59eb6654682d2.png"></span>
+				</a>
+			</li>
+		</ul>
+	</header>
+	<main class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1">
+					<section class="content-inner margin-top-no">
+						<br>
+						
+<h1>[HNSDFZ  #3]胡策记</h1>
+<p>这场互测比Round2简单了很多。</p>
+<p><a href="http://ruanxingzhi.coding.me/File/考题/HNSDFZ第3次欢乐互测.pdf">题目下载</a></p>
+<p>感觉今天真的很欢乐啊……四个题目中有两个题目数据错误，结果就剩下了我的题(C)和riteme的题(A)有效……</p>
+<h1>A.密码锁</h1>
+<p>出题人riteme，编译原理。
+之前和riteme回家途中商议好：只要是我们两个出A题，必出<strong>编译原理</strong>。这次他果出编译原理……</p>
+<p>正合我意，这题码了一天QAQ</p>
+<h2>简化版题意</h2>
+<p>给定一个表达式，仅有布尔型变量和二元运算符<strong>逻辑与“&amp;”、逻辑或“|”、异或“^”</strong>、单元运算符<strong>非“!”</strong>和小括号。变量名两两不同。
+求有多少组变量的值，使得表达式的值为真。
+例如<mathjax>$a|b|c$</mathjax>有7种方式为真：<mathjax>$(1,1,1)(1,1,0)(1,0,1)(0,1,1)(1,0,0)(0,1,0)(0,0,1)$</mathjax>。</p>
+<h2>搞法</h2>
+<p>因为这个题我会搞，所以我也就没有想那些特殊数据怎么干。</p>
+<p>我的方法：先把中缀表达式（输入）变成后缀表达式，然后把后缀表达式变成<strong>表达式树</strong>。
+对于<strong>非运算</strong>，可以在起作用的节点上打标记。</p>
+<p>建完树之后进行<strong>搜索</strong>。我的做法，以<strong>使<mathjax>$x$</mathjax>节点为真</strong>举例：</p>
+<p>用<code>DP(节点x,取值w)</code>表示某个节点<mathjax>$x$</mathjax>的值为对应的<mathjax>$w$</mathjax>。
+那么：
+（<strong>假设<mathjax>$x$</mathjax>节点是或运算。</strong>）</p>
+<pre class="codehilite"><code>DP(node,1)=
+DP(left,1)*DP(right,1)+         //左子树为真的方案数*右子树为真的方案数
+DP(left,1)*DP(right,0)+
+DP(left,0)*DP(right,1);</code></pre>
+
+
+<p>类似地可以做出其他情况。这个函数的代码大约20行。</p>
+<p>最开始拿这个程序去跑。结果面对极端数据（全是或）直接TLE。想了一下，然后记忆化搜索。AC。</p>
+<h2>正解</h2>
+<p>riteme的正解是不转后缀表达式。用现在编译器流行的搞法来做。
+由于std写得比较丑，我的搞法在最后一个数据点比std跑得快0.2s.</p>
+<h2>代码</h2>
+<p>我的搞法：
+http://paste.ubuntu.com/18792757/
+（说实话我的代码风格真丑）</p>
+<h1>B.Unstring</h1>
+<h2>简化版题意</h2>
+<p>给定确定的主串和带<code>'?'</code>的模式串。
+<code>'?'</code>可以匹配任意字符。问主串能否被匹配。</p>
+<h2>搞法</h2>
+<p>这题一看就知道是AC自动机，然后就不写了。直接交C++的<code>&lt;regex&gt;</code>正则扩展。
+结果WA？然后发现Link的数据有多组字符串，<strong>但是题目里面并没有写有多组数据</strong>。</p>
+<p>于是题目报废。</p>
+<h2>奇技淫巧</h2>
+<p>yy出一个奇技淫巧。</p>
+<p>对于模式串，我们取三个点：<strong>起点、随机点、终点</strong>。扫一遍主串，如果这三个点在以<mathjax>$\alpha$</mathjax>为起点处被匹配上，那么我们直接暴力匹配从<mathjax>$\alpha$</mathjax>开始的部分。</p>
+<p>如果扫完了主串仍然没有完全匹配的字符串，就是没法匹配。</p>
+<p><strong>因为随机点的存在，这个搞法出题人难以卡掉。</strong>因为最坏情况，三个点都要被匹配最多次，所以主串必须是模式串的大量重复（但有些地方不相同）。于是又降低了复杂度。</p>
+<p>随便写了40行，一测WA了4个点。估计是边界没有讨论好。
+跑得比香港记者还快。</p>
+<p>总结出做Link的题目的正确姿势：</p>
+<div class="card"><div class="card-main"><div class="card-inner">
+<p>Step1.  看能不能用C++模板/标准扩展做掉   <br />
+Step2.  想一些奇技淫巧 <br />
+Step3.  看数据有没有问题    </p>
+</div></div></div>
+<h1>C.赌徒</h1>
+<p>我出的水题一道，意在使他们学习一下矩阵加速递推。</p>
+<h2>简化版题意</h2>
+<p>一棵树，节点<mathjax>$x$</mathjax>在第<mathjax>$n$</mathjax>天满足权值<mathjax>$F_n=2F_{n-2}+3F_{n-1}$</mathjax>。每个节点有自己对应的<mathjax>$F_1,F_2$</mathjax>。
+输入<mathjax>$day$</mathjax>，求第<mathjax>$day$</mathjax>天的<strong>节点的权值和最大</strong>的简单路径。</p>
+<p>所有的东西都是正整数。</p>
+<h2>分析</h2>
+<p>首先构造矩阵来加速递推，然后DFS。</p>
+<p>一眼看出，一定是从叶子节点走到另一个叶子节点。
+DFS：计算出<strong>以自己为LCA</strong>的最大权值链的权值，然后返回<strong>经过自己的</strong>到叶子节点的最大权值链。</p>
+<h2>代码</h2>
+<p>http://paste.ubuntu.com/18793629/</p>
+<h1>D.星际争霸</h1>
+<h2>简化版题意</h2>
+<p>一棵<mathjax>$n$</mathjax>个点的树，边有代价，叶子节点有收益。走到叶子节点之后走回根节点。
+多组数据，每组数据有限制：不允许走到某个节点。</p>
+<p><strong>在代价限制内</strong>最大化<strong>收益</strong>。</p>
+<h2>考时想法</h2>
+<p>题目太长了，先拆题。</p>
+<p>考虑<strong>所有节点都能走</strong>的情况。</p>
+<p>DFS一遍，化为数组：<code>f[i]=(代价,收益)</code></p>
+<p>目标变成：在代价范围内找到最大收益。
+<strong>0-1背包</strong>。复杂度<mathjax>$O(nt)$</mathjax>。</p>
+<p>再考虑<strong>有节点不能走</strong>的情况。
+则有一些元素失效。由于DFS将树映射成区间，那么这些失效元素在数组中应该是<strong>相邻</strong>的。暴力标记这些元素。背包时不取用。</p>
+<p><mathjax>$m$</mathjax>次背包。复杂度<mathjax>$O(mnt)=25000000000$</mathjax>。</p>
+<p>理论上来说要挂。于是不写了，码A题去QAQ</p>
+<p>Link和riteme写了这个题，然而都只有25pts。riteme找出数据有问题，于是这题也报废了#喷</p>
+<h2>标解</h2>
+<p>确实是背包，但是对于<strong>有的地方不能走</strong>的情况做了优化。</p>
+<h1>后记</h1>
+<p>下次胡策我抽中出A题
+23333</p>
+						
+					</section>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1">
+					<section class="content-inner margin-top-no">
+						<hr>
+						
+							CC0协议 @ ruanxingzhi 2017.
+						<a style="float:right" href="/ruanx/CC0.html">CC0是啥玩意?</a>
+					</section>
+				</div>
+			</div>
+
+
+		</div>
+
+
+	</main>
+	
+	<div class="fbtn-container">
+		<div class="fbtn-inner">
+			<a class="fbtn fbtn-lg fbtn-brand-accent waves-attach waves-circle waves-light" data-toggle="dropdown">
+				<span class="fbtn-text fbtn-text-left">Home</span>
+				<span class="fbtn-ori icon">apps</span>
+				<span class="fbtn-sub icon">close</span>
+			</a>
+			<div class="fbtn-dropup">
+				<a class="fbtn waves-attach waves-circle" href="/ruanx/about.html" target="_blank">
+					<span class="fbtn-text fbtn-text-left">关于作者</span><span class="icon">perm_identity</span>
+				</a>
+				<a class="fbtn waves-attach waves-circle" href="https://coding.net/u/ruanxingzhi/p/blog/topic" target="_blank">
+					<span class="fbtn-text fbtn-text-left">反馈</span><span class="icon">feedback</span>
+				</a>
+				<a class="fbtn fbtn-green waves-attach waves-circle" href="/ruanx/index.html" target="_self">
+					<span class="fbtn-text fbtn-text-left">返回主页</span><span class="icon">home</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<!-- js -->
+	<script src="https://jwjawa.gitee.io/cdn/js/ruanx/jquery.min.js"></script>
+	<script src="https://jwjawa.gitee.io/cdn/js/ruanx/base.min.js"></script>
+</body>
+</html>

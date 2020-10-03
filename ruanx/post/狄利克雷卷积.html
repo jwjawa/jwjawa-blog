@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="https://jwjawa.gitee.io/cdn/img/ruanx/favicon.ico">
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
+	<title>狄利克雷卷积 - blue's blog</title>
+	<!-- css -->
+	<link href="https://jwjawa.gitee.io/cdn/css/ruanx/base.min.css" rel="stylesheet">
+	<link href="https://jwjawa.gitee.io/cdn/css/ruanx/project.min.css" rel="stylesheet">
+	<link href="https://jwjawa.gitee.io/cdn/css/ruanx/styles.css" rel="stylesheet">
+
+
+	<script type="text/x-mathjax-config">
+  		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+</head>
+<body class="page-brand">
+	
+	<nav class="menu menu-left nav-drawer nav-drawer-md" id="ui_menu">
+		<div class="menu-scroll">
+			<div class="menu-content">
+				<a class="menu-logo" href="/ruanx/index.html">blue的博客</a>
+				<ul class="nav">
+					<li>
+						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#posts">OI笔记</a>	
+						<ul class="menu-collapse collapse in" id="posts">
+						
+							<li>
+								<a class="waves-attach" href="/ruanx/post/特征方程.html">特征方程教程</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/近似算法.html">近似算法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/SG函数.html">SG函数</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/Matrix-Tree.html">Matrix-Tree定理</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/polya.html">polya定理</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/NOIP2016.html">NOIP2016游记</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/有限微积分.html">差分与有限微积分</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/概率论.html">概率论</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/博弈论.html">博弈论入门</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/级数相关.html">级数相关</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/母函数.html">浅谈母函数</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/FFT.html">FFT入门</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/三分查找.html">三分查找</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/Miller_Rabin.html">Miller_Rabin判素</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/HNSDFZ-Round4酱油记.html">HNSDFZ#4 酱油记</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/牛顿迭代.html">牛顿迭代法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/泰勒展开.html">泰勒展开</a>
+							</li><li class="active">
+								<a class="waves-attach" href="/ruanx/post/狄利克雷卷积.html">狄利克雷卷积</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/单调队列.html">单调队列</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/数值积分算法.html">数值积分算法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/字符串hash.html">字符串hash</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/MEET-IN-THE-MIDDLE.html">Meet in the Middle</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/定积分.html">定积分与牛顿-莱布尼兹公式</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/HNSDFZ-Round3胡策记.html">HNSDFZ#3 胡策记</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/数学归纳法.html">数学归纳法</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/导数.html">导数</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/普通线段树.html">普通线段树</a>
+							</li><li>
+								<a class="waves-attach" href="/ruanx/post/矩阵与递推.html">矩阵与递推</a>
+							</li>						</ul>
+
+						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#hack">渗透日志</a>	
+						<ul class="menu-collapse collapse in" id="hack">
+							
+							<li>
+								<a class="waves-attach" href="/ruanx/hack/XSS.html">初探XSS</a>
+							</li>						</ul>
+
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class="header header-transparent header-waterfall ui-header">
+		<ul class="nav nav-list pull-left hidden-md hidden-lg">
+			<li>
+				<a data-toggle="menu" href="#ui_menu">
+					<span class="icon icon-lg">menu</span>
+				</a>
+			</li>
+		</ul>
+		<span class="header-logo header-affix visible-md-block visible-lg-block margin-right-no" data-offset-top="0" data-spy="affix">
+			<p class="pagetitle">狄利克雷卷积</p>
+		</span>
+		
+		<ul class="nav nav-list pull-right">
+			<li>
+				<a data-toggle="menu" href="/ruanx/index.html">
+					<span class="avatar avatar-sm"><img alt="blue" src="https://i.loli.net/2017/10/21/59eb6654682d2.png"></span>
+				</a>
+			</li>
+		</ul>
+	</header>
+	<main class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1">
+					<section class="content-inner margin-top-no">
+						<br>
+						
+<h1>狄利克雷卷积</h1>
+<h2>定义</h2>
+<p>狄利克雷卷积：<mathjax>$\displaystyle (f  \times g)(n) = \sum_{d|n}f(d)*g(\frac{n}{d})$</mathjax></p>
+<p>一个例子：<mathjax>$f(x)=2x,g(x)=3x$</mathjax><br />
+则<mathjax>$(f \times g)(6)=f(1)g(6)+f(2)g(3)+f(3)g(2)+f(6)g(1)$</mathjax>。<br />
+往往省略掉<mathjax>$n$</mathjax>。  </p>
+<p>狄利克雷卷积定义在<code>数论函数</code>上。  </p>
+<div class="card"><div class="card-main"><div class="card-inner">
+<p>数论函数： 如果一个函数的定义域为正整数，值域为复数，则称此函数为数论函数。常见的数论函数有欧拉函数<mathjax>$\varphi$</mathjax>和莫比乌斯函数<mathjax>$\mu$</mathjax>。</p>
+</div></div></div>
+<p>运算律：
+1. <code>结合律</code>  <mathjax>$(f \times g ) \times h= f \times (g \times h)$</mathjax>。<br />
+2. <code>交换律</code>  <mathjax>$f \times g = g \times f$</mathjax>。<br />
+3. <code>加法-狄利克雷卷积分配律</code> <mathjax>$f \times (g+h) = f\times g + f \times h$</mathjax>。<br />
+4. <code>单位元</code> 单位函数<mathjax>$\epsilon$</mathjax>，使得<mathjax>$f= \epsilon \times f =f \times \epsilon$</mathjax>。<br />
+单位函数的取值：<mathjax>$n=1$</mathjax>时<mathjax>$\epsilon(n)=1$</mathjax>，<mathjax>$n$</mathjax>取其他值时<mathjax>$\epsilon(n)=0$</mathjax>。
+5. <code>逆元</code> 对于任意数论函数<mathjax>$f$</mathjax>，如果<mathjax>$f(1) \not = 0$</mathjax>，则存在<strong>唯一</strong>的逆函数<mathjax>$f^{-1}$</mathjax>，使得 <mathjax>$f \times f^{-1} = \epsilon$</mathjax>：<br />
+对于<mathjax>$n=1$</mathjax>，有：<mathjax>${f^{-1}(1)={\frac {1}{f(1)}}}$</mathjax><br />
+对于<mathjax>$n&gt;1$</mathjax>，有：<mathjax>$ {f^{-1}(n)={\frac {-1}{f(1)}}\displaystyle \sum _{d|n,n\neq d}f({\frac {n}{d}})f^{-1}(d)}$</mathjax>  </p>
+<p>狄利克雷卷积是对数论函数的二元运算，产生的结果也显然是一个数论函数，因此满足<strong>封闭性</strong>。又综合<code>1、4、5</code>，得到：  </p>
+<p><strong><mathjax>$G( 数论函数 ,\times)$</mathjax>是一个群。</strong></p>
+<h2>特殊函数</h2>
+<p>由于<mathjax>$\displaystyle \sum_{d|n}\varphi(d) = n$</mathjax>易得：<br />
+<mathjax>$\varphi \times 1 = n$</mathjax><br />
+回顾莫比乌斯反演：<br />
+<mathjax>$\displaystyle F(n)=\sum_{d|n}f(d)$</mathjax><br />
+这句话的意思就是<mathjax>$f \times 1 = F$</mathjax>。  </p>
+<p>根据莫比乌斯函数的性质或定义：<br />
+<mathjax>$\mu\times 1=\epsilon$</mathjax><br />
+<mathjax>$f \times 1 = F \times \epsilon = F \times \mu \times 1$</mathjax>。<br />
+故：<mathjax>$f = F \times \mu$</mathjax>  </p>
+<p>可以推出莫比乌斯反演定理：
+<mathjax>$f=\mu \times F $</mathjax><br />
+也即日常所见的式子：<br />
+<mathjax>${\displaystyle f(n)= \sum_{d|n}F({\frac {n}{d}})}\mu (d)$</mathjax>。  </p>
+<p>根据狄利克雷卷积的<strong>交换律</strong>，上面的式子可以改写：<br />
+<mathjax>$f = F \times \mu$</mathjax><br />
+故<br />
+<mathjax>$\displaystyle f(n)=\sum_{d|n}\mu (\frac{n}{d})F(d)$</mathjax>。</p>
+<p>莫比乌斯反演另有一种<strong>用途广泛</strong>的形式：<br />
+若<mathjax>$\displaystyle F(n) = \sum_{n|d} f(d)$</mathjax>，则有<mathjax>$\displaystyle f(n) = \sum_{n|d}\mu(\frac{d}{n})F(d)$</mathjax>.  </p>
+<h2>积性函数</h2>
+<p>数论函数<mathjax>$f$</mathjax>，如果对于所有<mathjax>$a\perp b$</mathjax>有<mathjax>$f(a*b)=f(a)*f(b)$</mathjax>，则称<mathjax>$f$</mathjax>为积性函数。<br />
+进一步，如果对于所有<mathjax>$a,b \in Z_+$</mathjax>都有<mathjax>$f(a*b)=f(a)*f(b)$</mathjax>，则称<mathjax>$f$</mathjax>为完全积性函数。  </p>
+<p><strong>两个积性函数的狄利克雷卷积也是积性函数。</strong></p>
+<p>两个例子：欧拉函数<mathjax>$\varphi$</mathjax>和莫比乌斯函数<mathjax>$\mu$</mathjax>。</p>
+<p>都可以用线性筛求。</p>
+<h2>快速求因子</h2>
+<p>可以以<mathjax>$O(n)$</mathjax>的代价预处理<mathjax>$[1,n]$</mathjax>的所有数，然后<mathjax>$O(\log n)$</mathjax>分解质因子。</p>
+<p>做法：先跑一遍线性筛，以<mathjax>$son[i]$</mathjax>记录把<mathjax>$i$</mathjax>筛掉的最小的质数。</p>
+<p>分解质因数的时候，不停地<code>n=n/son[n]</code>来分解。</p>
+<p>可以证明复杂度是单次<mathjax>$O(\log n)$</mathjax>：每迭代一次，<mathjax>$n$</mathjax>被除以<mathjax>$son[n]$</mathjax>，而<mathjax>$son[n]$</mathjax>最小为<mathjax>$2$</mathjax>，故时间复杂度不超过<mathjax>$O(\log n)$</mathjax>。</p>
+<h2>积性函数前缀和</h2>
+<p>orz杜教筛。留坑待补。</p>
+<hr />
+<p>Update on 2016.8.30</p>
+<p>此坑已补。</p>
+						
+					</section>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1">
+					<section class="content-inner margin-top-no">
+						<hr>
+						
+							CC0协议 @ ruanxingzhi 2017.
+						<a style="float:right" href="/ruanx/CC0.html">CC0是啥玩意?</a>
+					</section>
+				</div>
+			</div>
+
+
+		</div>
+
+
+	</main>
+	
+	<div class="fbtn-container">
+		<div class="fbtn-inner">
+			<a class="fbtn fbtn-lg fbtn-brand-accent waves-attach waves-circle waves-light" data-toggle="dropdown">
+				<span class="fbtn-text fbtn-text-left">Home</span>
+				<span class="fbtn-ori icon">apps</span>
+				<span class="fbtn-sub icon">close</span>
+			</a>
+			<div class="fbtn-dropup">
+				<a class="fbtn waves-attach waves-circle" href="/ruanx/about.html" target="_blank">
+					<span class="fbtn-text fbtn-text-left">关于作者</span><span class="icon">perm_identity</span>
+				</a>
+				<a class="fbtn waves-attach waves-circle" href="https://coding.net/u/ruanxingzhi/p/blog/topic" target="_blank">
+					<span class="fbtn-text fbtn-text-left">反馈</span><span class="icon">feedback</span>
+				</a>
+				<a class="fbtn fbtn-green waves-attach waves-circle" href="/ruanx/index.html" target="_self">
+					<span class="fbtn-text fbtn-text-left">返回主页</span><span class="icon">home</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<!-- js -->
+	<script src="https://jwjawa.gitee.io/cdn/js/ruanx/jquery.min.js"></script>
+	<script src="https://jwjawa.gitee.io/cdn/js/ruanx/base.min.js"></script>
+</body>
+</html>
