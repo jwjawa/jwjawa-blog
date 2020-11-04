@@ -15,257 +15,6 @@
       </tags>
   </entry>
   <entry>
-    <title>洛谷题目打印机使用说明书</title>
-    <url>/printluoguproblem/</url>
-    <content><![CDATA[<p>身处弱校，不能天天上机？</p>
-<p>希望我的<code>洛谷题目打印机</code>可以帮到您！</p>
-<p>这篇博客将会帮助您安装并使用<code>洛谷题目打印机</code>。</p>
-<a id="more"></a>
-
-<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>您可以使用它来屏蔽一些妨碍打印题目或者与题目无关的网页元素，从而比较完美地打印洛谷题目，或者把洛谷题目导出为PDF格式。</p>
-<p>作者是一条酸菜鱼，如果在打印机里面发现了虫子或者有更好的修改建议可以联系作者修复，如果有不懂的地方也可以联系作者询问。祝您使用愉快！</p>
-<p><a href="https://userstyles.org/styles/186569/by-jwj" target="_blank" rel="noopener">洛谷题目打印机链接</a></p>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><blockquote>
-<p><code>洛谷题目打印机</code>安装方法与安装<code>氩洛谷</code>类似。如果您安装了或者安装过氩洛谷，那么您可以忽略下面的安装教程直接点击链接安装。</p>
-</blockquote>
-<p><del>您得拥有一台电脑。</del></p>
-<p>您需要在电脑上装有谷歌浏览器。</p>
-<p>您需要在谷歌浏览器上安装一个名为<code>Stylus</code>的插件。</p>
-<p>啥？怎么安装插件？您可能需要打开<code>Chrome 网上应用店</code>进行搜索安装。</p>
-<p>啥？打不开？您可能需要一个机场才能打开。</p>
-<p>啥？没有机场？ <del>您可以选择运用搜索引擎搜索如何下载<code>Stylus</code>这个插件。</del></p>
-<p>嗯好的，此时您安装完了<code>Stylus</code>这个插件，那么您可以点开上面的链接了。</p>
-<p>点开链接后，如果不出所料，会出现下面的界面：</p>
-<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125452.png" alt=""></p>
-<p>看到下面的那个蓝色的按钮没有？ <del>把鼠标指针拖到那个蓝色的按钮上面，然后轻轻按下鼠标左键，</del> 当蓝色按钮变成了如下图所示的绿色按钮时，恭喜您，安装成功了。</p>
-<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125454.png" alt=""></p>
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>平时在电脑上做题不用打印的时候，建议关闭<code>洛谷题目打印机</code>以避免妨碍您的刷题体验。</p>
-<p>点击谷歌浏览器右上方的<code>Stylus</code>图标，点击“已安装样式”就可以选择开启或关闭<code>洛谷题目打印机</code>。或者您也可以点击<code>Stylus</code>图标后点击右上方的三个点选择“管理样式”即可选择开启或关闭。</p>
-<p>如果您需要打印题目了，请按照如上方式开启<code>洛谷题目打印机</code>。</p>
-<p>打开您需要打印的题目链接，您会发现界面变成了这样：</p>
-<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125450.png" alt=""></p>
-<p>此时，右键选择打印，或者按下快捷键Ctrl键+P键，将会弹出打印界面：</p>
-<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125459.png" alt=""></p>
-<p>此时选择打印机即可打印，“目标打印机”选择“另存为PDF”即可转存为PDF。</p>
-<h2 id="打印设置"><a href="#打印设置" class="headerlink" title="打印设置"></a>打印设置</h2><p>如果需要设置，请在打印界面点开“更多设置”。</p>
-<ul>
-<li><p>“纸张尺寸”可以选择您打印出来的纸张大小，推荐设置为<code>A4</code>。</p>
-</li>
-<li><p>“每个工作表的页数”可以选择打印的格式，在一面纸中打印多少面题目，推荐设置为1或2。</p>
-</li>
-<li><p>“边距”和“缩放”可以分别选择打印的页边距和内容（字体）大小，推荐设置为“默认”。</p>
-</li>
-<li><p>“选项”中的“页眉和页脚”可以选择是否打印打印日期、网页名称、网页地址和页码，请按自己需求设置。推荐不勾选“背景图形”，<del>但是勾选也行。</del></p>
-</li>
-<li><p>其他选项根据需求自行设置。</p>
-</li>
-</ul>
-<hr>
-<p>本说明书到此结束，如果在打印机里面发现了虫子或者有更好的修改建议可以联系作者修复，如果有不懂的地方也可以联系作者询问。祝您使用愉快！</p>
-]]></content>
-      <categories>
-        <category>其他</category>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>原创</tag>
-        <tag>CSS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>模板题目汇总</title>
-    <url>/luogumobanti/</url>
-    <content><![CDATA[<p>目前洛谷总题库最后一题题号为P6534。<br>欢迎联系作者添加模板题。</p>
-<a id="more"></a>
-
-<h3 id="题单版本："><a href="#题单版本：" class="headerlink" title="题单版本："></a>题单版本：</h3><ul>
-<li><a href="https://www.luogu.com.cn/training/8434" target="_blank" rel="noopener">[普及+/提高]及以下难度模板题汇总</a></li>
-<li><a href="https://www.luogu.com.cn/training/8435" target="_blank" rel="noopener">[提高+/省选-]难度模板题汇总</a></li>
-<li><a href="https://www.luogu.com.cn/training/8436" target="_blank" rel="noopener">[省选/NOI-]难度模板题汇总</a></li>
-<li><a href="https://www.luogu.com.cn/training/8437" target="_blank" rel="noopener">[省选/NOI-]及以上难度模板题汇总</a></li>
-</ul>
-<h3 id="普及"><a href="#普及" class="headerlink" title="普及-"></a>普及-</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P3367" target="_blank" rel="noopener">P3367 【模板】并查集</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1226" target="_blank" rel="noopener">P1226 【模板】快速幂||取余运算</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3371" target="_blank" rel="noopener">P3371 【模板】单源最短路径（弱化版）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3383" target="_blank" rel="noopener">P3383 【模板】线性筛素数</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3366" target="_blank" rel="noopener">P3366 【模板】最小生成树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3378" target="_blank" rel="noopener">P3378 【模板】堆</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1177" target="_blank" rel="noopener">P1177 【模板】快速排序</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3370" target="_blank" rel="noopener">P3370 【模板】字符串哈希</a></li>
-</ul>
-<h3 id="普及-提高"><a href="#普及-提高" class="headerlink" title="普及/提高-"></a>普及/提高-</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P3382" target="_blank" rel="noopener">P3382 【模板】三分法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1886" target="_blank" rel="noopener">P1886 滑动窗口 /【模板】单调队列</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3374" target="_blank" rel="noopener">P3374 【模板】树状数组 1</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3811" target="_blank" rel="noopener">P3811 【模板】乘法逆元</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3379" target="_blank" rel="noopener">P3379 【模板】最近公共祖先（LCA）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3368" target="_blank" rel="noopener">P3368 【模板】树状数组 2</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3375" target="_blank" rel="noopener">P3375 【模板】KMP字符串匹配</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3372" target="_blank" rel="noopener">P3372 【模板】线段树 1</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1939" target="_blank" rel="noopener">P1939 【模板】矩阵加速（数列）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3865" target="_blank" rel="noopener">P3865 【模板】ST表</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3385" target="_blank" rel="noopener">P3385 【模板】负环</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4549" target="_blank" rel="noopener">P4549 【模板】裴蜀定理</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5788" target="_blank" rel="noopener">P5788 【模板】单调栈</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4779" target="_blank" rel="noopener">P4779 【模板】单源最短路径（标准版）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3390" target="_blank" rel="noopener">P3390 【模板】矩阵快速幂</a></li>
-</ul>
-<h3 id="普及-提高-1"><a href="#普及-提高-1" class="headerlink" title="普及+/提高"></a>普及+/提高</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P5431" target="_blank" rel="noopener">P5431 【模板】乘法逆元2</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5367" target="_blank" rel="noopener">P5367 【模板】康托展开</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5960" target="_blank" rel="noopener">P5960 【模板】差分约束算法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2613" target="_blank" rel="noopener">P2613 【模板】有理数取余</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2197" target="_blank" rel="noopener">P2197 【模板】nim游戏</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3373" target="_blank" rel="noopener">P3373 【模板】线段树 2</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3387" target="_blank" rel="noopener">P3387 【模板】缩点</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5905" target="_blank" rel="noopener">P5905 【模板】Johnson 全源最短路</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5656" target="_blank" rel="noopener">P5656 【模板】二元一次不定方程(exgcd)</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1439" target="_blank" rel="noopener">P1439 【模板】最长公共子序列</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3388" target="_blank" rel="noopener">P3388 【模板】割点（割顶）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3386" target="_blank" rel="noopener">P3386 【模板】二分图最大匹配</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2252" target="_blank" rel="noopener">P2252 [SHOI2002]取石子游戏|【模板】威佐夫博弈</a></li>
-</ul>
-<h3 id="提高-省选"><a href="#提高-省选" class="headerlink" title="提高+/省选-"></a>提高+/省选-</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P5903" target="_blank" rel="noopener">P5903 【模板】树上 k 级祖先</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5854" target="_blank" rel="noopener">P5854 【模板】笛卡尔树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3369" target="_blank" rel="noopener">P3369 【模板】普通平衡树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3377" target="_blank" rel="noopener">P3377 【模板】左偏树（可并堆）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4781" target="_blank" rel="noopener">P4781 【模板】拉格朗日插值</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6091" target="_blank" rel="noopener">P6091 【模板】原根</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3381" target="_blank" rel="noopener">P3381 【模板】最小费用最大流</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5632" target="_blank" rel="noopener">P5632 【模板】Stoer-Wagner算法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1368" target="_blank" rel="noopener">P1368 工艺 /【模板】最小表示法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6086" target="_blank" rel="noopener">P6086 【模板】Prufer 序列</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3701" target="_blank" rel="noopener">P3701 「伪模板」主席树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5490" target="_blank" rel="noopener">P5490 【模板】扫描线</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3805" target="_blank" rel="noopener">P3805 【模板】manacher算法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3389" target="_blank" rel="noopener">P3389 【模板】高斯消元法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3808" target="_blank" rel="noopener">P3808 【模板】AC自动机（简单版）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3846" target="_blank" rel="noopener">P3846 [TJOI2007] 可爱的质数/【模板】BSGS</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3796" target="_blank" rel="noopener">P3796 【模板】AC自动机（加强版）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2742" target="_blank" rel="noopener">P2742 [USACO5.1]圈奶牛Fencing the Cows /【模板】二维凸包</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4783" target="_blank" rel="noopener">P4783 【模板】矩阵求逆</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5826" target="_blank" rel="noopener">P5826 【模板】子序列自动机</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1495" target="_blank" rel="noopener">P1495 【模板】中国剩余定理(CRT)/曹冲养猪</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3807" target="_blank" rel="noopener">P3807 【模板】卢卡斯定理</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3384" target="_blank" rel="noopener">P3384 【模板】轻重链剖分</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3391" target="_blank" rel="noopener">P3391 【模板】文艺平衡树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3376" target="_blank" rel="noopener">P3376 【模板】网络最大流</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5091" target="_blank" rel="noopener">P5091 【模板】扩展欧拉定理</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3812" target="_blank" rel="noopener">P3812 【模板】线性基</a></li>
-</ul>
-<h3 id="省选-NOI"><a href="#省选-NOI" class="headerlink" title="省选/NOI-"></a>省选/NOI-</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P3919" target="_blank" rel="noopener">P3919 【模板】可持久化数组（可持久化线段树/平衡树）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4196" target="_blank" rel="noopener">P4196 [CQOI2006]凸多边形 /【模板】半平面交</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5055" target="_blank" rel="noopener">P5055 【模板】可持久化文艺平衡树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5236" target="_blank" rel="noopener">P5236 【模板】静态仙人掌</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5394" target="_blank" rel="noopener">P5394 【模板】下降幂多项式乘法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1452" target="_blank" rel="noopener">P1452 [USACO03FALL]Beauty Contest G /【模板】旋转卡壳</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6136" target="_blank" rel="noopener">P6136 【模板】普通平衡树（数据加强版）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4238" target="_blank" rel="noopener">P4238 【模板】多项式乘法逆</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5906" target="_blank" rel="noopener">P5906 【模板】回滚莫队&amp;不删除莫队</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6177" target="_blank" rel="noopener">P6177 Count on a tree II/【模板】树分块</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5357" target="_blank" rel="noopener">P5357 【模板】AC自动机（二次加强版）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5496" target="_blank" rel="noopener">P5496 【模板】回文自动机（PAM）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5494" target="_blank" rel="noopener">P5494 【模板】线段树分裂</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3809" target="_blank" rel="noopener">P3809 【模板】后缀排序</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4719" target="_blank" rel="noopener">P4719 【模板】”动态 DP”&amp;动态树分治</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6114" target="_blank" rel="noopener">P6114 【模板】Lyndon 分解</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4782" target="_blank" rel="noopener">P4782 【模板】2-SAT 问题</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4717" target="_blank" rel="noopener">P4717 【模板】快速沃尔什变换 (FWT)</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5043" target="_blank" rel="noopener">P5043 【模板】树同构（[BJOI2015]树的同构）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5491" target="_blank" rel="noopener">P5491 【模板】二次剩余</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6139" target="_blank" rel="noopener">P6139 【模板】广义后缀自动机（广义SAM）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6329" target="_blank" rel="noopener">P6329 【模板】点分树 | 震波</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4213" target="_blank" rel="noopener">P4213 【模板】杜教筛（Sum）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5192" target="_blank" rel="noopener">P5192 Zoj3229 Shoot the Bullet|东方文花帖|【模板】有源汇上下界最大流</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4526" target="_blank" rel="noopener">P4526 【模板】自适应辛普森法2</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4716" target="_blank" rel="noopener">P4716 【模板】最小树形图</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4929" target="_blank" rel="noopener">P4929 【模板】舞蹈链（DLX）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3834" target="_blank" rel="noopener">P3834 【模板】可持久化线段树 1（主席树）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3804" target="_blank" rel="noopener">P3804 【模板】后缀自动机 (SAM)</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5787" target="_blank" rel="noopener">P5787 二分图 /【模板】线段树分治</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3810" target="_blank" rel="noopener">P3810 【模板】三维偏序（陌上花开）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4777" target="_blank" rel="noopener">P4777 【模板】扩展中国剩余定理（EXCRT）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6113" target="_blank" rel="noopener">P6113 【模板】一般图最大匹配</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4718" target="_blank" rel="noopener">P4718 【模板】Pollard-Rho算法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4725" target="_blank" rel="noopener">P4725 【模板】多项式对数函数（多项式 ln）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3835" target="_blank" rel="noopener">P3835 【模板】可持久化平衡树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6097" target="_blank" rel="noopener">P6097 【模板】子集卷积</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6242" target="_blank" rel="noopener">P6242 【模板】线段树 3</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6178" target="_blank" rel="noopener">P6178 【模板】Matrix-Tree 定理</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6164" target="_blank" rel="noopener">P6164 【模板】后缀平衡树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4195" target="_blank" rel="noopener">P4195 【模板】扩展BSGS</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4525" target="_blank" rel="noopener">P4525 【模板】自适应辛普森法1</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4556" target="_blank" rel="noopener">P4556 [Vani有约会]雨天的尾巴 /【模板】线段树合并</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5829" target="_blank" rel="noopener">P5829 【模板】失配树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4721" target="_blank" rel="noopener">P4721 【模板】分治 FFT</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5410" target="_blank" rel="noopener">P5410 【模板】扩展 KMP（Z 函数）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6192" target="_blank" rel="noopener">P6192 【模板】最小斯坦纳树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1919" target="_blank" rel="noopener">P1919 【模板】A*B Problem升级版（FFT快速傅里叶）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3803" target="_blank" rel="noopener">P3803 【模板】多项式乘法（FFT）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3690" target="_blank" rel="noopener">P3690 【模板】Link Cut Tree （动态树）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3806" target="_blank" rel="noopener">P3806 【模板】点分治1</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4720" target="_blank" rel="noopener">P4720 【模板】扩展卢卡斯</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4751" target="_blank" rel="noopener">P4751 【模板】”动态DP”&amp;动态树分治（加强版）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4722" target="_blank" rel="noopener">P4722 【模板】最大流 加强版 / 预流推进</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3380" target="_blank" rel="noopener">P3380 【模板】二逼平衡树（树套树）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4245" target="_blank" rel="noopener">P4245 【模板】任意模数NTT</a></li>
-</ul>
-<h3 id="NOI-NOI-CTSC"><a href="#NOI-NOI-CTSC" class="headerlink" title="NOI/NOI+/CTSC"></a>NOI/NOI+/CTSC</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P4724" target="_blank" rel="noopener">P4724 【模板】三维凸包</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5180" target="_blank" rel="noopener">P5180 【模板】支配树</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4980" target="_blank" rel="noopener">P4980 【模板】Polya定理</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5245" target="_blank" rel="noopener">P5245 【模板】多项式快速幂</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2483" target="_blank" rel="noopener">P2483 【模板】k短路 / [SDOI2010]魔法猪学院</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4897" target="_blank" rel="noopener">P4897 【模板】最小割树（Gomory-Hu Tree）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4723" target="_blank" rel="noopener">P4723 【模板】常系数齐次线性递推</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5050" target="_blank" rel="noopener">P5050 【模板】多项式多点求值</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5247" target="_blank" rel="noopener">P5247 【模板】动态图完全连通性</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5282" target="_blank" rel="noopener">P5282 【模板】快速阶乘算法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5325" target="_blank" rel="noopener">P5325 【模板】Min_25筛</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5809" target="_blank" rel="noopener">P5809 【模板】多项式复合逆</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4512" target="_blank" rel="noopener">P4512 【模板】多项式除法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5277" target="_blank" rel="noopener">P5277 【模板】多项式开根（加强版）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5373" target="_blank" rel="noopener">P5373 【模板】多项式复合函数</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5487" target="_blank" rel="noopener">P5487 【模板】Berlekamp-Massey算法</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5056" target="_blank" rel="noopener">P5056 【模板】插头dp</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5808" target="_blank" rel="noopener">P5808 【模板】常系数非齐次线性递推</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5205" target="_blank" rel="noopener">P5205 【模板】多项式开根</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4726" target="_blank" rel="noopener">P4726 【模板】多项式指数函数（多项式 exp）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5158" target="_blank" rel="noopener">P5158 【模板】多项式快速插值</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P6115" target="_blank" rel="noopener">P6115 【模板】整式递推</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5668" target="_blank" rel="noopener">P5668 【模板】N次剩余</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P4887" target="_blank" rel="noopener">P4887 【模板】莫队二次离线（第十四分块(前体)）</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5273" target="_blank" rel="noopener">P5273 【模板】多项式幂函数 (加强版)</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5170" target="_blank" rel="noopener">P5170 【模板】类欧几里得算法</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>OI</category>
-        <category>洛谷</category>
-      </categories>
-      <tags>
-        <tag>整理</tag>
-        <tag>OI题目</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搬家啦</title>
-    <url>/newhome/</url>
-    <content><![CDATA[<p>搬家啦！</p>
-<p>之前博客用了一段时间的阮行止大佬的生成器（经过同意了），后来自己想拓展一些功能，然后就发现要拓展功能的话只能自己写代码，可我太菜了不会PHP不会HTML不会CSS，所以只能改用Hexo/kk</p>
-<p>以后可能会出关于Hexo的搭建教程和调教教程吧qwq</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>洛谷试炼场</title>
     <url>/luogushilianchang/</url>
     <content><![CDATA[<p>这里是洛谷试炼场备份，供参考awa</p>
@@ -1189,6 +938,199 @@
       </tags>
   </entry>
   <entry>
+    <title>模板题目汇总</title>
+    <url>/luogumobanti/</url>
+    <content><![CDATA[<p>目前洛谷总题库最后一题题号为P6534。<br>欢迎联系作者添加模板题。</p>
+<a id="more"></a>
+
+<h3 id="题单版本："><a href="#题单版本：" class="headerlink" title="题单版本："></a>题单版本：</h3><ul>
+<li><a href="https://www.luogu.com.cn/training/8434" target="_blank" rel="noopener">[普及+/提高]及以下难度模板题汇总</a></li>
+<li><a href="https://www.luogu.com.cn/training/8435" target="_blank" rel="noopener">[提高+/省选-]难度模板题汇总</a></li>
+<li><a href="https://www.luogu.com.cn/training/8436" target="_blank" rel="noopener">[省选/NOI-]难度模板题汇总</a></li>
+<li><a href="https://www.luogu.com.cn/training/8437" target="_blank" rel="noopener">[省选/NOI-]及以上难度模板题汇总</a></li>
+</ul>
+<h3 id="普及"><a href="#普及" class="headerlink" title="普及-"></a>普及-</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P3367" target="_blank" rel="noopener">P3367 【模板】并查集</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1226" target="_blank" rel="noopener">P1226 【模板】快速幂||取余运算</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3371" target="_blank" rel="noopener">P3371 【模板】单源最短路径（弱化版）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3383" target="_blank" rel="noopener">P3383 【模板】线性筛素数</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3366" target="_blank" rel="noopener">P3366 【模板】最小生成树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3378" target="_blank" rel="noopener">P3378 【模板】堆</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1177" target="_blank" rel="noopener">P1177 【模板】快速排序</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3370" target="_blank" rel="noopener">P3370 【模板】字符串哈希</a></li>
+</ul>
+<h3 id="普及-提高"><a href="#普及-提高" class="headerlink" title="普及/提高-"></a>普及/提高-</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P3382" target="_blank" rel="noopener">P3382 【模板】三分法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1886" target="_blank" rel="noopener">P1886 滑动窗口 /【模板】单调队列</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3374" target="_blank" rel="noopener">P3374 【模板】树状数组 1</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3811" target="_blank" rel="noopener">P3811 【模板】乘法逆元</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3379" target="_blank" rel="noopener">P3379 【模板】最近公共祖先（LCA）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3368" target="_blank" rel="noopener">P3368 【模板】树状数组 2</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3375" target="_blank" rel="noopener">P3375 【模板】KMP字符串匹配</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3372" target="_blank" rel="noopener">P3372 【模板】线段树 1</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1939" target="_blank" rel="noopener">P1939 【模板】矩阵加速（数列）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3865" target="_blank" rel="noopener">P3865 【模板】ST表</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3385" target="_blank" rel="noopener">P3385 【模板】负环</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4549" target="_blank" rel="noopener">P4549 【模板】裴蜀定理</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5788" target="_blank" rel="noopener">P5788 【模板】单调栈</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4779" target="_blank" rel="noopener">P4779 【模板】单源最短路径（标准版）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3390" target="_blank" rel="noopener">P3390 【模板】矩阵快速幂</a></li>
+</ul>
+<h3 id="普及-提高-1"><a href="#普及-提高-1" class="headerlink" title="普及+/提高"></a>普及+/提高</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P5431" target="_blank" rel="noopener">P5431 【模板】乘法逆元2</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5367" target="_blank" rel="noopener">P5367 【模板】康托展开</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5960" target="_blank" rel="noopener">P5960 【模板】差分约束算法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2613" target="_blank" rel="noopener">P2613 【模板】有理数取余</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2197" target="_blank" rel="noopener">P2197 【模板】nim游戏</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3373" target="_blank" rel="noopener">P3373 【模板】线段树 2</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3387" target="_blank" rel="noopener">P3387 【模板】缩点</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5905" target="_blank" rel="noopener">P5905 【模板】Johnson 全源最短路</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5656" target="_blank" rel="noopener">P5656 【模板】二元一次不定方程(exgcd)</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1439" target="_blank" rel="noopener">P1439 【模板】最长公共子序列</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3388" target="_blank" rel="noopener">P3388 【模板】割点（割顶）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3386" target="_blank" rel="noopener">P3386 【模板】二分图最大匹配</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2252" target="_blank" rel="noopener">P2252 [SHOI2002]取石子游戏|【模板】威佐夫博弈</a></li>
+</ul>
+<h3 id="提高-省选"><a href="#提高-省选" class="headerlink" title="提高+/省选-"></a>提高+/省选-</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P5903" target="_blank" rel="noopener">P5903 【模板】树上 k 级祖先</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5854" target="_blank" rel="noopener">P5854 【模板】笛卡尔树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3369" target="_blank" rel="noopener">P3369 【模板】普通平衡树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3377" target="_blank" rel="noopener">P3377 【模板】左偏树（可并堆）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4781" target="_blank" rel="noopener">P4781 【模板】拉格朗日插值</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6091" target="_blank" rel="noopener">P6091 【模板】原根</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3381" target="_blank" rel="noopener">P3381 【模板】最小费用最大流</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5632" target="_blank" rel="noopener">P5632 【模板】Stoer-Wagner算法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1368" target="_blank" rel="noopener">P1368 工艺 /【模板】最小表示法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6086" target="_blank" rel="noopener">P6086 【模板】Prufer 序列</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3701" target="_blank" rel="noopener">P3701 「伪模板」主席树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5490" target="_blank" rel="noopener">P5490 【模板】扫描线</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3805" target="_blank" rel="noopener">P3805 【模板】manacher算法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3389" target="_blank" rel="noopener">P3389 【模板】高斯消元法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3808" target="_blank" rel="noopener">P3808 【模板】AC自动机（简单版）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3846" target="_blank" rel="noopener">P3846 [TJOI2007] 可爱的质数/【模板】BSGS</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3796" target="_blank" rel="noopener">P3796 【模板】AC自动机（加强版）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2742" target="_blank" rel="noopener">P2742 [USACO5.1]圈奶牛Fencing the Cows /【模板】二维凸包</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4783" target="_blank" rel="noopener">P4783 【模板】矩阵求逆</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5826" target="_blank" rel="noopener">P5826 【模板】子序列自动机</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1495" target="_blank" rel="noopener">P1495 【模板】中国剩余定理(CRT)/曹冲养猪</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3807" target="_blank" rel="noopener">P3807 【模板】卢卡斯定理</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3384" target="_blank" rel="noopener">P3384 【模板】轻重链剖分</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3391" target="_blank" rel="noopener">P3391 【模板】文艺平衡树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3376" target="_blank" rel="noopener">P3376 【模板】网络最大流</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5091" target="_blank" rel="noopener">P5091 【模板】扩展欧拉定理</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3812" target="_blank" rel="noopener">P3812 【模板】线性基</a></li>
+</ul>
+<h3 id="省选-NOI"><a href="#省选-NOI" class="headerlink" title="省选/NOI-"></a>省选/NOI-</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P3919" target="_blank" rel="noopener">P3919 【模板】可持久化数组（可持久化线段树/平衡树）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4196" target="_blank" rel="noopener">P4196 [CQOI2006]凸多边形 /【模板】半平面交</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5055" target="_blank" rel="noopener">P5055 【模板】可持久化文艺平衡树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5236" target="_blank" rel="noopener">P5236 【模板】静态仙人掌</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5394" target="_blank" rel="noopener">P5394 【模板】下降幂多项式乘法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1452" target="_blank" rel="noopener">P1452 [USACO03FALL]Beauty Contest G /【模板】旋转卡壳</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6136" target="_blank" rel="noopener">P6136 【模板】普通平衡树（数据加强版）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4238" target="_blank" rel="noopener">P4238 【模板】多项式乘法逆</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5906" target="_blank" rel="noopener">P5906 【模板】回滚莫队&amp;不删除莫队</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6177" target="_blank" rel="noopener">P6177 Count on a tree II/【模板】树分块</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5357" target="_blank" rel="noopener">P5357 【模板】AC自动机（二次加强版）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5496" target="_blank" rel="noopener">P5496 【模板】回文自动机（PAM）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5494" target="_blank" rel="noopener">P5494 【模板】线段树分裂</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3809" target="_blank" rel="noopener">P3809 【模板】后缀排序</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4719" target="_blank" rel="noopener">P4719 【模板】”动态 DP”&amp;动态树分治</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6114" target="_blank" rel="noopener">P6114 【模板】Lyndon 分解</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4782" target="_blank" rel="noopener">P4782 【模板】2-SAT 问题</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4717" target="_blank" rel="noopener">P4717 【模板】快速沃尔什变换 (FWT)</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5043" target="_blank" rel="noopener">P5043 【模板】树同构（[BJOI2015]树的同构）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5491" target="_blank" rel="noopener">P5491 【模板】二次剩余</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6139" target="_blank" rel="noopener">P6139 【模板】广义后缀自动机（广义SAM）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6329" target="_blank" rel="noopener">P6329 【模板】点分树 | 震波</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4213" target="_blank" rel="noopener">P4213 【模板】杜教筛（Sum）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5192" target="_blank" rel="noopener">P5192 Zoj3229 Shoot the Bullet|东方文花帖|【模板】有源汇上下界最大流</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4526" target="_blank" rel="noopener">P4526 【模板】自适应辛普森法2</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4716" target="_blank" rel="noopener">P4716 【模板】最小树形图</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4929" target="_blank" rel="noopener">P4929 【模板】舞蹈链（DLX）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3834" target="_blank" rel="noopener">P3834 【模板】可持久化线段树 1（主席树）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3804" target="_blank" rel="noopener">P3804 【模板】后缀自动机 (SAM)</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5787" target="_blank" rel="noopener">P5787 二分图 /【模板】线段树分治</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3810" target="_blank" rel="noopener">P3810 【模板】三维偏序（陌上花开）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4777" target="_blank" rel="noopener">P4777 【模板】扩展中国剩余定理（EXCRT）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6113" target="_blank" rel="noopener">P6113 【模板】一般图最大匹配</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4718" target="_blank" rel="noopener">P4718 【模板】Pollard-Rho算法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4725" target="_blank" rel="noopener">P4725 【模板】多项式对数函数（多项式 ln）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3835" target="_blank" rel="noopener">P3835 【模板】可持久化平衡树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6097" target="_blank" rel="noopener">P6097 【模板】子集卷积</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6242" target="_blank" rel="noopener">P6242 【模板】线段树 3</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6178" target="_blank" rel="noopener">P6178 【模板】Matrix-Tree 定理</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6164" target="_blank" rel="noopener">P6164 【模板】后缀平衡树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4195" target="_blank" rel="noopener">P4195 【模板】扩展BSGS</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4525" target="_blank" rel="noopener">P4525 【模板】自适应辛普森法1</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4556" target="_blank" rel="noopener">P4556 [Vani有约会]雨天的尾巴 /【模板】线段树合并</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5829" target="_blank" rel="noopener">P5829 【模板】失配树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4721" target="_blank" rel="noopener">P4721 【模板】分治 FFT</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5410" target="_blank" rel="noopener">P5410 【模板】扩展 KMP（Z 函数）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6192" target="_blank" rel="noopener">P6192 【模板】最小斯坦纳树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1919" target="_blank" rel="noopener">P1919 【模板】A*B Problem升级版（FFT快速傅里叶）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3803" target="_blank" rel="noopener">P3803 【模板】多项式乘法（FFT）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3690" target="_blank" rel="noopener">P3690 【模板】Link Cut Tree （动态树）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3806" target="_blank" rel="noopener">P3806 【模板】点分治1</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4720" target="_blank" rel="noopener">P4720 【模板】扩展卢卡斯</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4751" target="_blank" rel="noopener">P4751 【模板】”动态DP”&amp;动态树分治（加强版）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4722" target="_blank" rel="noopener">P4722 【模板】最大流 加强版 / 预流推进</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3380" target="_blank" rel="noopener">P3380 【模板】二逼平衡树（树套树）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4245" target="_blank" rel="noopener">P4245 【模板】任意模数NTT</a></li>
+</ul>
+<h3 id="NOI-NOI-CTSC"><a href="#NOI-NOI-CTSC" class="headerlink" title="NOI/NOI+/CTSC"></a>NOI/NOI+/CTSC</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P4724" target="_blank" rel="noopener">P4724 【模板】三维凸包</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5180" target="_blank" rel="noopener">P5180 【模板】支配树</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4980" target="_blank" rel="noopener">P4980 【模板】Polya定理</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5245" target="_blank" rel="noopener">P5245 【模板】多项式快速幂</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2483" target="_blank" rel="noopener">P2483 【模板】k短路 / [SDOI2010]魔法猪学院</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4897" target="_blank" rel="noopener">P4897 【模板】最小割树（Gomory-Hu Tree）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4723" target="_blank" rel="noopener">P4723 【模板】常系数齐次线性递推</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5050" target="_blank" rel="noopener">P5050 【模板】多项式多点求值</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5247" target="_blank" rel="noopener">P5247 【模板】动态图完全连通性</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5282" target="_blank" rel="noopener">P5282 【模板】快速阶乘算法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5325" target="_blank" rel="noopener">P5325 【模板】Min_25筛</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5809" target="_blank" rel="noopener">P5809 【模板】多项式复合逆</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4512" target="_blank" rel="noopener">P4512 【模板】多项式除法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5277" target="_blank" rel="noopener">P5277 【模板】多项式开根（加强版）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5373" target="_blank" rel="noopener">P5373 【模板】多项式复合函数</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5487" target="_blank" rel="noopener">P5487 【模板】Berlekamp-Massey算法</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5056" target="_blank" rel="noopener">P5056 【模板】插头dp</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5808" target="_blank" rel="noopener">P5808 【模板】常系数非齐次线性递推</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5205" target="_blank" rel="noopener">P5205 【模板】多项式开根</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4726" target="_blank" rel="noopener">P4726 【模板】多项式指数函数（多项式 exp）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5158" target="_blank" rel="noopener">P5158 【模板】多项式快速插值</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P6115" target="_blank" rel="noopener">P6115 【模板】整式递推</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5668" target="_blank" rel="noopener">P5668 【模板】N次剩余</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P4887" target="_blank" rel="noopener">P4887 【模板】莫队二次离线（第十四分块(前体)）</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5273" target="_blank" rel="noopener">P5273 【模板】多项式幂函数 (加强版)</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5170" target="_blank" rel="noopener">P5170 【模板】类欧几里得算法</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>OI</category>
+        <category>洛谷</category>
+      </categories>
+      <tags>
+        <tag>整理</tag>
+        <tag>OI题目</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搬家啦</title>
+    <url>/newhome/</url>
+    <content><![CDATA[<p>搬家啦！</p>
+<p>之前博客用了一段时间的阮行止大佬的生成器（经过同意了），后来自己想拓展一些功能，然后就发现要拓展功能的话只能自己写代码，可我太菜了不会PHP不会HTML不会CSS，所以只能改用Hexo/kk</p>
+<p>以后可能会出关于Hexo的搭建教程和调教教程吧qwq</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>在手机上使用termux写C++代码</title>
     <url>/termuxandcpp/</url>
     <content><![CDATA[<p>本文将会介绍如何使用termux写C++代码并编译运行。</p>
@@ -1743,6 +1685,64 @@
       <tags>
         <tag>整理</tag>
         <tag>网课</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>洛谷题目打印机使用说明书</title>
+    <url>/printluoguproblem/</url>
+    <content><![CDATA[<p>身处弱校，不能天天上机？</p>
+<p>希望我的<code>洛谷题目打印机</code>可以帮到您！</p>
+<p>这篇博客将会帮助您安装并使用<code>洛谷题目打印机</code>。</p>
+<a id="more"></a>
+
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>您可以使用它来屏蔽一些妨碍打印题目或者与题目无关的网页元素，从而比较完美地打印洛谷题目，或者把洛谷题目导出为PDF格式。</p>
+<p>作者是一条酸菜鱼，如果在打印机里面发现了虫子或者有更好的修改建议可以联系作者修复，如果有不懂的地方也可以联系作者询问。祝您使用愉快！</p>
+<p><a href="https://userstyles.org/styles/186569/by-jwj" target="_blank" rel="noopener">洛谷题目打印机链接</a></p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><blockquote>
+<p><code>洛谷题目打印机</code>安装方法与安装<code>氩洛谷</code>类似。如果您安装了或者安装过氩洛谷，那么您可以忽略下面的安装教程直接点击链接安装。</p>
+</blockquote>
+<p><del>您得拥有一台电脑。</del></p>
+<p>您需要在电脑上装有谷歌浏览器。</p>
+<p>您需要在谷歌浏览器上安装一个名为<code>Stylus</code>的插件。</p>
+<p>啥？怎么安装插件？您可能需要打开<code>Chrome 网上应用店</code>进行搜索安装。</p>
+<p>啥？打不开？您可能需要一个机场才能打开。</p>
+<p>啥？没有机场？ <del>您可以选择运用搜索引擎搜索如何下载<code>Stylus</code>这个插件。</del></p>
+<p>嗯好的，此时您安装完了<code>Stylus</code>这个插件，那么您可以点开上面的链接了。</p>
+<p>点开链接后，如果不出所料，会出现下面的界面：</p>
+<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125452.png" alt=""></p>
+<p>看到下面的那个蓝色的按钮没有？ <del>把鼠标指针拖到那个蓝色的按钮上面，然后轻轻按下鼠标左键，</del> 当蓝色按钮变成了如下图所示的绿色按钮时，恭喜您，安装成功了。</p>
+<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125454.png" alt=""></p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>平时在电脑上做题不用打印的时候，建议关闭<code>洛谷题目打印机</code>以避免妨碍您的刷题体验。</p>
+<p>点击谷歌浏览器右上方的<code>Stylus</code>图标，点击“已安装样式”就可以选择开启或关闭<code>洛谷题目打印机</code>。或者您也可以点击<code>Stylus</code>图标后点击右上方的三个点选择“管理样式”即可选择开启或关闭。</p>
+<p>如果您需要打印题目了，请按照如上方式开启<code>洛谷题目打印机</code>。</p>
+<p>打开您需要打印的题目链接，您会发现界面变成了这样：</p>
+<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125450.png" alt=""></p>
+<p>此时，右键选择打印，或者按下快捷键Ctrl键+P键，将会弹出打印界面：</p>
+<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125459.png" alt=""></p>
+<p>此时选择打印机即可打印，“目标打印机”选择“另存为PDF”即可转存为PDF。</p>
+<h2 id="打印设置"><a href="#打印设置" class="headerlink" title="打印设置"></a>打印设置</h2><p>如果需要设置，请在打印界面点开“更多设置”。</p>
+<ul>
+<li><p>“纸张尺寸”可以选择您打印出来的纸张大小，推荐设置为<code>A4</code>。</p>
+</li>
+<li><p>“每个工作表的页数”可以选择打印的格式，在一面纸中打印多少面题目，推荐设置为1或2。</p>
+</li>
+<li><p>“边距”和“缩放”可以分别选择打印的页边距和内容（字体）大小，推荐设置为“默认”。</p>
+</li>
+<li><p>“选项”中的“页眉和页脚”可以选择是否打印打印日期、网页名称、网页地址和页码，请按自己需求设置。推荐不勾选“背景图形”，<del>但是勾选也行。</del></p>
+</li>
+<li><p>其他选项根据需求自行设置。</p>
+</li>
+</ul>
+<hr>
+<p>本说明书到此结束，如果在打印机里面发现了虫子或者有更好的修改建议可以联系作者修复，如果有不懂的地方也可以联系作者询问。祝您使用愉快！</p>
+]]></content>
+      <categories>
+        <category>其他</category>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>原创</tag>
+        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>
