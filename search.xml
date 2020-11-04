@@ -15,6 +15,1001 @@
       </tags>
   </entry>
   <entry>
+    <title>洛谷题目打印机使用说明书</title>
+    <url>/printluoguproblem/</url>
+    <content><![CDATA[<p>身处弱校，不能天天上机？</p>
+<p>希望我的<code>洛谷题目打印机</code>可以帮到您！</p>
+<p>这篇博客将会帮助您安装并使用<code>洛谷题目打印机</code>。</p>
+<a id="more"></a>
+
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>您可以使用它来屏蔽一些妨碍打印题目或者与题目无关的网页元素，从而比较完美地打印洛谷题目，或者把洛谷题目导出为PDF格式。</p>
+<p>作者是一条酸菜鱼，如果在打印机里面发现了虫子或者有更好的修改建议可以联系作者修复，如果有不懂的地方也可以联系作者询问。祝您使用愉快！</p>
+<p><a href="https://userstyles.org/styles/186569/by-jwj" target="_blank" rel="noopener">洛谷题目打印机链接</a></p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><blockquote>
+<p><code>洛谷题目打印机</code>安装方法与安装<code>氩洛谷</code>类似。如果您安装了或者安装过氩洛谷，那么您可以忽略下面的安装教程直接点击链接安装。</p>
+</blockquote>
+<p><del>您得拥有一台电脑。</del></p>
+<p>您需要在电脑上装有谷歌浏览器。</p>
+<p>您需要在谷歌浏览器上安装一个名为<code>Stylus</code>的插件。</p>
+<p>啥？怎么安装插件？您可能需要打开<code>Chrome 网上应用店</code>进行搜索安装。</p>
+<p>啥？打不开？您可能需要一个机场才能打开。</p>
+<p>啥？没有机场？ <del>您可以选择运用搜索引擎搜索如何下载<code>Stylus</code>这个插件。</del></p>
+<p>嗯好的，此时您安装完了<code>Stylus</code>这个插件，那么您可以点开上面的链接了。</p>
+<p>点开链接后，如果不出所料，会出现下面的界面：</p>
+<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125452.png" alt=""></p>
+<p>看到下面的那个蓝色的按钮没有？ <del>把鼠标指针拖到那个蓝色的按钮上面，然后轻轻按下鼠标左键，</del> 当蓝色按钮变成了如下图所示的绿色按钮时，恭喜您，安装成功了。</p>
+<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125454.png" alt=""></p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>平时在电脑上做题不用打印的时候，建议关闭<code>洛谷题目打印机</code>以避免妨碍您的刷题体验。</p>
+<p>点击谷歌浏览器右上方的<code>Stylus</code>图标，点击“已安装样式”就可以选择开启或关闭<code>洛谷题目打印机</code>。或者您也可以点击<code>Stylus</code>图标后点击右上方的三个点选择“管理样式”即可选择开启或关闭。</p>
+<p>如果您需要打印题目了，请按照如上方式开启<code>洛谷题目打印机</code>。</p>
+<p>打开您需要打印的题目链接，您会发现界面变成了这样：</p>
+<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125450.png" alt=""></p>
+<p>此时，右键选择打印，或者按下快捷键Ctrl键+P键，将会弹出打印界面：</p>
+<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125459.png" alt=""></p>
+<p>此时选择打印机即可打印，“目标打印机”选择“另存为PDF”即可转存为PDF。</p>
+<h2 id="打印设置"><a href="#打印设置" class="headerlink" title="打印设置"></a>打印设置</h2><p>如果需要设置，请在打印界面点开“更多设置”。</p>
+<ul>
+<li><p>“纸张尺寸”可以选择您打印出来的纸张大小，推荐设置为<code>A4</code>。</p>
+</li>
+<li><p>“每个工作表的页数”可以选择打印的格式，在一面纸中打印多少面题目，推荐设置为1或2。</p>
+</li>
+<li><p>“边距”和“缩放”可以分别选择打印的页边距和内容（字体）大小，推荐设置为“默认”。</p>
+</li>
+<li><p>“选项”中的“页眉和页脚”可以选择是否打印打印日期、网页名称、网页地址和页码，请按自己需求设置。推荐不勾选“背景图形”，<del>但是勾选也行。</del></p>
+</li>
+<li><p>其他选项根据需求自行设置。</p>
+</li>
+</ul>
+<hr>
+<p>本说明书到此结束，如果在打印机里面发现了虫子或者有更好的修改建议可以联系作者修复，如果有不懂的地方也可以联系作者询问。祝您使用愉快！</p>
+]]></content>
+      <categories>
+        <category>其他</category>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>原创</tag>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搬家啦</title>
+    <url>/newhome/</url>
+    <content><![CDATA[<p>搬家啦！</p>
+<p>之前博客用了一段时间的阮行止大佬的生成器（经过同意了），后来自己想拓展一些功能，然后就发现要拓展功能的话只能自己写代码，可我太菜了不会PHP不会HTML不会CSS，所以只能改用Hexo/kk</p>
+<p>以后可能会出关于Hexo的搭建教程和调教教程吧qwq</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>洛谷试炼场</title>
+    <url>/luogushilianchang/</url>
+    <content><![CDATA[<p>这里是洛谷试炼场备份，供参考awa</p>
+<p><a href="https://www.luogu.com.cn/paste/66uuuvdr" target="_blank" rel="noopener">搬运自此，感谢大佬</a></p>
+<p>主要改动：</p>
+<ul>
+<li>2020.04.09 优化排版。</li>
+<li>2020.05.14 添加博客版。</li>
+</ul>
+<p>以后会继续优化改进awa</p>
+<p>——jwj</p>
+<a id="more"></a>
+
+<h2 id="洛谷试炼场之新手村"><a href="#洛谷试炼场之新手村" class="headerlink" title="洛谷试炼场之新手村"></a>洛谷试炼场之新手村</h2><p>任何一个伟大的目标，都有一个微不足道的开始。</p>
+<h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><ul>
+<li>洛谷的第一个任务</li>
+<li>顺序与分支</li>
+<li>循环！循环！循环！</li>
+<li>数组</li>
+<li>简单字符串</li>
+<li>过程函数与递归</li>
+<li>BOSS战-入门综合练习1</li>
+<li>BOSS战-入门综合练习2</li>
+</ul>
+<h3 id="洛谷的第一个任务"><a href="#洛谷的第一个任务" class="headerlink" title="洛谷的第一个任务"></a>洛谷的第一个任务</h3><p>勇敢的迈出第一步，了解下语言和洛谷。跟着书本和老师走，不会难的。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1000" target="_blank" rel="noopener">P1000</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1001" target="_blank" rel="noopener">P1001</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1421" target="_blank" rel="noopener">P1421</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1425" target="_blank" rel="noopener">P1425</a></li>
+</ul>
+<h3 id="顺序与分支"><a href="#顺序与分支" class="headerlink" title="顺序与分支"></a>顺序与分支</h3><p>计算机的智能性开始得以体现，因为计算机能够根据不同的条件选择了。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1422" target="_blank" rel="noopener">P1422</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1085" target="_blank" rel="noopener">P1085</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1089" target="_blank" rel="noopener">P1089</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1909" target="_blank" rel="noopener">P1909</a></li>
+</ul>
+<h3 id="循环！循环！循环！"><a href="#循环！循环！循环！" class="headerlink" title="循环！循环！循环！"></a>循环！循环！循环！</h3><p>计算机最不怕的就是重复。你让它做10000次同样的事它也不怕啦，但是让他做1亿亿次的话……</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1008" target="_blank" rel="noopener">P1008</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1035" target="_blank" rel="noopener">P1035</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1423" target="_blank" rel="noopener">P1423</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1424" target="_blank" rel="noopener">P1424</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1980" target="_blank" rel="noopener">P1980</a></li>
+</ul>
+<h3 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h3><p>跟数组有关的题目基本上都要用到循环，所以请先完成1-3。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1046" target="_blank" rel="noopener">P1046</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1047" target="_blank" rel="noopener">P1047</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1427" target="_blank" rel="noopener">P1427</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1428" target="_blank" rel="noopener">P1428</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2141" target="_blank" rel="noopener">P2141</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1567" target="_blank" rel="noopener">P1567</a></li>
+</ul>
+<h3 id="简单字符串"><a href="#简单字符串" class="headerlink" title="简单字符串"></a>简单字符串</h3><p>计算机不仅可以处理数字，还能处理文字！就是其实跟数字也没什么差。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1055" target="_blank" rel="noopener">P1055</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1200" target="_blank" rel="noopener">P1200</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1308" target="_blank" rel="noopener">P1308</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1553" target="_blank" rel="noopener">P1553</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1598" target="_blank" rel="noopener">P1598</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1914" target="_blank" rel="noopener">P1914</a></li>
+</ul>
+<h3 id="过程函数与递归"><a href="#过程函数与递归" class="headerlink" title="过程函数与递归"></a>过程函数与递归</h3><p>将代码串进行打包，就是过程与函数。过程与函数调用自己则为递归。有一点小难但不要怕哦。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1028" target="_blank" rel="noopener">P1028</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1036" target="_blank" rel="noopener">P1036</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1149" target="_blank" rel="noopener">P1149</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1217" target="_blank" rel="noopener">P1217</a></li>
+</ul>
+<h3 id="BOSS战-入门综合练习1"><a href="#BOSS战-入门综合练习1" class="headerlink" title="BOSS战-入门综合练习1"></a>BOSS战-入门综合练习1</h3><p>这里将前面的内容综合起来了，会有点难，不过你可以问老师同学，也能上网查资料。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1478" target="_blank" rel="noopener">P1478</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1618" target="_blank" rel="noopener">P1618</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1579" target="_blank" rel="noopener">P1579</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2089" target="_blank" rel="noopener">P2089</a></li>
+</ul>
+<h3 id="BOSS战-入门综合练习2"><a href="#BOSS战-入门综合练习2" class="headerlink" title="BOSS战-入门综合练习2"></a>BOSS战-入门综合练习2</h3><p>勇士，竟然来到了BOSS的老巢！来一场恶斗，证明自己的实力，解锁下一个级别！</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1426" target="_blank" rel="noopener">P1426</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1464" target="_blank" rel="noopener">P1464</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1014" target="_blank" rel="noopener">P1014</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1022" target="_blank" rel="noopener">P1022</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1307" target="_blank" rel="noopener">P1307</a></li>
+</ul>
+<h2 id="洛谷试炼场之普及练习场"><a href="#洛谷试炼场之普及练习场" class="headerlink" title="洛谷试炼场之普及练习场"></a>洛谷试炼场之普及练习场</h2><p>普及组选手可冲刺训练，提高组选手亦可在此巩固基础。</p>
+<h3 id="目录-1"><a href="#目录-1" class="headerlink" title="目录"></a>目录</h3><ul>
+<li>简单的模拟</li>
+<li>交叉模拟</li>
+<li>排序</li>
+<li>排序Ex</li>
+<li>字符串处理</li>
+<li>贪心</li>
+<li>深度优先搜索</li>
+<li>广度优先搜索</li>
+<li>带有技巧的搜索</li>
+<li>分治算法</li>
+<li>简单数学问题</li>
+<li>递推与递归二分</li>
+<li>线性数据结构</li>
+<li>树形数据结构</li>
+<li>动态规划的背包问题</li>
+<li>线性动态规划</li>
+<li>多维动态规划</li>
+<li>更要技巧的动规与记忆化</li>
+<li>高精度算法</li>
+<li>贪心EX</li>
+<li>简单数学</li>
+<li>BOSS战-普及综合练习1</li>
+<li>BOSS战-普及综合练习2</li>
+<li>BOSS战-普及综合练习3</li>
+<li>普及常见模板</li>
+</ul>
+<h3 id="简单的模拟"><a href="#简单的模拟" class="headerlink" title="简单的模拟"></a>简单的模拟</h3><p>开始普及组的训练！所谓模拟，就是直接根据题意编写，思维难度简单。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1003" target="_blank" rel="noopener">P1003</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1067" target="_blank" rel="noopener">P1067</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1540" target="_blank" rel="noopener">P1540</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1056" target="_blank" rel="noopener">P1056</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1328" target="_blank" rel="noopener">P1328</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1563" target="_blank" rel="noopener">P1563</a></li>
+</ul>
+<h3 id="交叉模拟"><a href="#交叉模拟" class="headerlink" title="交叉模拟"></a>交叉模拟</h3><p>这里也是模拟，但是会混有些别的部分。思维难度不大，但是编写起来会有些难度。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1023" target="_blank" rel="noopener">P1023</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1031" target="_blank" rel="noopener">P1031</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1042" target="_blank" rel="noopener">P1042</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1086" target="_blank" rel="noopener">P1086</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1098" target="_blank" rel="noopener">P1098</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3952" target="_blank" rel="noopener">P3952</a></li>
+</ul>
+<h3 id="排序"><a href="#排序" class="headerlink" title="排序"></a>排序</h3><p>将杂乱无章的数据变得有规律。有各种各样的排序算法，看情况使用。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1177" target="_blank" rel="noopener">P1177</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1059" target="_blank" rel="noopener">P1059</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1068" target="_blank" rel="noopener">P1068</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1781" target="_blank" rel="noopener">P1781</a></li>
+</ul>
+<h3 id="排序Ex"><a href="#排序Ex" class="headerlink" title="排序Ex"></a>排序Ex</h3><p>这里的排序就更上一层了。不仅融合了别的算法与技巧，排序本身也有各种花招。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1583" target="_blank" rel="noopener">P1583</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1051" target="_blank" rel="noopener">P1051</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1093" target="_blank" rel="noopener">P1093</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1309" target="_blank" rel="noopener">P1309</a></li>
+</ul>
+<h3 id="字符串处理"><a href="#字符串处理" class="headerlink" title="字符串处理"></a>字符串处理</h3><p>这里的字符串处理还会变得更加的有意思，难度也更大。需要好好地思考一下。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1603" target="_blank" rel="noopener">P1603</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1071" target="_blank" rel="noopener">P1071</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1012" target="_blank" rel="noopener">P1012</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1538" target="_blank" rel="noopener">P1538</a></li>
+</ul>
+<h3 id="贪心"><a href="#贪心" class="headerlink" title="贪心"></a>贪心</h3><p>贪心就是只考虑眼前的利益。对于我们人生来说太贪是不好的，不过oi中，有时是对的。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1090" target="_blank" rel="noopener">P1090</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1181" target="_blank" rel="noopener">P1181</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1208" target="_blank" rel="noopener">P1208</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1223" target="_blank" rel="noopener">P1223</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1094" target="_blank" rel="noopener">P1094</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1803" target="_blank" rel="noopener">P1803</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1031" target="_blank" rel="noopener">P1031</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1080" target="_blank" rel="noopener">P1080</a></li>
+</ul>
+<h3 id="深度优先搜索"><a href="#深度优先搜索" class="headerlink" title="深度优先搜索"></a>深度优先搜索</h3><p>搜索可以穷举各种情况。很多题目都可以用搜索完成。就算不能，搜索也是骗分神器。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1219" target="_blank" rel="noopener">P1219</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1019" target="_blank" rel="noopener">P1019</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1101" target="_blank" rel="noopener">P1101</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1605" target="_blank" rel="noopener">P1605</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1040" target="_blank" rel="noopener">P1040</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1092" target="_blank" rel="noopener">P1092</a></li>
+</ul>
+<h3 id="广度优先搜索"><a href="#广度优先搜索" class="headerlink" title="广度优先搜索"></a>广度优先搜索</h3><p>广度优先搜索可以用来找有关“最短步数”的问题。恩，也可以用来“地毯式搜索”。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1162" target="_blank" rel="noopener">P1162</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1032" target="_blank" rel="noopener">P1032</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1141" target="_blank" rel="noopener">P1141</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1126" target="_blank" rel="noopener">P1126</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1443" target="_blank" rel="noopener">P1443</a></li>
+</ul>
+<h3 id="带有技巧的搜索"><a href="#带有技巧的搜索" class="headerlink" title="带有技巧的搜索"></a>带有技巧的搜索</h3><p>这里的搜索不仅包含了dfs和bfs，还包括剪枝、记录等技巧以加快速度。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1118" target="_blank" rel="noopener">P1118</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1434" target="_blank" rel="noopener">P1434</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1433" target="_blank" rel="noopener">P1433</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1074" target="_blank" rel="noopener">P1074</a></li>
+</ul>
+<h3 id="分治算法"><a href="#分治算法" class="headerlink" title="分治算法"></a>分治算法</h3><p>将大问题拆分为小问题，分而治之，各个击破，然后在合并回来。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1226" target="_blank" rel="noopener">P1226</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1010" target="_blank" rel="noopener">P1010</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1908" target="_blank" rel="noopener">P1908</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1498" target="_blank" rel="noopener">P1498</a></li>
+</ul>
+<h3 id="简单数学问题"><a href="#简单数学问题" class="headerlink" title="简单数学问题"></a>简单数学问题</h3><p>用计算机解决某些麻烦数学问题，再合适不过了。这真是绝妙的搭配啊！</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1088" target="_blank" rel="noopener">P1088</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1045" target="_blank" rel="noopener">P1045</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1403" target="_blank" rel="noopener">P1403</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1017" target="_blank" rel="noopener">P1017</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1147" target="_blank" rel="noopener">P1147</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1029" target="_blank" rel="noopener">P1029</a></li>
+</ul>
+<h3 id="递推与递归二分"><a href="#递推与递归二分" class="headerlink" title="递推与递归二分"></a>递推与递归二分</h3><p>递推，层层递进，由基础推向顶层。二分不仅可以用来查找数据，还可以确定最合适的值。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1192" target="_blank" rel="noopener">P1192</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1025" target="_blank" rel="noopener">P1025</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1057" target="_blank" rel="noopener">P1057</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1135" target="_blank" rel="noopener">P1135</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1216" target="_blank" rel="noopener">P1216</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1182" target="_blank" rel="noopener">P1182</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1316" target="_blank" rel="noopener">P1316</a></li>
+</ul>
+<h3 id="线性数据结构"><a href="#线性数据结构" class="headerlink" title="线性数据结构"></a>线性数据结构</h3><p>数组，链表，队列，栈，都是线性结构。巧用这些结构可以做出不少方便的事情。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1996" target="_blank" rel="noopener">P1996</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1115" target="_blank" rel="noopener">P1115</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1739" target="_blank" rel="noopener">P1739</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1160" target="_blank" rel="noopener">P1160</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1449" target="_blank" rel="noopener">P1449</a></li>
+</ul>
+<h3 id="树形数据结构"><a href="#树形数据结构" class="headerlink" title="树形数据结构"></a>树形数据结构</h3><p>由一个根节点分叉，越分越多，就成了树。树可以表示数据之间的从属关系</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1087" target="_blank" rel="noopener">P1087</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1030" target="_blank" rel="noopener">P1030</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1305" target="_blank" rel="noopener">P1305</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5018" target="_blank" rel="noopener">P5018</a></li>
+</ul>
+<h3 id="动态规划的背包问题"><a href="#动态规划的背包问题" class="headerlink" title="动态规划的背包问题"></a>动态规划的背包问题</h3><p>这是最基础的动态规划。不过如果是第一次接触会有些难以理解。加油闯过这个坎。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1060" target="_blank" rel="noopener">P1060</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1164" target="_blank" rel="noopener">P1164</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1064" target="_blank" rel="noopener">P1064</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1048" target="_blank" rel="noopener">P1048</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1049" target="_blank" rel="noopener">P1049</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1616" target="_blank" rel="noopener">P1616</a></li>
+</ul>
+<h3 id="线性动态规划"><a href="#线性动态规划" class="headerlink" title="线性动态规划"></a>线性动态规划</h3><p>这也是基础的动态规划。是在线性结构上面的动态规划，一定要掌握。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1020" target="_blank" rel="noopener">P1020</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1091" target="_blank" rel="noopener">P1091</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1280" target="_blank" rel="noopener">P1280</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1880" target="_blank" rel="noopener">P1880</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1140" target="_blank" rel="noopener">P1140</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1282" target="_blank" rel="noopener">P1282</a></li>
+</ul>
+<h3 id="多维动态规划"><a href="#多维动态规划" class="headerlink" title="多维动态规划"></a>多维动态规划</h3><p>这里的动态规划就不止一维了。不仅要小心时间复杂度，也要注意空间复杂度。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1508" target="_blank" rel="noopener">P1508</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1006" target="_blank" rel="noopener">P1006</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1387" target="_blank" rel="noopener">P1387</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1417" target="_blank" rel="noopener">P1417</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1855" target="_blank" rel="noopener">P1855</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1736" target="_blank" rel="noopener">P1736</a></li>
+</ul>
+<h3 id="更要技巧的动规与记忆化"><a href="#更要技巧的动规与记忆化" class="headerlink" title="更要技巧的动规与记忆化"></a>更要技巧的动规与记忆化</h3><p>这边的题目有各种搞法。当然有的题目也可以使用记忆化搜索来降低思维难度。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1064" target="_blank" rel="noopener">P1064</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1541" target="_blank" rel="noopener">P1541</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1026" target="_blank" rel="noopener">P1026</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1063" target="_blank" rel="noopener">P1063</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1156" target="_blank" rel="noopener">P1156</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1052" target="_blank" rel="noopener">P1052</a></li>
+</ul>
+<h3 id="高精度算法"><a href="#高精度算法" class="headerlink" title="高精度算法"></a>高精度算法</h3><p>就算是long long（或int64）还不够怎么办？用高精度算法。自己动手丰衣足食。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1601" target="_blank" rel="noopener">P1601</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2142" target="_blank" rel="noopener">P2142</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1303" target="_blank" rel="noopener">P1303</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1255" target="_blank" rel="noopener">P1255</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1604" target="_blank" rel="noopener">P1604</a></li>
+</ul>
+<h3 id="贪心EX"><a href="#贪心EX" class="headerlink" title="贪心EX"></a>贪心EX</h3><p>虽然是贪心题，可能不是你当时你虐着玩的贪心惹qwq</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1080" target="_blank" rel="noopener">P1080</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1031" target="_blank" rel="noopener">P1031</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1233" target="_blank" rel="noopener">P1233</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2123" target="_blank" rel="noopener">P2123</a></li>
+</ul>
+<h3 id="简单数学"><a href="#简单数学" class="headerlink" title="简单数学"></a>简单数学</h3><p>数学和oi是密切相关的，数学不仅是oi的基础，而且是算法的核心。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1865" target="_blank" rel="noopener">P1865</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1372" target="_blank" rel="noopener">P1372</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1338" target="_blank" rel="noopener">P1338</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2158" target="_blank" rel="noopener">P2158</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1582" target="_blank" rel="noopener">P1582</a></li>
+</ul>
+<h3 id="BOSS战-普及综合练习1"><a href="#BOSS战-普及综合练习1" class="headerlink" title="BOSS战-普及综合练习1"></a>BOSS战-普及综合练习1</h3><p>好不容易闯到这一关，你那还等什么呢？抄起家伙赶快上啊！</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1478" target="_blank" rel="noopener">P1478</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1203" target="_blank" rel="noopener">P1203</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1363" target="_blank" rel="noopener">P1363</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1736" target="_blank" rel="noopener">P1736</a></li>
+</ul>
+<h3 id="BOSS战-普及综合练习2"><a href="#BOSS战-普及综合练习2" class="headerlink" title="BOSS战-普及综合练习2"></a>BOSS战-普及综合练习2</h3><p>来搞定第二个BOSS。虽然战斗艰难，但你一定没有问题。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1201" target="_blank" rel="noopener">P1201</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1095" target="_blank" rel="noopener">P1095</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1058" target="_blank" rel="noopener">P1058</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2258" target="_blank" rel="noopener">P2258</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1108" target="_blank" rel="noopener">P1108</a></li>
+</ul>
+<h3 id="BOSS战-普及综合练习3"><a href="#BOSS战-普及综合练习3" class="headerlink" title="BOSS战-普及综合练习3"></a>BOSS战-普及综合练习3</h3><p>普及练习场的大BOSS：“一定让你有去无回”。怎么办呢？只能打倒他开启下一个级别！</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1328" target="_blank" rel="noopener">P1328</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1062" target="_blank" rel="noopener">P1062</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1969" target="_blank" rel="noopener">P1969</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1037" target="_blank" rel="noopener">P1037</a></li>
+</ul>
+<h3 id="普及常见模板"><a href="#普及常见模板" class="headerlink" title="普及常见模板"></a>普及常见模板</h3><p>这里集中了比较基础的算法的模板。提高和省选也有模板题哦！</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1177" target="_blank" rel="noopener">P1177</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3366" target="_blank" rel="noopener">P3366</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3367" target="_blank" rel="noopener">P3367</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3371" target="_blank" rel="noopener">P3371</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3383" target="_blank" rel="noopener">P3383</a></li>
+</ul>
+<h2 id="洛谷试炼场之提高历练地"><a href="#洛谷试炼场之提高历练地" class="headerlink" title="洛谷试炼场之提高历练地"></a>洛谷试炼场之提高历练地</h2><p>已经去除了普及组难度的，请组织放心。成长大牛之必写题！！！</p>
+<h3 id="目录-2"><a href="#目录-2" class="headerlink" title="目录"></a>目录</h3><ul>
+<li>搜索Ex</li>
+<li>动态规划TG.lv(1)</li>
+<li>动态规划TG.lv(2)</li>
+<li>动态规划TG.lv(3)</li>
+<li>数论</li>
+<li>博弈论</li>
+<li>其他数学问题</li>
+<li>图的遍历</li>
+<li>最短路问题</li>
+<li>最小生成树</li>
+<li>较复杂图论I</li>
+<li>较复杂图论II</li>
+<li>并查集</li>
+<li>堆</li>
+<li>线段树树状数组基础</li>
+<li>神奇的解法</li>
+<li>倍增</li>
+<li>强连通分量</li>
+<li>BOSS战-提高综合练习1</li>
+<li>BOSS战-提高综合练习2</li>
+<li>BOSS战-提高综合练习3</li>
+<li>提高模板-nlogn数据结构</li>
+</ul>
+<h3 id="搜索Ex"><a href="#搜索Ex" class="headerlink" title="搜索Ex"></a>搜索Ex</h3><p>开始提高组的试炼。这里已经去除了所有普及组难度的题目。哼哼，怕了吧。。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1120" target="_blank" rel="noopener">P1120</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1378" target="_blank" rel="noopener">P1378</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1514" target="_blank" rel="noopener">P1514</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1312" target="_blank" rel="noopener">P1312</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1441" target="_blank" rel="noopener">P1441</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1242" target="_blank" rel="noopener">P1242</a></li>
+</ul>
+<h3 id="动态规划TG-lv-1"><a href="#动态规划TG-lv-1" class="headerlink" title="动态规划TG.lv(1)"></a>动态规划TG.lv(1)</h3><p>这是提高组难度中比较基础的动态规划，也许一两个转移方程就可以写出。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1005" target="_blank" rel="noopener">P1005</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1373" target="_blank" rel="noopener">P1373</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2279" target="_blank" rel="noopener">P2279</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1220" target="_blank" rel="noopener">P1220</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1156" target="_blank" rel="noopener">P1156</a></li>
+</ul>
+<h3 id="动态规划TG-lv-2"><a href="#动态规划TG-lv-2" class="headerlink" title="动态规划TG.lv(2)"></a>动态规划TG.lv(2)</h3><p>这里的动态规划稍稍有所加大难度，思考转移方程的时间可能会与编写程序的时间持平。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1273" target="_blank" rel="noopener">P1273</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1169" target="_blank" rel="noopener">P1169</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2577" target="_blank" rel="noopener">P2577</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1070" target="_blank" rel="noopener">P1070</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2051" target="_blank" rel="noopener">P2051</a></li>
+</ul>
+<h3 id="动态规划TG-lv-3"><a href="#动态规划TG-lv-3" class="headerlink" title="动态规划TG.lv(3)"></a>动态规划TG.lv(3)</h3><p>比较需要技巧的动态规划。有的不仅仅需要状态转移方程，可能还会与别的算法综合。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1415" target="_blank" rel="noopener">P1415</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2157" target="_blank" rel="noopener">P2157</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2216" target="_blank" rel="noopener">P2216</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2331" target="_blank" rel="noopener">P2331</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2467" target="_blank" rel="noopener">P2467</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3084" target="_blank" rel="noopener">P3084</a></li>
+</ul>
+<h3 id="数论"><a href="#数论" class="headerlink" title="数论"></a>数论</h3><p>数论就是研究整数的理论。包括公约公倍数、质数、欧拉定理和同余方程等。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2152" target="_blank" rel="noopener">P2152</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1414" target="_blank" rel="noopener">P1414</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1134" target="_blank" rel="noopener">P1134</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1313" target="_blank" rel="noopener">P1313</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1306" target="_blank" rel="noopener">P1306</a></li>
+</ul>
+<h3 id="博弈论"><a href="#博弈论" class="headerlink" title="博弈论"></a>博弈论</h3><p>博弈论考虑游戏中的个体的预测行为和实际行为，并研究它们的优化策略。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1199" target="_blank" rel="noopener">P1199</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1288" target="_blank" rel="noopener">P1288</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1290" target="_blank" rel="noopener">P1290</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2148" target="_blank" rel="noopener">P2148</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1247" target="_blank" rel="noopener">P1247</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2575" target="_blank" rel="noopener">P2575</a></li>
+</ul>
+<h3 id="其他数学问题"><a href="#其他数学问题" class="headerlink" title="其他数学问题"></a>其他数学问题</h3><p>听说学oi的同志们数学都挺好。那么。就请完成下面的题目证明这一点吧！</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1357" target="_blank" rel="noopener">P1357</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1641" target="_blank" rel="noopener">P1641</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2059" target="_blank" rel="noopener">P2059</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2154" target="_blank" rel="noopener">P2154</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2261" target="_blank" rel="noopener">P2261</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2327" target="_blank" rel="noopener">P2327</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1066" target="_blank" rel="noopener">P1066</a></li>
+</ul>
+<h3 id="图的遍历"><a href="#图的遍历" class="headerlink" title="图的遍历"></a>图的遍历</h3><p>图是一种非常重要的数据结构，描述对象复杂的练习。这里开始接触图的基本概念。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2661" target="_blank" rel="noopener">P2661</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1330" target="_blank" rel="noopener">P1330</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1341" target="_blank" rel="noopener">P1341</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2921" target="_blank" rel="noopener">P2921</a></li>
+</ul>
+<h3 id="最短路问题"><a href="#最短路问题" class="headerlink" title="最短路问题"></a>最短路问题</h3><p>最短路是图论中最重要的部分，多种算法可以应用。很多题目都可以抽象成这种模型。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1339" target="_blank" rel="noopener">P1339</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1462" target="_blank" rel="noopener">P1462</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1346" target="_blank" rel="noopener">P1346</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1119" target="_blank" rel="noopener">P1119</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1144" target="_blank" rel="noopener">P1144</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1522" target="_blank" rel="noopener">P1522</a></li>
+</ul>
+<h3 id="最小生成树"><a href="#最小生成树" class="headerlink" title="最小生成树"></a>最小生成树</h3><p>最小生成树可以用kruskal（克鲁斯卡尔）算法或prim（普里姆）算法求出。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1546" target="_blank" rel="noopener">P1546</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2330" target="_blank" rel="noopener">P2330</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1991" target="_blank" rel="noopener">P1991</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1265" target="_blank" rel="noopener">P1265</a></li>
+</ul>
+<h3 id="较复杂图论I"><a href="#较复杂图论I" class="headerlink" title="较复杂图论I"></a>较复杂图论I</h3><p>别的些图论问题，包括树、拓扑排序等。要过这一关，需要学习不少新的算法。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1113" target="_blank" rel="noopener">P1113</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1268" target="_blank" rel="noopener">P1268</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1525" target="_blank" rel="noopener">P1525</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1983" target="_blank" rel="noopener">P1983</a></li>
+</ul>
+<h3 id="较复杂图论II"><a href="#较复杂图论II" class="headerlink" title="较复杂图论II"></a>较复杂图论II</h3><p>更高级的图论算法。包括差分约束、强连通、二分图等。会更难一些。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1993" target="_blank" rel="noopener">P1993</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1726" target="_blank" rel="noopener">P1726</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2055" target="_blank" rel="noopener">P2055</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2149" target="_blank" rel="noopener">P2149</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1345" target="_blank" rel="noopener">P1345</a></li>
+</ul>
+<h3 id="并查集"><a href="#并查集" class="headerlink" title="并查集"></a>并查集</h3><p>用于处理一些不相交集合的合并及查询问题。常常在使用中以森林来表示。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1111" target="_blank" rel="noopener">P1111</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2024" target="_blank" rel="noopener">P2024</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1197" target="_blank" rel="noopener">P1197</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1196" target="_blank" rel="noopener">P1196</a></li>
+</ul>
+<h3 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h3><p>堆总是一棵完全树；堆中某个节点的值总是不大于或不小于其父节点的值。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1801" target="_blank" rel="noopener">P1801</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2278" target="_blank" rel="noopener">P2278</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1631" target="_blank" rel="noopener">P1631</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2085" target="_blank" rel="noopener">P2085</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1484" target="_blank" rel="noopener">P1484</a></li>
+</ul>
+<h3 id="线段树树状数组基础"><a href="#线段树树状数组基础" class="headerlink" title="线段树树状数组基础"></a>线段树树状数组基础</h3><p>这都是比较高级的线性数据结构。在处理一些询问与修改线性问题时，是很好用的。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1972" target="_blank" rel="noopener">P1972</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1198" target="_blank" rel="noopener">P1198</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2023" target="_blank" rel="noopener">P2023</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2161" target="_blank" rel="noopener">P2161</a></li>
+</ul>
+<h3 id="神奇的解法"><a href="#神奇的解法" class="headerlink" title="神奇的解法"></a>神奇的解法</h3><p>有些问题刚开始觉得无从下手。好好想一想，尽量别看题解，否则你会大呼“简单”。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1007" target="_blank" rel="noopener">P1007</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1984" target="_blank" rel="noopener">P1984</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2022" target="_blank" rel="noopener">P2022</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2320" target="_blank" rel="noopener">P2320</a></li>
+</ul>
+<h3 id="倍增"><a href="#倍增" class="headerlink" title="倍增"></a>倍增</h3><p>一种特殊的枚举算法，但可大大加快效率。近年noip有考到。难度较大。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1967" target="_blank" rel="noopener">P1967</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1081" target="_blank" rel="noopener">P1081</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1613" target="_blank" rel="noopener">P1613</a></li>
+</ul>
+<h3 id="强连通分量"><a href="#强连通分量" class="headerlink" title="强连通分量"></a>强连通分量</h3><p>强连通分量</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2341" target="_blank" rel="noopener">P2341</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3469" target="_blank" rel="noopener">P3469</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2746" target="_blank" rel="noopener">P2746</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3119" target="_blank" rel="noopener">P3119</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3225" target="_blank" rel="noopener">P3225</a></li>
+</ul>
+<h3 id="BOSS战-提高综合练习1"><a href="#BOSS战-提高综合练习1" class="headerlink" title="BOSS战-提高综合练习1"></a>BOSS战-提高综合练习1</h3><p>年轻人，又是个送上门的，让我来看看你真实的本领。啊哈哈哈哈哈！</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2264" target="_blank" rel="noopener">P2264</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1772" target="_blank" rel="noopener">P1772</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1083" target="_blank" rel="noopener">P1083</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1979" target="_blank" rel="noopener">P1979</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2939" target="_blank" rel="noopener">P2939</a></li>
+</ul>
+<h3 id="BOSS战-提高综合练习2"><a href="#BOSS战-提高综合练习2" class="headerlink" title="BOSS战-提高综合练习2"></a>BOSS战-提高综合练习2</h3><p>再来！这里有的题目并非单纯的考察某个算法，而是考察一种综合性的思维。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1901" target="_blank" rel="noopener">P1901</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1314" target="_blank" rel="noopener">P1314</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2144" target="_blank" rel="noopener">P2144</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1073" target="_blank" rel="noopener">P1073</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2324" target="_blank" rel="noopener">P2324</a></li>
+</ul>
+<h3 id="BOSS战-提高综合练习3"><a href="#BOSS战-提高综合练习3" class="headerlink" title="BOSS战-提高综合练习3"></a>BOSS战-提高综合练习3</h3><p>既然已经打倒了前面2个boss，那么第3个也是没有问题的。少年，来吧！</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1965" target="_blank" rel="noopener">P1965</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1311" target="_blank" rel="noopener">P1311</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2296" target="_blank" rel="noopener">P2296</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1084" target="_blank" rel="noopener">P1084</a></li>
+</ul>
+<h3 id="提高模板-nlogn数据结构"><a href="#提高模板-nlogn数据结构" class="headerlink" title="提高模板-nlogn数据结构"></a>提高模板-nlogn数据结构</h3><p>虽然这些算法不是noip必须的，但是不算困难，很多题目可以使用这些方法。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P3374" target="_blank" rel="noopener">P3374</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3368" target="_blank" rel="noopener">P3368</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3372" target="_blank" rel="noopener">P3372</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3373" target="_blank" rel="noopener">P3373</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1439" target="_blank" rel="noopener">P1439</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3378" target="_blank" rel="noopener">P3378</a></li>
+</ul>
+<h2 id="洛谷试炼场之省选斗兽场-NOI神殿"><a href="#洛谷试炼场之省选斗兽场-NOI神殿" class="headerlink" title="洛谷试炼场之省选斗兽场/NOI神殿"></a>洛谷试炼场之省选斗兽场/NOI神殿</h2><p>为省选及以上选手制作的训练场。其实，省选水平的oier不需要一些外加的刷题列表，本栏仅供参考，也欢迎各位指出不足。</p>
+<h3 id="目录-3"><a href="#目录-3" class="headerlink" title="目录"></a>目录</h3><ul>
+<li>省选基础-读入/输出优化</li>
+<li>省选基础-位运算</li>
+<li>省选基础-打表</li>
+<li>动态规划1</li>
+<li>动态规划2</li>
+<li>网络流——最大流</li>
+<li>网络流——费用流</li>
+<li>单调队列</li>
+<li>概率期望</li>
+<li>二分图</li>
+<li>点分治</li>
+<li>后缀数组</li>
+<li>主席树</li>
+<li>数位DP</li>
+<li>AC自动机</li>
+<li>平衡树</li>
+<li>树链剖分</li>
+<li>动态树</li>
+<li>树套树</li>
+<li>可持久化Trie树</li>
+<li>莫队算法</li>
+<li>分块</li>
+<li>莫比乌斯反演</li>
+<li>其他</li>
+</ul>
+<h3 id="省选基础-读入-输出优化"><a href="#省选基础-读入-输出优化" class="headerlink" title="省选基础-读入/输出优化"></a>省选基础-读入/输出优化</h3><p>读入/输出优化是省选刷题时必要的一个东西，这里给出了几题，需要自己手写相应的读入输出处理。作为第一关，这一关相对简单。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1580" target="_blank" rel="noopener">P1580</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2393" target="_blank" rel="noopener">P2393</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2394" target="_blank" rel="noopener">P2394</a></li>
+</ul>
+<h3 id="省选基础-位运算"><a href="#省选基础-位运算" class="headerlink" title="省选基础-位运算"></a>省选基础-位运算</h3><p>位运算往往在必要的时候,能带你优化一下常数,也许是空间;也许是时间;有的时候这样可以多过很多分</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2114" target="_blank" rel="noopener">P2114</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2396" target="_blank" rel="noopener">P2396</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2397" target="_blank" rel="noopener">P2397</a></li>
+</ul>
+<h3 id="省选基础-打表"><a href="#省选基础-打表" class="headerlink" title="省选基础-打表"></a>省选基础-打表</h3><p>打表虽然很赖皮,而且基本都是非正解,但是这种办法能让我们在省选中拿到一些会超时或者会超空间的一些数据点</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1149" target="_blank" rel="noopener">P1149</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1463" target="_blank" rel="noopener">P1463</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1896" target="_blank" rel="noopener">P1896</a></li>
+</ul>
+<h3 id="动态规划1"><a href="#动态规划1" class="headerlink" title="动态规划1"></a>动态规划1</h3><p>动态规划</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2051" target="_blank" rel="noopener">P2051</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1879" target="_blank" rel="noopener">P1879</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1850" target="_blank" rel="noopener">P1850</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2831" target="_blank" rel="noopener">P2831</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1131" target="_blank" rel="noopener">P1131</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1169" target="_blank" rel="noopener">P1169</a></li>
+</ul>
+<h3 id="动态规划2"><a href="#动态规划2" class="headerlink" title="动态规划2"></a>动态规划2</h3><p>动态规划</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1273" target="_blank" rel="noopener">P1273</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3648" target="_blank" rel="noopener">P3648</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2519" target="_blank" rel="noopener">P2519</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2515" target="_blank" rel="noopener">P2515</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3233" target="_blank" rel="noopener">P3233</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2501" target="_blank" rel="noopener">P2501</a></li>
+</ul>
+<h3 id="网络流——最大流"><a href="#网络流——最大流" class="headerlink" title="网络流——最大流"></a>网络流——最大流</h3><p>最大流</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2765" target="_blank" rel="noopener">P2765</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2764" target="_blank" rel="noopener">P2764</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2763" target="_blank" rel="noopener">P2763</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2766" target="_blank" rel="noopener">P2766</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2774" target="_blank" rel="noopener">P2774</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2805" target="_blank" rel="noopener">P2805</a></li>
+</ul>
+<h3 id="网络流——费用流"><a href="#网络流——费用流" class="headerlink" title="网络流——费用流"></a>网络流——费用流</h3><p>费用流</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2153" target="_blank" rel="noopener">P2153</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2053" target="_blank" rel="noopener">P2053</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3159" target="_blank" rel="noopener">P3159</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2604" target="_blank" rel="noopener">P2604</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2050" target="_blank" rel="noopener">P2050</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3980" target="_blank" rel="noopener">P3980</a></li>
+</ul>
+<h3 id="单调队列"><a href="#单调队列" class="headerlink" title="单调队列"></a>单调队列</h3><p>单调队列</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2698" target="_blank" rel="noopener">P2698</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2216" target="_blank" rel="noopener">P2216</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2219" target="_blank" rel="noopener">P2219</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2564" target="_blank" rel="noopener">P2564</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2569" target="_blank" rel="noopener">P2569</a></li>
+</ul>
+<h3 id="概率期望"><a href="#概率期望" class="headerlink" title="概率期望"></a>概率期望</h3><p>概率期望</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2473" target="_blank" rel="noopener">P2473</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2221" target="_blank" rel="noopener">P2221</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3317" target="_blank" rel="noopener">P3317</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3343" target="_blank" rel="noopener">P3343</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3600" target="_blank" rel="noopener">P3600</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3830" target="_blank" rel="noopener">P3830</a></li>
+</ul>
+<h3 id="二分图"><a href="#二分图" class="headerlink" title="二分图"></a>二分图</h3><p>二分图</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P3386" target="_blank" rel="noopener">P3386</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1640" target="_blank" rel="noopener">P1640</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1129" target="_blank" rel="noopener">P1129</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1963" target="_blank" rel="noopener">P1963</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3231" target="_blank" rel="noopener">P3231</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2526" target="_blank" rel="noopener">P2526</a></li>
+</ul>
+<h3 id="点分治"><a href="#点分治" class="headerlink" title="点分治"></a>点分治</h3><p>点分治</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2634" target="_blank" rel="noopener">P2634</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2664" target="_blank" rel="noopener">P2664</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3806" target="_blank" rel="noopener">P3806</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3676" target="_blank" rel="noopener">P3676</a></li>
+</ul>
+<h3 id="后缀数组"><a href="#后缀数组" class="headerlink" title="后缀数组"></a>后缀数组</h3><p>后缀数组</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P3809" target="_blank" rel="noopener">P3809</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1117" target="_blank" rel="noopener">P1117</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2178" target="_blank" rel="noopener">P2178</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2463" target="_blank" rel="noopener">P2463</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2336" target="_blank" rel="noopener">P2336</a></li>
+</ul>
+<h3 id="主席树"><a href="#主席树" class="headerlink" title="主席树"></a>主席树</h3><p>主席树</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2468" target="_blank" rel="noopener">P2468</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3157" target="_blank" rel="noopener">P3157</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3302" target="_blank" rel="noopener">P3302</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3168" target="_blank" rel="noopener">P3168</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3313" target="_blank" rel="noopener">P3313</a></li>
+</ul>
+<h3 id="数位DP"><a href="#数位DP" class="headerlink" title="数位DP"></a>数位DP</h3><p>数位DP</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2602" target="_blank" rel="noopener">P2602</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3281" target="_blank" rel="noopener">P3281</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2518" target="_blank" rel="noopener">P2518</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2606" target="_blank" rel="noopener">P2606</a></li>
+</ul>
+<h3 id="AC自动机"><a href="#AC自动机" class="headerlink" title="AC自动机"></a>AC自动机</h3><p>AC自动机</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P3808" target="_blank" rel="noopener">P3808</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3796" target="_blank" rel="noopener">P3796</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2444" target="_blank" rel="noopener">P2444</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2414" target="_blank" rel="noopener">P2414</a></li>
+</ul>
+<h3 id="平衡树"><a href="#平衡树" class="headerlink" title="平衡树"></a>平衡树</h3><p>平衡树</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2042" target="_blank" rel="noopener">P2042</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2596" target="_blank" rel="noopener">P2596</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1110" target="_blank" rel="noopener">P1110</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3285" target="_blank" rel="noopener">P3285</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3644" target="_blank" rel="noopener">P3644</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3765" target="_blank" rel="noopener">P3765</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3369" target="_blank" rel="noopener">P3369</a></li>
+</ul>
+<h3 id="树链剖分"><a href="#树链剖分" class="headerlink" title="树链剖分"></a>树链剖分</h3><p>树链剖分</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2590" target="_blank" rel="noopener">P2590</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2486" target="_blank" rel="noopener">P2486</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2146" target="_blank" rel="noopener">P2146</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3258" target="_blank" rel="noopener">P3258</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3178" target="_blank" rel="noopener">P3178</a></li>
+</ul>
+<h3 id="动态树"><a href="#动态树" class="headerlink" title="动态树"></a>动态树</h3><p>动态树</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P3690" target="_blank" rel="noopener">P3690</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2387" target="_blank" rel="noopener">P2387</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3203" target="_blank" rel="noopener">P3203</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3348" target="_blank" rel="noopener">P3348</a></li>
+</ul>
+<h3 id="树套树"><a href="#树套树" class="headerlink" title="树套树"></a>树套树</h3><p>树套树</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1903" target="_blank" rel="noopener">P1903</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3157" target="_blank" rel="noopener">P3157</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3332" target="_blank" rel="noopener">P3332</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2166" target="_blank" rel="noopener">P2166</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3380" target="_blank" rel="noopener">P3380</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2137" target="_blank" rel="noopener">P2137</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3759" target="_blank" rel="noopener">P3759</a></li>
+</ul>
+<h3 id="可持久化Trie树"><a href="#可持久化Trie树" class="headerlink" title="可持久化Trie树"></a>可持久化Trie树</h3><p>可持久化Trie树</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2048" target="_blank" rel="noopener">P2048</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3527" target="_blank" rel="noopener">P3527</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3302" target="_blank" rel="noopener">P3302</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3168" target="_blank" rel="noopener">P3168</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3242" target="_blank" rel="noopener">P3242</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3241" target="_blank" rel="noopener">P3241</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3293" target="_blank" rel="noopener">P3293</a></li>
+</ul>
+<h3 id="莫队算法"><a href="#莫队算法" class="headerlink" title="莫队算法"></a>莫队算法</h3><p>莫队算法</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1972" target="_blank" rel="noopener">P1972</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2336" target="_blank" rel="noopener">P2336</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3709" target="_blank" rel="noopener">P3709</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2709" target="_blank" rel="noopener">P2709</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3674" target="_blank" rel="noopener">P3674</a></li>
+</ul>
+<h3 id="分块"><a href="#分块" class="headerlink" title="分块"></a>分块</h3><p>分块</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1972" target="_blank" rel="noopener">P1972</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3396" target="_blank" rel="noopener">P3396</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1822" target="_blank" rel="noopener">P1822</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2801" target="_blank" rel="noopener">P2801</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3203" target="_blank" rel="noopener">P3203</a></li>
+</ul>
+<h3 id="莫比乌斯反演"><a href="#莫比乌斯反演" class="headerlink" title="莫比乌斯反演"></a>莫比乌斯反演</h3><p>莫比乌斯反演</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P3768" target="_blank" rel="noopener">P3768</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3172" target="_blank" rel="noopener">P3172</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3455" target="_blank" rel="noopener">P3455</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2522" target="_blank" rel="noopener">P2522</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3327" target="_blank" rel="noopener">P3327</a></li>
+</ul>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>其他</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P3377" target="_blank" rel="noopener">P3377</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3261" target="_blank" rel="noopener">P3261</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3382" target="_blank" rel="noopener">P3382</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2571" target="_blank" rel="noopener">P2571</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3222" target="_blank" rel="noopener">P3222</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3187" target="_blank" rel="noopener">P3187</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3199" target="_blank" rel="noopener">P3199</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3292" target="_blank" rel="noopener">P3292</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2824" target="_blank" rel="noopener">P2824</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3285" target="_blank" rel="noopener">P3285</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1552" target="_blank" rel="noopener">P1552</a></li>
+</ul>
+<h2 id="洛谷试炼场之USACO"><a href="#洛谷试炼场之USACO" class="headerlink" title="洛谷试炼场之USACO"></a>洛谷试炼场之USACO</h2><p>美国经典的算法练习题库，值得一刷</p>
+<h3 id="目录-4"><a href="#目录-4" class="headerlink" title="目录"></a>目录</h3><ul>
+<li>USACO Section 1.1</li>
+<li>USACO Section 1.2（完全枚举）</li>
+<li>USACO Section 1.3（贪心）</li>
+<li>USACO Section 1.4（有技巧的枚举）</li>
+<li>USACO Section 1.5（二进制数）</li>
+<li>USACO Section 2.1（图论和洪水填充）</li>
+<li>USACO Section 2.2（数据结构与动态规划）</li>
+<li>USACO Section 2.3</li>
+<li>USACO Section 2.4（最短路径）</li>
+<li>USACO Section 3.1（最小生成树）</li>
+<li>USACO Section 3.2（背包问题）</li>
+<li>USACO Section 3.3（欧拉回路）</li>
+<li>USACO Section 3.4（计算几何）</li>
+<li>USACO Section 4.1（最优化）</li>
+<li>USACO Section 4.2（网络流）</li>
+<li>USACO Section 4.3（高精度）</li>
+<li>USACO Section 4.4</li>
+<li>USACO Section 5.1（二维凸包）</li>
+<li>USACO Section 5.2</li>
+<li>USACO Section 5.3（启发式搜索）</li>
+<li>USACO Section 5.4</li>
+<li>USACO Section 5.5</li>
+</ul>
+<h3 id="USACO-Section-1-1"><a href="#USACO-Section-1-1" class="headerlink" title="USACO Section 1.1"></a>USACO Section 1.1</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P1200" target="_blank" rel="noopener">P1200</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1201" target="_blank" rel="noopener">P1201</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1202" target="_blank" rel="noopener">P1202</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1203" target="_blank" rel="noopener">P1203</a></li>
+</ul>
+<h3 id="USACO-Section-1-2"><a href="#USACO-Section-1-2" class="headerlink" title="USACO Section 1.2"></a>USACO Section 1.2</h3><p>完全枚举</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P3864" target="_blank" rel="noopener">P3864</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1204" target="_blank" rel="noopener">P1204</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1205" target="_blank" rel="noopener">P1205</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1206" target="_blank" rel="noopener">P1206</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1207" target="_blank" rel="noopener">P1207</a></li>
+</ul>
+<h3 id="USACO-Section-1-3"><a href="#USACO-Section-1-3" class="headerlink" title="USACO Section 1.3"></a>USACO Section 1.3</h3><p>贪心</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1208" target="_blank" rel="noopener">P1208</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1209" target="_blank" rel="noopener">P1209</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1211" target="_blank" rel="noopener">P1211</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1444" target="_blank" rel="noopener">P1444</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3650" target="_blank" rel="noopener">P3650</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2693" target="_blank" rel="noopener">P2693</a></li>
+</ul>
+<h3 id="USACO-Section-1-4"><a href="#USACO-Section-1-4" class="headerlink" title="USACO Section 1.4"></a>USACO Section 1.4</h3><p>有技巧的枚举</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1214" target="_blank" rel="noopener">P1214</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1215" target="_blank" rel="noopener">P1215</a></li>
+</ul>
+<h3 id="USACO-Section-1-5"><a href="#USACO-Section-1-5" class="headerlink" title="USACO Section 1.5"></a>USACO Section 1.5</h3><p>二进制数</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1216" target="_blank" rel="noopener">P1216</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1217" target="_blank" rel="noopener">P1217</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1218" target="_blank" rel="noopener">P1218</a></li>
+</ul>
+<h3 id="USACO-Section-2-1"><a href="#USACO-Section-2-1" class="headerlink" title="USACO Section 2.1"></a>USACO Section 2.1</h3><p>图论和洪水填充</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1457" target="_blank" rel="noopener">P1457</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1458" target="_blank" rel="noopener">P1458</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1459" target="_blank" rel="noopener">P1459</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1460" target="_blank" rel="noopener">P1460</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1461" target="_blank" rel="noopener">P1461</a></li>
+</ul>
+<h3 id="USACO-Section-2-2"><a href="#USACO-Section-2-2" class="headerlink" title="USACO Section 2.2"></a>USACO Section 2.2</h3><p>数据结构与动态规划</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1465" target="_blank" rel="noopener">P1465</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1466" target="_blank" rel="noopener">P1466</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1467" target="_blank" rel="noopener">P1467</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1468" target="_blank" rel="noopener">P1468</a></li>
+</ul>
+<h3 id="USACO-Section-2-3"><a href="#USACO-Section-2-3" class="headerlink" title="USACO Section 2.3"></a>USACO Section 2.3</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P1470" target="_blank" rel="noopener">P1470</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1472" target="_blank" rel="noopener">P1472</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1473" target="_blank" rel="noopener">P1473</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1474" target="_blank" rel="noopener">P1474</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1475" target="_blank" rel="noopener">P1475</a></li>
+</ul>
+<h3 id="USACO-Section-2-4"><a href="#USACO-Section-2-4" class="headerlink" title="USACO Section 2.4"></a>USACO Section 2.4</h3><p>最短路径</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1518" target="_blank" rel="noopener">P1518</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1519" target="_blank" rel="noopener">P1519</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1522" target="_blank" rel="noopener">P1522</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1529" target="_blank" rel="noopener">P1529</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1530" target="_blank" rel="noopener">P1530</a></li>
+</ul>
+<h3 id="USACO-Section-3-1"><a href="#USACO-Section-3-1" class="headerlink" title="USACO Section 3.1"></a>USACO Section 3.1</h3><p>最小生成树</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1546" target="_blank" rel="noopener">P1546</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2722" target="_blank" rel="noopener">P2722</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2723" target="_blank" rel="noopener">P2723</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2724" target="_blank" rel="noopener">P2724</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2725" target="_blank" rel="noopener">P2725</a></li>
+</ul>
+<h3 id="USACO-Section-3-2"><a href="#USACO-Section-3-2" class="headerlink" title="USACO Section 3.2"></a>USACO Section 3.2</h3><p>背包问题</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1134" target="_blank" rel="noopener">P1134</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2727" target="_blank" rel="noopener">P2727</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2728" target="_blank" rel="noopener">P2728</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2729" target="_blank" rel="noopener">P2729</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2730" target="_blank" rel="noopener">P2730</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1828" target="_blank" rel="noopener">P1828</a></li>
+</ul>
+<h3 id="USACO-Section-3-3"><a href="#USACO-Section-3-3" class="headerlink" title="USACO Section 3.3"></a>USACO Section 3.3</h3><p>欧拉回路</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2731" target="_blank" rel="noopener">P2731</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2732" target="_blank" rel="noopener">P2732</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1930" target="_blank" rel="noopener">P1930</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2733" target="_blank" rel="noopener">P2733</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2734" target="_blank" rel="noopener">P2734</a></li>
+</ul>
+<h3 id="USACO-Section-3-4"><a href="#USACO-Section-3-4" class="headerlink" title="USACO Section 3.4"></a>USACO Section 3.4</h3><p>计算几何</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1827" target="_blank" rel="noopener">P1827</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2735" target="_blank" rel="noopener">P2735</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2736" target="_blank" rel="noopener">P2736</a></li>
+</ul>
+<h3 id="USACO-Section-4-1"><a href="#USACO-Section-4-1" class="headerlink" title="USACO Section 4.1"></a>USACO Section 4.1</h3><p>最优化</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2737" target="_blank" rel="noopener">P2737</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2738" target="_blank" rel="noopener">P2738</a></li>
+</ul>
+<h3 id="USACO-Section-4-2"><a href="#USACO-Section-4-2" class="headerlink" title="USACO Section 4.2"></a>USACO Section 4.2</h3><p>网络流</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2740" target="_blank" rel="noopener">P2740</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1894" target="_blank" rel="noopener">P1894</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2751" target="_blank" rel="noopener">P2751</a></li>
+</ul>
+<h3 id="USACO-Section-4-3"><a href="#USACO-Section-4-3" class="headerlink" title="USACO Section 4.3"></a>USACO Section 4.3</h3><p>高精度</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2687" target="_blank" rel="noopener">P2687</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2752" target="_blank" rel="noopener">P2752</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2753" target="_blank" rel="noopener">P2753</a></li>
+</ul>
+<h3 id="USACO-Section-4-4"><a href="#USACO-Section-4-4" class="headerlink" title="USACO Section 4.4"></a>USACO Section 4.4</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P1344" target="_blank" rel="noopener">P1344</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2739" target="_blank" rel="noopener">P2739</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2741" target="_blank" rel="noopener">P2741</a></li>
+</ul>
+<h3 id="USACO-Section-5-1"><a href="#USACO-Section-5-1" class="headerlink" title="USACO Section 5.1"></a>USACO Section 5.1</h3><p>二维凸包</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2742" target="_blank" rel="noopener">P2742</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2743" target="_blank" rel="noopener">P2743</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2749" target="_blank" rel="noopener">P2749</a></li>
+</ul>
+<h3 id="USACO-Section-5-2"><a href="#USACO-Section-5-2" class="headerlink" title="USACO Section 5.2"></a>USACO Section 5.2</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P1560" target="_blank" rel="noopener">P1560</a></li>
+</ul>
+<h3 id="USACO-Section-5-3"><a href="#USACO-Section-5-3" class="headerlink" title="USACO Section 5.3"></a>USACO Section 5.3</h3><p>启发式搜索</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2701" target="_blank" rel="noopener">P2701</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2744" target="_blank" rel="noopener">P2744</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2745" target="_blank" rel="noopener">P2745</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2746" target="_blank" rel="noopener">P2746</a></li>
+</ul>
+<h3 id="USACO-Section-5-4"><a href="#USACO-Section-5-4" class="headerlink" title="USACO Section 5.4"></a>USACO Section 5.4</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P1345" target="_blank" rel="noopener">P1345</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2747" target="_blank" rel="noopener">P2747</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2748" target="_blank" rel="noopener">P2748</a></li>
+</ul>
+<h3 id="USACO-Section-5-5"><a href="#USACO-Section-5-5" class="headerlink" title="USACO Section 5.5"></a>USACO Section 5.5</h3><ul>
+<li><a href="https://www.luogu.com.cn/problem/P1709" target="_blank" rel="noopener">P1709</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1856" target="_blank" rel="noopener">P1856</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2750" target="_blank" rel="noopener">P2750</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>OI</category>
+        <category>洛谷</category>
+      </categories>
+      <tags>
+        <tag>整理</tag>
+        <tag>OI题目</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>网课推荐（知乎答案收集）</title>
     <url>/whkwangke/</url>
     <content><![CDATA[<p>这里是jwj翻了很多知乎答案收集得到的结果，希望对大家有所帮助qwq</p>
@@ -1078,1001 +2073,6 @@
       <tags>
         <tag>日常</tag>
         <tag>记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>洛谷试炼场</title>
-    <url>/luogushilianchang/</url>
-    <content><![CDATA[<p>这里是洛谷试炼场备份，供参考awa</p>
-<p><a href="https://www.luogu.com.cn/paste/66uuuvdr" target="_blank" rel="noopener">搬运自此，感谢大佬</a></p>
-<p>主要改动：</p>
-<ul>
-<li>2020.04.09 优化排版。</li>
-<li>2020.05.14 添加博客版。</li>
-</ul>
-<p>以后会继续优化改进awa</p>
-<p>——jwj</p>
-<a id="more"></a>
-
-<h2 id="洛谷试炼场之新手村"><a href="#洛谷试炼场之新手村" class="headerlink" title="洛谷试炼场之新手村"></a>洛谷试炼场之新手村</h2><p>任何一个伟大的目标，都有一个微不足道的开始。</p>
-<h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><ul>
-<li>洛谷的第一个任务</li>
-<li>顺序与分支</li>
-<li>循环！循环！循环！</li>
-<li>数组</li>
-<li>简单字符串</li>
-<li>过程函数与递归</li>
-<li>BOSS战-入门综合练习1</li>
-<li>BOSS战-入门综合练习2</li>
-</ul>
-<h3 id="洛谷的第一个任务"><a href="#洛谷的第一个任务" class="headerlink" title="洛谷的第一个任务"></a>洛谷的第一个任务</h3><p>勇敢的迈出第一步，了解下语言和洛谷。跟着书本和老师走，不会难的。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1000" target="_blank" rel="noopener">P1000</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1001" target="_blank" rel="noopener">P1001</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1421" target="_blank" rel="noopener">P1421</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1425" target="_blank" rel="noopener">P1425</a></li>
-</ul>
-<h3 id="顺序与分支"><a href="#顺序与分支" class="headerlink" title="顺序与分支"></a>顺序与分支</h3><p>计算机的智能性开始得以体现，因为计算机能够根据不同的条件选择了。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1422" target="_blank" rel="noopener">P1422</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1085" target="_blank" rel="noopener">P1085</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1089" target="_blank" rel="noopener">P1089</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1909" target="_blank" rel="noopener">P1909</a></li>
-</ul>
-<h3 id="循环！循环！循环！"><a href="#循环！循环！循环！" class="headerlink" title="循环！循环！循环！"></a>循环！循环！循环！</h3><p>计算机最不怕的就是重复。你让它做10000次同样的事它也不怕啦，但是让他做1亿亿次的话……</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1008" target="_blank" rel="noopener">P1008</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1035" target="_blank" rel="noopener">P1035</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1423" target="_blank" rel="noopener">P1423</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1424" target="_blank" rel="noopener">P1424</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1980" target="_blank" rel="noopener">P1980</a></li>
-</ul>
-<h3 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h3><p>跟数组有关的题目基本上都要用到循环，所以请先完成1-3。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1046" target="_blank" rel="noopener">P1046</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1047" target="_blank" rel="noopener">P1047</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1427" target="_blank" rel="noopener">P1427</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1428" target="_blank" rel="noopener">P1428</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2141" target="_blank" rel="noopener">P2141</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1567" target="_blank" rel="noopener">P1567</a></li>
-</ul>
-<h3 id="简单字符串"><a href="#简单字符串" class="headerlink" title="简单字符串"></a>简单字符串</h3><p>计算机不仅可以处理数字，还能处理文字！就是其实跟数字也没什么差。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1055" target="_blank" rel="noopener">P1055</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1200" target="_blank" rel="noopener">P1200</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1308" target="_blank" rel="noopener">P1308</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1553" target="_blank" rel="noopener">P1553</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1598" target="_blank" rel="noopener">P1598</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1914" target="_blank" rel="noopener">P1914</a></li>
-</ul>
-<h3 id="过程函数与递归"><a href="#过程函数与递归" class="headerlink" title="过程函数与递归"></a>过程函数与递归</h3><p>将代码串进行打包，就是过程与函数。过程与函数调用自己则为递归。有一点小难但不要怕哦。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1028" target="_blank" rel="noopener">P1028</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1036" target="_blank" rel="noopener">P1036</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1149" target="_blank" rel="noopener">P1149</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1217" target="_blank" rel="noopener">P1217</a></li>
-</ul>
-<h3 id="BOSS战-入门综合练习1"><a href="#BOSS战-入门综合练习1" class="headerlink" title="BOSS战-入门综合练习1"></a>BOSS战-入门综合练习1</h3><p>这里将前面的内容综合起来了，会有点难，不过你可以问老师同学，也能上网查资料。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1478" target="_blank" rel="noopener">P1478</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1618" target="_blank" rel="noopener">P1618</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1579" target="_blank" rel="noopener">P1579</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2089" target="_blank" rel="noopener">P2089</a></li>
-</ul>
-<h3 id="BOSS战-入门综合练习2"><a href="#BOSS战-入门综合练习2" class="headerlink" title="BOSS战-入门综合练习2"></a>BOSS战-入门综合练习2</h3><p>勇士，竟然来到了BOSS的老巢！来一场恶斗，证明自己的实力，解锁下一个级别！</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1426" target="_blank" rel="noopener">P1426</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1464" target="_blank" rel="noopener">P1464</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1014" target="_blank" rel="noopener">P1014</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1022" target="_blank" rel="noopener">P1022</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1307" target="_blank" rel="noopener">P1307</a></li>
-</ul>
-<h2 id="洛谷试炼场之普及练习场"><a href="#洛谷试炼场之普及练习场" class="headerlink" title="洛谷试炼场之普及练习场"></a>洛谷试炼场之普及练习场</h2><p>普及组选手可冲刺训练，提高组选手亦可在此巩固基础。</p>
-<h3 id="目录-1"><a href="#目录-1" class="headerlink" title="目录"></a>目录</h3><ul>
-<li>简单的模拟</li>
-<li>交叉模拟</li>
-<li>排序</li>
-<li>排序Ex</li>
-<li>字符串处理</li>
-<li>贪心</li>
-<li>深度优先搜索</li>
-<li>广度优先搜索</li>
-<li>带有技巧的搜索</li>
-<li>分治算法</li>
-<li>简单数学问题</li>
-<li>递推与递归二分</li>
-<li>线性数据结构</li>
-<li>树形数据结构</li>
-<li>动态规划的背包问题</li>
-<li>线性动态规划</li>
-<li>多维动态规划</li>
-<li>更要技巧的动规与记忆化</li>
-<li>高精度算法</li>
-<li>贪心EX</li>
-<li>简单数学</li>
-<li>BOSS战-普及综合练习1</li>
-<li>BOSS战-普及综合练习2</li>
-<li>BOSS战-普及综合练习3</li>
-<li>普及常见模板</li>
-</ul>
-<h3 id="简单的模拟"><a href="#简单的模拟" class="headerlink" title="简单的模拟"></a>简单的模拟</h3><p>开始普及组的训练！所谓模拟，就是直接根据题意编写，思维难度简单。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1003" target="_blank" rel="noopener">P1003</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1067" target="_blank" rel="noopener">P1067</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1540" target="_blank" rel="noopener">P1540</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1056" target="_blank" rel="noopener">P1056</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1328" target="_blank" rel="noopener">P1328</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1563" target="_blank" rel="noopener">P1563</a></li>
-</ul>
-<h3 id="交叉模拟"><a href="#交叉模拟" class="headerlink" title="交叉模拟"></a>交叉模拟</h3><p>这里也是模拟，但是会混有些别的部分。思维难度不大，但是编写起来会有些难度。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1023" target="_blank" rel="noopener">P1023</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1031" target="_blank" rel="noopener">P1031</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1042" target="_blank" rel="noopener">P1042</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1086" target="_blank" rel="noopener">P1086</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1098" target="_blank" rel="noopener">P1098</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3952" target="_blank" rel="noopener">P3952</a></li>
-</ul>
-<h3 id="排序"><a href="#排序" class="headerlink" title="排序"></a>排序</h3><p>将杂乱无章的数据变得有规律。有各种各样的排序算法，看情况使用。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1177" target="_blank" rel="noopener">P1177</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1059" target="_blank" rel="noopener">P1059</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1068" target="_blank" rel="noopener">P1068</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1781" target="_blank" rel="noopener">P1781</a></li>
-</ul>
-<h3 id="排序Ex"><a href="#排序Ex" class="headerlink" title="排序Ex"></a>排序Ex</h3><p>这里的排序就更上一层了。不仅融合了别的算法与技巧，排序本身也有各种花招。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1583" target="_blank" rel="noopener">P1583</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1051" target="_blank" rel="noopener">P1051</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1093" target="_blank" rel="noopener">P1093</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1309" target="_blank" rel="noopener">P1309</a></li>
-</ul>
-<h3 id="字符串处理"><a href="#字符串处理" class="headerlink" title="字符串处理"></a>字符串处理</h3><p>这里的字符串处理还会变得更加的有意思，难度也更大。需要好好地思考一下。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1603" target="_blank" rel="noopener">P1603</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1071" target="_blank" rel="noopener">P1071</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1012" target="_blank" rel="noopener">P1012</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1538" target="_blank" rel="noopener">P1538</a></li>
-</ul>
-<h3 id="贪心"><a href="#贪心" class="headerlink" title="贪心"></a>贪心</h3><p>贪心就是只考虑眼前的利益。对于我们人生来说太贪是不好的，不过oi中，有时是对的。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1090" target="_blank" rel="noopener">P1090</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1181" target="_blank" rel="noopener">P1181</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1208" target="_blank" rel="noopener">P1208</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1223" target="_blank" rel="noopener">P1223</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1094" target="_blank" rel="noopener">P1094</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1803" target="_blank" rel="noopener">P1803</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1031" target="_blank" rel="noopener">P1031</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1080" target="_blank" rel="noopener">P1080</a></li>
-</ul>
-<h3 id="深度优先搜索"><a href="#深度优先搜索" class="headerlink" title="深度优先搜索"></a>深度优先搜索</h3><p>搜索可以穷举各种情况。很多题目都可以用搜索完成。就算不能，搜索也是骗分神器。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1219" target="_blank" rel="noopener">P1219</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1019" target="_blank" rel="noopener">P1019</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1101" target="_blank" rel="noopener">P1101</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1605" target="_blank" rel="noopener">P1605</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1040" target="_blank" rel="noopener">P1040</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1092" target="_blank" rel="noopener">P1092</a></li>
-</ul>
-<h3 id="广度优先搜索"><a href="#广度优先搜索" class="headerlink" title="广度优先搜索"></a>广度优先搜索</h3><p>广度优先搜索可以用来找有关“最短步数”的问题。恩，也可以用来“地毯式搜索”。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1162" target="_blank" rel="noopener">P1162</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1032" target="_blank" rel="noopener">P1032</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1141" target="_blank" rel="noopener">P1141</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1126" target="_blank" rel="noopener">P1126</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1443" target="_blank" rel="noopener">P1443</a></li>
-</ul>
-<h3 id="带有技巧的搜索"><a href="#带有技巧的搜索" class="headerlink" title="带有技巧的搜索"></a>带有技巧的搜索</h3><p>这里的搜索不仅包含了dfs和bfs，还包括剪枝、记录等技巧以加快速度。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1118" target="_blank" rel="noopener">P1118</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1434" target="_blank" rel="noopener">P1434</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1433" target="_blank" rel="noopener">P1433</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1074" target="_blank" rel="noopener">P1074</a></li>
-</ul>
-<h3 id="分治算法"><a href="#分治算法" class="headerlink" title="分治算法"></a>分治算法</h3><p>将大问题拆分为小问题，分而治之，各个击破，然后在合并回来。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1226" target="_blank" rel="noopener">P1226</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1010" target="_blank" rel="noopener">P1010</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1908" target="_blank" rel="noopener">P1908</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1498" target="_blank" rel="noopener">P1498</a></li>
-</ul>
-<h3 id="简单数学问题"><a href="#简单数学问题" class="headerlink" title="简单数学问题"></a>简单数学问题</h3><p>用计算机解决某些麻烦数学问题，再合适不过了。这真是绝妙的搭配啊！</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1088" target="_blank" rel="noopener">P1088</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1045" target="_blank" rel="noopener">P1045</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1403" target="_blank" rel="noopener">P1403</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1017" target="_blank" rel="noopener">P1017</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1147" target="_blank" rel="noopener">P1147</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1029" target="_blank" rel="noopener">P1029</a></li>
-</ul>
-<h3 id="递推与递归二分"><a href="#递推与递归二分" class="headerlink" title="递推与递归二分"></a>递推与递归二分</h3><p>递推，层层递进，由基础推向顶层。二分不仅可以用来查找数据，还可以确定最合适的值。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1192" target="_blank" rel="noopener">P1192</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1025" target="_blank" rel="noopener">P1025</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1057" target="_blank" rel="noopener">P1057</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1135" target="_blank" rel="noopener">P1135</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1216" target="_blank" rel="noopener">P1216</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1182" target="_blank" rel="noopener">P1182</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1316" target="_blank" rel="noopener">P1316</a></li>
-</ul>
-<h3 id="线性数据结构"><a href="#线性数据结构" class="headerlink" title="线性数据结构"></a>线性数据结构</h3><p>数组，链表，队列，栈，都是线性结构。巧用这些结构可以做出不少方便的事情。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1996" target="_blank" rel="noopener">P1996</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1115" target="_blank" rel="noopener">P1115</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1739" target="_blank" rel="noopener">P1739</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1160" target="_blank" rel="noopener">P1160</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1449" target="_blank" rel="noopener">P1449</a></li>
-</ul>
-<h3 id="树形数据结构"><a href="#树形数据结构" class="headerlink" title="树形数据结构"></a>树形数据结构</h3><p>由一个根节点分叉，越分越多，就成了树。树可以表示数据之间的从属关系</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1087" target="_blank" rel="noopener">P1087</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1030" target="_blank" rel="noopener">P1030</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1305" target="_blank" rel="noopener">P1305</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P5018" target="_blank" rel="noopener">P5018</a></li>
-</ul>
-<h3 id="动态规划的背包问题"><a href="#动态规划的背包问题" class="headerlink" title="动态规划的背包问题"></a>动态规划的背包问题</h3><p>这是最基础的动态规划。不过如果是第一次接触会有些难以理解。加油闯过这个坎。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1060" target="_blank" rel="noopener">P1060</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1164" target="_blank" rel="noopener">P1164</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1064" target="_blank" rel="noopener">P1064</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1048" target="_blank" rel="noopener">P1048</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1049" target="_blank" rel="noopener">P1049</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1616" target="_blank" rel="noopener">P1616</a></li>
-</ul>
-<h3 id="线性动态规划"><a href="#线性动态规划" class="headerlink" title="线性动态规划"></a>线性动态规划</h3><p>这也是基础的动态规划。是在线性结构上面的动态规划，一定要掌握。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1020" target="_blank" rel="noopener">P1020</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1091" target="_blank" rel="noopener">P1091</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1280" target="_blank" rel="noopener">P1280</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1880" target="_blank" rel="noopener">P1880</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1140" target="_blank" rel="noopener">P1140</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1282" target="_blank" rel="noopener">P1282</a></li>
-</ul>
-<h3 id="多维动态规划"><a href="#多维动态规划" class="headerlink" title="多维动态规划"></a>多维动态规划</h3><p>这里的动态规划就不止一维了。不仅要小心时间复杂度，也要注意空间复杂度。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1508" target="_blank" rel="noopener">P1508</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1006" target="_blank" rel="noopener">P1006</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1387" target="_blank" rel="noopener">P1387</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1417" target="_blank" rel="noopener">P1417</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1855" target="_blank" rel="noopener">P1855</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1736" target="_blank" rel="noopener">P1736</a></li>
-</ul>
-<h3 id="更要技巧的动规与记忆化"><a href="#更要技巧的动规与记忆化" class="headerlink" title="更要技巧的动规与记忆化"></a>更要技巧的动规与记忆化</h3><p>这边的题目有各种搞法。当然有的题目也可以使用记忆化搜索来降低思维难度。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1064" target="_blank" rel="noopener">P1064</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1541" target="_blank" rel="noopener">P1541</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1026" target="_blank" rel="noopener">P1026</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1063" target="_blank" rel="noopener">P1063</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1156" target="_blank" rel="noopener">P1156</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1052" target="_blank" rel="noopener">P1052</a></li>
-</ul>
-<h3 id="高精度算法"><a href="#高精度算法" class="headerlink" title="高精度算法"></a>高精度算法</h3><p>就算是long long（或int64）还不够怎么办？用高精度算法。自己动手丰衣足食。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1601" target="_blank" rel="noopener">P1601</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2142" target="_blank" rel="noopener">P2142</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1303" target="_blank" rel="noopener">P1303</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1255" target="_blank" rel="noopener">P1255</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1604" target="_blank" rel="noopener">P1604</a></li>
-</ul>
-<h3 id="贪心EX"><a href="#贪心EX" class="headerlink" title="贪心EX"></a>贪心EX</h3><p>虽然是贪心题，可能不是你当时你虐着玩的贪心惹qwq</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1080" target="_blank" rel="noopener">P1080</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1031" target="_blank" rel="noopener">P1031</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1233" target="_blank" rel="noopener">P1233</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2123" target="_blank" rel="noopener">P2123</a></li>
-</ul>
-<h3 id="简单数学"><a href="#简单数学" class="headerlink" title="简单数学"></a>简单数学</h3><p>数学和oi是密切相关的，数学不仅是oi的基础，而且是算法的核心。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1865" target="_blank" rel="noopener">P1865</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1372" target="_blank" rel="noopener">P1372</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1338" target="_blank" rel="noopener">P1338</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2158" target="_blank" rel="noopener">P2158</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1582" target="_blank" rel="noopener">P1582</a></li>
-</ul>
-<h3 id="BOSS战-普及综合练习1"><a href="#BOSS战-普及综合练习1" class="headerlink" title="BOSS战-普及综合练习1"></a>BOSS战-普及综合练习1</h3><p>好不容易闯到这一关，你那还等什么呢？抄起家伙赶快上啊！</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1478" target="_blank" rel="noopener">P1478</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1203" target="_blank" rel="noopener">P1203</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1363" target="_blank" rel="noopener">P1363</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1736" target="_blank" rel="noopener">P1736</a></li>
-</ul>
-<h3 id="BOSS战-普及综合练习2"><a href="#BOSS战-普及综合练习2" class="headerlink" title="BOSS战-普及综合练习2"></a>BOSS战-普及综合练习2</h3><p>来搞定第二个BOSS。虽然战斗艰难，但你一定没有问题。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1201" target="_blank" rel="noopener">P1201</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1095" target="_blank" rel="noopener">P1095</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1058" target="_blank" rel="noopener">P1058</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2258" target="_blank" rel="noopener">P2258</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1108" target="_blank" rel="noopener">P1108</a></li>
-</ul>
-<h3 id="BOSS战-普及综合练习3"><a href="#BOSS战-普及综合练习3" class="headerlink" title="BOSS战-普及综合练习3"></a>BOSS战-普及综合练习3</h3><p>普及练习场的大BOSS：“一定让你有去无回”。怎么办呢？只能打倒他开启下一个级别！</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1328" target="_blank" rel="noopener">P1328</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1062" target="_blank" rel="noopener">P1062</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1969" target="_blank" rel="noopener">P1969</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1037" target="_blank" rel="noopener">P1037</a></li>
-</ul>
-<h3 id="普及常见模板"><a href="#普及常见模板" class="headerlink" title="普及常见模板"></a>普及常见模板</h3><p>这里集中了比较基础的算法的模板。提高和省选也有模板题哦！</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1177" target="_blank" rel="noopener">P1177</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3366" target="_blank" rel="noopener">P3366</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3367" target="_blank" rel="noopener">P3367</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3371" target="_blank" rel="noopener">P3371</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3383" target="_blank" rel="noopener">P3383</a></li>
-</ul>
-<h2 id="洛谷试炼场之提高历练地"><a href="#洛谷试炼场之提高历练地" class="headerlink" title="洛谷试炼场之提高历练地"></a>洛谷试炼场之提高历练地</h2><p>已经去除了普及组难度的，请组织放心。成长大牛之必写题！！！</p>
-<h3 id="目录-2"><a href="#目录-2" class="headerlink" title="目录"></a>目录</h3><ul>
-<li>搜索Ex</li>
-<li>动态规划TG.lv(1)</li>
-<li>动态规划TG.lv(2)</li>
-<li>动态规划TG.lv(3)</li>
-<li>数论</li>
-<li>博弈论</li>
-<li>其他数学问题</li>
-<li>图的遍历</li>
-<li>最短路问题</li>
-<li>最小生成树</li>
-<li>较复杂图论I</li>
-<li>较复杂图论II</li>
-<li>并查集</li>
-<li>堆</li>
-<li>线段树树状数组基础</li>
-<li>神奇的解法</li>
-<li>倍增</li>
-<li>强连通分量</li>
-<li>BOSS战-提高综合练习1</li>
-<li>BOSS战-提高综合练习2</li>
-<li>BOSS战-提高综合练习3</li>
-<li>提高模板-nlogn数据结构</li>
-</ul>
-<h3 id="搜索Ex"><a href="#搜索Ex" class="headerlink" title="搜索Ex"></a>搜索Ex</h3><p>开始提高组的试炼。这里已经去除了所有普及组难度的题目。哼哼，怕了吧。。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1120" target="_blank" rel="noopener">P1120</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1378" target="_blank" rel="noopener">P1378</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1514" target="_blank" rel="noopener">P1514</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1312" target="_blank" rel="noopener">P1312</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1441" target="_blank" rel="noopener">P1441</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1242" target="_blank" rel="noopener">P1242</a></li>
-</ul>
-<h3 id="动态规划TG-lv-1"><a href="#动态规划TG-lv-1" class="headerlink" title="动态规划TG.lv(1)"></a>动态规划TG.lv(1)</h3><p>这是提高组难度中比较基础的动态规划，也许一两个转移方程就可以写出。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1005" target="_blank" rel="noopener">P1005</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1373" target="_blank" rel="noopener">P1373</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2279" target="_blank" rel="noopener">P2279</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1220" target="_blank" rel="noopener">P1220</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1156" target="_blank" rel="noopener">P1156</a></li>
-</ul>
-<h3 id="动态规划TG-lv-2"><a href="#动态规划TG-lv-2" class="headerlink" title="动态规划TG.lv(2)"></a>动态规划TG.lv(2)</h3><p>这里的动态规划稍稍有所加大难度，思考转移方程的时间可能会与编写程序的时间持平。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1273" target="_blank" rel="noopener">P1273</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1169" target="_blank" rel="noopener">P1169</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2577" target="_blank" rel="noopener">P2577</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1070" target="_blank" rel="noopener">P1070</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2051" target="_blank" rel="noopener">P2051</a></li>
-</ul>
-<h3 id="动态规划TG-lv-3"><a href="#动态规划TG-lv-3" class="headerlink" title="动态规划TG.lv(3)"></a>动态规划TG.lv(3)</h3><p>比较需要技巧的动态规划。有的不仅仅需要状态转移方程，可能还会与别的算法综合。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1415" target="_blank" rel="noopener">P1415</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2157" target="_blank" rel="noopener">P2157</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2216" target="_blank" rel="noopener">P2216</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2331" target="_blank" rel="noopener">P2331</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2467" target="_blank" rel="noopener">P2467</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3084" target="_blank" rel="noopener">P3084</a></li>
-</ul>
-<h3 id="数论"><a href="#数论" class="headerlink" title="数论"></a>数论</h3><p>数论就是研究整数的理论。包括公约公倍数、质数、欧拉定理和同余方程等。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2152" target="_blank" rel="noopener">P2152</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1414" target="_blank" rel="noopener">P1414</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1134" target="_blank" rel="noopener">P1134</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1313" target="_blank" rel="noopener">P1313</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1306" target="_blank" rel="noopener">P1306</a></li>
-</ul>
-<h3 id="博弈论"><a href="#博弈论" class="headerlink" title="博弈论"></a>博弈论</h3><p>博弈论考虑游戏中的个体的预测行为和实际行为，并研究它们的优化策略。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1199" target="_blank" rel="noopener">P1199</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1288" target="_blank" rel="noopener">P1288</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1290" target="_blank" rel="noopener">P1290</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2148" target="_blank" rel="noopener">P2148</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1247" target="_blank" rel="noopener">P1247</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2575" target="_blank" rel="noopener">P2575</a></li>
-</ul>
-<h3 id="其他数学问题"><a href="#其他数学问题" class="headerlink" title="其他数学问题"></a>其他数学问题</h3><p>听说学oi的同志们数学都挺好。那么。就请完成下面的题目证明这一点吧！</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1357" target="_blank" rel="noopener">P1357</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1641" target="_blank" rel="noopener">P1641</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2059" target="_blank" rel="noopener">P2059</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2154" target="_blank" rel="noopener">P2154</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2261" target="_blank" rel="noopener">P2261</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2327" target="_blank" rel="noopener">P2327</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1066" target="_blank" rel="noopener">P1066</a></li>
-</ul>
-<h3 id="图的遍历"><a href="#图的遍历" class="headerlink" title="图的遍历"></a>图的遍历</h3><p>图是一种非常重要的数据结构，描述对象复杂的练习。这里开始接触图的基本概念。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2661" target="_blank" rel="noopener">P2661</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1330" target="_blank" rel="noopener">P1330</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1341" target="_blank" rel="noopener">P1341</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2921" target="_blank" rel="noopener">P2921</a></li>
-</ul>
-<h3 id="最短路问题"><a href="#最短路问题" class="headerlink" title="最短路问题"></a>最短路问题</h3><p>最短路是图论中最重要的部分，多种算法可以应用。很多题目都可以抽象成这种模型。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1339" target="_blank" rel="noopener">P1339</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1462" target="_blank" rel="noopener">P1462</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1346" target="_blank" rel="noopener">P1346</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1119" target="_blank" rel="noopener">P1119</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1144" target="_blank" rel="noopener">P1144</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1522" target="_blank" rel="noopener">P1522</a></li>
-</ul>
-<h3 id="最小生成树"><a href="#最小生成树" class="headerlink" title="最小生成树"></a>最小生成树</h3><p>最小生成树可以用kruskal（克鲁斯卡尔）算法或prim（普里姆）算法求出。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1546" target="_blank" rel="noopener">P1546</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2330" target="_blank" rel="noopener">P2330</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1991" target="_blank" rel="noopener">P1991</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1265" target="_blank" rel="noopener">P1265</a></li>
-</ul>
-<h3 id="较复杂图论I"><a href="#较复杂图论I" class="headerlink" title="较复杂图论I"></a>较复杂图论I</h3><p>别的些图论问题，包括树、拓扑排序等。要过这一关，需要学习不少新的算法。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1113" target="_blank" rel="noopener">P1113</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1268" target="_blank" rel="noopener">P1268</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1525" target="_blank" rel="noopener">P1525</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1983" target="_blank" rel="noopener">P1983</a></li>
-</ul>
-<h3 id="较复杂图论II"><a href="#较复杂图论II" class="headerlink" title="较复杂图论II"></a>较复杂图论II</h3><p>更高级的图论算法。包括差分约束、强连通、二分图等。会更难一些。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1993" target="_blank" rel="noopener">P1993</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1726" target="_blank" rel="noopener">P1726</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2055" target="_blank" rel="noopener">P2055</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2149" target="_blank" rel="noopener">P2149</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1345" target="_blank" rel="noopener">P1345</a></li>
-</ul>
-<h3 id="并查集"><a href="#并查集" class="headerlink" title="并查集"></a>并查集</h3><p>用于处理一些不相交集合的合并及查询问题。常常在使用中以森林来表示。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1111" target="_blank" rel="noopener">P1111</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2024" target="_blank" rel="noopener">P2024</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1197" target="_blank" rel="noopener">P1197</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1196" target="_blank" rel="noopener">P1196</a></li>
-</ul>
-<h3 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h3><p>堆总是一棵完全树；堆中某个节点的值总是不大于或不小于其父节点的值。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1801" target="_blank" rel="noopener">P1801</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2278" target="_blank" rel="noopener">P2278</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1631" target="_blank" rel="noopener">P1631</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2085" target="_blank" rel="noopener">P2085</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1484" target="_blank" rel="noopener">P1484</a></li>
-</ul>
-<h3 id="线段树树状数组基础"><a href="#线段树树状数组基础" class="headerlink" title="线段树树状数组基础"></a>线段树树状数组基础</h3><p>这都是比较高级的线性数据结构。在处理一些询问与修改线性问题时，是很好用的。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1972" target="_blank" rel="noopener">P1972</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1198" target="_blank" rel="noopener">P1198</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2023" target="_blank" rel="noopener">P2023</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2161" target="_blank" rel="noopener">P2161</a></li>
-</ul>
-<h3 id="神奇的解法"><a href="#神奇的解法" class="headerlink" title="神奇的解法"></a>神奇的解法</h3><p>有些问题刚开始觉得无从下手。好好想一想，尽量别看题解，否则你会大呼“简单”。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1007" target="_blank" rel="noopener">P1007</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1984" target="_blank" rel="noopener">P1984</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2022" target="_blank" rel="noopener">P2022</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2320" target="_blank" rel="noopener">P2320</a></li>
-</ul>
-<h3 id="倍增"><a href="#倍增" class="headerlink" title="倍增"></a>倍增</h3><p>一种特殊的枚举算法，但可大大加快效率。近年noip有考到。难度较大。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1967" target="_blank" rel="noopener">P1967</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1081" target="_blank" rel="noopener">P1081</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1613" target="_blank" rel="noopener">P1613</a></li>
-</ul>
-<h3 id="强连通分量"><a href="#强连通分量" class="headerlink" title="强连通分量"></a>强连通分量</h3><p>强连通分量</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2341" target="_blank" rel="noopener">P2341</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3469" target="_blank" rel="noopener">P3469</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2746" target="_blank" rel="noopener">P2746</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3119" target="_blank" rel="noopener">P3119</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3225" target="_blank" rel="noopener">P3225</a></li>
-</ul>
-<h3 id="BOSS战-提高综合练习1"><a href="#BOSS战-提高综合练习1" class="headerlink" title="BOSS战-提高综合练习1"></a>BOSS战-提高综合练习1</h3><p>年轻人，又是个送上门的，让我来看看你真实的本领。啊哈哈哈哈哈！</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2264" target="_blank" rel="noopener">P2264</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1772" target="_blank" rel="noopener">P1772</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1083" target="_blank" rel="noopener">P1083</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1979" target="_blank" rel="noopener">P1979</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2939" target="_blank" rel="noopener">P2939</a></li>
-</ul>
-<h3 id="BOSS战-提高综合练习2"><a href="#BOSS战-提高综合练习2" class="headerlink" title="BOSS战-提高综合练习2"></a>BOSS战-提高综合练习2</h3><p>再来！这里有的题目并非单纯的考察某个算法，而是考察一种综合性的思维。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1901" target="_blank" rel="noopener">P1901</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1314" target="_blank" rel="noopener">P1314</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2144" target="_blank" rel="noopener">P2144</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1073" target="_blank" rel="noopener">P1073</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2324" target="_blank" rel="noopener">P2324</a></li>
-</ul>
-<h3 id="BOSS战-提高综合练习3"><a href="#BOSS战-提高综合练习3" class="headerlink" title="BOSS战-提高综合练习3"></a>BOSS战-提高综合练习3</h3><p>既然已经打倒了前面2个boss，那么第3个也是没有问题的。少年，来吧！</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1965" target="_blank" rel="noopener">P1965</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1311" target="_blank" rel="noopener">P1311</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2296" target="_blank" rel="noopener">P2296</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1084" target="_blank" rel="noopener">P1084</a></li>
-</ul>
-<h3 id="提高模板-nlogn数据结构"><a href="#提高模板-nlogn数据结构" class="headerlink" title="提高模板-nlogn数据结构"></a>提高模板-nlogn数据结构</h3><p>虽然这些算法不是noip必须的，但是不算困难，很多题目可以使用这些方法。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P3374" target="_blank" rel="noopener">P3374</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3368" target="_blank" rel="noopener">P3368</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3372" target="_blank" rel="noopener">P3372</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3373" target="_blank" rel="noopener">P3373</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1439" target="_blank" rel="noopener">P1439</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3378" target="_blank" rel="noopener">P3378</a></li>
-</ul>
-<h2 id="洛谷试炼场之省选斗兽场-NOI神殿"><a href="#洛谷试炼场之省选斗兽场-NOI神殿" class="headerlink" title="洛谷试炼场之省选斗兽场/NOI神殿"></a>洛谷试炼场之省选斗兽场/NOI神殿</h2><p>为省选及以上选手制作的训练场。其实，省选水平的oier不需要一些外加的刷题列表，本栏仅供参考，也欢迎各位指出不足。</p>
-<h3 id="目录-3"><a href="#目录-3" class="headerlink" title="目录"></a>目录</h3><ul>
-<li>省选基础-读入/输出优化</li>
-<li>省选基础-位运算</li>
-<li>省选基础-打表</li>
-<li>动态规划1</li>
-<li>动态规划2</li>
-<li>网络流——最大流</li>
-<li>网络流——费用流</li>
-<li>单调队列</li>
-<li>概率期望</li>
-<li>二分图</li>
-<li>点分治</li>
-<li>后缀数组</li>
-<li>主席树</li>
-<li>数位DP</li>
-<li>AC自动机</li>
-<li>平衡树</li>
-<li>树链剖分</li>
-<li>动态树</li>
-<li>树套树</li>
-<li>可持久化Trie树</li>
-<li>莫队算法</li>
-<li>分块</li>
-<li>莫比乌斯反演</li>
-<li>其他</li>
-</ul>
-<h3 id="省选基础-读入-输出优化"><a href="#省选基础-读入-输出优化" class="headerlink" title="省选基础-读入/输出优化"></a>省选基础-读入/输出优化</h3><p>读入/输出优化是省选刷题时必要的一个东西，这里给出了几题，需要自己手写相应的读入输出处理。作为第一关，这一关相对简单。</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1580" target="_blank" rel="noopener">P1580</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2393" target="_blank" rel="noopener">P2393</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2394" target="_blank" rel="noopener">P2394</a></li>
-</ul>
-<h3 id="省选基础-位运算"><a href="#省选基础-位运算" class="headerlink" title="省选基础-位运算"></a>省选基础-位运算</h3><p>位运算往往在必要的时候,能带你优化一下常数,也许是空间;也许是时间;有的时候这样可以多过很多分</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2114" target="_blank" rel="noopener">P2114</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2396" target="_blank" rel="noopener">P2396</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2397" target="_blank" rel="noopener">P2397</a></li>
-</ul>
-<h3 id="省选基础-打表"><a href="#省选基础-打表" class="headerlink" title="省选基础-打表"></a>省选基础-打表</h3><p>打表虽然很赖皮,而且基本都是非正解,但是这种办法能让我们在省选中拿到一些会超时或者会超空间的一些数据点</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1149" target="_blank" rel="noopener">P1149</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1463" target="_blank" rel="noopener">P1463</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1896" target="_blank" rel="noopener">P1896</a></li>
-</ul>
-<h3 id="动态规划1"><a href="#动态规划1" class="headerlink" title="动态规划1"></a>动态规划1</h3><p>动态规划</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2051" target="_blank" rel="noopener">P2051</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1879" target="_blank" rel="noopener">P1879</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1850" target="_blank" rel="noopener">P1850</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2831" target="_blank" rel="noopener">P2831</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1131" target="_blank" rel="noopener">P1131</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1169" target="_blank" rel="noopener">P1169</a></li>
-</ul>
-<h3 id="动态规划2"><a href="#动态规划2" class="headerlink" title="动态规划2"></a>动态规划2</h3><p>动态规划</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1273" target="_blank" rel="noopener">P1273</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3648" target="_blank" rel="noopener">P3648</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2519" target="_blank" rel="noopener">P2519</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2515" target="_blank" rel="noopener">P2515</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3233" target="_blank" rel="noopener">P3233</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2501" target="_blank" rel="noopener">P2501</a></li>
-</ul>
-<h3 id="网络流——最大流"><a href="#网络流——最大流" class="headerlink" title="网络流——最大流"></a>网络流——最大流</h3><p>最大流</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2765" target="_blank" rel="noopener">P2765</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2764" target="_blank" rel="noopener">P2764</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2763" target="_blank" rel="noopener">P2763</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2766" target="_blank" rel="noopener">P2766</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2774" target="_blank" rel="noopener">P2774</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2805" target="_blank" rel="noopener">P2805</a></li>
-</ul>
-<h3 id="网络流——费用流"><a href="#网络流——费用流" class="headerlink" title="网络流——费用流"></a>网络流——费用流</h3><p>费用流</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2153" target="_blank" rel="noopener">P2153</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2053" target="_blank" rel="noopener">P2053</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3159" target="_blank" rel="noopener">P3159</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2604" target="_blank" rel="noopener">P2604</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2050" target="_blank" rel="noopener">P2050</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3980" target="_blank" rel="noopener">P3980</a></li>
-</ul>
-<h3 id="单调队列"><a href="#单调队列" class="headerlink" title="单调队列"></a>单调队列</h3><p>单调队列</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2698" target="_blank" rel="noopener">P2698</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2216" target="_blank" rel="noopener">P2216</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2219" target="_blank" rel="noopener">P2219</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2564" target="_blank" rel="noopener">P2564</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2569" target="_blank" rel="noopener">P2569</a></li>
-</ul>
-<h3 id="概率期望"><a href="#概率期望" class="headerlink" title="概率期望"></a>概率期望</h3><p>概率期望</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2473" target="_blank" rel="noopener">P2473</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2221" target="_blank" rel="noopener">P2221</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3317" target="_blank" rel="noopener">P3317</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3343" target="_blank" rel="noopener">P3343</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3600" target="_blank" rel="noopener">P3600</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3830" target="_blank" rel="noopener">P3830</a></li>
-</ul>
-<h3 id="二分图"><a href="#二分图" class="headerlink" title="二分图"></a>二分图</h3><p>二分图</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P3386" target="_blank" rel="noopener">P3386</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1640" target="_blank" rel="noopener">P1640</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1129" target="_blank" rel="noopener">P1129</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1963" target="_blank" rel="noopener">P1963</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3231" target="_blank" rel="noopener">P3231</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2526" target="_blank" rel="noopener">P2526</a></li>
-</ul>
-<h3 id="点分治"><a href="#点分治" class="headerlink" title="点分治"></a>点分治</h3><p>点分治</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2634" target="_blank" rel="noopener">P2634</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2664" target="_blank" rel="noopener">P2664</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3806" target="_blank" rel="noopener">P3806</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3676" target="_blank" rel="noopener">P3676</a></li>
-</ul>
-<h3 id="后缀数组"><a href="#后缀数组" class="headerlink" title="后缀数组"></a>后缀数组</h3><p>后缀数组</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P3809" target="_blank" rel="noopener">P3809</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1117" target="_blank" rel="noopener">P1117</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2178" target="_blank" rel="noopener">P2178</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2463" target="_blank" rel="noopener">P2463</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2336" target="_blank" rel="noopener">P2336</a></li>
-</ul>
-<h3 id="主席树"><a href="#主席树" class="headerlink" title="主席树"></a>主席树</h3><p>主席树</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2468" target="_blank" rel="noopener">P2468</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3157" target="_blank" rel="noopener">P3157</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3302" target="_blank" rel="noopener">P3302</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3168" target="_blank" rel="noopener">P3168</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3313" target="_blank" rel="noopener">P3313</a></li>
-</ul>
-<h3 id="数位DP"><a href="#数位DP" class="headerlink" title="数位DP"></a>数位DP</h3><p>数位DP</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2602" target="_blank" rel="noopener">P2602</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3281" target="_blank" rel="noopener">P3281</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2518" target="_blank" rel="noopener">P2518</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2606" target="_blank" rel="noopener">P2606</a></li>
-</ul>
-<h3 id="AC自动机"><a href="#AC自动机" class="headerlink" title="AC自动机"></a>AC自动机</h3><p>AC自动机</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P3808" target="_blank" rel="noopener">P3808</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3796" target="_blank" rel="noopener">P3796</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2444" target="_blank" rel="noopener">P2444</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2414" target="_blank" rel="noopener">P2414</a></li>
-</ul>
-<h3 id="平衡树"><a href="#平衡树" class="headerlink" title="平衡树"></a>平衡树</h3><p>平衡树</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2042" target="_blank" rel="noopener">P2042</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2596" target="_blank" rel="noopener">P2596</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1110" target="_blank" rel="noopener">P1110</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3285" target="_blank" rel="noopener">P3285</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3644" target="_blank" rel="noopener">P3644</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3765" target="_blank" rel="noopener">P3765</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3369" target="_blank" rel="noopener">P3369</a></li>
-</ul>
-<h3 id="树链剖分"><a href="#树链剖分" class="headerlink" title="树链剖分"></a>树链剖分</h3><p>树链剖分</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2590" target="_blank" rel="noopener">P2590</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2486" target="_blank" rel="noopener">P2486</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2146" target="_blank" rel="noopener">P2146</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3258" target="_blank" rel="noopener">P3258</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3178" target="_blank" rel="noopener">P3178</a></li>
-</ul>
-<h3 id="动态树"><a href="#动态树" class="headerlink" title="动态树"></a>动态树</h3><p>动态树</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P3690" target="_blank" rel="noopener">P3690</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2387" target="_blank" rel="noopener">P2387</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3203" target="_blank" rel="noopener">P3203</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3348" target="_blank" rel="noopener">P3348</a></li>
-</ul>
-<h3 id="树套树"><a href="#树套树" class="headerlink" title="树套树"></a>树套树</h3><p>树套树</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1903" target="_blank" rel="noopener">P1903</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3157" target="_blank" rel="noopener">P3157</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3332" target="_blank" rel="noopener">P3332</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2166" target="_blank" rel="noopener">P2166</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3380" target="_blank" rel="noopener">P3380</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2137" target="_blank" rel="noopener">P2137</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3759" target="_blank" rel="noopener">P3759</a></li>
-</ul>
-<h3 id="可持久化Trie树"><a href="#可持久化Trie树" class="headerlink" title="可持久化Trie树"></a>可持久化Trie树</h3><p>可持久化Trie树</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2048" target="_blank" rel="noopener">P2048</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3527" target="_blank" rel="noopener">P3527</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3302" target="_blank" rel="noopener">P3302</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3168" target="_blank" rel="noopener">P3168</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3242" target="_blank" rel="noopener">P3242</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3241" target="_blank" rel="noopener">P3241</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3293" target="_blank" rel="noopener">P3293</a></li>
-</ul>
-<h3 id="莫队算法"><a href="#莫队算法" class="headerlink" title="莫队算法"></a>莫队算法</h3><p>莫队算法</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1972" target="_blank" rel="noopener">P1972</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2336" target="_blank" rel="noopener">P2336</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3709" target="_blank" rel="noopener">P3709</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2709" target="_blank" rel="noopener">P2709</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3674" target="_blank" rel="noopener">P3674</a></li>
-</ul>
-<h3 id="分块"><a href="#分块" class="headerlink" title="分块"></a>分块</h3><p>分块</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1972" target="_blank" rel="noopener">P1972</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3396" target="_blank" rel="noopener">P3396</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1822" target="_blank" rel="noopener">P1822</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2801" target="_blank" rel="noopener">P2801</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3203" target="_blank" rel="noopener">P3203</a></li>
-</ul>
-<h3 id="莫比乌斯反演"><a href="#莫比乌斯反演" class="headerlink" title="莫比乌斯反演"></a>莫比乌斯反演</h3><p>莫比乌斯反演</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P3768" target="_blank" rel="noopener">P3768</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3172" target="_blank" rel="noopener">P3172</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3455" target="_blank" rel="noopener">P3455</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2522" target="_blank" rel="noopener">P2522</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3327" target="_blank" rel="noopener">P3327</a></li>
-</ul>
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>其他</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P3377" target="_blank" rel="noopener">P3377</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3261" target="_blank" rel="noopener">P3261</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3382" target="_blank" rel="noopener">P3382</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2571" target="_blank" rel="noopener">P2571</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3222" target="_blank" rel="noopener">P3222</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3187" target="_blank" rel="noopener">P3187</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3199" target="_blank" rel="noopener">P3199</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3292" target="_blank" rel="noopener">P3292</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2824" target="_blank" rel="noopener">P2824</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3285" target="_blank" rel="noopener">P3285</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1552" target="_blank" rel="noopener">P1552</a></li>
-</ul>
-<h2 id="洛谷试炼场之USACO"><a href="#洛谷试炼场之USACO" class="headerlink" title="洛谷试炼场之USACO"></a>洛谷试炼场之USACO</h2><p>美国经典的算法练习题库，值得一刷</p>
-<h3 id="目录-4"><a href="#目录-4" class="headerlink" title="目录"></a>目录</h3><ul>
-<li>USACO Section 1.1</li>
-<li>USACO Section 1.2（完全枚举）</li>
-<li>USACO Section 1.3（贪心）</li>
-<li>USACO Section 1.4（有技巧的枚举）</li>
-<li>USACO Section 1.5（二进制数）</li>
-<li>USACO Section 2.1（图论和洪水填充）</li>
-<li>USACO Section 2.2（数据结构与动态规划）</li>
-<li>USACO Section 2.3</li>
-<li>USACO Section 2.4（最短路径）</li>
-<li>USACO Section 3.1（最小生成树）</li>
-<li>USACO Section 3.2（背包问题）</li>
-<li>USACO Section 3.3（欧拉回路）</li>
-<li>USACO Section 3.4（计算几何）</li>
-<li>USACO Section 4.1（最优化）</li>
-<li>USACO Section 4.2（网络流）</li>
-<li>USACO Section 4.3（高精度）</li>
-<li>USACO Section 4.4</li>
-<li>USACO Section 5.1（二维凸包）</li>
-<li>USACO Section 5.2</li>
-<li>USACO Section 5.3（启发式搜索）</li>
-<li>USACO Section 5.4</li>
-<li>USACO Section 5.5</li>
-</ul>
-<h3 id="USACO-Section-1-1"><a href="#USACO-Section-1-1" class="headerlink" title="USACO Section 1.1"></a>USACO Section 1.1</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P1200" target="_blank" rel="noopener">P1200</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1201" target="_blank" rel="noopener">P1201</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1202" target="_blank" rel="noopener">P1202</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1203" target="_blank" rel="noopener">P1203</a></li>
-</ul>
-<h3 id="USACO-Section-1-2"><a href="#USACO-Section-1-2" class="headerlink" title="USACO Section 1.2"></a>USACO Section 1.2</h3><p>完全枚举</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P3864" target="_blank" rel="noopener">P3864</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1204" target="_blank" rel="noopener">P1204</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1205" target="_blank" rel="noopener">P1205</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1206" target="_blank" rel="noopener">P1206</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1207" target="_blank" rel="noopener">P1207</a></li>
-</ul>
-<h3 id="USACO-Section-1-3"><a href="#USACO-Section-1-3" class="headerlink" title="USACO Section 1.3"></a>USACO Section 1.3</h3><p>贪心</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1208" target="_blank" rel="noopener">P1208</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1209" target="_blank" rel="noopener">P1209</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1211" target="_blank" rel="noopener">P1211</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1444" target="_blank" rel="noopener">P1444</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P3650" target="_blank" rel="noopener">P3650</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2693" target="_blank" rel="noopener">P2693</a></li>
-</ul>
-<h3 id="USACO-Section-1-4"><a href="#USACO-Section-1-4" class="headerlink" title="USACO Section 1.4"></a>USACO Section 1.4</h3><p>有技巧的枚举</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1214" target="_blank" rel="noopener">P1214</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1215" target="_blank" rel="noopener">P1215</a></li>
-</ul>
-<h3 id="USACO-Section-1-5"><a href="#USACO-Section-1-5" class="headerlink" title="USACO Section 1.5"></a>USACO Section 1.5</h3><p>二进制数</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1216" target="_blank" rel="noopener">P1216</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1217" target="_blank" rel="noopener">P1217</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1218" target="_blank" rel="noopener">P1218</a></li>
-</ul>
-<h3 id="USACO-Section-2-1"><a href="#USACO-Section-2-1" class="headerlink" title="USACO Section 2.1"></a>USACO Section 2.1</h3><p>图论和洪水填充</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1457" target="_blank" rel="noopener">P1457</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1458" target="_blank" rel="noopener">P1458</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1459" target="_blank" rel="noopener">P1459</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1460" target="_blank" rel="noopener">P1460</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1461" target="_blank" rel="noopener">P1461</a></li>
-</ul>
-<h3 id="USACO-Section-2-2"><a href="#USACO-Section-2-2" class="headerlink" title="USACO Section 2.2"></a>USACO Section 2.2</h3><p>数据结构与动态规划</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1465" target="_blank" rel="noopener">P1465</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1466" target="_blank" rel="noopener">P1466</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1467" target="_blank" rel="noopener">P1467</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1468" target="_blank" rel="noopener">P1468</a></li>
-</ul>
-<h3 id="USACO-Section-2-3"><a href="#USACO-Section-2-3" class="headerlink" title="USACO Section 2.3"></a>USACO Section 2.3</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P1470" target="_blank" rel="noopener">P1470</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1472" target="_blank" rel="noopener">P1472</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1473" target="_blank" rel="noopener">P1473</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1474" target="_blank" rel="noopener">P1474</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1475" target="_blank" rel="noopener">P1475</a></li>
-</ul>
-<h3 id="USACO-Section-2-4"><a href="#USACO-Section-2-4" class="headerlink" title="USACO Section 2.4"></a>USACO Section 2.4</h3><p>最短路径</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1518" target="_blank" rel="noopener">P1518</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1519" target="_blank" rel="noopener">P1519</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1522" target="_blank" rel="noopener">P1522</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1529" target="_blank" rel="noopener">P1529</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1530" target="_blank" rel="noopener">P1530</a></li>
-</ul>
-<h3 id="USACO-Section-3-1"><a href="#USACO-Section-3-1" class="headerlink" title="USACO Section 3.1"></a>USACO Section 3.1</h3><p>最小生成树</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1546" target="_blank" rel="noopener">P1546</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2722" target="_blank" rel="noopener">P2722</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2723" target="_blank" rel="noopener">P2723</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2724" target="_blank" rel="noopener">P2724</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2725" target="_blank" rel="noopener">P2725</a></li>
-</ul>
-<h3 id="USACO-Section-3-2"><a href="#USACO-Section-3-2" class="headerlink" title="USACO Section 3.2"></a>USACO Section 3.2</h3><p>背包问题</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1134" target="_blank" rel="noopener">P1134</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2727" target="_blank" rel="noopener">P2727</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2728" target="_blank" rel="noopener">P2728</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2729" target="_blank" rel="noopener">P2729</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2730" target="_blank" rel="noopener">P2730</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1828" target="_blank" rel="noopener">P1828</a></li>
-</ul>
-<h3 id="USACO-Section-3-3"><a href="#USACO-Section-3-3" class="headerlink" title="USACO Section 3.3"></a>USACO Section 3.3</h3><p>欧拉回路</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2731" target="_blank" rel="noopener">P2731</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2732" target="_blank" rel="noopener">P2732</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1930" target="_blank" rel="noopener">P1930</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2733" target="_blank" rel="noopener">P2733</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2734" target="_blank" rel="noopener">P2734</a></li>
-</ul>
-<h3 id="USACO-Section-3-4"><a href="#USACO-Section-3-4" class="headerlink" title="USACO Section 3.4"></a>USACO Section 3.4</h3><p>计算几何</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P1827" target="_blank" rel="noopener">P1827</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2735" target="_blank" rel="noopener">P2735</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2736" target="_blank" rel="noopener">P2736</a></li>
-</ul>
-<h3 id="USACO-Section-4-1"><a href="#USACO-Section-4-1" class="headerlink" title="USACO Section 4.1"></a>USACO Section 4.1</h3><p>最优化</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2737" target="_blank" rel="noopener">P2737</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2738" target="_blank" rel="noopener">P2738</a></li>
-</ul>
-<h3 id="USACO-Section-4-2"><a href="#USACO-Section-4-2" class="headerlink" title="USACO Section 4.2"></a>USACO Section 4.2</h3><p>网络流</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2740" target="_blank" rel="noopener">P2740</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1894" target="_blank" rel="noopener">P1894</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2751" target="_blank" rel="noopener">P2751</a></li>
-</ul>
-<h3 id="USACO-Section-4-3"><a href="#USACO-Section-4-3" class="headerlink" title="USACO Section 4.3"></a>USACO Section 4.3</h3><p>高精度</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2687" target="_blank" rel="noopener">P2687</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2752" target="_blank" rel="noopener">P2752</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2753" target="_blank" rel="noopener">P2753</a></li>
-</ul>
-<h3 id="USACO-Section-4-4"><a href="#USACO-Section-4-4" class="headerlink" title="USACO Section 4.4"></a>USACO Section 4.4</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P1344" target="_blank" rel="noopener">P1344</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2739" target="_blank" rel="noopener">P2739</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2741" target="_blank" rel="noopener">P2741</a></li>
-</ul>
-<h3 id="USACO-Section-5-1"><a href="#USACO-Section-5-1" class="headerlink" title="USACO Section 5.1"></a>USACO Section 5.1</h3><p>二维凸包</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2742" target="_blank" rel="noopener">P2742</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2743" target="_blank" rel="noopener">P2743</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2749" target="_blank" rel="noopener">P2749</a></li>
-</ul>
-<h3 id="USACO-Section-5-2"><a href="#USACO-Section-5-2" class="headerlink" title="USACO Section 5.2"></a>USACO Section 5.2</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P1560" target="_blank" rel="noopener">P1560</a></li>
-</ul>
-<h3 id="USACO-Section-5-3"><a href="#USACO-Section-5-3" class="headerlink" title="USACO Section 5.3"></a>USACO Section 5.3</h3><p>启发式搜索</p>
-<ul>
-<li><a href="https://www.luogu.com.cn/problem/P2701" target="_blank" rel="noopener">P2701</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2744" target="_blank" rel="noopener">P2744</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2745" target="_blank" rel="noopener">P2745</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2746" target="_blank" rel="noopener">P2746</a></li>
-</ul>
-<h3 id="USACO-Section-5-4"><a href="#USACO-Section-5-4" class="headerlink" title="USACO Section 5.4"></a>USACO Section 5.4</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P1345" target="_blank" rel="noopener">P1345</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2747" target="_blank" rel="noopener">P2747</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2748" target="_blank" rel="noopener">P2748</a></li>
-</ul>
-<h3 id="USACO-Section-5-5"><a href="#USACO-Section-5-5" class="headerlink" title="USACO Section 5.5"></a>USACO Section 5.5</h3><ul>
-<li><a href="https://www.luogu.com.cn/problem/P1709" target="_blank" rel="noopener">P1709</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P1856" target="_blank" rel="noopener">P1856</a></li>
-<li><a href="https://www.luogu.com.cn/problem/P2750" target="_blank" rel="noopener">P2750</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>OI</category>
-        <category>洛谷</category>
-      </categories>
-      <tags>
-        <tag>整理</tag>
-        <tag>OI题目</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搬家啦</title>
-    <url>/newhome/</url>
-    <content><![CDATA[<p>搬家啦！</p>
-<p>之前博客用了一段时间的阮行止大佬的生成器（经过同意了），后来自己想拓展一些功能，然后就发现要拓展功能的话只能自己写代码，可我太菜了不会PHP不会HTML不会CSS，所以只能改用Hexo/kk</p>
-<p>以后可能会出关于Hexo的搭建教程和调教教程吧qwq</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>洛谷题目打印机使用说明书</title>
-    <url>/printluoguproblem/</url>
-    <content><![CDATA[<p>身处弱校，不能天天上机？</p>
-<p>希望我的<code>洛谷题目打印机</code>可以帮到您！</p>
-<p>这篇博客将会帮助您安装并使用<code>洛谷题目打印机</code>。</p>
-<a id="more"></a>
-
-<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>您可以使用它来屏蔽一些妨碍打印题目或者与题目无关的网页元素，从而比较完美地打印洛谷题目，或者把洛谷题目导出为PDF格式。</p>
-<p>作者是一条酸菜鱼，如果在打印机里面发现了虫子或者有更好的修改建议可以联系作者修复，如果有不懂的地方也可以联系作者询问。祝您使用愉快！</p>
-<p><a href="https://userstyles.org/styles/186569/by-jwj" target="_blank" rel="noopener">洛谷题目打印机链接</a></p>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><blockquote>
-<p><code>洛谷题目打印机</code>安装方法与安装<code>氩洛谷</code>类似。如果您安装了或者安装过氩洛谷，那么您可以忽略下面的安装教程直接点击链接安装。</p>
-</blockquote>
-<p><del>您得拥有一台电脑。</del></p>
-<p>您需要在电脑上装有谷歌浏览器。</p>
-<p>您需要在谷歌浏览器上安装一个名为<code>Stylus</code>的插件。</p>
-<p>啥？怎么安装插件？您可能需要打开<code>Chrome 网上应用店</code>进行搜索安装。</p>
-<p>啥？打不开？您可能需要一个机场才能打开。</p>
-<p>啥？没有机场？ <del>您可以选择运用搜索引擎搜索如何下载<code>Stylus</code>这个插件。</del></p>
-<p>嗯好的，此时您安装完了<code>Stylus</code>这个插件，那么您可以点开上面的链接了。</p>
-<p>点开链接后，如果不出所料，会出现下面的界面：</p>
-<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125452.png" alt=""></p>
-<p>看到下面的那个蓝色的按钮没有？ <del>把鼠标指针拖到那个蓝色的按钮上面，然后轻轻按下鼠标左键，</del> 当蓝色按钮变成了如下图所示的绿色按钮时，恭喜您，安装成功了。</p>
-<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125454.png" alt=""></p>
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>平时在电脑上做题不用打印的时候，建议关闭<code>洛谷题目打印机</code>以避免妨碍您的刷题体验。</p>
-<p>点击谷歌浏览器右上方的<code>Stylus</code>图标，点击“已安装样式”就可以选择开启或关闭<code>洛谷题目打印机</code>。或者您也可以点击<code>Stylus</code>图标后点击右上方的三个点选择“管理样式”即可选择开启或关闭。</p>
-<p>如果您需要打印题目了，请按照如上方式开启<code>洛谷题目打印机</code>。</p>
-<p>打开您需要打印的题目链接，您会发现界面变成了这样：</p>
-<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125450.png" alt=""></p>
-<p>此时，右键选择打印，或者按下快捷键Ctrl键+P键，将会弹出打印界面：</p>
-<p><img src="https://gitee.com/jwjawa/jwjs_graph_bed/raw/master/img/20200721125459.png" alt=""></p>
-<p>此时选择打印机即可打印，“目标打印机”选择“另存为PDF”即可转存为PDF。</p>
-<h2 id="打印设置"><a href="#打印设置" class="headerlink" title="打印设置"></a>打印设置</h2><p>如果需要设置，请在打印界面点开“更多设置”。</p>
-<ul>
-<li><p>“纸张尺寸”可以选择您打印出来的纸张大小，推荐设置为<code>A4</code>。</p>
-</li>
-<li><p>“每个工作表的页数”可以选择打印的格式，在一面纸中打印多少面题目，推荐设置为1或2。</p>
-</li>
-<li><p>“边距”和“缩放”可以分别选择打印的页边距和内容（字体）大小，推荐设置为“默认”。</p>
-</li>
-<li><p>“选项”中的“页眉和页脚”可以选择是否打印打印日期、网页名称、网页地址和页码，请按自己需求设置。推荐不勾选“背景图形”，<del>但是勾选也行。</del></p>
-</li>
-<li><p>其他选项根据需求自行设置。</p>
-</li>
-</ul>
-<hr>
-<p>本说明书到此结束，如果在打印机里面发现了虫子或者有更好的修改建议可以联系作者修复，如果有不懂的地方也可以联系作者询问。祝您使用愉快！</p>
-]]></content>
-      <categories>
-        <category>其他</category>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>原创</tag>
-        <tag>CSS</tag>
       </tags>
   </entry>
 </search>
