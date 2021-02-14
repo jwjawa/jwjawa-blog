@@ -1,0 +1,1066 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
+    
+    
+      
+        <title>动量 - jwj's Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.cb6bc1d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.39b8e14a.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffffff">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="white" data-md-color-accent="">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../../.." title="jwj&#39;s Wiki" class="md-header-nav__button md-logo" aria-label="jwj's Wiki">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            jwj's Wiki
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              动量
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        首页
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../chinese/time/" class="md-tabs__link">
+        语文笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../math/daoshu/" class="md-tabs__link">
+        数学笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../english/zuowen/" class="md-tabs__link">
+        英语笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        物理笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../biology/tiaojie/" class="md-tabs__link">
+        生物笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../geography/renwen/" class="md-tabs__link">
+        地理笔记
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="jwj&#39;s Wiki" class="md-nav__button md-logo" aria-label="jwj's Wiki">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    jwj's Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" >
+      
+      <label class="md-nav__link" for="nav-1">
+        首页
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="首页" data-md-level="1">
+        <label class="md-nav__title" for="nav-1">
+          <span class="md-nav__icon md-icon"></span>
+          首页
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        首页
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mkdocs/" class="md-nav__link">
+        欢迎使用 MkDocs
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../test/" class="md-nav__link">
+        测试页面
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+      
+      <label class="md-nav__link" for="nav-2">
+        语文笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="语文笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-2">
+          <span class="md-nav__icon md-icon"></span>
+          语文笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chinese/time/" class="md-nav__link">
+        语文各题型用时
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chinese/novel/" class="md-nav__link">
+        文学类文本
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+      
+      <label class="md-nav__link" for="nav-3">
+        数学笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="数学笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-3">
+          <span class="md-nav__icon md-icon"></span>
+          数学笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../math/daoshu/" class="md-nav__link">
+        导数
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+      
+      <label class="md-nav__link" for="nav-4">
+        英语笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="英语笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-4">
+          <span class="md-nav__icon md-icon"></span>
+          英语笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../english/zuowen/" class="md-nav__link">
+        英语作文
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+      
+      <label class="md-nav__link" for="nav-5">
+        物理笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="物理笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-5">
+          <span class="md-nav__icon md-icon"></span>
+          物理笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          动量
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        动量
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    动量定理
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    动量守恒定律
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#0" class="md-nav__link">
+    系统合外力为 0 常见形式
+  </a>
+  
+    <nav class="md-nav" aria-label="系统合外力为 0 常见形式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    只有内力（类碰撞、类爆炸）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    内力远大于外力
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    外力抵消
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    题目
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+      
+      <label class="md-nav__link" for="nav-6">
+        生物笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="生物笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-6">
+          <span class="md-nav__icon md-icon"></span>
+          生物笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../biology/tiaojie/" class="md-nav__link">
+        调节专题
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" >
+      
+      <label class="md-nav__link" for="nav-7">
+        地理笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="地理笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-7">
+          <span class="md-nav__icon md-icon"></span>
+          地理笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geography/renwen/" class="md-nav__link">
+        人文地理
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    动量定理
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    动量守恒定律
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#0" class="md-nav__link">
+    系统合外力为 0 常见形式
+  </a>
+  
+    <nav class="md-nav" aria-label="系统合外力为 0 常见形式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    只有内力（类碰撞、类爆炸）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    内力远大于外力
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    外力抵消
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    题目
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="_1">动量<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<ul>
+<li>动量：一个运动的物体所具有的潜在破坏量，矢量。<span><span class="MathJax_Preview">p={m\over v}</span><script type="math/tex">p={m\over v}</script></span></li>
+<li>冲量：冲击过程中表现出来的破坏力，矢量。<span><span class="MathJax_Preview">I=Ft</span><script type="math/tex">I=Ft</script></span></li>
+<li>碰撞过程中机械能守恒为弹性碰撞，不守恒为非弹性碰撞</li>
+<li>完全弹性碰撞：动量、机械能守恒；完全非弹性碰撞：动量、机械能不守恒，动撞静最后共速</li>
+</ul>
+<h2 id="_2">动量定理<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li><span><span class="MathJax_Preview">∑F·t=m·Δv</span><script type="math/tex">∑F·t=m·Δv</script></span>，本质为牛顿第二定律（<span><span class="MathJax_Preview">∑F=m·{Δv\over t}</span><script type="math/tex">∑F=m·{Δv\over t}</script></span>），研究初末状态</li>
+<li>动能定理：<span><span class="MathJax_Preview">∑F·x=ΔE_k</span><script type="math/tex">∑F·x=ΔE_k</script></span>，区别：动量定理为力对时间累计（冲量），动能定理为力对位移累积（功）</li>
+</ul>
+<h2 id="_3">动量守恒定律<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<ul>
+<li><span><span class="MathJax_Preview">Δp=m·Δv=0\iff</span><script type="math/tex">Δp=m·Δv=0\iff</script></span>系统合外力为 0</li>
+<li>一般形式：<span><span class="MathJax_Preview">m_1\overrightarrow{v_1}+m_2\overrightarrow{v_2}=m_1\overrightarrow{v'_1}+m_2\overrightarrow{v'_2}</span><script type="math/tex">m_1\overrightarrow{v_1}+m_2\overrightarrow{v_2}=m_1\overrightarrow{v'_1}+m_2\overrightarrow{v'_2}</script></span></li>
+<li>本质是牛顿第一定律、动量定理的特殊形式，记得注意方向</li>
+</ul>
+<h2 id="0">系统合外力为 0 常见形式<a class="headerlink" href="#0" title="Permanent link">&para;</a></h2>
+<h3 id="_4">只有内力（类碰撞、类爆炸）<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>子弹打木块（地面光滑等）</li>
+<li>人船模型（船与水面的阻力忽略不计，人从船的一端走到另一端）</li>
+</ul>
+<div>
+<div class="MathJax_Preview">
+m·v_人+M·v_船=0，{v_船\over v_人}={m\over M}，x_人+x_船=L_船
+</div>
+<script type="math/tex; mode=display">
+m·v_人+M·v_船=0，{v_船\over v_人}={m\over M}，x_人+x_船=L_船
+</script>
+</div>
+<div>
+<div class="MathJax_Preview">
+x_人={M\over M+m}L_船，x_船={m\over M+m}L_船
+</div>
+<script type="math/tex; mode=display">
+x_人={M\over M+m}L_船，x_船={m\over M+m}L_船
+</script>
+</div>
+<ul>
+<li>地面光滑的板块模型</li>
+<li>弹簧拉缩</li>
+<li>带电体排斥或吸引（类似弹簧拉缩）</li>
+<li>物块m冲上弧面（斜面）M（水平方向无外力，即 <span><span class="MathJax_Preview">m·Δv_x=0</span><script type="math/tex">m·Δv_x=0</script></span>）</li>
+<li>
+<ul>
+<li>三个时刻动量守恒：上去前、上去时（最高点）、上去后（脱离）</li>
+</ul>
+</li>
+<li>桌上小车（金属杆上的环）M用绳子挂了个小球m，给小球m一个初速度v。最高点动量守恒</li>
+</ul>
+<h3 id="_5">内力远大于外力<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>碰撞（正碰、撞击）、爆炸 <strong>瞬间</strong> ，<span><span class="MathJax_Preview">\lim_{Δt→0}</span><script type="math/tex">\lim_{Δt→0}</script></span></p>
+<h3 id="_6">外力抵消<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<ul>
+<li>地面不光滑但有外力抵消的板块模型</li>
+<li>电磁感应 L-L 模型</li>
+</ul>
+<h2 id="_7">题目<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<p><img alt="" src="\images\physic\1.jpg" /></p>
+<p>（1）随便算算</p>
+<div>
+<div class="MathJax_Preview">
+F_A=E_0Q
+</div>
+<script type="math/tex; mode=display">
+F_A=E_0Q
+</script>
+</div>
+<div>
+<div class="MathJax_Preview">
+F_A=ma\implies a={E_0Q\over m}
+</div>
+<script type="math/tex; mode=display">
+F_A=ma\implies a={E_0Q\over m}
+</script>
+</div>
+<div>
+<div class="MathJax_Preview">
+d={1\over 2}at^2\implies t=\sqrt{2d\over a}
+\implies t=\sqrt{2md\over E_0Q}
+</div>
+<script type="math/tex; mode=display">
+d={1\over 2}at^2\implies t=\sqrt{2d\over a}
+\implies t=\sqrt{2md\over E_0Q}
+</script>
+</div>
+<p>（2）思路：初始状态为距离无穷大，电势能为 0，<strong>两物体运动至共速时（即距离最小时）</strong><span><span class="MathJax_Preview">E_{p_m}</span><script type="math/tex">E_{p_m}</script></span>取得最大值（完全非弹性碰撞），等于系统动能在该过程中的损失量。其中A的初始动能为加速电场对A做的功，可简化计算。</p>
+<div>
+<div class="MathJax_Preview">
+{v_a}^2=2ad={2E_0Qd \over m}\implies v_a=\sqrt{2E_0Qd \over m}
+</div>
+<script type="math/tex; mode=display">
+{v_a}^2=2ad={2E_0Qd \over m}\implies v_a=\sqrt{2E_0Qd \over m}
+</script>
+</div>
+<div>
+<div class="MathJax_Preview">
+v_b=\sqrt{2E_0q_bd \over m_b}=\sqrt{32E_0Qd\over 9m}={4\over 3}\sqrt{2E_0Qd \over m}={4\over 3}v_a
+</div>
+<script type="math/tex; mode=display">
+v_b=\sqrt{2E_0q_bd \over m_b}=\sqrt{32E_0Qd\over 9m}={4\over 3}\sqrt{2E_0Qd \over m}={4\over 3}v_a
+</script>
+</div>
+<div>
+<div class="MathJax_Preview">
+m_av_a+m_bv_b=(m_a+m_b)v'
+</div>
+<script type="math/tex; mode=display">
+m_av_a+m_bv_b=(m_a+m_b)v'
+</script>
+</div>
+<div>
+<div class="MathJax_Preview">
+v'={16\over 15}v_a={16\over 15}\sqrt{2E_0Qd \over m}
+</div>
+<script type="math/tex; mode=display">
+v'={16\over 15}v_a={16\over 15}\sqrt{2E_0Qd \over m}
+</script>
+</div>
+<div>
+<div class="MathJax_Preview">
+E_{p_m}={1\over 2}{m_av_a}^2+{1\over 2}{m_bv_b}^2-{1\over 2}(m_a+m_b){v'}^2
+={1\over2}m{v_a}^2·{1\over 45}
+</div>
+<script type="math/tex; mode=display">
+E_{p_m}={1\over 2}{m_av_a}^2+{1\over 2}{m_bv_b}^2-{1\over 2}(m_a+m_b){v'}^2
+={1\over2}m{v_a}^2·{1\over 45}
+</script>
+</div>
+<div>
+<div class="MathJax_Preview">
+E_{k_a}={1\over2}m{v_a}^2=E_0Qd\implies E_{p_m}={1\over 45}E_{k_a}={1\over 45}E_0Qd
+</div>
+<script type="math/tex; mode=display">
+E_{k_a}={1\over2}m{v_a}^2=E_0Qd\implies E_{p_m}={1\over 45}E_{k_a}={1\over 45}E_0Qd
+</script>
+</div>
+<p>（3）思路：B 从头到尾都不改变运动方向，开始 B 离 A 无穷远且电势能为 0，临界情况为最终速度恰好减为 0 <strong>且离 A 无穷远</strong>，动量守恒且动能守恒，为完全弹性碰撞，公式求解即可。</p>
+<div>
+<div class="MathJax_Preview">
+{v_b}'={(m_b-m_a)·v_b+2m_av_a\over m_b+m_a}\ge 0
+</div>
+<script type="math/tex; mode=display">
+{v_b}'={(m_b-m_a)·v_b+2m_av_a\over m_b+m_a}\ge 0
+</script>
+</div>
+<div>
+<div class="MathJax_Preview">
+当v_b=0\ 时，(m_b-m_a)·v_b+2m_av_a=0
+</div>
+<script type="math/tex; mode=display">
+当v_b=0\ 时，(m_b-m_a)·v_b+2m_av_a=0
+</script>
+</div>
+<div>
+<div class="MathJax_Preview">
+v_b={8\over 3}v_a={8\over 3}\sqrt{2E_0Qd \over m}，v_b=\sqrt{2E_0q_bd \over m_b}=\sqrt{8E_0q_bd \over m}
+</div>
+<script type="math/tex; mode=display">
+v_b={8\over 3}v_a={8\over 3}\sqrt{2E_0Qd \over m}，v_b=\sqrt{2E_0q_bd \over m_b}=\sqrt{8E_0q_bd \over m}
+</script>
+</div>
+<div>
+<div class="MathJax_Preview">
+解得\ q_b={16\over 9}Q
+</div>
+<script type="math/tex; mode=display">
+解得\ q_b={16\over 9}Q
+</script>
+</div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../../english/zuowen/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                英语作文
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../../biology/tiaojie/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  下一页
+                </span>
+                调节专题
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/vendor.18f0862e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.994580cf.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../../..",
+          features: ['navigation.tabs'],
+          search: Object.assign({
+            worker: "../../../assets/javascripts/worker/search.9c0e82ba.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="https://cdn.staticfile.org/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      
+    
+  </body>
+</html>
