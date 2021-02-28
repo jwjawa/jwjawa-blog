@@ -1,0 +1,3327 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
+    
+    
+      
+        <title>KaTeX 语法 - jwj's Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.cb6bc1d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.39b8e14a.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffffff">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="white" data-md-color-accent="">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#katex" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="jwj&#39;s Wiki" class="md-header-nav__button md-logo" aria-label="jwj's Wiki">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            jwj's Wiki
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              KaTeX 语法
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        首页
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../mkdocs/" class="md-tabs__link md-tabs__link--active">
+        Wiki 相关
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../study/chinese/time/" class="md-tabs__link">
+        语文笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../study/math/daoshu/" class="md-tabs__link">
+        数学笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../study/english/zuowen/" class="md-tabs__link">
+        英语笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../study/physic/dongliang/" class="md-tabs__link">
+        物理笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../study/biology/tiaojie/" class="md-tabs__link">
+        生物笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../study/geography/renwen/" class="md-tabs__link">
+        地理笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../oi/road/" class="md-tabs__link">
+        OI 相关
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="jwj&#39;s Wiki" class="md-nav__button md-logo" aria-label="jwj's Wiki">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    jwj's Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" >
+      
+      <label class="md-nav__link" for="nav-1">
+        首页
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="首页" data-md-level="1">
+        <label class="md-nav__title" for="nav-1">
+          <span class="md-nav__icon md-icon"></span>
+          首页
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        首页
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scores/" class="md-nav__link">
+        成绩单
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../beiwanglu/" class="md-nav__link">
+        备忘录
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+      
+      <label class="md-nav__link" for="nav-2">
+        Wiki 相关
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Wiki 相关" data-md-level="1">
+        <label class="md-nav__title" for="nav-2">
+          <span class="md-nav__icon md-icon"></span>
+          Wiki 相关
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mkdocs/" class="md-nav__link">
+        MkDocs 基础使用
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mkdocs-md/" class="md-nav__link">
+        MkDocs 的特殊 Md 语法
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          KaTeX 语法
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        KaTeX 语法
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    前言
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    受支持的功能
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    声调记号
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    定界符（括号之类）
+  </a>
+  
+    <nav class="md-nav" aria-label="定界符（括号之类）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#55" class="md-nav__link">
+    定界符大小^{[5]}^{[5]}
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#66" class="md-nav__link">
+    环境^{[6]}^{[6]}
+  </a>
+  
+    <nav class="md-nav" aria-label="环境^{[6]}^{[6]}">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#textunicodetextunicode77" class="md-nav__link">
+    \text{Unicode}\text{Unicode}^{[7]}^{[7]}数学字母、符号
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#textunicodetextunicode" class="md-nav__link">
+    \text{Unicode}\text{Unicode}
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    布局
+  </a>
+  
+    <nav class="md-nav" aria-label="布局">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    注解/标记
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    换行指令
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    垂直布局
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    重叠和间距
+  </a>
+  
+    <nav class="md-nav" aria-label="重叠和间距">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    间隔
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    提示
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    逻辑与集合符号
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    宏定义
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    运算符
+  </a>
+  
+    <nav class="md-nav" aria-label="运算符">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1414" class="md-nav__link">
+    巨型运算符^{[14]}^{[14]}
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    二元运算符
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    分数和二项式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    数学运算符
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    开根
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    关系指令
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    箭头
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1616" class="md-nav__link">
+    箭头扩展^{[16]}^{[16]}
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    样式，颜色，大小和字体
+  </a>
+  
+    <nav class="md-nav" aria-label="样式，颜色，大小和字体">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1717" class="md-nav__link">
+    类的分配^{[17]}^{[17]}
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    颜色
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    字体
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    大小
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    样式
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    符号和标点
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    单位
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+      
+      <label class="md-nav__link" for="nav-3">
+        语文笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="语文笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-3">
+          <span class="md-nav__icon md-icon"></span>
+          语文笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../study/chinese/time/" class="md-nav__link">
+        语文各题型用时
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../study/chinese/novel/" class="md-nav__link">
+        文学类文本
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+      
+      <label class="md-nav__link" for="nav-4">
+        数学笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="数学笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-4">
+          <span class="md-nav__icon md-icon"></span>
+          数学笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../study/math/daoshu/" class="md-nav__link">
+        导数
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+      
+      <label class="md-nav__link" for="nav-5">
+        英语笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="英语笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-5">
+          <span class="md-nav__icon md-icon"></span>
+          英语笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../study/english/zuowen/" class="md-nav__link">
+        英语作文
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+      
+      <label class="md-nav__link" for="nav-6">
+        物理笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="物理笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-6">
+          <span class="md-nav__icon md-icon"></span>
+          物理笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../study/physic/dongliang/" class="md-nav__link">
+        动量
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" >
+      
+      <label class="md-nav__link" for="nav-7">
+        生物笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="生物笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-7">
+          <span class="md-nav__icon md-icon"></span>
+          生物笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../study/biology/tiaojie/" class="md-nav__link">
+        调节专题
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8" >
+      
+      <label class="md-nav__link" for="nav-8">
+        地理笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="地理笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-8">
+          <span class="md-nav__icon md-icon"></span>
+          地理笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../study/geography/renwen/" class="md-nav__link">
+        人文地理
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9" >
+      
+      <label class="md-nav__link" for="nav-9">
+        OI 相关
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="OI 相关" data-md-level="1">
+        <label class="md-nav__title" for="nav-9">
+          <span class="md-nav__icon md-icon"></span>
+          OI 相关
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oi/road/" class="md-nav__link">
+        训练路线
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oi/luogu/" class="md-nav__link">
+        洛谷试炼场
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    前言
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    受支持的功能
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    声调记号
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    定界符（括号之类）
+  </a>
+  
+    <nav class="md-nav" aria-label="定界符（括号之类）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#55" class="md-nav__link">
+    定界符大小^{[5]}^{[5]}
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#66" class="md-nav__link">
+    环境^{[6]}^{[6]}
+  </a>
+  
+    <nav class="md-nav" aria-label="环境^{[6]}^{[6]}">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#textunicodetextunicode77" class="md-nav__link">
+    \text{Unicode}\text{Unicode}^{[7]}^{[7]}数学字母、符号
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#textunicodetextunicode" class="md-nav__link">
+    \text{Unicode}\text{Unicode}
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    布局
+  </a>
+  
+    <nav class="md-nav" aria-label="布局">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    注解/标记
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    换行指令
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    垂直布局
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    重叠和间距
+  </a>
+  
+    <nav class="md-nav" aria-label="重叠和间距">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    间隔
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    提示
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    逻辑与集合符号
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    宏定义
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    运算符
+  </a>
+  
+    <nav class="md-nav" aria-label="运算符">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1414" class="md-nav__link">
+    巨型运算符^{[14]}^{[14]}
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    二元运算符
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    分数和二项式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    数学运算符
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    开根
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    关系指令
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    箭头
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1616" class="md-nav__link">
+    箭头扩展^{[16]}^{[16]}
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    样式，颜色，大小和字体
+  </a>
+  
+    <nav class="md-nav" aria-label="样式，颜色，大小和字体">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1717" class="md-nav__link">
+    类的分配^{[17]}^{[17]}
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    颜色
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    字体
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    大小
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    样式
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    符号和标点
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    单位
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="katex">KaTeX 语法<a class="headerlink" href="#katex" title="Permanent link">&para;</a></h1>
+<p>转载自 离散小波变换</p>
+<h2 id="_1">前言<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>由于在洛谷，有很多人对于<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>和<span><span class="MathJax_Preview">\LaTeX</span><script type="math/tex">\LaTeX</script></span>之间的关系并不清楚，导致很多人去搜<span><span class="MathJax_Preview">\LaTeX</span><script type="math/tex">\LaTeX</script></span>的资料，然后发现有许多指令无法在洛谷运行。 </p>
+<p>但是事实上，<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>才是洛谷上的<span><span class="MathJax_Preview">\LaTeX</span><script type="math/tex">\LaTeX</script></span>的渲染机制。因此只有<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>支持的指令才能正常使用。在<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>官网，其实有两张支持表，这里搬运过来以便于大家能够正确使用指令。</p>
+<p>这张表应该涵盖了纯<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span> <strong>所有</strong> 的功能。当然，<span><span class="MathJax_Preview">\LaTeX</span><script type="math/tex">\LaTeX</script></span>公式大全亦可作为部分参考。下面是搬运部分。</p>
+<hr />
+<h2 id="_2">受支持的功能<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>这是一张由<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>支持的<span><span class="MathJax_Preview">\TeX</span><script type="math/tex">\TeX</script></span>公式清单。他按照逻辑顺序分类。</p>
+<p>这有一个相似的按照字典序排列的<a href="https://katex.org/docs/support_table.html">支持表</a>。那张表格同样写出了不受支持的公式。</p>
+<h2 id="_3">声调记号<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+<th align="left">第三列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">a'</span><script type="math/tex">a'</script></span> <code>a'</code></td>
+<td align="left"><span><span class="MathJax_Preview">\tilde{a}</span><script type="math/tex">\tilde{a}</script></span> <code>\tilde{a}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\mathring{g}</span><script type="math/tex">\mathring{g}</script></span> <code>\mathring{g}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">a''</span><script type="math/tex">a''</script></span> <code>a''</code></td>
+<td align="left"><span><span class="MathJax_Preview">\widetilde{ac}</span><script type="math/tex">\widetilde{ac}</script></span> <code>\widetilde{ac}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\overgroup{AB}</span><script type="math/tex">\overgroup{AB}</script></span><code>\overgroup{AB}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">a^{\prime}</span><script type="math/tex">a^{\prime}</script></span> <code>a^{\prime}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\utilde{AB}</span><script type="math/tex">\utilde{AB}</script></span> <code>\utilde{AB}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\undergroup{AB}</span><script type="math/tex">\undergroup{AB}</script></span> <code>\undergroup{AB}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\acute{a}</span><script type="math/tex">\acute{a}</script></span> <code>\acute{a}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\vec{F}</span><script type="math/tex">\vec{F}</script></span> <code>\vec{F}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Overrightarrow{AB}</span><script type="math/tex">\Overrightarrow{AB}</script></span> <code>\Overrightarrow{AB}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\bar{y}</span><script type="math/tex">\bar{y}</script></span> <code>\bar{y}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\overleftarrow{AB}</span><script type="math/tex">\overleftarrow{AB}</script></span> <code>\overleftarrow{AB}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\overrightarrow{AB}</span><script type="math/tex">\overrightarrow{AB}</script></span> <code>\overrightarrow{AB}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\breve{a}</span><script type="math/tex">\breve{a}</script></span> <code>\breve{a}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\underleftarrow{AB}</span><script type="math/tex">\underleftarrow{AB}</script></span> <code>\underleftarrow{AB}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\underrightarrow{AB}</span><script type="math/tex">\underrightarrow{AB}</script></span> <code>\underrightarrow{AB}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\check{a}</span><script type="math/tex">\check{a}</script></span> <code>\check{a}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\overleftharpoon{ac}</span><script type="math/tex">\overleftharpoon{ac}</script></span> <code>\overleftharpoon{ac}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\overrightharpoon{ac}</span><script type="math/tex">\overrightharpoon{ac}</script></span> <code>\overrightharpoon{ac}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\dot{a}</span><script type="math/tex">\dot{a}</script></span> <code>\dot{a}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\overleftrightarrow{AB}</span><script type="math/tex">\overleftrightarrow{AB}</script></span> <code>\overleftrightarrow{AB}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\overbrace{AB}</span><script type="math/tex">\overbrace{AB}</script></span> <code>\overbrace{AB}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\ddot{a}</span><script type="math/tex">\ddot{a}</script></span> <code>\ddot{a}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\underleftrightarrow{AB}</span><script type="math/tex">\underleftrightarrow{AB}</script></span> <code>\underleftrightarrow{AB}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\underbrace{AB}</span><script type="math/tex">\underbrace{AB}</script></span>  <code>\underbrace{AB}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\grave{a}</span><script type="math/tex">\grave{a}</script></span> <code>\grave{a}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\overline{AB}</span><script type="math/tex">\overline{AB}</script></span> <code>\overline{AB}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\overlinesegment{AB}</span><script type="math/tex">\overlinesegment{AB}</script></span> <code>\overlinesegment{AB}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\hat{\theta}</span><script type="math/tex">\hat{\theta}</script></span> <code>\hat{\theta}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\underline{AB}</span><script type="math/tex">\underline{AB}</script></span> <code>\underline{AB}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\underlinesegment{AB}</span><script type="math/tex">\underlinesegment{AB}</script></span> <code>\underlinesegment{AB}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\widehat{ac}</span><script type="math/tex">\widehat{ac}</script></span> <code>\widehat{ac}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\widecheck{ac}</span><script type="math/tex">\widecheck{ac}</script></span> <code>\widecheck{ac}</code></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p>另外，还有一些上下音标适合用在<code>\text{}</code>环境下。<span><span class="MathJax_Preview">^{[1]}</span><script type="math/tex">^{[1]}</script></span>
+| 第一列 | 第二列 | 第三列 | 第四列 |
+| :----------- | :----------- | :-----------  | :----------- |
+| <span><span class="MathJax_Preview">\text{\'{a}}</span><script type="math/tex">\text{\'{a}}</script></span> <code>\'{a}</code> | <span><span class="MathJax_Preview">\text{\~{a}}</span><script type="math/tex">\text{\~{a}}</script></span> <code>\~{a}</code> | <span><span class="MathJax_Preview">\text{\.{a}}</span><script type="math/tex">\text{\.{a}}</script></span> <code>\.{a}</code> | <span><span class="MathJax_Preview">\text{\H{a}}</span><script type="math/tex">\text{\H{a}}</script></span> <code>\H{a}</code> |
+| <span><span class="MathJax_Preview">\text{\`{a}}</span><script type="math/tex">\text{\`{a}}</script></span> <span><span class="MathJax_Preview">^{[2]}</span><script type="math/tex">^{[2]}</script></span>| <span><span class="MathJax_Preview">\text{\={a}}</span><script type="math/tex">\text{\={a}}</script></span> <code>\={a}</code> | <span><span class="MathJax_Preview">\text{\"{a}}</span><script type="math/tex">\text{\"{a}}</script></span> <code>\"{a}</code> | $\text{\v{a}} $ <code>\v{a}</code> |
+| <span><span class="MathJax_Preview">\text{\^{a}}</span><script type="math/tex">\text{\^{a}}</script></span> <code>\^{a}</code> | <span><span class="MathJax_Preview">\text{\u{a}}</span><script type="math/tex">\text{\u{a}}</script></span> <code>\u{a}</code> | <span><span class="MathJax_Preview">\text{\r{a}}</span><script type="math/tex">\text{\r{a}}</script></span> <code>\r{a}</code> | |</p>
+<p><span><span class="MathJax_Preview">[1]:</span><script type="math/tex">[1]:</script></span> 这类特殊的音标需要用在文字环境下，即<code>\text{}</code>里面。比如<code>$\text{\'{a}}$</code></p>
+<p><span><span class="MathJax_Preview">[2]:</span><script type="math/tex">[2]:</script></span> 由于会和<span><span class="MathJax_Preview">\rm Markdown</span><script type="math/tex">\rm Markdown</script></span>的代码块冲突，这里说明一下，这个音标的代码其实是<code>\+波浪线对应按键+{}</code>。</p>
+<p>另请参阅 字母 章节。</p>
+<h2 id="_4">定界符（括号之类）<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+<th align="left">第三列</th>
+<th align="left">第四列</th>
+<th align="left">第五列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">()</span><script type="math/tex">()</script></span> <code>()</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lparen\rparen</span><script type="math/tex">\lparen\rparen</script></span> <code>\lparen\rparen</code></td>
+<td align="left"><span><span class="MathJax_Preview">⌈ ⌉</span><script type="math/tex">⌈ ⌉</script></span> <code>⌈ ⌉</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lceil \rceil</span><script type="math/tex">\lceil \rceil</script></span> <code>\lceil rceil</code></td>
+<td align="left"><span><span class="MathJax_Preview">\uparrow</span><script type="math/tex">\uparrow</script></span> <code>\uparrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">[ ]</span><script type="math/tex">[ ]</script></span> <code>[ ]</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lbrack\rbrack</span><script type="math/tex">\lbrack\rbrack</script></span><code>\lbrack\rbrack</code></td>
+<td align="left"><span><span class="MathJax_Preview">⌊ ⌋</span><script type="math/tex">⌊ ⌋</script></span> <code>⌊ ⌋</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lfloor\rfloor</span><script type="math/tex">\lfloor\rfloor</script></span> <code>\lfloor\rfloor</code></td>
+<td align="left"><span><span class="MathJax_Preview">\downarrow</span><script type="math/tex">\downarrow</script></span> <code>\downarrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\{ \}</span><script type="math/tex">\{ \}</script></span> <code>\{ \}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lbrace\rbrace</span><script type="math/tex">\lbrace\rbrace</script></span> <code>\lbrace\rbrace</code></td>
+<td align="left"><span><span class="MathJax_Preview">⎰⎱</span><script type="math/tex">⎰⎱</script></span> <code>⎰⎱</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lmoustache\rmoustache</span><script type="math/tex">\lmoustache\rmoustache</script></span> <code>\lmoustache\rmoustache</code></td>
+<td align="left"><span><span class="MathJax_Preview">\updownarrow</span><script type="math/tex">\updownarrow</script></span> <code>\updownarrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">⟨ ⟩</span><script type="math/tex">⟨ ⟩</script></span> <code>⟨ ⟩</code></td>
+<td align="left"><span><span class="MathJax_Preview">\langle\rangle</span><script type="math/tex">\langle\rangle</script></span><code>\langle\rangle</code></td>
+<td align="left"><span><span class="MathJax_Preview">⟮ ⟯</span><script type="math/tex">⟮ ⟯</script></span> <code>⟮ ⟯</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lgroup\rgroup</span><script type="math/tex">\lgroup\rgroup</script></span> <code>\lgroup\rgroup</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Uparrow</span><script type="math/tex">\Uparrow</script></span> <code>\Uparrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">^{[3]}</span><script type="math/tex">^{[3]}</script></span> <code>|</code></td>
+<td align="left"><span><span class="MathJax_Preview">\vert</span><script type="math/tex">\vert</script></span> <code>\vert</code></td>
+<td align="left"><span><span class="MathJax_Preview">┌ ┐</span><script type="math/tex">┌ ┐</script></span> <code>┌ ┐</code></td>
+<td align="left"><span><span class="MathJax_Preview">\ulcorner\urcorner</span><script type="math/tex">\ulcorner\urcorner</script></span> <code>\ulcorner\urcorner</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Downarrow</span><script type="math/tex">\Downarrow</script></span> <code>\Downarrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\|</span><script type="math/tex">\|</script></span> <code>\|</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Vert</span><script type="math/tex">\Vert</script></span> <code>\Vert</code></td>
+<td align="left"><span><span class="MathJax_Preview">└ ┘</span><script type="math/tex">└ ┘</script></span> <code>└ ┘</code></td>
+<td align="left"><span><span class="MathJax_Preview">\llcorner\lrcorner</span><script type="math/tex">\llcorner\lrcorner</script></span> <code>\llcorner\lrcorner</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Updownarrow</span><script type="math/tex">\Updownarrow</script></span> <code>\Updownarrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\lvert\rvert</span><script type="math/tex">\lvert\rvert</script></span><code>\lvert\rvert</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lVert\rVert</span><script type="math/tex">\lVert\rVert</script></span> <code>\lVert\rVert</code></td>
+<td align="left"><code>\left.</code><span><span class="MathJax_Preview">^{[4]}</span><script type="math/tex">^{[4]}</script></span></td>
+<td align="left"><code>\right.</code></td>
+<td align="left"><span><span class="MathJax_Preview">\backslash</span><script type="math/tex">\backslash</script></span> <code>\backslash</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\lang\rang</span><script type="math/tex">\lang\rang</script></span> <code>\lang\rang</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lt \gt</span><script type="math/tex">\lt \gt</script></span><code>\lt \gt</code></td>
+<td align="left"><span><span class="MathJax_Preview">⟦ ⟧</span><script type="math/tex">⟦ ⟧</script></span><code>⟦ ⟧</code></td>
+<td align="left"><span><span class="MathJax_Preview">\llbracket\rrbracket</span><script type="math/tex">\llbracket\rrbracket</script></span> <code>\llbracket\rrbracket</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lBrace \rBrace</span><script type="math/tex">\lBrace \rBrace</script></span> <code>\lBrace \rBrace</code></td>
+</tr>
+</tbody>
+</table>
+<p><span><span class="MathJax_Preview">[3]:</span><script type="math/tex">[3]:</script></span> 由于<span><span class="MathJax_Preview">\rm Markdown</span><script type="math/tex">\rm Markdown</script></span>的制表与<code>|</code>有冲突，因此无法在表格中显示 <span><span class="MathJax_Preview">|</span><script type="math/tex">|</script></span>。</p>
+<p><span><span class="MathJax_Preview">[4]:</span><script type="math/tex">[4]:</script></span> <code>\left</code>和<code>\right</code>后面直接加括号，能显示括号。（人类迷惑行为）</p>
+<h3 id="55">定界符大小<span><span class="MathJax_Preview">^{[5]}</span><script type="math/tex">^{[5]}</script></span><a class="headerlink" href="#55" title="Permanent link">&para;</a></h3>
+<p><span><span class="MathJax_Preview">\left(\LARGE{AB}\right)</span><script type="math/tex">\left(\LARGE{AB}\right)</script></span> <code>\left(\LARGE{AB}\right)</code></p>
+<p><span><span class="MathJax_Preview">( \big( \Big( \bigg( \Bigg(</span><script type="math/tex">( \big( \Big( \bigg( \Bigg(</script></span> <code>( \big( \Big( \bigg( \Bigg(</code></p>
+<p><span><span class="MathJax_Preview">[5]:</span><script type="math/tex">[5]:</script></span> 这里定界符主要指括号。<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>提供了一些指令来调整括号的大小。另外，这里<code>\left,\right</code>指令是自动调整括号大小。</p>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+<th align="left">第三列</th>
+<th align="left">第四列</th>
+<th align="left">第五列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>\left</code></td>
+<td align="left"><code>\big</code></td>
+<td align="left"><code>\bigl</code></td>
+<td align="left"><code>\bigm</code></td>
+<td align="left"><code>\bigr</code></td>
+</tr>
+<tr>
+<td align="left"><code>\middle</code></td>
+<td align="left"><code>\Big</code></td>
+<td align="left"><code>\Bigl</code></td>
+<td align="left"><code>\Bigm</code></td>
+<td align="left"><code>\Bigr</code></td>
+</tr>
+<tr>
+<td align="left"><code>\right</code></td>
+<td align="left"><code>\bigg</code></td>
+<td align="left"><code>\biggl</code></td>
+<td align="left"><code>\biggm</code></td>
+<td align="left"><code>\biggr</code></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>\Bigg</code></td>
+<td align="left"><code>\Biggl</code></td>
+<td align="left"><code>\Biggm</code></td>
+<td align="left"><code>\Biggr</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="66">环境<span><span class="MathJax_Preview">^{[6]}</span><script type="math/tex">^{[6]}</script></span><a class="headerlink" href="#66" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+<th align="left">第三列</th>
+<th align="left">第四列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\begin{matrix}a &amp; b \\c &amp; d\end{matrix}</span><script type="math/tex">\begin{matrix}a & b \\c & d\end{matrix}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{aligned}&amp;\tt \backslash begin\{matrix\} \\&amp;\tt\quad  a \&amp; b \backslash \backslash \\ &amp;\tt\quad  c \&amp; d \\&amp;\tt \backslash end{matrix} \\\end{aligned}</span><script type="math/tex">\begin{aligned}&\tt \backslash begin\{matrix\} \\&\tt\quad  a \& b \backslash \backslash \\ &\tt\quad  c \& d \\&\tt \backslash end{matrix} \\\end{aligned}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{array}{cc}a &amp; b \\c &amp; d\end{array}</span><script type="math/tex">\begin{array}{cc}a & b \\c & d\end{array}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{aligned}&amp;\tt \backslash begin\{array\}\{cc\}\\&amp;\tt\quad a \&amp; b \backslash \backslash\\&amp;\tt\quad c \&amp; d\\&amp;\tt \backslash end\{array\}\\\end{aligned}</span><script type="math/tex">\begin{aligned}&\tt \backslash begin\{array\}\{cc\}\\&\tt\quad a \& b \backslash \backslash\\&\tt\quad c \& d\\&\tt \backslash end\{array\}\\\end{aligned}</script></span></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\begin{pmatrix}a &amp; b \\c &amp; d\end{pmatrix}</span><script type="math/tex">\begin{pmatrix}a & b \\c & d\end{pmatrix}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{aligned}&amp;\tt\backslash begin\{pmatrix\}\\&amp;\tt\quad a \&amp; b \backslash \backslash \\&amp;\tt\quad c \&amp; d\\&amp;\tt\backslash end\{pmatrix\}\\\end{aligned}</span><script type="math/tex">\begin{aligned}&\tt\backslash begin\{pmatrix\}\\&\tt\quad a \& b \backslash \backslash \\&\tt\quad c \& d\\&\tt\backslash end\{pmatrix\}\\\end{aligned}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{bmatrix}a &amp; b \\c &amp; d\end{bmatrix}</span><script type="math/tex">\begin{bmatrix}a & b \\c & d\end{bmatrix}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{aligned}&amp;\tt\backslash begin\{bmatrix\} \\&amp;\tt\quad a \&amp; b \backslash \backslash  \\&amp;\tt\quad c \&amp; d \\&amp;\tt\backslash end\{bmatrix\} \\\end{aligned}</span><script type="math/tex">\begin{aligned}&\tt\backslash begin\{bmatrix\} \\&\tt\quad a \& b \backslash \backslash  \\&\tt\quad c \& d \\&\tt\backslash end\{bmatrix\} \\\end{aligned}</script></span></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\begin{vmatrix}a &amp; b \\c &amp; d\end{vmatrix}</span><script type="math/tex">\begin{vmatrix}a & b \\c & d\end{vmatrix}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{aligned}&amp;\tt\backslash begin\{vmatrix\}\\&amp;\tt\quad a \&amp; b \backslash \backslash \\&amp;\tt\quad c \ d\\&amp;\tt\backslash end\{vmatrix\}\\\end{aligned}</span><script type="math/tex">\begin{aligned}&\tt\backslash begin\{vmatrix\}\\&\tt\quad a \& b \backslash \backslash \\&\tt\quad c \ d\\&\tt\backslash end\{vmatrix\}\\\end{aligned}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{Vmatrix}a &amp; b \\c &amp; d\end{Vmatrix}</span><script type="math/tex">\begin{Vmatrix}a & b \\c & d\end{Vmatrix}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{aligned}&amp;\tt\backslash begin\{Vmatrix\}\\&amp;\tt\quad a \&amp; b \backslash \backslash \\&amp;\tt\quad c \ d\\&amp;\tt\backslash end\{Vmatrix\}\\\end{aligned}</span><script type="math/tex">\begin{aligned}&\tt\backslash begin\{Vmatrix\}\\&\tt\quad a \& b \backslash \backslash \\&\tt\quad c \ d\\&\tt\backslash end\{Vmatrix\}\\\end{aligned}</script></span></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\begin{Bmatrix}a &amp; b \\c &amp; d\end{Bmatrix}</span><script type="math/tex">\begin{Bmatrix}a & b \\c & d\end{Bmatrix}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{aligned}&amp;\tt\backslash begin\{Bmatrix\}\\&amp;\tt\quad a \&amp; b \backslash \backslash \\&amp;\tt\quad c \ d\\&amp;\tt\backslash end\{Bmatrix\}\\\end{aligned}</span><script type="math/tex">\begin{aligned}&\tt\backslash begin\{Bmatrix\}\\&\tt\quad a \& b \backslash \backslash \\&\tt\quad c \ d\\&\tt\backslash end\{Bmatrix\}\\\end{aligned}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\def\arraystretch{1.5} \begin{array}{c:c:c} a &amp; b &amp; c \\ \hline d &amp; e &amp; f \\\hdashline g &amp; h &amp; i\end{array}</span><script type="math/tex">\def\arraystretch{1.5} \begin{array}{c:c:c} a & b & c \\ \hline d & e & f \\\hdashline g & h & i\end{array}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{aligned}&amp;\tt\backslash def\backslash arraystretch\{1.5\}\\&amp;\tt\quad \backslash begin\{array\}\{c:c:c\}\\&amp;\tt\quad a \&amp; b \&amp; c \backslash\backslash \backslash hline\\&amp;\tt\quad d \&amp; e \&amp; f \backslash \backslash\\&amp;\tt\quad \backslash hdashline\\&amp;\tt\quad g \&amp; h \&amp; i\\&amp;\tt\backslash end\{array\}\end{aligned}</span><script type="math/tex">\begin{aligned}&\tt\backslash def\backslash arraystretch\{1.5\}\\&\tt\quad \backslash begin\{array\}\{c:c:c\}\\&\tt\quad a \& b \& c \backslash\backslash \backslash hline\\&\tt\quad d \& e \& f \backslash \backslash\\&\tt\quad \backslash hdashline\\&\tt\quad g \& h \& i\\&\tt\backslash end\{array\}\end{aligned}</script></span></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\begin{aligned}a&amp;=b+c \\d+e&amp;=f\end{aligned}</span><script type="math/tex">\begin{aligned}a&=b+c \\d+e&=f\end{aligned}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{aligned}&amp;\tt\backslash \{aligned\}\\&amp;\tt\quad a\&amp;=b+c \backslash \backslash \\&amp;\tt\quad d+e\&amp;=f\\&amp;\tt\backslash end\{aligned\}\\\end{aligned}</span><script type="math/tex">\begin{aligned}&\tt\backslash \{aligned\}\\&\tt\quad a\&=b+c \backslash \backslash \\&\tt\quad d+e\&=f\\&\tt\backslash end\{aligned\}\\\end{aligned}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{alignedat}{2}10&amp;x+ &amp;3&amp;y = 2 \\3&amp;x+&amp;13&amp;y = 4\end{alignedat}</span><script type="math/tex">\begin{alignedat}{2}10&x+ &3&y = 2 \\3&x+&13&y = 4\end{alignedat}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{aligned}&amp;\tt\backslash begin\{alignedat\}\{2\}\\&amp;\tt\quad 10\&amp;x+ \&amp;3\&amp;y = 2 \backslash \backslash \\&amp;\tt\quad 3\&amp;x+\&amp;13\&amp;y = 4\\&amp;\tt\backslash end\{alignedat\}\\\end{aligned}</span><script type="math/tex">\begin{aligned}&\tt\backslash begin\{alignedat\}\{2\}\\&\tt\quad 10\&x+ \&3\&y = 2 \backslash \backslash \\&\tt\quad 3\&x+\&13\&y = 4\\&\tt\backslash end\{alignedat\}\\\end{aligned}</script></span></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\begin{gathered}a=b \\e=b+c\end{gathered}</span><script type="math/tex">\begin{gathered}a=b \\e=b+c\end{gathered}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{aligned}&amp;\tt\backslash begin\{gathered\}\\&amp;\tt\quad a=b \backslash\backslash\\&amp;\tt\quad e=b+c\\&amp;\tt\backslash end\{gathered\}\\\end{aligned}</span><script type="math/tex">\begin{aligned}&\tt\backslash begin\{gathered\}\\&\tt\quad a=b \backslash\backslash\\&\tt\quad e=b+c\\&\tt\backslash end\{gathered\}\\\end{aligned}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">x = \begin{cases}a &amp;\text{if } b \\c &amp;\text{if } d\end{cases}</span><script type="math/tex">x = \begin{cases}a &\text{if } b \\c &\text{if } d\end{cases}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{aligned}&amp;\tt x = \backslash begin\{cases\} \\&amp;\tt\quad a \&amp;\text\{if \} b \backslash\backslash \\&amp;\tt\quad c \&amp;\text\{if \} d\\&amp;\tt\backslash end{cases}\\\end{aligned}</span><script type="math/tex">\begin{aligned}&\tt x = \backslash begin\{cases\} \\&\tt\quad a \&\text\{if \} b \backslash\backslash \\&\tt\quad c \&\text\{if \} d\\&\tt\backslash end{cases}\\\end{aligned}</script></span></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\begin{smallmatrix}a &amp; b \\c &amp; d\end{smallmatrix}</span><script type="math/tex">\begin{smallmatrix}a & b \\c & d\end{smallmatrix}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\begin{aligned}&amp;\tt\backslash begin\{smallmatrix\}\\&amp;\tt\quad a \&amp; b \backslash \backslash \\&amp;\tt\quad c \ d\\&amp;\tt\backslash end\{smallmatrix\}\\\end{aligned}</span><script type="math/tex">\begin{aligned}&\tt\backslash begin\{smallmatrix\}\\&\tt\quad a \& b \backslash \backslash \\&\tt\quad c \ d\\&\tt\backslash end\{smallmatrix\}\\\end{aligned}</script></span></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><span><span class="MathJax_Preview">[6]:</span><script type="math/tex">[6]:</script></span> 因为相关原因，在表格里换行不是很方便，因此这里直接嵌入的是<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>。</p>
+<h3 id="textunicodetextunicode77"><span><span class="MathJax_Preview">\text{Unicode}</span><script type="math/tex">\text{Unicode}</script></span><span><span class="MathJax_Preview">^{[7]}</span><script type="math/tex">^{[7]}</script></span>数学字母、符号<a class="headerlink" href="#textunicodetextunicode77" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th align="left">字段</th>
+<th align="left">支持的字符</th>
+<th align="left">字段</th>
+<th align="left">支持的字符</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">粗体</td>
+<td align="left"><span><span class="MathJax_Preview">\textbf{A-Z,a-z,0-9}</span><script type="math/tex">\textbf{A-Z,a-z,0-9}</script></span></td>
+<td align="left">双线体</td>
+<td align="left"><span><span class="MathJax_Preview">\Bbb{A-Z,k}</span><script type="math/tex">\Bbb{A-Z,k}</script></span></td>
+</tr>
+<tr>
+<td align="left">意大利斜体</td>
+<td align="left"><span><span class="MathJax_Preview">\textit{A-Z,a-z}</span><script type="math/tex">\textit{A-Z,a-z}</script></span></td>
+<td align="left">无衬线字体</td>
+<td align="left"><span><span class="MathJax_Preview">\textsf{A-Z,a-z,0-9}</span><script type="math/tex">\textsf{A-Z,a-z,0-9}</script></span></td>
+</tr>
+<tr>
+<td align="left">粗意大利斜体</td>
+<td align="left"><span><span class="MathJax_Preview">\textbf{\textit{A-Z,a-z}}</span><script type="math/tex">\textbf{\textit{A-Z,a-z}}</script></span></td>
+<td align="left">粗体无衬线</td>
+<td align="left"><span><span class="MathJax_Preview">\textsf{\textbf{A-Z,a-z,0-9}}</span><script type="math/tex">\textsf{\textbf{A-Z,a-z,0-9}}</script></span></td>
+</tr>
+<tr>
+<td align="left">手写体</td>
+<td align="left"><span><span class="MathJax_Preview">\mathscr{A-Z}</span><script type="math/tex">\mathscr{A-Z}</script></span></td>
+<td align="left">斜体无衬线</td>
+<td align="left"><span><span class="MathJax_Preview">\textsf{\textit{A-Z,a-z }}</span><script type="math/tex">\textsf{\textit{A-Z,a-z }}</script></span></td>
+</tr>
+<tr>
+<td align="left">花体</td>
+<td align="left"><span><span class="MathJax_Preview">\frak{A-Z,a-z}</span><script type="math/tex">\frak{A-Z,a-z}</script></span></td>
+<td align="left">打字机字体</td>
+<td align="left"><span><span class="MathJax_Preview">\texttt{A-Z,a-z,0-9}</span><script type="math/tex">\texttt{A-Z,a-z,0-9}</script></span></td>
+</tr>
+</tbody>
+</table>
+<p><span><span class="MathJax_Preview">[7]:</span><script type="math/tex">[7]:</script></span> 这里<span><span class="MathJax_Preview">\rm Unicode</span><script type="math/tex">\rm Unicode</script></span>就是万国码。这里是指<span><span class="MathJax_Preview">\rm Unicode</span><script type="math/tex">\rm Unicode</script></span>里支持的字体样式。关于它们的指令，请参考下面的“字体”一段。</p>
+<h3 id="textunicodetextunicode"><span><span class="MathJax_Preview">\text{Unicode}</span><script type="math/tex">\text{Unicode}</script></span><a class="headerlink" href="#textunicodetextunicode" title="Permanent link">&para;</a></h3>
+<p>上面列出的字母可以在任何<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>模式下正确渲染。</p>
+<p>此外，文本模式始终接受<span><span class="MathJax_Preview">\text{Brahmic}</span><script type="math/tex">\text{Brahmic}</script></span>，<span><span class="MathJax_Preview">\text{Georgian}</span><script type="math/tex">\text{Georgian}</script></span>，中文，日文和韩文的字形。但是，这些字形将从系统字体（而不是<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>提供的字体）中呈现，因此它们的版式可能会发生冲突。您可以为<span><span class="MathJax_Preview">\text{CSS}</span><script type="math/tex">\text{CSS}</script></span>类<span><span class="MathJax_Preview">^{[8]}</span><script type="math/tex">^{[8]}</script></span><code>.latin-fallback</code>，<code>.cyrillic-fallback</code>，<code>.brahmic-fallback</code>，<code>.georgian-fallback</code>，<code>.cjk-fallback</code>和<code>.hangul-fallback</code>中提供规则，以为这些语言提供后备字体。这些字形的使用可能会引起小的垂直对齐问题：<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>列出了符号、大多数拉丁字母、希腊和西里尔字母的详细大小度量值，但其他接受的字形则被视为与当前<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>字体中的字母<span><span class="MathJax_Preview">\text{M}</span><script type="math/tex">\text{M}</script></span>一样高。（因此很多时候<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>用字母<span><span class="MathJax_Preview">M</span><script type="math/tex">M</script></span>作为参考大小——编者注）</p>
+<p>如果<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>呈现模式的设置中，<span><span class="MathJax_Preview">\text{strict}</span><script type="math/tex">\text{strict}</script></span>设置为了<span><span class="MathJax_Preview">\text{false}</span><script type="math/tex">\text{false}</script></span>或<span><span class="MathJax_Preview">\text{warn}</span><script type="math/tex">\text{warn}</script></span>（默认），则<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>将在文本和数学模式下接受所有<span><span class="MathJax_Preview">\text{Unicode}</span><script type="math/tex">\text{Unicode}</script></span>字母。所有无法识别的字符将被视为它们以文本模式显示。这样可能会遇到使用系统字体以及使用不正确的垂直对齐方式的问题。</p>
+<p>对于波斯语中的复合字符，我们正在开发为用户提供的插件。（虽然你可能不会使用它——编者注）</p>
+<p><span><span class="MathJax_Preview">[8]:</span><script type="math/tex">[8]:</script></span> 因为没怎么写过<span><span class="MathJax_Preview">\rm CSS</span><script type="math/tex">\rm CSS</script></span>，所以可能说明上有一些问题。 </p>
+<h2 id="_5">布局<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<h3 id="_6">注解/标记<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\cancel{5}</span><script type="math/tex">\cancel{5}</script></span> <code>\cancel{5}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\overbrace{a+b+c}^{\text{note}}</span><script type="math/tex">\overbrace{a+b+c}^{\text{note}}</script></span> <code>\overbrace{a+b+c}^{\text{note}}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\bcancel{5}</span><script type="math/tex">\bcancel{5}</script></span> <code>\bcancel{5}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\underbrace{a+b+c}_{\text{note}}</span><script type="math/tex">\underbrace{a+b+c}_{\text{note}}</script></span> <code>\underbrace{a+b+c}_{\text{note}}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\xcancel{ABC}</span><script type="math/tex">\xcancel{ABC}</script></span> <code>\xcancel{ABC}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\not =</span><script type="math/tex">\not =</script></span> <code>\not =</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\sout{abc}</span><script type="math/tex">\sout{abc}</script></span> <code>\sout{abc}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\boxed{\pi=\frac c d}</span><script type="math/tex">\boxed{\pi=\frac c d}</script></span> <code>\boxed{\pi=\frac c d}</code></td>
+</tr>
+</tbody>
+</table>
+<p><code>\tag{hi} x+y^{2x}</code></p>
+<div>
+<div class="MathJax_Preview">\tag{hi} x+y^{2x}</div>
+<script type="math/tex; mode=display">\tag{hi} x+y^{2x}</script>
+</div>
+<p><code>\tag*{hi} x+y^{2x}</code></p>
+<div>
+<div class="MathJax_Preview">\tag*{hi} x+y^{2x}</div>
+<script type="math/tex; mode=display">\tag*{hi} x+y^{2x}</script>
+</div>
+<h3 id="_7">换行指令<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p><span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span> <span><span class="MathJax_Preview">0.10.0</span><script type="math/tex">0.10.0</script></span>版本之后将在关系或二元运算符（例如“ <span><span class="MathJax_Preview">=</span><script type="math/tex">=</script></span>”或“ <span><span class="MathJax_Preview">+</span><script type="math/tex">+</script></span>”）之后的内联数学中自动插入换行符。你可以通过<code>\nobreak</code>或将公式放在一对大括号中来阻止自动换行，例如<code>{F = ma}</code>。<code>\allowbreak</code>将允许在关系或运算符以外的其他位置自动换行。</p>
+<p>硬换行符是<code>\\</code>和<code>\newline</code>。<span><span class="MathJax_Preview">^{[9]}</span><script type="math/tex">^{[9]}</script></span></p>
+<p>在数学模式中，<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>不会自动插入换行符。但是当渲染选项<span><span class="MathJax_Preview">\text{strict}</span><script type="math/tex">\text{strict}</script></span>设置为<span><span class="MathJax_Preview">\text{true}</span><script type="math/tex">\text{true}</script></span>时，它将忽略显示数学模式并且插入硬换行。</p>
+<p><span><span class="MathJax_Preview">[9]:</span><script type="math/tex">[9]:</script></span> 软换行换行不换段，硬换行换行也换段。简单来说，<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>有时会自动换行，但换行之后仍在同一段，也就是软换行。而硬换行之后，两部分内容就分离了。 </p>
+<h3 id="_8">垂直布局<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+<th align="left">第三列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">x_n</span><script type="math/tex">x_n</script></span> <code>x_n</code></td>
+<td align="left"><span><span class="MathJax_Preview">\stackrel{!}{=}</span><script type="math/tex">\stackrel{!}{=}</script></span> <code>\stackrel{!}{=}</code></td>
+<td align="left"><span><span class="MathJax_Preview">a \atop b</span><script type="math/tex">a \atop b</script></span> <code>a \atop b</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">e^x</span><script type="math/tex">e^x</script></span> <code>e^x</code></td>
+<td align="left"><span><span class="MathJax_Preview">\overset{!}{=}</span><script type="math/tex">\overset{!}{=}</script></span> <code>\overset{!}{=}</code></td>
+<td align="left"><span><span class="MathJax_Preview">a\raisebox{0.25em}{b}c</span><script type="math/tex">a\raisebox{0.25em}{b}c</script></span> <code>a\raisebox{0.25em}{b}c</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">_u^o</span><script type="math/tex">_u^o</script></span> <code>_u^o</code></td>
+<td align="left"><span><span class="MathJax_Preview">\underset{!}{=}</span><script type="math/tex">\underset{!}{=}</script></span> <code>\underset{!}{=}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sum\limits_{\substack{0&lt;i&lt;m\\0&lt;j&lt;n}}</span><script type="math/tex">\sum\limits_{\substack{0<i<m\\0<j<n}}</script></span> <code>\sum_{\substack{0&lt;i&lt;m\\0&lt;j&lt;n}}</code></td>
+</tr>
+</tbody>
+</table>
+<p>如果<code>\raisebox</code>的第二个参数嵌套在<code>$...$</code>分隔符内，则可以包含数学运算符，当然前提是整个公式包括在<code>$$ $$</code>当中。例如<code>$$a\raisebox{0.25em}{$\frac a b$}c$$</code>的显示效果为</p>
+<div>
+<div class="MathJax_Preview">a\raisebox{0.25em}{$\frac a b$}c</div>
+<script type="math/tex; mode=display">a\raisebox{0.25em}{$\frac a b$}c</script>
+</div>
+<h2 id="_9">重叠和间距<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">{=}\mathllap{/\,}</span><script type="math/tex">{=}\mathllap{/\,}</script></span> <code>{=}\mathllap{/\,}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\left(x^{\smash{2}}\right)</span><script type="math/tex">\left(x^{\smash{2}}\right)</script></span> <code>\left(x^{\smash{2}}\right)</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\mathrlap{\,/}{=}</span><script type="math/tex">\mathrlap{\,/}{=}</script></span> <code>\mathrlap{\,/}{=}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sqrt{\smash[b]{y}}</span><script type="math/tex">\sqrt{\smash[b]{y}}</script></span> <code>\sqrt{\smash[b]{y}}</code></td>
+</tr>
+</tbody>
+</table>
+<p><span><span class="MathJax_Preview">\sum\limits_{\mathclap{1\le i\le j\le n}} x_{ij}</span><script type="math/tex">\sum\limits_{\mathclap{1\le i\le j\le n}} x_{ij}</script></span> <code>\sum_{\mathclap{1\le i\le j\le n}} x_{ij}</code></p>
+<p><span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>同样支持<code>\llap</code><span><span class="MathJax_Preview">^{[10]}</span><script type="math/tex">^{[10]}</script></span>，<code>\rlap</code>和<code>\clap</code>，但是它们仅能在文本模式中使用，而不是数学模式。</p>
+<p><span><span class="MathJax_Preview">[10]:</span><script type="math/tex">[10]:</script></span> 这里解释一下这个命令的用处：当我们使用巨运算符时，它的上标/下标可能过长，比如<span><span class="MathJax_Preview">\sum\limits_{1\le i\le j \le k \le n}i\times j \times k</span><script type="math/tex">\sum\limits_{1\le i\le j \le k \le n}i\times j \times k</script></span>，这样<code>i*j*k</code>离运算符较远。但是当我们用了这些指令，就可以自动缩小这个距离。</p>
+<div>
+<div class="MathJax_Preview">\sum\limits_{\mathclap{1\le i\le j \le k \le n}}i\times j \times k</div>
+<script type="math/tex; mode=display">\sum\limits_{\mathclap{1\le i\le j \le k \le n}}i\times j \times k</script>
+</div>
+<h3 id="_10">间隔<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th align="left">指令</th>
+<th align="left">备注</th>
+<th align="left">指令</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>\,</code></td>
+<td align="left"><span><span class="MathJax_Preview">\frac{3}{18}</span><script type="math/tex">\frac{3}{18}</script></span> <span><span class="MathJax_Preview">\rm em</span><script type="math/tex">\rm em</script></span><span><span class="MathJax_Preview">^{[11]}</span><script type="math/tex">^{[11]}</script></span> 的间距</td>
+<td align="left"><code>\kern{distance}</code></td>
+<td align="left">宽度为<code>distance</code>的间距</td>
+</tr>
+<tr>
+<td align="left"><code>\thinspace</code></td>
+<td align="left"><span><span class="MathJax_Preview">\frac{3}{18}</span><script type="math/tex">\frac{3}{18}</script></span> <span><span class="MathJax_Preview">\rm em</span><script type="math/tex">\rm em</script></span>  的间距</td>
+<td align="left"><code>\mkern{distance}</code></td>
+<td align="left">宽度为<code>distance</code>的间距</td>
+</tr>
+<tr>
+<td align="left"><code>\&gt;</code></td>
+<td align="left"><span><span class="MathJax_Preview">\frac{4}{18}</span><script type="math/tex">\frac{4}{18}</script></span> <span><span class="MathJax_Preview">\rm em</span><script type="math/tex">\rm em</script></span>  的间距</td>
+<td align="left"><code>\mskip{distance}</code></td>
+<td align="left">宽度为<code>distance</code>的间距</td>
+</tr>
+<tr>
+<td align="left"><code>\:</code></td>
+<td align="left"><span><span class="MathJax_Preview">\frac{4}{18}</span><script type="math/tex">\frac{4}{18}</script></span> <span><span class="MathJax_Preview">\rm em</span><script type="math/tex">\rm em</script></span>  的间距</td>
+<td align="left"><code>\hskip{distance}</code></td>
+<td align="left">宽度为<code>distance</code>的间距</td>
+</tr>
+<tr>
+<td align="left"><code>\medspace</code></td>
+<td align="left"><span><span class="MathJax_Preview">\frac{4}{18}</span><script type="math/tex">\frac{4}{18}</script></span> <span><span class="MathJax_Preview">\rm em</span><script type="math/tex">\rm em</script></span>  的间距</td>
+<td align="left"><code>\hspace{distance}</code></td>
+<td align="left">宽度为<code>distance</code>的间距</td>
+</tr>
+<tr>
+<td align="left"><code>\;</code></td>
+<td align="left"><span><span class="MathJax_Preview">\frac{5}{18}</span><script type="math/tex">\frac{5}{18}</script></span> <span><span class="MathJax_Preview">\rm em</span><script type="math/tex">\rm em</script></span>  间距</td>
+<td align="left"><code>\hspace*{distance}</code></td>
+<td align="left">宽度为<code>distance</code>的间距</td>
+</tr>
+<tr>
+<td align="left"><code>\thickspace</code></td>
+<td align="left"><span><span class="MathJax_Preview">\frac{5}{18}</span><script type="math/tex">\frac{5}{18}</script></span> <span><span class="MathJax_Preview">\rm em</span><script type="math/tex">\rm em</script></span>  间距</td>
+<td align="left"><code>\phantom{content}</code></td>
+<td align="left">长与高等于参数的间距</td>
+</tr>
+<tr>
+<td align="left"><code>\enspace</code></td>
+<td align="left"><span><span class="MathJax_Preview">\frac{1}{2}</span><script type="math/tex">\frac{1}{2}</script></span> <span><span class="MathJax_Preview">\rm em</span><script type="math/tex">\rm em</script></span>  间距</td>
+<td align="left"><code>\hphantom{content}</code></td>
+<td align="left">高度等于参数的间距</td>
+</tr>
+<tr>
+<td align="left"><code>\quad</code></td>
+<td align="left"><span><span class="MathJax_Preview">1</span><script type="math/tex">1</script></span> <span><span class="MathJax_Preview">\rm em</span><script type="math/tex">\rm em</script></span>  间距</td>
+<td align="left"><code>\vphantom{content}</code></td>
+<td align="left">高度等于参数的间距</td>
+</tr>
+<tr>
+<td align="left"><code>\qquad</code></td>
+<td align="left"><span><span class="MathJax_Preview">2</span><script type="math/tex">2</script></span> <span><span class="MathJax_Preview">\rm em</span><script type="math/tex">\rm em</script></span>  间距</td>
+<td align="left"><code>\!</code></td>
+<td align="left">– <span><span class="MathJax_Preview">\frac{3}{18}</span><script type="math/tex">\frac{3}{18}</script></span> <span><span class="MathJax_Preview">\rm em</span><script type="math/tex">\rm em</script></span>  间距</td>
+</tr>
+<tr>
+<td align="left"><code>~</code></td>
+<td align="left">不换行间距</td>
+<td align="left"><code>\negthinspace</code></td>
+<td align="left">– <span><span class="MathJax_Preview">\frac{3}{18}</span><script type="math/tex">\frac{3}{18}</script></span> <span><span class="MathJax_Preview">\rm em</span><script type="math/tex">\rm em</script></span>  间距</td>
+</tr>
+<tr>
+<td align="left"><code>\&lt;space&gt;</code></td>
+<td align="left">间距</td>
+<td align="left"><code>\negmedspace</code></td>
+<td align="left">– <span><span class="MathJax_Preview">\frac{4}{18}</span><script type="math/tex">\frac{4}{18}</script></span> <span><span class="MathJax_Preview">\rm em</span><script type="math/tex">\rm em</script></span>  间距</td>
+</tr>
+<tr>
+<td align="left"><code>\nobreakspace</code></td>
+<td align="left">不换行间距</td>
+<td align="left"><code>\negthickspace</code></td>
+<td align="left">– <span><span class="MathJax_Preview">\frac{5}{18}</span><script type="math/tex">\frac{5}{18}</script></span> <span><span class="MathJax_Preview">\rm em</span><script type="math/tex">\rm em</script></span>  间距</td>
+</tr>
+<tr>
+<td align="left"><code>\space</code></td>
+<td align="left">普通的空格</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><span><span class="MathJax_Preview">[11]:</span><script type="math/tex">[11]:</script></span> 有关单位，请参考下方的“单位”一段。</p>
+<h3 id="_11">提示<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<p><code>distance</code>参数可以接受任何<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>的单位。</p>
+<p><code>\kern</code>，<code>\mkern</code>，<code>\mskip</code>和<code>\hspace</code>都可以直接加上距离参数，例如，<code>\kern1em</code>可以生成一个宽度为<span><span class="MathJax_Preview">\rm 1em</span><script type="math/tex">\rm 1em</script></span>的空格。</p>
+<p><code>\mkern</code>和<code>\mskip</code>在文本模式下不起作用，并且两者都将为<code>mu</code>以外的任何单位显示警告。</p>
+<h2 id="_12">逻辑与集合符号<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+<th align="left">第三列</th>
+<th align="left">第四列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\forall</span><script type="math/tex">\forall</script></span> <code>\forall</code></td>
+<td align="left"><span><span class="MathJax_Preview">\complement</span><script type="math/tex">\complement</script></span> <code>\complement</code></td>
+<td align="left"><span><span class="MathJax_Preview">\therefore</span><script type="math/tex">\therefore</script></span> <code>\therefore</code></td>
+<td align="left"><span><span class="MathJax_Preview">\emptyset</span><script type="math/tex">\emptyset</script></span> <code>\emptyset</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\exists</span><script type="math/tex">\exists</script></span> <code>\exists</code></td>
+<td align="left"><span><span class="MathJax_Preview">\subset</span><script type="math/tex">\subset</script></span> <code>\subset</code></td>
+<td align="left"><span><span class="MathJax_Preview">\because</span><script type="math/tex">\because</script></span> <code>\because</code></td>
+<td align="left"><span><span class="MathJax_Preview">\empty</span><script type="math/tex">\empty</script></span> <code>\empty</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\exist</span><script type="math/tex">\exist</script></span> <code>\exist</code></td>
+<td align="left"><span><span class="MathJax_Preview">\supset</span><script type="math/tex">\supset</script></span> <code>\supset</code></td>
+<td align="left"><span><span class="MathJax_Preview">\mapsto</span><script type="math/tex">\mapsto</script></span> <code>\mapsto</code></td>
+<td align="left"><span><span class="MathJax_Preview">\varnothing</span><script type="math/tex">\varnothing</script></span> <code>\varnothing</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\nexists</span><script type="math/tex">\nexists</script></span> <code>\nexists</code></td>
+<td align="left"><span><span class="MathJax_Preview">\mid</span><script type="math/tex">\mid</script></span> <code>\mid</code></td>
+<td align="left"><span><span class="MathJax_Preview">\to</span><script type="math/tex">\to</script></span> <code>\to</code></td>
+<td align="left"><span><span class="MathJax_Preview">\implies</span><script type="math/tex">\implies</script></span> <code>\implies</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\in</span><script type="math/tex">\in</script></span> <code>\in</code></td>
+<td align="left"><span><span class="MathJax_Preview">\land</span><script type="math/tex">\land</script></span> <code>\land</code></td>
+<td align="left"><span><span class="MathJax_Preview">\gets</span><script type="math/tex">\gets</script></span> <code>\gets</code></td>
+<td align="left"><span><span class="MathJax_Preview">\impliedby</span><script type="math/tex">\impliedby</script></span> <code>\impliedby</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\isin</span><script type="math/tex">\isin</script></span> <code>\isin</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lor</span><script type="math/tex">\lor</script></span> <code>\lor</code></td>
+<td align="left"><span><span class="MathJax_Preview">\leftrightarrow</span><script type="math/tex">\leftrightarrow</script></span> <code>\leftrightarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\iff</span><script type="math/tex">\iff</script></span> <code>\iff</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\notin</span><script type="math/tex">\notin</script></span> <code>\notin</code></td>
+<td align="left"><span><span class="MathJax_Preview">\ni</span><script type="math/tex">\ni</script></span> <code>\ni</code></td>
+<td align="left"><span><span class="MathJax_Preview">\notni</span><script type="math/tex">\notni</script></span> <code>\notni</code></td>
+<td align="left"><span><span class="MathJax_Preview">\neg</span><script type="math/tex">\neg</script></span> <code>\neg</code> 或者 <code>\lnot</code></td>
+</tr>
+</tbody>
+</table>
+<p>你也可以直接输入这些：<span><span class="MathJax_Preview">∀∴∁∵∃∣∈∋⊂⊃∧∨↦→←↔¬ ℂ ℍ ℕ ℙ ℚ ℝ</span><script type="math/tex">∀∴∁∵∃∣∈∋⊂⊃∧∨↦→←↔¬ ℂ ℍ ℕ ℙ ℚ ℝ</script></span></p>
+<h2 id="_13">宏定义<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th align="left">显示效果</th>
+<th align="left">代码</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">x^2+x^2</span><script type="math/tex">x^2+x^2</script></span></td>
+<td align="left"><code>\def\foo{x^2} \foo + \foo</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">y^2+y^2</span><script type="math/tex">y^2+y^2</script></span></td>
+<td align="left"><code>\gdef\bar#1{#1^2} \bar{y} + \bar{y}</code></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>\global\def\名称#1#2…{定义}</code></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>\newcommand\名称[参数数量]{定义}</code></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>\renewcommand\名称[参数数量]{定义}</code></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>\providecommand\名称[参数数量]{定义}</code></td>
+</tr>
+</tbody>
+</table>
+<p>你同样可以在<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>的渲染选项中定义宏。<span><span class="MathJax_Preview">^{[12]}</span><script type="math/tex">^{[12]}</script></span></p>
+<p>宏最多接受九个参数：<code>#1</code>，<code>#2</code>等。</p>
+<p> gdef和 global  def宏将在数学表达式之间保留。</p>
+<p>这些都是合法的指令名称：</p>
+<p><code>\char</code> <code>\mathchoice</code> <code>\TextOrMath</code> <code>\@ifstar</code> <code>\@ifnextchar</code> <code>\@firstoftwo</code> <code>\@secondoftwo</code> <code>\relax</code></p>
+<p>@是命令的有效字符，就像你使用了<code>\makeatletter</code>指令。<span><span class="MathJax_Preview">^{[13]}</span><script type="math/tex">^{[13]}</script></span></p>
+<p><span><span class="MathJax_Preview">[12]:</span><script type="math/tex">[12]:</script></span> 宏定义类似于<span><span class="MathJax_Preview">\rm C++</span><script type="math/tex">\rm C++</script></span>中的<code>\define</code>，可以简化代码，也可以嵌套。</p>
+<p>可能有人不怎么清楚宏定义的具体用法，这里举个栗子：</p>
+<p>假设我们有一段代码：</p>
+<div>
+<div class="MathJax_Preview">
+\color{red}{\text{Hello world!!}}\\
+\color{red}{\text{Hello world!!}}\\
+\color{red}{\text{Hello world!!}}\\
+</div>
+<script type="math/tex; mode=display">
+\color{red}{\text{Hello world!!}}\\
+\color{red}{\text{Hello world!!}}\\
+\color{red}{\text{Hello world!!}}\\
+</script>
+</div>
+<p><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="sb">$$</span><span class="nb"></span>
+<span class="nv">\color</span><span class="nb">{red}{</span><span class="nv">\text</span><span class="nb">{Hello world</span><span class="o">!!</span><span class="nb">}}</span><span class="nv">\\</span><span class="nb"></span>
+<span class="nv">\color</span><span class="nb">{red}{</span><span class="nv">\text</span><span class="nb">{Hello world</span><span class="o">!!</span><span class="nb">}}</span><span class="nv">\\</span><span class="nb"></span>
+<span class="nv">\color</span><span class="nb">{red}{</span><span class="nv">\text</span><span class="nb">{Hello world</span><span class="o">!!</span><span class="nb">}}</span><span class="nv">\\</span><span class="nb"></span>
+<span class="s">$$</span>
+</code></pre></div>
+</td></tr></table>
+但是这样非常麻烦，所以我们可以用宏定义简化一下。</p>
+<p>$$
+\def{\HelloWorld}{\color{red}{\text{Hello world!!}}\}
+\HelloWorld\HelloWorld\HelloWorld
+$$
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="sb">$$</span><span class="nb"></span>
+<span class="nv">\def</span><span class="nb">{</span><span class="nv">\HelloWorld</span><span class="nb">}{</span><span class="nv">\color</span><span class="nb">{red}{</span><span class="nv">\text</span><span class="nb">{Hello world</span><span class="o">!!</span><span class="nb">}}</span><span class="nv">\\</span><span class="nb">}</span>
+<span class="nv">\HelloWorld\HelloWorld\HelloWorld</span><span class="nb"></span>
+<span class="s">$$</span>
+</code></pre></div>
+</td></tr></table></p>
+<p>顺带解释一下一些细节。 </p>
+<ul>
+<li>
+<p><code>\def,\newcommand</code>之类都可以直接加自定义指令的名称，而不需要加括号。比如<code>\def\kkksc03{AK IOI!}</code>。</p>
+</li>
+<li>
+<p><code>\gdef,\global\def</code>用处比较诡异，一般用不到。和<code>\def</code>的区别是，<code>\def</code>如果在一定嵌套中定义，只能用在有限的定义域内。而<code>\gdef</code>一类相当于直接在全局定义。可能有点模糊，这里举个栗子：<code>{\def\t{2333} \t}</code>这句话定义后的<code>\t</code>只能在括号中使用，比如<code>{\def\t{2333} \t}</code>。而括号外会失效。<code>{\def\t{2333}} \t</code>会渲染失败。而如果使用<code>\gdef</code>一类，就会作用于“全局”。<code>{\gdef\t{2333}} \t</code>成功渲染。</p>
+</li>
+<li>
+<p>关于下面三个<code>command</code>的关系：<code>\newcommand</code>是定义一个新的指令，如果已经有同名指令，就会渲染失败。<code>\renewcommand</code>是重新定义指令。但是如果原来没有这个指令，也会渲染失败（迷惑行为）。<code>\providecommand</code>综合了上面两个指令的缺点，满足**如果原来没有这个指令，就会定义一个；否则重新定义**。（更迷惑了好不好）。</p>
+</li>
+<li>
+<p>关于覆写的问题：正如上面提到的，<code>\def</code>与<code>\command</code>系列一样，只能作用于一定范围内，因此覆写的效果仅支持于这个范围。但是，如果将这些指令放在代码开头，就相当于全局定义了。<code>\gdef</code>范围更广。<code>\newcommand</code>不支持覆写；<code>\renewcommand</code>只支持覆写；<code>\providecommand</code>和<code>\def</code>都支持覆写。</p>
+</li>
+<li>
+<p>关于多参数：首先，<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>不支持不定参。然后，<code>\def</code>系列的参数可以这样定义：<code>\def{\qwq}#1#2#3{#1+#2+#3=?}</code>要强调的是，参数只能从<code>#1</code>开始排列，并且递增。比如，你要⑨个参数，**只能**这样写：<code>\def{\名称}#1#2#3#4#5#6#7#8#9{定义}</code>（非常迷惑）。而<code>command</code>系列相对方便，<code>\newcommand{\名称}[参数数量]{定义}</code>就可以了。</p>
+</li>
+<li>
+<p>(总结：遇事不决用<code>\def</code>，全局定义用<code>\def</code>，多参数还能用<code>\def</code>，<del><code>\def</code>天下第一</del>)</p>
+</li>
+</ul>
+<p><span><span class="MathJax_Preview">[13]:</span><script type="math/tex">[13]:</script></span> 解释一下<code>\makeatletter</code>指令：因为部分原因，我们在<span><span class="MathJax_Preview">\TeX</span><script type="math/tex">\TeX</script></span>中无法使用<code>@</code>作为指令名称，除非使用这个指令。而<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>中的<code>@</code>则不需要，所以说“就像你使用了<code>\makeatletter</code>指令”。</p>
+<h2 id="_14">运算符<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h2>
+<h3 id="1414">巨型运算符<span><span class="MathJax_Preview">^{[14]}</span><script type="math/tex">^{[14]}</script></span><a class="headerlink" href="#1414" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+<th align="left">第三列</th>
+<th align="left">第四列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\sum</span><script type="math/tex">\sum</script></span> <code>\sum</code></td>
+<td align="left"><span><span class="MathJax_Preview">\prod</span><script type="math/tex">\prod</script></span> <code>\prod</code></td>
+<td align="left"><span><span class="MathJax_Preview">\bigotimes</span><script type="math/tex">\bigotimes</script></span> <code>\bigotimes</code></td>
+<td align="left"><span><span class="MathJax_Preview">\bigvee</span><script type="math/tex">\bigvee</script></span> <code>\bigvee</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\int</span><script type="math/tex">\int</script></span> <code>\int</code></td>
+<td align="left"><span><span class="MathJax_Preview">\coprod</span><script type="math/tex">\coprod</script></span> <code>\coprod</code></td>
+<td align="left"><span><span class="MathJax_Preview">\bigoplus</span><script type="math/tex">\bigoplus</script></span> <code>\bigoplus</code></td>
+<td align="left"><span><span class="MathJax_Preview">\bigwedge</span><script type="math/tex">\bigwedge</script></span> <code>\bigwedge</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\iint</span><script type="math/tex">\iint</script></span> <code>\iint</code></td>
+<td align="left"><span><span class="MathJax_Preview">\intop</span><script type="math/tex">\intop</script></span> <code>\intop</code></td>
+<td align="left"><span><span class="MathJax_Preview">\bigodot</span><script type="math/tex">\bigodot</script></span> <code>\bigodot</code></td>
+<td align="left"><span><span class="MathJax_Preview">\bigcap</span><script type="math/tex">\bigcap</script></span> <code>\bigcap</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\iiint</span><script type="math/tex">\iiint</script></span> <code>\iiint</code></td>
+<td align="left"><span><span class="MathJax_Preview">\smallint</span><script type="math/tex">\smallint</script></span> <code>\smallint</code></td>
+<td align="left"><span><span class="MathJax_Preview">\biguplus</span><script type="math/tex">\biguplus</script></span> <code>\biguplus</code></td>
+<td align="left"><span><span class="MathJax_Preview">\bigcup</span><script type="math/tex">\bigcup</script></span> <code>\bigcup</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\oint</span><script type="math/tex">\oint</script></span> <code>\oint</code></td>
+<td align="left"><span><span class="MathJax_Preview">\oiint</span><script type="math/tex">\oiint</script></span> <code>\oiint</code></td>
+<td align="left"><span><span class="MathJax_Preview">\oiiint</span><script type="math/tex">\oiiint</script></span> <code>\oiiint</code></td>
+<td align="left"><span><span class="MathJax_Preview">\bigsqcup</span><script type="math/tex">\bigsqcup</script></span> <code>\bigsqcup</code></td>
+</tr>
+</tbody>
+</table>
+<p>当然，你也可以直接输入这些： <span><span class="MathJax_Preview">∫∬∭∮∏∐∑⋀⋁⋂⋃⨀⨁⨂⨄⨆</span><script type="math/tex">∫∬∭∮∏∐∑⋀⋁⋂⋃⨀⨁⨂⨄⨆</script></span></p>
+<p><span><span class="MathJax_Preview">[14]:</span><script type="math/tex">[14]:</script></span> 这里的巨型运算符在居中情况下自动变大，都支持上下标摆放在上下两侧。</p>
+<h3 id="_15">二元运算符<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+<th align="left">第三列</th>
+<th align="left">第四列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">+</span><script type="math/tex">+</script></span> <code>+</code></td>
+<td align="left"><span><span class="MathJax_Preview">\cdot</span><script type="math/tex">\cdot</script></span> <code>\cdot</code></td>
+<td align="left"><span><span class="MathJax_Preview">\gtrdot</span><script type="math/tex">\gtrdot</script></span> <code>\gtrdot</code></td>
+<td align="left"><span><span class="MathJax_Preview">x \pmod a</span><script type="math/tex">x \pmod a</script></span> <code>x \pmod a</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">-</span><script type="math/tex">-</script></span> <code>-</code></td>
+<td align="left"><span><span class="MathJax_Preview">\cdotp</span><script type="math/tex">\cdotp</script></span> <code>\cdotp</code></td>
+<td align="left"><span><span class="MathJax_Preview">\intercal</span><script type="math/tex">\intercal</script></span> <code>\intercal</code></td>
+<td align="left"><span><span class="MathJax_Preview">x \pod a</span><script type="math/tex">x \pod a</script></span> <code>x \pod a</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">/</span><script type="math/tex">/</script></span> <code>/</code></td>
+<td align="left"><span><span class="MathJax_Preview">\centerdot</span><script type="math/tex">\centerdot</script></span> <code>\centerdot</code></td>
+<td align="left"><span><span class="MathJax_Preview">\land</span><script type="math/tex">\land</script></span> <code>\land</code></td>
+<td align="left"><span><span class="MathJax_Preview">\rhd</span><script type="math/tex">\rhd</script></span> <code>\rhd</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">*</span><script type="math/tex">*</script></span> <code>*</code></td>
+<td align="left"><span><span class="MathJax_Preview">\circ</span><script type="math/tex">\circ</script></span> <code>\circ</code></td>
+<td align="left"><span><span class="MathJax_Preview">\leftthreetimes</span><script type="math/tex">\leftthreetimes</script></span> <code>\leftthreetimes</code></td>
+<td align="left"><span><span class="MathJax_Preview">\rightthreetimes</span><script type="math/tex">\rightthreetimes</script></span> <code>\rightthreetimes</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\amalg</span><script type="math/tex">\amalg</script></span> <code>\amalg</code></td>
+<td align="left"><span><span class="MathJax_Preview">\circledast</span><script type="math/tex">\circledast</script></span> <code>\circledast</code></td>
+<td align="left"><span><span class="MathJax_Preview">\ldotp</span><script type="math/tex">\ldotp</script></span> <code>\ldotp</code></td>
+<td align="left"><span><span class="MathJax_Preview">\rtimes</span><script type="math/tex">\rtimes</script></span> <code>\rtimes</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\And</span><script type="math/tex">\And</script></span> <code>\And</code></td>
+<td align="left"><span><span class="MathJax_Preview">\circledcirc</span><script type="math/tex">\circledcirc</script></span> <code>\circledcirc</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lor</span><script type="math/tex">\lor</script></span> <code>\lor</code></td>
+<td align="left"><span><span class="MathJax_Preview">\setminus</span><script type="math/tex">\setminus</script></span> <code>\setminus</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\ast</span><script type="math/tex">\ast</script></span> <code>\ast</code></td>
+<td align="left"><span><span class="MathJax_Preview">\circleddash</span><script type="math/tex">\circleddash</script></span> <code>\circleddash</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lessdot</span><script type="math/tex">\lessdot</script></span> <code>\lessdot</code></td>
+<td align="left"><span><span class="MathJax_Preview">\smallsetminus</span><script type="math/tex">\smallsetminus</script></span> <code>\smallsetminus</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\barwedge</span><script type="math/tex">\barwedge</script></span> <code>\barwedge</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Cup</span><script type="math/tex">\Cup</script></span> <code>\Cup</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lhd</span><script type="math/tex">\lhd</script></span> <code>\lhd</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sqcap</span><script type="math/tex">\sqcap</script></span> <code>\sqcap</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\bigcirc</span><script type="math/tex">\bigcirc</script></span> <code>\bigcirc</code></td>
+<td align="left"><span><span class="MathJax_Preview">\cup</span><script type="math/tex">\cup</script></span> <code>\cup</code></td>
+<td align="left"><span><span class="MathJax_Preview">\ltimes</span><script type="math/tex">\ltimes</script></span> <code>\ltimes</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sqcup</span><script type="math/tex">\sqcup</script></span> <code>\sqcup</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\bmod</span><script type="math/tex">\bmod</script></span> <code>\bmod</code></td>
+<td align="left"><span><span class="MathJax_Preview">\curlyvee</span><script type="math/tex">\curlyvee</script></span> <code>\curlyvee</code></td>
+<td align="left"><span><span class="MathJax_Preview">x \mod a</span><script type="math/tex">x \mod a</script></span> <code>x\mod a</code></td>
+<td align="left"><span><span class="MathJax_Preview">\times</span><script type="math/tex">\times</script></span> <code>\times</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\boxdot</span><script type="math/tex">\boxdot</script></span> <code>\boxdot</code></td>
+<td align="left"><span><span class="MathJax_Preview">\curlywedge</span><script type="math/tex">\curlywedge</script></span> <code>\curlywedge</code></td>
+<td align="left"><span><span class="MathJax_Preview">\mp</span><script type="math/tex">\mp</script></span> <code>\mp</code></td>
+<td align="left"><span><span class="MathJax_Preview">\unlhd</span><script type="math/tex">\unlhd</script></span> <code>\unlhd</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\boxminus</span><script type="math/tex">\boxminus</script></span> <code>\boxminus</code></td>
+<td align="left"><span><span class="MathJax_Preview">\div</span><script type="math/tex">\div</script></span> <code>\div</code></td>
+<td align="left"><span><span class="MathJax_Preview">\odot</span><script type="math/tex">\odot</script></span> <code>\odot</code></td>
+<td align="left"><span><span class="MathJax_Preview">\unrhd</span><script type="math/tex">\unrhd</script></span> <code>\unrhd</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\boxplus</span><script type="math/tex">\boxplus</script></span> <code>\boxplus</code></td>
+<td align="left"><span><span class="MathJax_Preview">\divideontimes</span><script type="math/tex">\divideontimes</script></span> <code>\divideontimes</code></td>
+<td align="left"><span><span class="MathJax_Preview">\ominus</span><script type="math/tex">\ominus</script></span> <code>\ominus</code></td>
+<td align="left"><span><span class="MathJax_Preview">\uplus</span><script type="math/tex">\uplus</script></span> <code>\uplus</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\boxtimes</span><script type="math/tex">\boxtimes</script></span> <code>\boxtimes</code></td>
+<td align="left"><span><span class="MathJax_Preview">\dotplus</span><script type="math/tex">\dotplus</script></span> <code>\dotplus</code></td>
+<td align="left"><span><span class="MathJax_Preview">\oplus</span><script type="math/tex">\oplus</script></span> <code>\oplus</code></td>
+<td align="left"><span><span class="MathJax_Preview">\vee</span><script type="math/tex">\vee</script></span> <code>\vee</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\bullet</span><script type="math/tex">\bullet</script></span> <code>\bullet</code></td>
+<td align="left"><span><span class="MathJax_Preview">\doublebarwedge</span><script type="math/tex">\doublebarwedge</script></span> <code>\doublebarwedge</code></td>
+<td align="left"><span><span class="MathJax_Preview">\otimes</span><script type="math/tex">\otimes</script></span> <code>\otimes</code></td>
+<td align="left"><span><span class="MathJax_Preview">\veebar</span><script type="math/tex">\veebar</script></span> <code>\veebar</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\Cap</span><script type="math/tex">\Cap</script></span> <code>\Cap</code></td>
+<td align="left"><span><span class="MathJax_Preview">\doublecap</span><script type="math/tex">\doublecap</script></span> <code>\doublecap</code></td>
+<td align="left"><span><span class="MathJax_Preview">\oslash</span><script type="math/tex">\oslash</script></span> <code>\oslash</code></td>
+<td align="left"><span><span class="MathJax_Preview">\wedge</span><script type="math/tex">\wedge</script></span> <code>\wedge</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\cap</span><script type="math/tex">\cap</script></span> <code>\cap</code></td>
+<td align="left"><span><span class="MathJax_Preview">\doublecup</span><script type="math/tex">\doublecup</script></span> <code>\doublecup</code></td>
+<td align="left"><span><span class="MathJax_Preview">\pm</span><script type="math/tex">\pm</script></span> <code>\pm</code> 或者<code>\plusmn</code></td>
+<td align="left"><span><span class="MathJax_Preview">\wr</span><script type="math/tex">\wr</script></span> <code>\wr</code></td>
+</tr>
+</tbody>
+</table>
+<p>当然，你也可以直接输入这些：<span><span class="MathJax_Preview">+−/∗⋅±×÷∓∔∧∨∩∪≀⊎⊓⊔⊕⊖⊗⊘⊙⊚⊛⊝</span><script type="math/tex">+−/∗⋅±×÷∓∔∧∨∩∪≀⊎⊓⊔⊕⊖⊗⊘⊙⊚⊛⊝</script></span></p>
+<h3 id="_16">分数和二项式<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+<th align="left">第三列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\frac{a}{b}</span><script type="math/tex">\frac{a}{b}</script></span> <code>\frac{a}{b}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\tfrac{a}{b}</span><script type="math/tex">\tfrac{a}{b}</script></span> <code>\tfrac{a}{b}</code><span><span class="MathJax_Preview">^{[15]}</span><script type="math/tex">^{[15]}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\genfrac(]{2pt}{1}a{a+1}</span><script type="math/tex">\genfrac(]{2pt}{1}a{a+1}</script></span> <code>\genfrac (]{2pt}{1}a{a+1}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">{a \over b}</span><script type="math/tex">{a \over b}</script></span> <code>{a \over b}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\dfrac{a}{b}</span><script type="math/tex">\dfrac{a}{b}</script></span> <code>\dfrac{a}{b}</code></td>
+<td align="left"><span><span class="MathJax_Preview">{a\above{2pt}b+1}</span><script type="math/tex">{a\above{2pt}b+1}</script></span> <code>{a \above{2pt} b+1}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\cfrac{a}{1+\cfrac{1}{b}}</span><script type="math/tex">\cfrac{a}{1+\cfrac{1}{b}}</script></span> <code>\cfrac{a}{1 +\cfrac{1}{b}}</code></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\binom{n}{k}</span><script type="math/tex">\binom{n}{k}</script></span> <code>\binom{n}{k}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\dbinom{n}{k}</span><script type="math/tex">\dbinom{n}{k}</script></span> <code>\dbinom{n}{k}</code></td>
+<td align="left"><span><span class="MathJax_Preview">{n\brace k}</span><script type="math/tex">{n\brace k}</script></span> <code>{n\brace k}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">{n \choose k}</span><script type="math/tex">{n \choose k}</script></span> <code>{n \choose k}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\tbinom{n}{k}</span><script type="math/tex">\tbinom{n}{k}</script></span> <code>\tbinom{n}{k}</code></td>
+<td align="left"><span><span class="MathJax_Preview">{n\brack k}</span><script type="math/tex">{n\brack k}</script></span> <code>{n\brack k}</code></td>
+</tr>
+</tbody>
+</table>
+<p><span><span class="MathJax_Preview">[15]:</span><script type="math/tex">[15]:</script></span> 在洛谷讨论区的<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>版本中，有个<span><span class="MathJax_Preview">\rm Bug</span><script type="math/tex">\rm Bug</script></span>：嵌套使用<code>\tfrac{}{}</code>会导致字体膨胀。</p>
+<h3 id="_17">数学运算符<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+<th align="left">第三列</th>
+<th align="left">第四列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\arcsin</span><script type="math/tex">\arcsin</script></span> <code>\arcsin</code></td>
+<td align="left"><span><span class="MathJax_Preview">\cotg</span><script type="math/tex">\cotg</script></span> <code>\cotg</code></td>
+<td align="left"><span><span class="MathJax_Preview">\ln</span><script type="math/tex">\ln</script></span> <code>\ln</code></td>
+<td align="left"><span><span class="MathJax_Preview">\det</span><script type="math/tex">\det</script></span> <code>\det</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\arccos</span><script type="math/tex">\arccos</script></span> <code>\arccos</code></td>
+<td align="left"><span><span class="MathJax_Preview">\coth</span><script type="math/tex">\coth</script></span> <code>\coth</code></td>
+<td align="left"><span><span class="MathJax_Preview">\log</span><script type="math/tex">\log</script></span> <code>\log</code></td>
+<td align="left"><span><span class="MathJax_Preview">\gcd</span><script type="math/tex">\gcd</script></span> <code>\gcd</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\arctan</span><script type="math/tex">\arctan</script></span> <code>\arctan</code></td>
+<td align="left"><span><span class="MathJax_Preview">\csc</span><script type="math/tex">\csc</script></span> <code>\csc</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sec</span><script type="math/tex">\sec</script></span> <code>\sec</code></td>
+<td align="left"><span><span class="MathJax_Preview">\inf</span><script type="math/tex">\inf</script></span> <code>\inf</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\arctg</span><script type="math/tex">\arctg</script></span> <code>\arctg</code></td>
+<td align="left"><span><span class="MathJax_Preview">\ctg</span><script type="math/tex">\ctg</script></span> <code>\ctg</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sin</span><script type="math/tex">\sin</script></span> <code>\sin</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lim</span><script type="math/tex">\lim</script></span> <code>\lim</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\arcctg</span><script type="math/tex">\arcctg</script></span> <code>\arcctg</code></td>
+<td align="left"><span><span class="MathJax_Preview">\cth</span><script type="math/tex">\cth</script></span> <code>\cth</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sinh</span><script type="math/tex">\sinh</script></span> <code>\sinh</code></td>
+<td align="left"><span><span class="MathJax_Preview">\liminf</span><script type="math/tex">\liminf</script></span> <code>\liminf</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\arg</span><script type="math/tex">\arg</script></span> <code>\arg</code></td>
+<td align="left"><span><span class="MathJax_Preview">\deg</span><script type="math/tex">\deg</script></span> <code>\deg</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sh</span><script type="math/tex">\sh</script></span> <code>\sh</code></td>
+<td align="left"><span><span class="MathJax_Preview">\limsup</span><script type="math/tex">\limsup</script></span> <code>\limsup</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\ch</span><script type="math/tex">\ch</script></span> <code>\ch</code></td>
+<td align="left"><span><span class="MathJax_Preview">\dim</span><script type="math/tex">\dim</script></span> <code>\dim</code></td>
+<td align="left"><span><span class="MathJax_Preview">\tan</span><script type="math/tex">\tan</script></span> <code>\tan</code></td>
+<td align="left"><span><span class="MathJax_Preview">\max</span><script type="math/tex">\max</script></span> <code>\max</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\cos</span><script type="math/tex">\cos</script></span> <code>\cos</code></td>
+<td align="left"><span><span class="MathJax_Preview">\exp</span><script type="math/tex">\exp</script></span> <code>\exp</code></td>
+<td align="left"><span><span class="MathJax_Preview">\tanh</span><script type="math/tex">\tanh</script></span> <code>\tanh</code></td>
+<td align="left"><span><span class="MathJax_Preview">\min</span><script type="math/tex">\min</script></span> <code>\min</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\cosec</span><script type="math/tex">\cosec</script></span> <code>\cosec</code></td>
+<td align="left"><span><span class="MathJax_Preview">\hom</span><script type="math/tex">\hom</script></span> <code>\hom</code></td>
+<td align="left"><span><span class="MathJax_Preview">\tg</span><script type="math/tex">\tg</script></span> <code>\tg</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Pr</span><script type="math/tex">\Pr</script></span> <code>\Pr</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\cosh</span><script type="math/tex">\cosh</script></span> <code>\cosh</code></td>
+<td align="left"><span><span class="MathJax_Preview">\ker</span><script type="math/tex">\ker</script></span> <code>\ker</code></td>
+<td align="left"><span><span class="MathJax_Preview">\th</span><script type="math/tex">\th</script></span> <code>\th</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sup</span><script type="math/tex">\sup</script></span> <code>\sup</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\cot</span><script type="math/tex">\cot</script></span> <code>\cot</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lg</span><script type="math/tex">\lg</script></span> <code>\lg</code></td>
+<td align="left"><span><span class="MathJax_Preview">\argmax</span><script type="math/tex">\argmax</script></span> <code>\argmax</code></td>
+<td align="left"><span><span class="MathJax_Preview">\argmin</span><script type="math/tex">\argmin</script></span> <code>\argmin</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\plim</span><script type="math/tex">\plim</script></span> <code>\plim</code></td>
+<td align="left"><span><span class="MathJax_Preview">\operatorname{f}</span><script type="math/tex">\operatorname{f}</script></span> <code>\operatorname{f}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\operatorname*{f}</span><script type="math/tex">\operatorname*{f}</script></span> <code>\operatorname*{f}</code></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p>参数显示在右侧的公式，如<span><span class="MathJax_Preview">\sum_{i=1}^{n}</span><script type="math/tex">\sum_{i=1}^{n}</script></span>可以使用<code>\limits</code>强行显示在上下侧，<span><span class="MathJax_Preview">\sum\limits_{i=1}^{n}</span><script type="math/tex">\sum\limits_{i=1}^{n}</script></span>，<code>\sum\limits_{i=1}^{n}</code></p>
+<h3 id="_18">开根<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
+<p><span><span class="MathJax_Preview">\sqrt{x}</span><script type="math/tex">\sqrt{x}</script></span> <code>\sqrt{x}</code></p>
+<p><span><span class="MathJax_Preview">\sqrt[3]{x}</span><script type="math/tex">\sqrt[3]{x}</script></span> <code>\sqrt[3]{x}</code></p>
+<h3 id="_19">关系指令<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h3>
+<p><span><span class="MathJax_Preview">\stackrel{!}{=}</span><script type="math/tex">\stackrel{!}{=}</script></span> <code>\stackrel{!}{=}</code></p>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+<th align="left">第三列</th>
+<th align="left">第四列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">=</span><script type="math/tex">=</script></span> <code>=</code></td>
+<td align="left"><span><span class="MathJax_Preview">\eqcirc</span><script type="math/tex">\eqcirc</script></span> <code>\eqcirc</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lesseqgtr</span><script type="math/tex">\lesseqgtr</script></span> <code>\lesseqgtr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sqsupset</span><script type="math/tex">\sqsupset</script></span> <code>\sqsupset</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">&lt;</span><script type="math/tex"><</script></span> <code>&lt;</code></td>
+<td align="left"><span><span class="MathJax_Preview">\eqcolon</span><script type="math/tex">\eqcolon</script></span> <code>\eqcolon</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lesseqqgtr</span><script type="math/tex">\lesseqqgtr</script></span> <code>\lesseqqgtr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sqsupseteq</span><script type="math/tex">\sqsupseteq</script></span> <code>\sqsupseteq</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">&gt;</span><script type="math/tex">></script></span> <code>&gt;</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Eqcolon</span><script type="math/tex">\Eqcolon</script></span> <code>\Eqcolon</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lessgtr</span><script type="math/tex">\lessgtr</script></span> <code>\lessgtr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Subset</span><script type="math/tex">\Subset</script></span> <code>\Subset</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">:</span><script type="math/tex">:</script></span> <code>:</code></td>
+<td align="left"><span><span class="MathJax_Preview">\eqqcolon</span><script type="math/tex">\eqqcolon</script></span> <code>\eqqcolon</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lesssim</span><script type="math/tex">\lesssim</script></span> <code>\lesssim</code></td>
+<td align="left"><span><span class="MathJax_Preview">\subset</span><script type="math/tex">\subset</script></span> <code>\subset</code> 或者 <code>\sub</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\approx</span><script type="math/tex">\approx</script></span> <code>\approx</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Eqqcolon</span><script type="math/tex">\Eqqcolon</script></span> <code>\Eqqcolon</code></td>
+<td align="left"><span><span class="MathJax_Preview">\ll</span><script type="math/tex">\ll</script></span> <code>\ll</code></td>
+<td align="left"><span><span class="MathJax_Preview">\subseteq</span><script type="math/tex">\subseteq</script></span> <code>\subseteq</code> 或者 <code>\sube</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\approxeq</span><script type="math/tex">\approxeq</script></span> <code>\approxeq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\eqsim</span><script type="math/tex">\eqsim</script></span> <code>\eqsim</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lll</span><script type="math/tex">\lll</script></span> <code>\lll</code></td>
+<td align="left"><span><span class="MathJax_Preview">\subseteqq</span><script type="math/tex">\subseteqq</script></span> <code>\subseteqq</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\asymp</span><script type="math/tex">\asymp</script></span> <code>\asymp</code></td>
+<td align="left"><span><span class="MathJax_Preview">\eqslantgtr</span><script type="math/tex">\eqslantgtr</script></span> <code>\eqslantgtr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\llless</span><script type="math/tex">\llless</script></span> <code>\llless</code></td>
+<td align="left"><span><span class="MathJax_Preview">\succ</span><script type="math/tex">\succ</script></span> <code>\succ</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\backepsilon</span><script type="math/tex">\backepsilon</script></span> <code>\backepsilon</code></td>
+<td align="left"><span><span class="MathJax_Preview">\eqslantless</span><script type="math/tex">\eqslantless</script></span> <code>\eqslantless</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lt</span><script type="math/tex">\lt</script></span> <code>\lt</code></td>
+<td align="left"><span><span class="MathJax_Preview">\succapprox</span><script type="math/tex">\succapprox</script></span> <code>\succapprox</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\backsim</span><script type="math/tex">\backsim</script></span> <code>\backsim</code></td>
+<td align="left"><span><span class="MathJax_Preview">\equiv</span><script type="math/tex">\equiv</script></span> <code>\equiv</code></td>
+<td align="left"><span><span class="MathJax_Preview">\mid</span><script type="math/tex">\mid</script></span> <code>\mid</code></td>
+<td align="left"><span><span class="MathJax_Preview">\succcurlyeq</span><script type="math/tex">\succcurlyeq</script></span> <code>\succcurlyeq</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\backsimeq</span><script type="math/tex">\backsimeq</script></span> <code>\backsimeq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\fallingdotseq</span><script type="math/tex">\fallingdotseq</script></span> <code>\fallingdotseq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\models</span><script type="math/tex">\models</script></span> <code>\models</code></td>
+<td align="left"><span><span class="MathJax_Preview">\succeq</span><script type="math/tex">\succeq</script></span> <code>\succeq</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\between</span><script type="math/tex">\between</script></span> <code>\between</code></td>
+<td align="left"><span><span class="MathJax_Preview">\frown</span><script type="math/tex">\frown</script></span> <code>\frown</code></td>
+<td align="left"><span><span class="MathJax_Preview">\multimap</span><script type="math/tex">\multimap</script></span> <code>\multimap</code></td>
+<td align="left"><span><span class="MathJax_Preview">\succsim</span><script type="math/tex">\succsim</script></span> <code>\succsim</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\bowtie</span><script type="math/tex">\bowtie</script></span> <code>\bowtie</code></td>
+<td align="left"><span><span class="MathJax_Preview">\ge</span><script type="math/tex">\ge</script></span> <code>\ge</code></td>
+<td align="left"><span><span class="MathJax_Preview">\owns</span><script type="math/tex">\owns</script></span> <code>\owns</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Supset</span><script type="math/tex">\Supset</script></span> <code>\Supset</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\bumpeq</span><script type="math/tex">\bumpeq</script></span> <code>\bumpeq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\geq</span><script type="math/tex">\geq</script></span> <code>\geq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\parallel</span><script type="math/tex">\parallel</script></span> <code>\parallel</code></td>
+<td align="left"><span><span class="MathJax_Preview">\supset</span><script type="math/tex">\supset</script></span> <code>\supset</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\Bumpeq</span><script type="math/tex">\Bumpeq</script></span> <code>\Bumpeq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\geqq</span><script type="math/tex">\geqq</script></span> <code>\geqq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\perp</span><script type="math/tex">\perp</script></span> <code>\perp</code></td>
+<td align="left"><span><span class="MathJax_Preview">\supseteq</span><script type="math/tex">\supseteq</script></span> <code>\supseteq</code> 或者 <code>\supe</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\circeq</span><script type="math/tex">\circeq</script></span> <code>\circeq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\geqslant</span><script type="math/tex">\geqslant</script></span> <code>\geqslant</code></td>
+<td align="left"><span><span class="MathJax_Preview">\pitchfork⋔</span><script type="math/tex">\pitchfork⋔</script></span> <code>\pitchfork</code></td>
+<td align="left"><span><span class="MathJax_Preview">\supseteqq</span><script type="math/tex">\supseteqq</script></span> <code>\supseteqq</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\colonapprox</span><script type="math/tex">\colonapprox</script></span> <code>\colonapprox</code></td>
+<td align="left"><span><span class="MathJax_Preview">\gg</span><script type="math/tex">\gg</script></span> <code>\gg</code></td>
+<td align="left"><span><span class="MathJax_Preview">\prec</span><script type="math/tex">\prec</script></span> <code>\prec</code></td>
+<td align="left"><span><span class="MathJax_Preview">\thickapprox</span><script type="math/tex">\thickapprox</script></span> <code>\thickapprox</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\Colonapprox</span><script type="math/tex">\Colonapprox</script></span> <code>\Colonapprox</code></td>
+<td align="left"><span><span class="MathJax_Preview">\ggg</span><script type="math/tex">\ggg</script></span> <code>\ggg</code></td>
+<td align="left"><span><span class="MathJax_Preview">\precapprox</span><script type="math/tex">\precapprox</script></span> <code>\precapprox</code></td>
+<td align="left"><span><span class="MathJax_Preview">\thicksim</span><script type="math/tex">\thicksim</script></span> <code>\thicksim</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\coloneq</span><script type="math/tex">\coloneq</script></span> <code>\coloneq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\gggtr</span><script type="math/tex">\gggtr</script></span> <code>\gggtr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\preccurlyeq</span><script type="math/tex">\preccurlyeq</script></span> <code>\preccurlyeq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\trianglelefteq</span><script type="math/tex">\trianglelefteq</script></span> <code>\trianglelefteq</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\Coloneq</span><script type="math/tex">\Coloneq</script></span> <code>\Coloneq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\gt</span><script type="math/tex">\gt</script></span> <code>\gt</code></td>
+<td align="left"><span><span class="MathJax_Preview">\preceq</span><script type="math/tex">\preceq</script></span> <code>\preceq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\triangleq</span><script type="math/tex">\triangleq</script></span> <code>\triangleq</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\coloneqq</span><script type="math/tex">\coloneqq</script></span> <code>\coloneqq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\gtrapprox</span><script type="math/tex">\gtrapprox</script></span> <code>\gtrapprox</code></td>
+<td align="left"><span><span class="MathJax_Preview">\precsim</span><script type="math/tex">\precsim</script></span> <code>\precsim</code></td>
+<td align="left"><span><span class="MathJax_Preview">\trianglerighteq</span><script type="math/tex">\trianglerighteq</script></span> <code>\trianglerighteq</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\Coloneqq</span><script type="math/tex">\Coloneqq</script></span> <code>\Coloneqq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\gtreqless</span><script type="math/tex">\gtreqless</script></span> <code>\gtreqless</code></td>
+<td align="left"><span><span class="MathJax_Preview">\propto</span><script type="math/tex">\propto</script></span> <code>\propto</code></td>
+<td align="left"><span><span class="MathJax_Preview">\varpropto</span><script type="math/tex">\varpropto</script></span> <code>\varpropto</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\colonsim</span><script type="math/tex">\colonsim</script></span> <code>\colonsim</code></td>
+<td align="left"><span><span class="MathJax_Preview">\gtreqqless</span><script type="math/tex">\gtreqqless</script></span> <code>\gtreqqless</code></td>
+<td align="left"><span><span class="MathJax_Preview">\risingdotseq</span><script type="math/tex">\risingdotseq</script></span> <code>\risingdotseq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\vartriangle</span><script type="math/tex">\vartriangle</script></span> <code>\vartriangle</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\Colonsim</span><script type="math/tex">\Colonsim</script></span> <code>\Colonsim</code></td>
+<td align="left"><span><span class="MathJax_Preview">\gtrless</span><script type="math/tex">\gtrless</script></span> <code>\gtrless</code></td>
+<td align="left"><span><span class="MathJax_Preview">\shortmid</span><script type="math/tex">\shortmid</script></span> <code>\shortmid</code></td>
+<td align="left"><span><span class="MathJax_Preview">\vartriangleleft</span><script type="math/tex">\vartriangleleft</script></span> <code>\vartriangleleft</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\cong</span><script type="math/tex">\cong</script></span> <code>\cong</code></td>
+<td align="left"><span><span class="MathJax_Preview">\gtrsim</span><script type="math/tex">\gtrsim</script></span> <code>\gtrsim</code></td>
+<td align="left"><span><span class="MathJax_Preview">\shortparallel</span><script type="math/tex">\shortparallel</script></span> <code>\shortparallel</code></td>
+<td align="left"><span><span class="MathJax_Preview">\vartriangleright</span><script type="math/tex">\vartriangleright</script></span> <code>\vartriangleright</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\curlyeqprec</span><script type="math/tex">\curlyeqprec</script></span> <code>\curlyeqprec</code></td>
+<td align="left"><span><span class="MathJax_Preview">\in</span><script type="math/tex">\in</script></span> <code>\in</code> 或者 <code>\isin</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sim</span><script type="math/tex">\sim</script></span> <code>\sim</code></td>
+<td align="left"><span><span class="MathJax_Preview">\vcentcolon</span><script type="math/tex">\vcentcolon</script></span> <code>\vcentcolon</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\curlyeqsucc</span><script type="math/tex">\curlyeqsucc</script></span> <code>\curlyeqsucc</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Join</span><script type="math/tex">\Join</script></span> <code>\Join</code></td>
+<td align="left"><span><span class="MathJax_Preview">\simeq</span><script type="math/tex">\simeq</script></span> <code>\simeq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\vdash</span><script type="math/tex">\vdash</script></span> <code>\vdash</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\dashv</span><script type="math/tex">\dashv</script></span> <code>\dashv</code></td>
+<td align="left"><span><span class="MathJax_Preview">\le</span><script type="math/tex">\le</script></span> <code>\le</code></td>
+<td align="left"><span><span class="MathJax_Preview">\smallfrown</span><script type="math/tex">\smallfrown</script></span> <code>\smallfrown</code></td>
+<td align="left"><span><span class="MathJax_Preview">\vDash</span><script type="math/tex">\vDash</script></span> <code>\vDash</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\dblcolon</span><script type="math/tex">\dblcolon</script></span> <code>\dblcolon</code></td>
+<td align="left"><span><span class="MathJax_Preview">\leq</span><script type="math/tex">\leq</script></span> <code>\leq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\smallsmile</span><script type="math/tex">\smallsmile</script></span> <code>\smallsmile</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Vdash</span><script type="math/tex">\Vdash</script></span> <code>\Vdash</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\doteq</span><script type="math/tex">\doteq</script></span> <code>\doteq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\leqq</span><script type="math/tex">\leqq</script></span> <code>\leqq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\smile</span><script type="math/tex">\smile</script></span> <code>\smile</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Vvdash</span><script type="math/tex">\Vvdash</script></span> <code>\Vvdash</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\Doteq</span><script type="math/tex">\Doteq</script></span> <code>\Doteq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\leqslant</span><script type="math/tex">\leqslant</script></span> <code>\leqslant</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sqsubset</span><script type="math/tex">\sqsubset</script></span> <code>\sqsubset</code></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\doteqdot</span><script type="math/tex">\doteqdot</script></span> <code>\doteqdot</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lessapprox</span><script type="math/tex">\lessapprox</script></span> <code>\lessapprox</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sqsubseteq</span><script type="math/tex">\sqsubseteq</script></span> <code>\sqsubseteq</code></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p>当然，你也可以直接输入这些：</p>
+<p>$ ∉ ∌ ∤ ∦ ≁ ≆ ≠ ≨ ≩ ≮ ≯ ≰ ≱ ⊀ ⊁ ⊈ ⊉ ⊊ ⊋ ⊬ ⊭ ⊮ ⊯ ⋠ ⋡ ⋦ ⋧ ⋨ ⋩ ⋬ ⋭ ⪇ ⪈ ⪉ ⪊ ⪵ ⪶ ⪹ ⪺ ⫋ ⫌∈$</p>
+<h3 id="_20">箭头<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+<th align="left">第三列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\circlearrowleft</span><script type="math/tex">\circlearrowleft</script></span> <code>\circlearrowleft</code></td>
+<td align="left"><span><span class="MathJax_Preview">\leftharpoonup</span><script type="math/tex">\leftharpoonup</script></span> <code>\leftharpoonup</code></td>
+<td align="left"><span><span class="MathJax_Preview">\rArr</span><script type="math/tex">\rArr</script></span> <code>\rArr</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\circlearrowright</span><script type="math/tex">\circlearrowright</script></span> <code>\circlearrowright</code></td>
+<td align="left"><span><span class="MathJax_Preview">\leftleftarrows</span><script type="math/tex">\leftleftarrows</script></span> <code>\leftleftarrows</code></td>
+<td align="left"><span><span class="MathJax_Preview">\rarr</span><script type="math/tex">\rarr</script></span> <code>\rarr</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\curvearrowleft</span><script type="math/tex">\curvearrowleft</script></span> <code>\curvearrowleft</code></td>
+<td align="left"><span><span class="MathJax_Preview">\leftrightarrow</span><script type="math/tex">\leftrightarrow</script></span> <code>\leftrightarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\restriction</span><script type="math/tex">\restriction</script></span> <code>\restriction</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\curvearrowright</span><script type="math/tex">\curvearrowright</script></span> <code>\curvearrowright</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Leftrightarrow</span><script type="math/tex">\Leftrightarrow</script></span> <code>\Leftrightarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\rightarrow</span><script type="math/tex">\rightarrow</script></span> <code>\rightarrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\Darr</span><script type="math/tex">\Darr</script></span> <code>\Darr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\leftrightarrows</span><script type="math/tex">\leftrightarrows</script></span> <code>\leftrightarrows</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Rightarrow</span><script type="math/tex">\Rightarrow</script></span> <code>\Rightarrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\dArr</span><script type="math/tex">\dArr</script></span> <code>\dArr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\leftrightharpoons</span><script type="math/tex">\leftrightharpoons</script></span> <code>\leftrightharpoons</code></td>
+<td align="left"><span><span class="MathJax_Preview">\rightarrowtail</span><script type="math/tex">\rightarrowtail</script></span> <code>\rightarrowtail</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\darr</span><script type="math/tex">\darr</script></span> <code>\darr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\leftrightsquigarrow</span><script type="math/tex">\leftrightsquigarrow</script></span> <code>\leftrightsquigarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\rightharpoondown</span><script type="math/tex">\rightharpoondown</script></span> <code>\rightharpoondown</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\dashleftarrow</span><script type="math/tex">\dashleftarrow</script></span> <code>\dashleftarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Lleftarrow</span><script type="math/tex">\Lleftarrow</script></span> <code>\Lleftarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\rightharpoonup</span><script type="math/tex">\rightharpoonup</script></span> <code>\rightharpoonup</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\dashrightarrow</span><script type="math/tex">\dashrightarrow</script></span> <code>\dashrightarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\longleftarrow</span><script type="math/tex">\longleftarrow</script></span> <code>\longleftarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\rightleftarrows</span><script type="math/tex">\rightleftarrows</script></span> <code>\rightleftarrows</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\downarrow</span><script type="math/tex">\downarrow</script></span> <code>\downarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Longleftarrow</span><script type="math/tex">\Longleftarrow</script></span> <code>\Longleftarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\rightleftharpoons</span><script type="math/tex">\rightleftharpoons</script></span> <code>\rightleftharpoons</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\Downarrow</span><script type="math/tex">\Downarrow</script></span> <code>\Downarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\longleftrightarrow</span><script type="math/tex">\longleftrightarrow</script></span> <code>\longleftrightarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\rightrightarrows</span><script type="math/tex">\rightrightarrows</script></span> <code>\rightrightarrows</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\downdownarrows</span><script type="math/tex">\downdownarrows</script></span> <code>\downdownarrows</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Longleftrightarrow</span><script type="math/tex">\Longleftrightarrow</script></span> <code>\Longleftrightarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\rightsquigarrow</span><script type="math/tex">\rightsquigarrow</script></span> <code>\rightsquigarrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\downharpoonleft</span><script type="math/tex">\downharpoonleft</script></span> <code>\downharpoonleft</code></td>
+<td align="left"><span><span class="MathJax_Preview">\longmapsto</span><script type="math/tex">\longmapsto</script></span> <code>\longmapsto</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Rrightarrow</span><script type="math/tex">\Rrightarrow</script></span> <code>\Rrightarrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\downharpoonright</span><script type="math/tex">\downharpoonright</script></span> <code>\downharpoonright</code></td>
+<td align="left"><span><span class="MathJax_Preview">\longrightarrow</span><script type="math/tex">\longrightarrow</script></span> <code>\longrightarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Rsh</span><script type="math/tex">\Rsh</script></span> <code>\Rsh</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\gets</span><script type="math/tex">\gets</script></span> <code>\gets</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Longrightarrow</span><script type="math/tex">\Longrightarrow</script></span> <code>\Longrightarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\searrow</span><script type="math/tex">\searrow</script></span> <code>\searrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\Harr</span><script type="math/tex">\Harr</script></span> <code>\Harr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\looparrowleft</span><script type="math/tex">\looparrowleft</script></span> <code>\looparrowleft</code></td>
+<td align="left"><span><span class="MathJax_Preview">\swarrow</span><script type="math/tex">\swarrow</script></span> <code>\swarrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\hArr</span><script type="math/tex">\hArr</script></span> <code>\hArr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\looparrowright</span><script type="math/tex">\looparrowright</script></span> <code>\looparrowright</code></td>
+<td align="left"><span><span class="MathJax_Preview">\to</span><script type="math/tex">\to</script></span> <code>\to</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\harr</span><script type="math/tex">\harr</script></span> <code>\harr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Lrarr</span><script type="math/tex">\Lrarr</script></span> <code>\Lrarr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\twoheadleftarrow</span><script type="math/tex">\twoheadleftarrow</script></span> <code>\twoheadleftarrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\hookleftarrow</span><script type="math/tex">\hookleftarrow</script></span> <code>\hookleftarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lrArr</span><script type="math/tex">\lrArr</script></span> <code>\lrArr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\twoheadrightarrow</span><script type="math/tex">\twoheadrightarrow</script></span> <code>\twoheadrightarrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\hookrightarrow</span><script type="math/tex">\hookrightarrow</script></span> <code>\hookrightarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lrarr</span><script type="math/tex">\lrarr</script></span> <code>\lrarr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Uarr</span><script type="math/tex">\Uarr</script></span> <code>\Uarr</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\iff</span><script type="math/tex">\iff</script></span> <code>\iff</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Lsh</span><script type="math/tex">\Lsh</script></span> <code>\Lsh</code></td>
+<td align="left"><span><span class="MathJax_Preview">\uArr</span><script type="math/tex">\uArr</script></span> <code>\uArr</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\impliedby</span><script type="math/tex">\impliedby</script></span> <code>\impliedby</code></td>
+<td align="left"><span><span class="MathJax_Preview">\mapsto</span><script type="math/tex">\mapsto</script></span> <code>\mapsto</code></td>
+<td align="left"><span><span class="MathJax_Preview">\uarr</span><script type="math/tex">\uarr</script></span> <code>\uarr</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\implies</span><script type="math/tex">\implies</script></span> <code>\implies</code></td>
+<td align="left"><span><span class="MathJax_Preview">\nearrow</span><script type="math/tex">\nearrow</script></span> <code>\nearrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\uparrow</span><script type="math/tex">\uparrow</script></span> <code>\uparrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\Larr</span><script type="math/tex">\Larr</script></span> <code>\Larr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\nleftarrow</span><script type="math/tex">\nleftarrow</script></span> <code>\nleftarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Uparrow</span><script type="math/tex">\Uparrow</script></span> <code>\Uparrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\lArr</span><script type="math/tex">\lArr</script></span> <code>\lArr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\nLeftarrow</span><script type="math/tex">\nLeftarrow</script></span> <code>\nLeftarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\updownarrow</span><script type="math/tex">\updownarrow</script></span> <code>\updownarrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\larr</span><script type="math/tex">\larr</script></span> <code>\larr</code></td>
+<td align="left"><span><span class="MathJax_Preview">\nleftrightarrow</span><script type="math/tex">\nleftrightarrow</script></span> <code>\nleftrightarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Updownarrow</span><script type="math/tex">\Updownarrow</script></span> <code>\Updownarrow</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\leadsto</span><script type="math/tex">\leadsto</script></span> <code>\leadsto</code></td>
+<td align="left"><span><span class="MathJax_Preview">\nLeftrightarrow</span><script type="math/tex">\nLeftrightarrow</script></span> <code>\nLeftrightarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\upharpoonleft</span><script type="math/tex">\upharpoonleft</script></span> <code>\upharpoonleft</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\leftarrow</span><script type="math/tex">\leftarrow</script></span> <code>\leftarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\nrightarrow</span><script type="math/tex">\nrightarrow</script></span> <code>\nrightarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\upharpoonright</span><script type="math/tex">\upharpoonright</script></span> <code>\upharpoonright</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\Leftarrow</span><script type="math/tex">\Leftarrow</script></span> <code>\Leftarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\nRightarrow</span><script type="math/tex">\nRightarrow</script></span> <code>\nRightarrow</code></td>
+<td align="left"><span><span class="MathJax_Preview">\upuparrows</span><script type="math/tex">\upuparrows</script></span> <code>\upuparrows</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\leftarrowtail</span><script type="math/tex">\leftarrowtail</script></span> <code>\leftarrowtail</code></td>
+<td align="left"><span><span class="MathJax_Preview">\nwarrow</span><script type="math/tex">\nwarrow</script></span> <code>\nwarrow</code></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\leftharpoondown</span><script type="math/tex">\leftharpoondown</script></span> <code>\leftharpoondown</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Rarr</span><script type="math/tex">\Rarr</script></span> <code>\Rarr</code></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p>你也可以直接输入这些：$ ← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙ ↚ ↛ ↞ ↠ ↢ ↣ ↦ ↩ ↪ ↫ ↬ ↭ ↮ ↰ ↱↶ ↷ ↺ ↻ ↼ ↽ ↾ ↾ ↿ ⇀ ⇁ ⇂ ⇃ ⇄ ⇆ ⇇ ⇈ ⇉ ⇊ ⇋ ⇌⇍ ⇎ ⇏ ⇐ ⇑ ⇒ ⇓ ⇔ ⇕ ⇚ ⇛ ⇝ ⇠ ⇢ $</p>
+<h3 id="1616">箭头扩展<span><span class="MathJax_Preview">^{[16]}</span><script type="math/tex">^{[16]}</script></span><a class="headerlink" href="#1616" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\xleftarrow{abc}</span><script type="math/tex">\xleftarrow{abc}</script></span> <code>\xleftarrow{abc}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\xrightarrow[under]{over}</span><script type="math/tex">\xrightarrow[under]{over}</script></span> <code>\xrightarrow[under]{over}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\xLeftarrow{abc}</span><script type="math/tex">\xLeftarrow{abc}</script></span> <code>\xLeftarrow{abc}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\xRightarrow{abc}</span><script type="math/tex">\xRightarrow{abc}</script></span> <code>\xRightarrow{abc}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\xleftrightarrow{abc}</span><script type="math/tex">\xleftrightarrow{abc}</script></span> <code>\xleftrightarrow{abc}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\xLeftrightarrow{abc}</span><script type="math/tex">\xLeftrightarrow{abc}</script></span> <code>\xLeftrightarrow{abc}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\xhookleftarrow{abc}</span><script type="math/tex">\xhookleftarrow{abc}</script></span> <code>\xhookleftarrow{abc}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\xhookrightarrow{abc}</span><script type="math/tex">\xhookrightarrow{abc}</script></span> <code>\xhookrightarrow{abc}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\xtwoheadleftarrow{abc}</span><script type="math/tex">\xtwoheadleftarrow{abc}</script></span> <code>\xtwoheadleftarrow{abc}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\xtwoheadrightarrow{abc}</span><script type="math/tex">\xtwoheadrightarrow{abc}</script></span> <code>\xtwoheadrightarrow{abc}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\xleftharpoonup{abc}</span><script type="math/tex">\xleftharpoonup{abc}</script></span> <code>\xleftharpoonup{abc}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\xrightharpoonup{abc}</span><script type="math/tex">\xrightharpoonup{abc}</script></span> <code>\xrightharpoonup{abc}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\xleftharpoondown{abc}</span><script type="math/tex">\xleftharpoondown{abc}</script></span> <code>\xleftharpoondown{abc}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\xrightharpoondown{abc}</span><script type="math/tex">\xrightharpoondown{abc}</script></span> <code>\xrightharpoondown{abc}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\xleftrightharpoons{abc}</span><script type="math/tex">\xleftrightharpoons{abc}</script></span> <code>\xleftrightharpoons{abc}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\xrightleftharpoons{abc}</span><script type="math/tex">\xrightleftharpoons{abc}</script></span> <code>\xrightleftharpoons{abc}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\xtofrom{abc}</span><script type="math/tex">\xtofrom{abc}</script></span> <code>\xtofrom{abc}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\xmapsto{abc}</span><script type="math/tex">\xmapsto{abc}</script></span> <code>\xmapsto{abc}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\xlongequal{abc}</span><script type="math/tex">\xlongequal{abc}</script></span> <code>\xlongequal{abc}</code></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p>可扩展的箭头都可以用相同的方式接受可选参数，比如说，<code>\xrightarrow[under]{over}</code>显示出来就是<span><span class="MathJax_Preview">\xrightarrow[under]{over}</span><script type="math/tex">\xrightarrow[under]{over}</script></span>。</p>
+<p><span><span class="MathJax_Preview">[16]:</span><script type="math/tex">[16]:</script></span> 这里扩展箭头指箭头上下方可以放置文字，且箭头长度随文字长度的增加而增加。</p>
+<h2 id="_21">样式，颜色，大小和字体<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h2>
+<h3 id="1717">类的分配<span><span class="MathJax_Preview">^{[17]}</span><script type="math/tex">^{[17]}</script></span><a class="headerlink" href="#1717" title="Permanent link">&para;</a></h3>
+<p><code>\mathbin</code> <code>\mathclose</code> <code>\mathinner</code> <code>\mathop</code></p>
+<p><code>\mathopen</code> <code>\mathord</code> <code>\mathpunct</code> <code>\mathrel</code></p>
+<h3 id="_22">颜色<a class="headerlink" href="#_22" title="Permanent link">&para;</a></h3>
+<p><span><span class="MathJax_Preview">\color{blue} F=ma</span><script type="math/tex">\color{blue} F=ma</script></span> <code>\color{blue} F=ma</code></p>
+<p>请注意，<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span> 中的<code>\color</code>的作用类似于开关，使用后一定范围内所有的字体都会改变颜色。这与<span><span class="MathJax_Preview">\LaTeX</span><script type="math/tex">\LaTeX</script></span>一致，但是与<span><span class="MathJax_Preview">\rm MathJax</span><script type="math/tex">\rm MathJax</script></span>不同。而<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>得其他颜色指令中，它的颜色和内容都是参数；</p>
+<p><span><span class="MathJax_Preview">\textcolor{blue}{F=ma}</span><script type="math/tex">\textcolor{blue}{F=ma}</script></span><code>\textcolor{#228B22}{F=ma}</code></p>
+<p><span><span class="MathJax_Preview">\colorbox{aqua}{A}</span><script type="math/tex">\colorbox{aqua}{A}</script></span><code>\colorbox{aqua}{A}</code><span><span class="MathJax_Preview">^{[18]}</span><script type="math/tex">^{[18]}</script></span></p>
+<p><span><span class="MathJax_Preview">\fcolorbox{red}{aqua}{A}</span><script type="math/tex">\fcolorbox{red}{aqua}{A}</script></span> <code>\fcolorbox{red}{aqua}{A}</code></p>
+<p>对于颜色的名称，<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>颜色函数将接受标准的<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Color_keywords"><span><span class="MathJax_Preview">\rm HTML</span><script type="math/tex">\rm HTML</script></span>预定义颜色名称</a>。他们还将接受<span><span class="MathJax_Preview">\rm CSS</span><script type="math/tex">\rm CSS</script></span>十六进制样式的<span><span class="MathJax_Preview">\rm RGB</span><script type="math/tex">\rm RGB</script></span>参数，比如<code>#ff0000</code>表示红色，而其中的<code>#</code>是可选的。（不过洛谷讨论区版本较旧，因此在那里必须加<code>#</code>）。</p>
+<p><span><span class="MathJax_Preview">[18]:</span><script type="math/tex">[18]:</script></span> <code>\colorbox</code>和<code>\fcolorbox</code> 里面不能嵌套环境，但是<code>\box</code>能。</p>
+<h3 id="_23">字体<a class="headerlink" href="#_23" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+<th align="left">第三列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\mathrm{Ab0}</span><script type="math/tex">\mathrm{Ab0}</script></span> <code>\mathrm{Ab0}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\mathbf{Ab0}</span><script type="math/tex">\mathbf{Ab0}</script></span> <code>\mathbf{Ab0}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\mathit{Ab0}</span><script type="math/tex">\mathit{Ab0}</script></span> <code>\mathit{Ab0}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\mathnormal{Ab0}</span><script type="math/tex">\mathnormal{Ab0}</script></span> <code>\mathnormal{Ab0}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\textbf{Ab0}</span><script type="math/tex">\textbf{Ab0}</script></span> <code>\textbf{Ab0}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\textit{Ab0}</span><script type="math/tex">\textit{Ab0}</script></span> <code>\textit{Ab0}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\textrm{Ab0}</span><script type="math/tex">\textrm{Ab0}</script></span> <code>\textrm{Ab0}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\bf{Ab0}</span><script type="math/tex">\bf{Ab0}</script></span> <code>\bf{Ab0}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\it{Ab0}</span><script type="math/tex">\it{Ab0}</script></span> <code>\it Ab0</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\rm{Ab0}</span><script type="math/tex">\rm{Ab0}</script></span> <code>\rm{Ab0}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\bold{Ab0}</span><script type="math/tex">\bold{Ab0}</script></span> <code>\bold{Ab0}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\textup{Ab0}</span><script type="math/tex">\textup{Ab0}</script></span> <code>\textup{Ab0}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\textnormal{Ab0}</span><script type="math/tex">\textnormal{Ab0}</script></span> <code>\textnormal{Ab0}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\boldsymbol{Ab0}</span><script type="math/tex">\boldsymbol{Ab0}</script></span> <code>\boldsymbol{Ab}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Bbb{AB}</span><script type="math/tex">\Bbb{AB}</script></span> <code>\Bbb{AB}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{Ab0}</span><script type="math/tex">\text{Ab0}</script></span> <code>\text{Ab0}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\bm{Ab0}</span><script type="math/tex">\bm{Ab0}</script></span> <code>\bm{Ab0}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\mathbb{AB}</span><script type="math/tex">\mathbb{AB}</script></span> <code>\mathbb{AB}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\mathsf{Ab0}</span><script type="math/tex">\mathsf{Ab0}</script></span> <code>\mathsf{Ab0}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\textmd{Ab0}</span><script type="math/tex">\textmd{Ab0}</script></span> <code>\textmd{Ab0}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\frak{Ab0}</span><script type="math/tex">\frak{Ab0}</script></span> <code>\frak{Ab0}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\textsf{Ab0}</span><script type="math/tex">\textsf{Ab0}</script></span> <code>\textsf{Ab0}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\mathtt{Ab0}</span><script type="math/tex">\mathtt{Ab0}</script></span> <code>\mathtt{Ab0}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\mathfrak{Ab0}</span><script type="math/tex">\mathfrak{Ab0}</script></span> <code>\mathfrak{Ab0}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\sf{Ab0}</span><script type="math/tex">\sf{Ab0}</script></span> <code>\sf Ab0</code></td>
+<td align="left"><span><span class="MathJax_Preview">\texttt{Ab0}</span><script type="math/tex">\texttt{Ab0}</script></span> <code>\texttt{Ab0}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\mathcal{AB0}</span><script type="math/tex">\mathcal{AB0}</script></span> <code>\mathcal{AB0}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\tt{Ab0}</span><script type="math/tex">\tt{Ab0}</script></span> <code>\tt Ab0</code></td>
+<td align="left"><span><span class="MathJax_Preview">\mathscr{AB}</span><script type="math/tex">\mathscr{AB}</script></span> <code>\mathscr{AB}</code></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p>通过使用<code>\textXX</code>类型的字体指令，可以堆叠字体样式、粗细和形状。 因此<code>\textsf{\textbf{H}}</code>将渲染出<span><span class="MathJax_Preview">\textsf{\textbf{H}}</span><script type="math/tex">\textsf{\textbf{H}}</script></span>。其他字体指令不会堆叠，例如<code>\mathsf{\mathbf{H}}</code>将渲染出<span><span class="MathJax_Preview">\mathsf{\mathbf {H}}</span><script type="math/tex">\mathsf{\mathbf {H}}</script></span>。</p>
+<p>如果KaTeX字体没有粗体字形，你可以使用<code>\pmb</code>指令可以模拟一个。例如，<code>\pmb{\ mu}</code>呈现为：<span><span class="MathJax_Preview">\pmb{\mu}</span><script type="math/tex">\pmb{\mu}</script></span>。（所以莫反一类文章的大量希腊字母粗体都可以用这种方法生成——编者注）。</p>
+<h3 id="_24">大小<a class="headerlink" href="#_24" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\Huge AB</span><script type="math/tex">\Huge AB</script></span> <code>\Huge AB</code></td>
+<td align="left"><span><span class="MathJax_Preview">\normalsize AB</span><script type="math/tex">\normalsize AB</script></span> <code>\normalsize AB</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\huge AB</span><script type="math/tex">\huge AB</script></span> <code>\huge AB</code></td>
+<td align="left"><span><span class="MathJax_Preview">\small AB</span><script type="math/tex">\small AB</script></span> <code>\small AB</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\LARGE AB</span><script type="math/tex">\LARGE AB</script></span> <code>\LARGE AB</code></td>
+<td align="left"><span><span class="MathJax_Preview">\footnotesize AB</span><script type="math/tex">\footnotesize AB</script></span> <code>\footnotesize AB</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\Large AB</span><script type="math/tex">\Large AB</script></span> <code>\Large AB</code></td>
+<td align="left"><span><span class="MathJax_Preview">\scriptsize AB</span><script type="math/tex">\scriptsize AB</script></span> <code>\scriptsize AB</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\large AB</span><script type="math/tex">\large AB</script></span> <code>\large AB</code></td>
+<td align="left"><span><span class="MathJax_Preview">\tiny AB</span><script type="math/tex">\tiny AB</script></span> <code>\tiny AB</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_25">样式<a class="headerlink" href="#_25" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th align="left">显示效果</th>
+<th align="left">代码</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\displaystyle\sum_{i=1}^n</span><script type="math/tex">\displaystyle\sum_{i=1}^n</script></span></td>
+<td align="left"><code>\displaystyle\sum_{i=1}^n</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\textstyle\sum_{i=1}^n</span><script type="math/tex">\textstyle\sum_{i=1}^n</script></span></td>
+<td align="left"><code>\textstyle\sum_{i=1}^n</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\scriptstyle x</span><script type="math/tex">\scriptstyle x</script></span></td>
+<td align="left"><code>\scriptstyle x  (The size of a first sub/superscript)</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\scriptscriptstyle x</span><script type="math/tex">\scriptscriptstyle x</script></span></td>
+<td align="left"><code>\scriptscriptstyle x (The size of subsequent sub/superscripts)</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\lim\limits_x</span><script type="math/tex">\lim\limits_x</script></span></td>
+<td align="left"><code>\lim\limits_x</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\lim\nolimits_x</span><script type="math/tex">\lim\nolimits_x</script></span></td>
+<td align="left"><code>\lim\nolimits_x</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\verb!x^2!</span><script type="math/tex">\verb!x^2!</script></span></td>
+<td align="left"><code>\verb!x^2!</code><span><span class="MathJax_Preview">^{[19]}</span><script type="math/tex">^{[19]}</script></span></td>
+</tr>
+</tbody>
+</table>
+<p>在居中的环境下（即在<code>$$ $$</code>当中），在<code>\text{}</code>里面可以放置<code>$...$</code>用来显示数学模式。</p>
+<p><span><span class="MathJax_Preview">[19]:</span><script type="math/tex">[19]:</script></span> <code>\verb</code>以两个感叹号作为括号，里面可以填充任意文字。使用等宽字体（打字机字体）。</p>
+<h2 id="_26">符号和标点<a class="headerlink" href="#_26" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="left">第二列</th>
+<th align="left">第三列</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">% 注释</span><script type="math/tex">% 注释</script></span> <code>% 注释</code></td>
+<td align="left"><span><span class="MathJax_Preview">\dots</span><script type="math/tex">\dots</script></span> <code>\dots</code></td>
+<td align="left"><span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span> <code>\KaTeX</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\%</span><script type="math/tex">\%</script></span> <code>\%</code></td>
+<td align="left"><span><span class="MathJax_Preview">\cdots</span><script type="math/tex">\cdots</script></span> <code>\cdots</code></td>
+<td align="left"><span><span class="MathJax_Preview">\LaTeX</span><script type="math/tex">\LaTeX</script></span> <code>\LaTeX</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\#</span><script type="math/tex">\#</script></span> <code>\#</code></td>
+<td align="left"><span><span class="MathJax_Preview">\ddots</span><script type="math/tex">\ddots</script></span> <code>\ddots</code></td>
+<td align="left"><span><span class="MathJax_Preview">\TeX</span><script type="math/tex">\TeX</script></span> <code>\TeX</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\&amp;</span><script type="math/tex">\&</script></span> <code>\&amp;</code></td>
+<td align="left"><span><span class="MathJax_Preview">\ldots</span><script type="math/tex">\ldots</script></span> <code>\ldots</code></td>
+<td align="left"><span><span class="MathJax_Preview">\nabla</span><script type="math/tex">\nabla</script></span> <code>\nabla</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\_</span><script type="math/tex">\_</script></span> <code>\_</code></td>
+<td align="left"><span><span class="MathJax_Preview">\vdots</span><script type="math/tex">\vdots</script></span> <code>\vdots</code></td>
+<td align="left"><span><span class="MathJax_Preview">\infty</span><script type="math/tex">\infty</script></span> <code>\infty</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textunderscore}</span><script type="math/tex">\text{\textunderscore}</script></span> <code>\text{\textunderscore}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\dotsb</span><script type="math/tex">\dotsb</script></span> <code>\dotsb</code></td>
+<td align="left"><span><span class="MathJax_Preview">\infin</span><script type="math/tex">\infin</script></span> <code>\infin</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text<del class="critic">}</span><script type="math/tex">\text<del class="critic">}</script></span> <code>\text{</del></code></td>
+<td align="left"><span><span class="MathJax_Preview">\dotsc</span><script type="math/tex">\dotsc</script></span> <code>\dotsc</code></td>
+<td align="left"><span><span class="MathJax_Preview">\checkmark</span><script type="math/tex">\checkmark</script></span> <code>\checkmark</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textendash}</span><script type="math/tex">\text{\textendash}</script></span> <code>\text{\textendash}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\dotsi</span><script type="math/tex">\dotsi</script></span> <code>\dotsi</code></td>
+<td align="left"><span><span class="MathJax_Preview">\dag</span><script type="math/tex">\dag</script></span> <code>\dag</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text<del class="critic">-}</span><script type="math/tex">\text<del class="critic">-}</script></span> <code>\text{-</del></code></td>
+<td align="left"><span><span class="MathJax_Preview">\dotsm</span><script type="math/tex">\dotsm</script></span> <code>\dotsm</code></td>
+<td align="left"><span><span class="MathJax_Preview">\dagger</span><script type="math/tex">\dagger</script></span> <code>\dagger</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textemdash}</span><script type="math/tex">\text{\textemdash}</script></span> <code>\text{\textemdash}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\dotso</span><script type="math/tex">\dotso</script></span> <code>\dotso</code></td>
+<td align="left"><span><span class="MathJax_Preview">\text{\textdagger}</span><script type="math/tex">\text{\textdagger}</script></span> <code>\text{\textdagger}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textasciitilde}</span><script type="math/tex">\text{\textasciitilde}</script></span> <code>\text{\textasciitilde}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sdot⋅</span><script type="math/tex">\sdot⋅</script></span> <code>\sdot</code></td>
+<td align="left"><span><span class="MathJax_Preview">\ddag</span><script type="math/tex">\ddag</script></span> <code>\ddag</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textasciicircum}</span><script type="math/tex">\text{\textasciicircum}</script></span> <code>\text{\textasciicircum}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\mathellipsis</span><script type="math/tex">\mathellipsis</script></span> <code>\mathellipsis</code></td>
+<td align="left"><span><span class="MathJax_Preview">\ddagger</span><script type="math/tex">\ddagger</script></span> <code>\ddagger</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">^{[20]}</span><script type="math/tex">^{[20]}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{\textellipsis}</span><script type="math/tex">\text{\textellipsis}</script></span> <code>\text{\textellipsis}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\text{\textdaggerdbl}</span><script type="math/tex">\text{\textdaggerdbl}</script></span> <code>\text{\textdaggerdbl}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textquoteleft}</span><script type="math/tex">\text{\textquoteleft}</script></span>  <code>text{\textquoteleft}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Box</span><script type="math/tex">\Box</script></span> <code>\Box</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Dagger</span><script type="math/tex">\Dagger</script></span> <code>\Dagger</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\lq</span><script type="math/tex">\lq</script></span> <code>\lq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\square</span><script type="math/tex">\square</script></span> <code>\square</code></td>
+<td align="left"><span><span class="MathJax_Preview">\angle</span><script type="math/tex">\angle</script></span> <code>\angle</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textquoteright}</span><script type="math/tex">\text{\textquoteright}</script></span> <code>\text{\textquoteright}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\blacksquare</span><script type="math/tex">\blacksquare</script></span> <code>\blacksquare</code></td>
+<td align="left"><span><span class="MathJax_Preview">\measuredangle</span><script type="math/tex">\measuredangle</script></span> <code>\measuredangle</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\rq</span><script type="math/tex">\rq</script></span> <code>\rq</code></td>
+<td align="left"><span><span class="MathJax_Preview">\triangle</span><script type="math/tex">\triangle</script></span> <code>\triangle</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sphericalangle</span><script type="math/tex">\sphericalangle</script></span> <code>\sphericalangle</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textquotedblleft}</span><script type="math/tex">\text{\textquotedblleft}</script></span> <code>\text{\textquotedblleft}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\triangledown</span><script type="math/tex">\triangledown</script></span> <code>\triangledown</code></td>
+<td align="left"><span><span class="MathJax_Preview">\top</span><script type="math/tex">\top</script></span> <code>\top</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">"</span><script type="math/tex">"</script></span> <code>"</code></td>
+<td align="left"><span><span class="MathJax_Preview">\triangleleft</span><script type="math/tex">\triangleleft</script></span> <code>\triangleleft</code></td>
+<td align="left"><span><span class="MathJax_Preview">\bot</span><script type="math/tex">\bot</script></span> <code>\bot</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textquotedblright}</span><script type="math/tex">\text{\textquotedblright}</script></span> <code>\text{\textquotedblright}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\triangleright</span><script type="math/tex">\triangleright</script></span> <code>\triangleright</code></td>
+<td align="left"><span><span class="MathJax_Preview">\$</span><script type="math/tex">\$</script></span> <code>\$</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\colon</span><script type="math/tex">\colon</script></span> <code>\colon</code></td>
+<td align="left"><span><span class="MathJax_Preview">\bigtriangledown</span><script type="math/tex">\bigtriangledown</script></span> <code>\bigtriangledown</code></td>
+<td align="left"><span><span class="MathJax_Preview">\text{\textdollar}</span><script type="math/tex">\text{\textdollar}</script></span> <code>\text{\textdollar}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\backprime</span><script type="math/tex">\backprime</script></span> <code>\backprime</code></td>
+<td align="left"><span><span class="MathJax_Preview">\bigtriangleup</span><script type="math/tex">\bigtriangleup</script></span> <code>\bigtriangleup</code></td>
+<td align="left"><span><span class="MathJax_Preview">\pounds</span><script type="math/tex">\pounds</script></span> <code>\pounds</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\prime</span><script type="math/tex">\prime</script></span> <code>\prime</code></td>
+<td align="left"><span><span class="MathJax_Preview">\blacktriangle</span><script type="math/tex">\blacktriangle</script></span> <code>\blacktriangle</code></td>
+<td align="left"><span><span class="MathJax_Preview">\mathsterling</span><script type="math/tex">\mathsterling</script></span> <code>\mathsterling</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textless}</span><script type="math/tex">\text{\textless}</script></span> <code>\text{\textless}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\blacktriangledown</span><script type="math/tex">\blacktriangledown</script></span> <code>\blacktriangledown</code></td>
+<td align="left"><span><span class="MathJax_Preview">\text{\textsterling}</span><script type="math/tex">\text{\textsterling}</script></span> <code>\text{\textsterling}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textgreater}</span><script type="math/tex">\text{\textgreater}</script></span> <code>\text{\textgreater}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\blacktriangleleft</span><script type="math/tex">\blacktriangleleft</script></span> <code>\blacktriangleleft</code></td>
+<td align="left"><span><span class="MathJax_Preview">\yen</span><script type="math/tex">\yen</script></span> <code>\yen</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textbar}</span><script type="math/tex">\text{\textbar}</script></span> <code>\text{\textbar}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\blacktriangleright</span><script type="math/tex">\blacktriangleright</script></span> <code>\blacktriangleright</code></td>
+<td align="left"><span><span class="MathJax_Preview">\surd</span><script type="math/tex">\surd</script></span> <code>\surd</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textbardbl}</span><script type="math/tex">\text{\textbardbl}</script></span> <code>\text{\textbardbl}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\diamond</span><script type="math/tex">\diamond</script></span> <code>\diamond</code></td>
+<td align="left"><span><span class="MathJax_Preview">\degree</span><script type="math/tex">\degree</script></span> <code>\degree</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textbraceleft}</span><script type="math/tex">\text{\textbraceleft}</script></span> <code>\text{\textbraceleft}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\Diamond</span><script type="math/tex">\Diamond</script></span> <code>\Diamond</code></td>
+<td align="left"><span><span class="MathJax_Preview">\text{\textdegree}</span><script type="math/tex">\text{\textdegree}</script></span> <code>\text{\textdegree}</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textbraceright}</span><script type="math/tex">\text{\textbraceright}</script></span> <code>\text{\textbraceright}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\lozenge</span><script type="math/tex">\lozenge</script></span> <code>\lozenge</code></td>
+<td align="left"><span><span class="MathJax_Preview">\mho</span><script type="math/tex">\mho</script></span> <code>\mho</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textbackslash}</span><script type="math/tex">\text{\textbackslash}</script></span> <code>\text{\textbackslash}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\blacklozenge</span><script type="math/tex">\blacklozenge</script></span> <code>\blacklozenge</code></td>
+<td align="left"><span><span class="MathJax_Preview">\diagdown</span><script type="math/tex">\diagdown</script></span> <code>\diagdown</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\P}</span><script type="math/tex">\text{\P}</script></span> <code>\text{\P}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\star</span><script type="math/tex">\star</script></span> <code>\star</code></td>
+<td align="left"><span><span class="MathJax_Preview">\diagup</span><script type="math/tex">\diagup</script></span> <code>\diagup</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\S}</span><script type="math/tex">\text{\S}</script></span> <code>\text{\S}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\bigstar</span><script type="math/tex">\bigstar</script></span> <code>\bigstar</code></td>
+<td align="left"><span><span class="MathJax_Preview">\flat</span><script type="math/tex">\flat</script></span> <code>\flat</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\sect}</span><script type="math/tex">\text{\sect}</script></span> <code>\text{\sect}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\clubsuit</span><script type="math/tex">\clubsuit</script></span> <code>\clubsuit</code></td>
+<td align="left"><span><span class="MathJax_Preview">\natural</span><script type="math/tex">\natural</script></span> <code>\natural</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\copyright</span><script type="math/tex">\copyright</script></span> <code>\copyright</code></td>
+<td align="left"><span><span class="MathJax_Preview">\clubs</span><script type="math/tex">\clubs</script></span> <code>\clubs</code></td>
+<td align="left"><span><span class="MathJax_Preview">\sharp</span><script type="math/tex">\sharp</script></span> <code>\sharp</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\circledR</span><script type="math/tex">\circledR</script></span> <code>\circledR</code></td>
+<td align="left"><span><span class="MathJax_Preview">\diamondsuit</span><script type="math/tex">\diamondsuit</script></span> <code>\diamondsuit</code></td>
+<td align="left"><span><span class="MathJax_Preview">\heartsuit</span><script type="math/tex">\heartsuit</script></span> <code>\heartsuit</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textregistered}</span><script type="math/tex">\text{\textregistered}</script></span> <code>\text{\textregistered}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\diamonds</span><script type="math/tex">\diamonds</script></span> <code>\diamonds</code></td>
+<td align="left"><span><span class="MathJax_Preview">\hearts</span><script type="math/tex">\hearts</script></span> <code>\hearts</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\circledS</span><script type="math/tex">\circledS</script></span> <code>\circledS</code></td>
+<td align="left"><span><span class="MathJax_Preview">\spadesuit</span><script type="math/tex">\spadesuit</script></span> <code>\spadesuit</code></td>
+<td align="left"><span><span class="MathJax_Preview">\spades</span><script type="math/tex">\spades</script></span> <code>\spades</code></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{\textcircled a}</span><script type="math/tex">\text{\textcircled a}</script></span> <code>\text{\textcircled a}</code></td>
+<td align="left"><span><span class="MathJax_Preview">\maltese</span><script type="math/tex">\maltese</script></span> <code>\maltese</code></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p>你也可以直接输入这些：$£ ¥ ∇ ∞ · ∠ ∡ ∢ ♠ ♡ ♢ ♣ ♭ ♮ ♯ ✓ … ⋮ ⋯ ⋱ ! $</p>
+<p><span><span class="MathJax_Preview">[20]:</span><script type="math/tex">[20]:</script></span> 同样由于<span><span class="MathJax_Preview">\rm Markdown</span><script type="math/tex">\rm Markdown</script></span>制表问题，无法显示字符`。这里的显示效果就是<span><span class="MathJax_Preview">\lq</span><script type="math/tex">\lq</script></span>,同<code>\lq</code>。</p>
+<h2 id="_27">单位<a class="headerlink" href="#_27" title="Permanent link">&para;</a></h2>
+<p>在<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>中，单位与在<span><span class="MathJax_Preview">\TeX</span><script type="math/tex">\TeX</script></span>中一样按比例进行处理。</p>
+<p>但是很多地方，<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>单位不同于<span><span class="MathJax_Preview">\rm CSS</span><script type="math/tex">\rm CSS</script></span>单位。</p>
+<table>
+<thead>
+<tr>
+<th align="left"><span><span class="MathJax_Preview">\text{\KaTeX 单位}</span><script type="math/tex">\text{\KaTeX 单位}</script></span></th>
+<th align="left"><span><span class="MathJax_Preview">\text{备注}</span><script type="math/tex">\text{备注}</script></span></th>
+<th align="left"><span><span class="MathJax_Preview">\text{\KaTeX 单位}</span><script type="math/tex">\text{\KaTeX 单位}</script></span></th>
+<th align="left"><span><span class="MathJax_Preview">\text{备注}</span><script type="math/tex">\text{备注}</script></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{em}</span><script type="math/tex">\text{em}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{CSS em}</span><script type="math/tex">\text{CSS em}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{bp}</span><script type="math/tex">\text{bp}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{1/72​ inch × F × G}</span><script type="math/tex">\text{1/72​ inch × F × G}</script></span></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{ex}</span><script type="math/tex">\text{ex}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{CSS ex}</span><script type="math/tex">\text{CSS ex}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{pc}</span><script type="math/tex">\text{pc}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{12 \KaTeX pt}</span><script type="math/tex">\text{12 \KaTeX pt}</script></span></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{mu}</span><script type="math/tex">\text{mu}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{1/18 CSS em}</span><script type="math/tex">\text{1/18 CSS em}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{dd}</span><script type="math/tex">\text{dd}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{1238/1157​ \KaTeX pt}</span><script type="math/tex">\text{1238/1157​ \KaTeX pt}</script></span></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{pt}</span><script type="math/tex">\text{pt}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{1/72.27 inch × F × G}</span><script type="math/tex">\text{1/72.27 inch × F × G}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{cc}</span><script type="math/tex">\text{cc}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{14856/1157 \KaTeX pt}</span><script type="math/tex">\text{14856/1157 \KaTeX pt}</script></span></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{mm}</span><script type="math/tex">\text{mm}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{1 mm × F × G}</span><script type="math/tex">\text{1 mm × F × G}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{nd}</span><script type="math/tex">\text{nd}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{685/642 \KaTeX pt}</span><script type="math/tex">\text{685/642 \KaTeX pt}</script></span></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{cm}</span><script type="math/tex">\text{cm}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{1 cm × F × G}</span><script type="math/tex">\text{1 cm × F × G}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{nc}</span><script type="math/tex">\text{nc}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{1370/107​ \KaTeX pt}</span><script type="math/tex">\text{1370/107​ \KaTeX pt}</script></span></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{in}</span><script type="math/tex">\text{in}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{1 inch × F × G}</span><script type="math/tex">\text{1 inch × F × G}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{sp}</span><script type="math/tex">\text{sp}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\text{1/65536 \KaTeX pt}</span><script type="math/tex">\text{1/65536 \KaTeX pt}</script></span></td>
+</tr>
+</tbody>
+</table>
+<p>其中，</p>
+<ul>
+<li>
+<p><span><span class="MathJax_Preview">F=</span><script type="math/tex">F=</script></span>(围绕着<span><span class="MathJax_Preview">\rm HTML</span><script type="math/tex">\rm HTML</script></span>文字的字体大小)/(<span><span class="MathJax_Preview">\rm 10 pt</span><script type="math/tex">\rm 10 pt</script></span>)</p>
+</li>
+<li>
+<p><span><span class="MathJax_Preview">G</span><script type="math/tex">G</script></span>默认情况下为<span><span class="MathJax_Preview">1.21</span><script type="math/tex">1.21</script></span>，因为<span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>字体大小通常为<span><span class="MathJax_Preview">1.21\times</span><script type="math/tex">1.21\times</script></span>周围字体大小。<span><span class="MathJax_Preview">\rm HTML</span><script type="math/tex">\rm HTML</script></span>网页的<span><span class="MathJax_Preview">\rm CSS</span><script type="math/tex">\rm CSS</script></span>可以覆盖此值。</p>
+</li>
+</ul>
+<p>样式和大小的影响范围：</p>
+<table>
+<thead>
+<tr>
+<th align="left">单位</th>
+<th align="left">文本模式</th>
+<th align="left"><span><span class="MathJax_Preview">\rm script</span><script type="math/tex">\rm script</script></span>大小<span><span class="MathJax_Preview">^{[21]}</span><script type="math/tex">^{[21]}</script></span></th>
+<th align="left"><span><span class="MathJax_Preview">\rm huge</span><script type="math/tex">\rm huge</script></span>大小</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{em 与 ex}</span><script type="math/tex">\text{em 与 ex}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\rule{1em}{1em}</span><script type="math/tex">\rule{1em}{1em}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\scriptscriptstyle\rule{1em}{1em}</span><script type="math/tex">\scriptscriptstyle\rule{1em}{1em}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\huge\rule{1em}{1em}</span><script type="math/tex">\huge\rule{1em}{1em}</script></span></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{mu}</span><script type="math/tex">\text{mu}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\rule{18mu}{18mu}</span><script type="math/tex">\rule{18mu}{18mu}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\scriptscriptstyle\rule{18mu}{18mu}</span><script type="math/tex">\scriptscriptstyle\rule{18mu}{18mu}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\huge\rule{18mu}{18mu}</span><script type="math/tex">\huge\rule{18mu}{18mu}</script></span></td>
+</tr>
+<tr>
+<td align="left"><span><span class="MathJax_Preview">\text{其他}</span><script type="math/tex">\text{其他}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\rule{10pt}{10pt}</span><script type="math/tex">\rule{10pt}{10pt}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\scriptscriptstyle\rule{10pt}{10pt}</span><script type="math/tex">\scriptscriptstyle\rule{10pt}{10pt}</script></span></td>
+<td align="left"><span><span class="MathJax_Preview">\huge\rule{10pt}{10pt}</span><script type="math/tex">\huge\rule{10pt}{10pt}</script></span></td>
+</tr>
+</tbody>
+</table>
+<p><span><span class="MathJax_Preview">[21]:</span><script type="math/tex">[21]:</script></span> 这里不确定如何翻译<code>scriptscript</code>和<code>huge</code>。</p>
+<hr />
+<p>本文全部译自<a href="https://katex.org/docs/supported.html#math-operators"><span><span class="MathJax_Preview">\KaTeX</span><script type="math/tex">\KaTeX</script></span>官网</a>。</p>
+<p>历时<span><span class="MathJax_Preview">1.5</span><script type="math/tex">1.5</script></span>天终于肝完了<span><span class="MathJax_Preview">\rm orz</span><script type="math/tex">\rm orz</script></span>。希望能为洛谷的<span><span class="MathJax_Preview">\LaTeX</span><script type="math/tex">\LaTeX</script></span>发展做出一些贡献。可能有一些不足，希望能在博客的评论区提出来。</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../mkdocs-md/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                MkDocs 的特殊 Md 语法
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../../study/chinese/time/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  下一页
+                </span>
+                语文各题型用时
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.18f0862e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.994580cf.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ['navigation.tabs'],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.9c0e82ba.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="https://cdn.staticfile.org/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      
+    
+  </body>
+</html>

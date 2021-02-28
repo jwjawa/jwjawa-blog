@@ -1,0 +1,3365 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
+    
+    
+      
+        <title>洛谷试炼场 - jwj's Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.cb6bc1d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.39b8e14a.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffffff">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="white" data-md-color-accent="">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="jwj&#39;s Wiki" class="md-header-nav__button md-logo" aria-label="jwj's Wiki">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            jwj's Wiki
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              洛谷试炼场
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        首页
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../about-wiki/mkdocs/" class="md-tabs__link">
+        Wiki 相关
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../study/chinese/time/" class="md-tabs__link">
+        语文笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../study/math/daoshu/" class="md-tabs__link">
+        数学笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../study/english/zuowen/" class="md-tabs__link">
+        英语笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../study/physic/dongliang/" class="md-tabs__link">
+        物理笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../study/biology/tiaojie/" class="md-tabs__link">
+        生物笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../study/geography/renwen/" class="md-tabs__link">
+        地理笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../road/" class="md-tabs__link md-tabs__link--active">
+        OI 相关
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="jwj&#39;s Wiki" class="md-nav__button md-logo" aria-label="jwj's Wiki">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    jwj's Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" >
+      
+      <label class="md-nav__link" for="nav-1">
+        首页
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="首页" data-md-level="1">
+        <label class="md-nav__title" for="nav-1">
+          <span class="md-nav__icon md-icon"></span>
+          首页
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        首页
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scores/" class="md-nav__link">
+        成绩单
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../beiwanglu/" class="md-nav__link">
+        备忘录
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+      
+      <label class="md-nav__link" for="nav-2">
+        Wiki 相关
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Wiki 相关" data-md-level="1">
+        <label class="md-nav__title" for="nav-2">
+          <span class="md-nav__icon md-icon"></span>
+          Wiki 相关
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about-wiki/mkdocs/" class="md-nav__link">
+        MkDocs 基础使用
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about-wiki/mkdocs-md/" class="md-nav__link">
+        MkDocs 的特殊 Md 语法
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about-wiki/KaTeX/" class="md-nav__link">
+        KaTeX 语法
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+      
+      <label class="md-nav__link" for="nav-3">
+        语文笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="语文笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-3">
+          <span class="md-nav__icon md-icon"></span>
+          语文笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../study/chinese/time/" class="md-nav__link">
+        语文各题型用时
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../study/chinese/novel/" class="md-nav__link">
+        文学类文本
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+      
+      <label class="md-nav__link" for="nav-4">
+        数学笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="数学笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-4">
+          <span class="md-nav__icon md-icon"></span>
+          数学笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../study/math/daoshu/" class="md-nav__link">
+        导数
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+      
+      <label class="md-nav__link" for="nav-5">
+        英语笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="英语笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-5">
+          <span class="md-nav__icon md-icon"></span>
+          英语笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../study/english/zuowen/" class="md-nav__link">
+        英语作文
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+      
+      <label class="md-nav__link" for="nav-6">
+        物理笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="物理笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-6">
+          <span class="md-nav__icon md-icon"></span>
+          物理笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../study/physic/dongliang/" class="md-nav__link">
+        动量
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" >
+      
+      <label class="md-nav__link" for="nav-7">
+        生物笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="生物笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-7">
+          <span class="md-nav__icon md-icon"></span>
+          生物笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../study/biology/tiaojie/" class="md-nav__link">
+        调节专题
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8" >
+      
+      <label class="md-nav__link" for="nav-8">
+        地理笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="地理笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-8">
+          <span class="md-nav__icon md-icon"></span>
+          地理笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../study/geography/renwen/" class="md-nav__link">
+        人文地理
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9" checked>
+      
+      <label class="md-nav__link" for="nav-9">
+        OI 相关
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="OI 相关" data-md-level="1">
+        <label class="md-nav__title" for="nav-9">
+          <span class="md-nav__icon md-icon"></span>
+          OI 相关
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../road/" class="md-nav__link">
+        训练路线
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          洛谷试炼场
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        洛谷试炼场
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    新手村
+  </a>
+  
+    <nav class="md-nav" aria-label="新手村">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    洛谷的第一个任务
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    顺序与分支
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    循环！循环！循环！
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    数组
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    简单字符串
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    过程函数与递归
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boss-1" class="md-nav__link">
+    BOSS战-入门综合练习1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boss-2" class="md-nav__link">
+    BOSS战-入门综合练习2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    普及练习场
+  </a>
+  
+    <nav class="md-nav" aria-label="普及练习场">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    简单的模拟
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    交叉模拟
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    排序
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ex" class="md-nav__link">
+    排序Ex
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    字符串处理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    贪心
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    深度优先搜索
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    广度优先搜索
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    带有技巧的搜索
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    分治算法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    简单数学问题
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    递推与递归二分
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    线性数据结构
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    树形数据结构
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    动态规划的背包问题
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    线性动态规划
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    多维动态规划
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    更要技巧的动规与记忆化
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    高精度算法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ex_1" class="md-nav__link">
+    贪心EX
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    简单数学
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boss-1_1" class="md-nav__link">
+    BOSS战-普及综合练习1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boss-2_1" class="md-nav__link">
+    BOSS战-普及综合练习2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boss-3" class="md-nav__link">
+    BOSS战-普及综合练习3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    普及常见模板
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    提高历练地
+  </a>
+  
+    <nav class="md-nav" aria-label="提高历练地">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ex_2" class="md-nav__link">
+    搜索Ex
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tglv1" class="md-nav__link">
+    动态规划TG.lv(1)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tglv2" class="md-nav__link">
+    动态规划TG.lv(2)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tglv3" class="md-nav__link">
+    动态规划TG.lv(3)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    数论
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_32" class="md-nav__link">
+    博弈论
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_33" class="md-nav__link">
+    其他数学问题
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_34" class="md-nav__link">
+    图的遍历
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_35" class="md-nav__link">
+    最短路问题
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_36" class="md-nav__link">
+    最小生成树
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#i" class="md-nav__link">
+    较复杂图论I
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ii" class="md-nav__link">
+    较复杂图论II
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_37" class="md-nav__link">
+    并查集
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_38" class="md-nav__link">
+    堆
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_39" class="md-nav__link">
+    线段树树状数组基础
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_40" class="md-nav__link">
+    神奇的解法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_41" class="md-nav__link">
+    倍增
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_42" class="md-nav__link">
+    强连通分量
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boss-1_2" class="md-nav__link">
+    BOSS战-提高综合练习1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boss-2_2" class="md-nav__link">
+    BOSS战-提高综合练习2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boss-3_1" class="md-nav__link">
+    BOSS战-提高综合练习3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-nlogn" class="md-nav__link">
+    提高模板-nlogn数据结构
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#noi" class="md-nav__link">
+    省选斗兽场 / NOI 神殿
+  </a>
+  
+    <nav class="md-nav" aria-label="省选斗兽场 / NOI 神殿">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    省选基础-读入/输出优化
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-_1" class="md-nav__link">
+    省选基础-位运算
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-_2" class="md-nav__link">
+    省选基础-打表
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    动态规划1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    动态规划2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_43" class="md-nav__link">
+    网络流——最大流
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_44" class="md-nav__link">
+    网络流——费用流
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_45" class="md-nav__link">
+    单调队列
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_46" class="md-nav__link">
+    概率期望
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_47" class="md-nav__link">
+    二分图
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_48" class="md-nav__link">
+    点分治
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_49" class="md-nav__link">
+    后缀数组
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_50" class="md-nav__link">
+    主席树
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dp" class="md-nav__link">
+    数位DP
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ac" class="md-nav__link">
+    AC自动机
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_51" class="md-nav__link">
+    平衡树
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_52" class="md-nav__link">
+    树链剖分
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_53" class="md-nav__link">
+    动态树
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_54" class="md-nav__link">
+    树套树
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trie" class="md-nav__link">
+    可持久化Trie树
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_55" class="md-nav__link">
+    莫队算法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_56" class="md-nav__link">
+    分块
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_57" class="md-nav__link">
+    莫比乌斯反演
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_58" class="md-nav__link">
+    其他
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usaco" class="md-nav__link">
+    USACO
+  </a>
+  
+    <nav class="md-nav" aria-label="USACO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-11" class="md-nav__link">
+    USACO-Section-1.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-12" class="md-nav__link">
+    USACO-Section-1.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-13" class="md-nav__link">
+    USACO-Section-1.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-14" class="md-nav__link">
+    USACO-Section-1.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-15" class="md-nav__link">
+    USACO-Section-1.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-21" class="md-nav__link">
+    USACO-Section-2.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-22" class="md-nav__link">
+    USACO-Section-2.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-23" class="md-nav__link">
+    USACO-Section-2.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-24" class="md-nav__link">
+    USACO-Section-2.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-31" class="md-nav__link">
+    USACO-Section-3.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-32" class="md-nav__link">
+    USACO-Section-3.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-33" class="md-nav__link">
+    USACO-Section-3.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-34" class="md-nav__link">
+    USACO-Section-3.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-41" class="md-nav__link">
+    USACO-Section-4.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-42" class="md-nav__link">
+    USACO-Section-4.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-43" class="md-nav__link">
+    USACO-Section-4.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-44" class="md-nav__link">
+    USACO-Section-4.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-51" class="md-nav__link">
+    USACO-Section-5.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-52" class="md-nav__link">
+    USACO-Section-5.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-53" class="md-nav__link">
+    USACO-Section-5.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-54" class="md-nav__link">
+    USACO-Section-5.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-55" class="md-nav__link">
+    USACO-Section-5.5
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    新手村
+  </a>
+  
+    <nav class="md-nav" aria-label="新手村">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    洛谷的第一个任务
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    顺序与分支
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    循环！循环！循环！
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    数组
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    简单字符串
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    过程函数与递归
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boss-1" class="md-nav__link">
+    BOSS战-入门综合练习1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boss-2" class="md-nav__link">
+    BOSS战-入门综合练习2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    普及练习场
+  </a>
+  
+    <nav class="md-nav" aria-label="普及练习场">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    简单的模拟
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    交叉模拟
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    排序
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ex" class="md-nav__link">
+    排序Ex
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    字符串处理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    贪心
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    深度优先搜索
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    广度优先搜索
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    带有技巧的搜索
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    分治算法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    简单数学问题
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    递推与递归二分
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    线性数据结构
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    树形数据结构
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    动态规划的背包问题
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    线性动态规划
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    多维动态规划
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    更要技巧的动规与记忆化
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    高精度算法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ex_1" class="md-nav__link">
+    贪心EX
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    简单数学
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boss-1_1" class="md-nav__link">
+    BOSS战-普及综合练习1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boss-2_1" class="md-nav__link">
+    BOSS战-普及综合练习2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boss-3" class="md-nav__link">
+    BOSS战-普及综合练习3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    普及常见模板
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    提高历练地
+  </a>
+  
+    <nav class="md-nav" aria-label="提高历练地">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ex_2" class="md-nav__link">
+    搜索Ex
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tglv1" class="md-nav__link">
+    动态规划TG.lv(1)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tglv2" class="md-nav__link">
+    动态规划TG.lv(2)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tglv3" class="md-nav__link">
+    动态规划TG.lv(3)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    数论
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_32" class="md-nav__link">
+    博弈论
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_33" class="md-nav__link">
+    其他数学问题
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_34" class="md-nav__link">
+    图的遍历
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_35" class="md-nav__link">
+    最短路问题
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_36" class="md-nav__link">
+    最小生成树
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#i" class="md-nav__link">
+    较复杂图论I
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ii" class="md-nav__link">
+    较复杂图论II
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_37" class="md-nav__link">
+    并查集
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_38" class="md-nav__link">
+    堆
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_39" class="md-nav__link">
+    线段树树状数组基础
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_40" class="md-nav__link">
+    神奇的解法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_41" class="md-nav__link">
+    倍增
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_42" class="md-nav__link">
+    强连通分量
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boss-1_2" class="md-nav__link">
+    BOSS战-提高综合练习1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boss-2_2" class="md-nav__link">
+    BOSS战-提高综合练习2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boss-3_1" class="md-nav__link">
+    BOSS战-提高综合练习3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-nlogn" class="md-nav__link">
+    提高模板-nlogn数据结构
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#noi" class="md-nav__link">
+    省选斗兽场 / NOI 神殿
+  </a>
+  
+    <nav class="md-nav" aria-label="省选斗兽场 / NOI 神殿">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    省选基础-读入/输出优化
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-_1" class="md-nav__link">
+    省选基础-位运算
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-_2" class="md-nav__link">
+    省选基础-打表
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    动态规划1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    动态规划2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_43" class="md-nav__link">
+    网络流——最大流
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_44" class="md-nav__link">
+    网络流——费用流
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_45" class="md-nav__link">
+    单调队列
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_46" class="md-nav__link">
+    概率期望
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_47" class="md-nav__link">
+    二分图
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_48" class="md-nav__link">
+    点分治
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_49" class="md-nav__link">
+    后缀数组
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_50" class="md-nav__link">
+    主席树
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dp" class="md-nav__link">
+    数位DP
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ac" class="md-nav__link">
+    AC自动机
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_51" class="md-nav__link">
+    平衡树
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_52" class="md-nav__link">
+    树链剖分
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_53" class="md-nav__link">
+    动态树
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_54" class="md-nav__link">
+    树套树
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trie" class="md-nav__link">
+    可持久化Trie树
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_55" class="md-nav__link">
+    莫队算法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_56" class="md-nav__link">
+    分块
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_57" class="md-nav__link">
+    莫比乌斯反演
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_58" class="md-nav__link">
+    其他
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usaco" class="md-nav__link">
+    USACO
+  </a>
+  
+    <nav class="md-nav" aria-label="USACO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-11" class="md-nav__link">
+    USACO-Section-1.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-12" class="md-nav__link">
+    USACO-Section-1.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-13" class="md-nav__link">
+    USACO-Section-1.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-14" class="md-nav__link">
+    USACO-Section-1.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-15" class="md-nav__link">
+    USACO-Section-1.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-21" class="md-nav__link">
+    USACO-Section-2.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-22" class="md-nav__link">
+    USACO-Section-2.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-23" class="md-nav__link">
+    USACO-Section-2.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-24" class="md-nav__link">
+    USACO-Section-2.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-31" class="md-nav__link">
+    USACO-Section-3.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-32" class="md-nav__link">
+    USACO-Section-3.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-33" class="md-nav__link">
+    USACO-Section-3.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-34" class="md-nav__link">
+    USACO-Section-3.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-41" class="md-nav__link">
+    USACO-Section-4.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-42" class="md-nav__link">
+    USACO-Section-4.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-43" class="md-nav__link">
+    USACO-Section-4.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-44" class="md-nav__link">
+    USACO-Section-4.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-51" class="md-nav__link">
+    USACO-Section-5.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-52" class="md-nav__link">
+    USACO-Section-5.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-53" class="md-nav__link">
+    USACO-Section-5.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-54" class="md-nav__link">
+    USACO-Section-5.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usaco-section-55" class="md-nav__link">
+    USACO-Section-5.5
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="_1">洛谷试炼场<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>这里是洛谷试炼场备份，供参考awa</p>
+<p><a href="https://www.luogu.com.cn/paste/66uuuvdr">搬运自此，感谢大佬</a></p>
+<h2 id="_2">新手村<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>任何一个伟大的目标，都有一个微不足道的开始。</p>
+<h3 id="_3">洛谷的第一个任务<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p>勇敢的迈出第一步，了解下语言和洛谷。跟着书本和老师走，不会难的。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1000">P1000</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1001">P1001</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1421">P1421</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1425">P1425</a></li>
+</ul>
+<h3 id="_4">顺序与分支<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>计算机的智能性开始得以体现，因为计算机能够根据不同的条件选择了。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1422">P1422</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1085">P1085</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1089">P1089</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1909">P1909</a></li>
+</ul>
+<h3 id="_5">循环！循环！循环！<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>计算机最不怕的就是重复。你让它做10000次同样的事它也不怕啦，但是让他做1亿亿次的话……</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1008">P1008</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1035">P1035</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1423">P1423</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1424">P1424</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1980">P1980</a></li>
+</ul>
+<h3 id="_6">数组<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>跟数组有关的题目基本上都要用到循环，所以请先完成1-3。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1046">P1046</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1047">P1047</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1427">P1427</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1428">P1428</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2141">P2141</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1567">P1567</a></li>
+</ul>
+<h3 id="_7">简单字符串<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>计算机不仅可以处理数字，还能处理文字！就是其实跟数字也没什么差。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1055">P1055</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1200">P1200</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1308">P1308</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1553">P1553</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1598">P1598</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1914">P1914</a></li>
+</ul>
+<h3 id="_8">过程函数与递归<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<p>将代码串进行打包，就是过程与函数。过程与函数调用自己则为递归。有一点小难但不要怕哦。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1028">P1028</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1036">P1036</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1149">P1149</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1217">P1217</a></li>
+</ul>
+<h3 id="boss-1">BOSS战-入门综合练习1<a class="headerlink" href="#boss-1" title="Permanent link">&para;</a></h3>
+<p>这里将前面的内容综合起来了，会有点难，不过你可以问老师同学，也能上网查资料。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1478">P1478</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1618">P1618</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1579">P1579</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2089">P2089</a></li>
+</ul>
+<h3 id="boss-2">BOSS战-入门综合练习2<a class="headerlink" href="#boss-2" title="Permanent link">&para;</a></h3>
+<p>勇士，竟然来到了BOSS的老巢！来一场恶斗，证明自己的实力，解锁下一个级别！</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1426">P1426</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1464">P1464</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1014">P1014</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1022">P1022</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1307">P1307</a></li>
+</ul>
+<h2 id="_9">普及练习场<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<p>普及组选手可冲刺训练，提高组选手亦可在此巩固基础。</p>
+<h3 id="_10">简单的模拟<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<p>开始普及组的训练！所谓模拟，就是直接根据题意编写，思维难度简单。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1003">P1003</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1067">P1067</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1540">P1540</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1056">P1056</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1328">P1328</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1563">P1563</a></li>
+</ul>
+<h3 id="_11">交叉模拟<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<p>这里也是模拟，但是会混有些别的部分。思维难度不大，但是编写起来会有些难度。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1023">P1023</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1031">P1031</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1042">P1042</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1086">P1086</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1098">P1098</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3952">P3952</a></li>
+</ul>
+<h3 id="_12">排序<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<p>将杂乱无章的数据变得有规律。有各种各样的排序算法，看情况使用。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1177">P1177</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1059">P1059</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1068">P1068</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1781">P1781</a></li>
+</ul>
+<h3 id="ex">排序Ex<a class="headerlink" href="#ex" title="Permanent link">&para;</a></h3>
+<p>这里的排序就更上一层了。不仅融合了别的算法与技巧，排序本身也有各种花招。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1583">P1583</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1051">P1051</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1093">P1093</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1309">P1309</a></li>
+</ul>
+<h3 id="_13">字符串处理<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<p>这里的字符串处理还会变得更加的有意思，难度也更大。需要好好地思考一下。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1603">P1603</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1071">P1071</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1012">P1012</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1538">P1538</a></li>
+</ul>
+<h3 id="_14">贪心<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
+<p>贪心就是只考虑眼前的利益。对于我们人生来说太贪是不好的，不过oi中，有时是对的。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1090">P1090</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1181">P1181</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1208">P1208</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1223">P1223</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1094">P1094</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1803">P1803</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1031">P1031</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1080">P1080</a></li>
+</ul>
+<h3 id="_15">深度优先搜索<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
+<p>搜索可以穷举各种情况。很多题目都可以用搜索完成。就算不能，搜索也是骗分神器。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1219">P1219</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1019">P1019</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1101">P1101</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1605">P1605</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1040">P1040</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1092">P1092</a></li>
+</ul>
+<h3 id="_16">广度优先搜索<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h3>
+<p>广度优先搜索可以用来找有关“最短步数”的问题。恩，也可以用来“地毯式搜索”。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1162">P1162</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1032">P1032</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1141">P1141</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1126">P1126</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1443">P1443</a></li>
+</ul>
+<h3 id="_17">带有技巧的搜索<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h3>
+<p>这里的搜索不仅包含了dfs和bfs，还包括剪枝、记录等技巧以加快速度。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1118">P1118</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1434">P1434</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1433">P1433</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1074">P1074</a></li>
+</ul>
+<h3 id="_18">分治算法<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
+<p>将大问题拆分为小问题，分而治之，各个击破，然后在合并回来。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1226">P1226</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1010">P1010</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1908">P1908</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1498">P1498</a></li>
+</ul>
+<h3 id="_19">简单数学问题<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h3>
+<p>用计算机解决某些麻烦数学问题，再合适不过了。这真是绝妙的搭配啊！</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1088">P1088</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1045">P1045</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1403">P1403</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1017">P1017</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1147">P1147</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1029">P1029</a></li>
+</ul>
+<h3 id="_20">递推与递归二分<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h3>
+<p>递推，层层递进，由基础推向顶层。二分不仅可以用来查找数据，还可以确定最合适的值。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1192">P1192</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1025">P1025</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1057">P1057</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1135">P1135</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1216">P1216</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1182">P1182</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1316">P1316</a></li>
+</ul>
+<h3 id="_21">线性数据结构<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h3>
+<p>数组，链表，队列，栈，都是线性结构。巧用这些结构可以做出不少方便的事情。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1996">P1996</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1115">P1115</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1739">P1739</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1160">P1160</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1449">P1449</a></li>
+</ul>
+<h3 id="_22">树形数据结构<a class="headerlink" href="#_22" title="Permanent link">&para;</a></h3>
+<p>由一个根节点分叉，越分越多，就成了树。树可以表示数据之间的从属关系</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1087">P1087</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1030">P1030</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1305">P1305</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P5018">P5018</a></li>
+</ul>
+<h3 id="_23">动态规划的背包问题<a class="headerlink" href="#_23" title="Permanent link">&para;</a></h3>
+<p>这是最基础的动态规划。不过如果是第一次接触会有些难以理解。加油闯过这个坎。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1060">P1060</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1164">P1164</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1064">P1064</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1048">P1048</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1049">P1049</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1616">P1616</a></li>
+</ul>
+<h3 id="_24">线性动态规划<a class="headerlink" href="#_24" title="Permanent link">&para;</a></h3>
+<p>这也是基础的动态规划。是在线性结构上面的动态规划，一定要掌握。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1020">P1020</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1091">P1091</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1280">P1280</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1880">P1880</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1140">P1140</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1282">P1282</a></li>
+</ul>
+<h3 id="_25">多维动态规划<a class="headerlink" href="#_25" title="Permanent link">&para;</a></h3>
+<p>这里的动态规划就不止一维了。不仅要小心时间复杂度，也要注意空间复杂度。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1508">P1508</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1006">P1006</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1387">P1387</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1417">P1417</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1855">P1855</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1736">P1736</a></li>
+</ul>
+<h3 id="_26">更要技巧的动规与记忆化<a class="headerlink" href="#_26" title="Permanent link">&para;</a></h3>
+<p>这边的题目有各种搞法。当然有的题目也可以使用记忆化搜索来降低思维难度。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1064">P1064</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1541">P1541</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1026">P1026</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1063">P1063</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1156">P1156</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1052">P1052</a></li>
+</ul>
+<h3 id="_27">高精度算法<a class="headerlink" href="#_27" title="Permanent link">&para;</a></h3>
+<p>就算是long long（或int64）还不够怎么办？用高精度算法。自己动手丰衣足食。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1601">P1601</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2142">P2142</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1303">P1303</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1255">P1255</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1604">P1604</a></li>
+</ul>
+<h3 id="ex_1">贪心EX<a class="headerlink" href="#ex_1" title="Permanent link">&para;</a></h3>
+<p>虽然是贪心题，可能不是你当时你虐着玩的贪心惹qwq</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1080">P1080</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1031">P1031</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1233">P1233</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2123">P2123</a></li>
+</ul>
+<h3 id="_28">简单数学<a class="headerlink" href="#_28" title="Permanent link">&para;</a></h3>
+<p>数学和oi是密切相关的，数学不仅是oi的基础，而且是算法的核心。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1865">P1865</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1372">P1372</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1338">P1338</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2158">P2158</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1582">P1582</a></li>
+</ul>
+<h3 id="boss-1_1">BOSS战-普及综合练习1<a class="headerlink" href="#boss-1_1" title="Permanent link">&para;</a></h3>
+<p>好不容易闯到这一关，你那还等什么呢？抄起家伙赶快上啊！</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1478">P1478</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1203">P1203</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1363">P1363</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1736">P1736</a></li>
+</ul>
+<h3 id="boss-2_1">BOSS战-普及综合练习2<a class="headerlink" href="#boss-2_1" title="Permanent link">&para;</a></h3>
+<p>来搞定第二个BOSS。虽然战斗艰难，但你一定没有问题。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1201">P1201</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1095">P1095</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1058">P1058</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2258">P2258</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1108">P1108</a></li>
+</ul>
+<h3 id="boss-3">BOSS战-普及综合练习3<a class="headerlink" href="#boss-3" title="Permanent link">&para;</a></h3>
+<p>普及练习场的大BOSS：“一定让你有去无回”。怎么办呢？只能打倒他开启下一个级别！</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1328">P1328</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1062">P1062</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1969">P1969</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1037">P1037</a></li>
+</ul>
+<h3 id="_29">普及常见模板<a class="headerlink" href="#_29" title="Permanent link">&para;</a></h3>
+<p>这里集中了比较基础的算法的模板。提高和省选也有模板题哦！</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1177">P1177</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3366">P3366</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3367">P3367</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3371">P3371</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3383">P3383</a></li>
+</ul>
+<h2 id="_30">提高历练地<a class="headerlink" href="#_30" title="Permanent link">&para;</a></h2>
+<p>已经去除了普及组难度的，请组织放心。成长大牛之必写题！！！</p>
+<h3 id="ex_2">搜索Ex<a class="headerlink" href="#ex_2" title="Permanent link">&para;</a></h3>
+<p>开始提高组的试炼。这里已经去除了所有普及组难度的题目。哼哼，怕了吧。。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1120">P1120</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1378">P1378</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1514">P1514</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1312">P1312</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1441">P1441</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1242">P1242</a></li>
+</ul>
+<h3 id="tglv1">动态规划TG.lv(1)<a class="headerlink" href="#tglv1" title="Permanent link">&para;</a></h3>
+<p>这是提高组难度中比较基础的动态规划，也许一两个转移方程就可以写出。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1005">P1005</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1373">P1373</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2279">P2279</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1220">P1220</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1156">P1156</a></li>
+</ul>
+<h3 id="tglv2">动态规划TG.lv(2)<a class="headerlink" href="#tglv2" title="Permanent link">&para;</a></h3>
+<p>这里的动态规划稍稍有所加大难度，思考转移方程的时间可能会与编写程序的时间持平。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1273">P1273</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1169">P1169</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2577">P2577</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1070">P1070</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2051">P2051</a></li>
+</ul>
+<h3 id="tglv3">动态规划TG.lv(3)<a class="headerlink" href="#tglv3" title="Permanent link">&para;</a></h3>
+<p>比较需要技巧的动态规划。有的不仅仅需要状态转移方程，可能还会与别的算法综合。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1415">P1415</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2157">P2157</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2216">P2216</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2331">P2331</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2467">P2467</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3084">P3084</a></li>
+</ul>
+<h3 id="_31">数论<a class="headerlink" href="#_31" title="Permanent link">&para;</a></h3>
+<p>数论就是研究整数的理论。包括公约公倍数、质数、欧拉定理和同余方程等。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2152">P2152</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1414">P1414</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1134">P1134</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1313">P1313</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1306">P1306</a></li>
+</ul>
+<h3 id="_32">博弈论<a class="headerlink" href="#_32" title="Permanent link">&para;</a></h3>
+<p>博弈论考虑游戏中的个体的预测行为和实际行为，并研究它们的优化策略。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1199">P1199</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1288">P1288</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1290">P1290</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2148">P2148</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1247">P1247</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2575">P2575</a></li>
+</ul>
+<h3 id="_33">其他数学问题<a class="headerlink" href="#_33" title="Permanent link">&para;</a></h3>
+<p>听说学oi的同志们数学都挺好。那么。就请完成下面的题目证明这一点吧！</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1357">P1357</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1641">P1641</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2059">P2059</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2154">P2154</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2261">P2261</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2327">P2327</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1066">P1066</a></li>
+</ul>
+<h3 id="_34">图的遍历<a class="headerlink" href="#_34" title="Permanent link">&para;</a></h3>
+<p>图是一种非常重要的数据结构，描述对象复杂的练习。这里开始接触图的基本概念。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2661">P2661</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1330">P1330</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1341">P1341</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2921">P2921</a></li>
+</ul>
+<h3 id="_35">最短路问题<a class="headerlink" href="#_35" title="Permanent link">&para;</a></h3>
+<p>最短路是图论中最重要的部分，多种算法可以应用。很多题目都可以抽象成这种模型。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1339">P1339</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1462">P1462</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1346">P1346</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1119">P1119</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1144">P1144</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1522">P1522</a></li>
+</ul>
+<h3 id="_36">最小生成树<a class="headerlink" href="#_36" title="Permanent link">&para;</a></h3>
+<p>最小生成树可以用kruskal（克鲁斯卡尔）算法或prim（普里姆）算法求出。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1546">P1546</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2330">P2330</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1991">P1991</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1265">P1265</a></li>
+</ul>
+<h3 id="i">较复杂图论I<a class="headerlink" href="#i" title="Permanent link">&para;</a></h3>
+<p>别的些图论问题，包括树、拓扑排序等。要过这一关，需要学习不少新的算法。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1113">P1113</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1268">P1268</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1525">P1525</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1983">P1983</a></li>
+</ul>
+<h3 id="ii">较复杂图论II<a class="headerlink" href="#ii" title="Permanent link">&para;</a></h3>
+<p>更高级的图论算法。包括差分约束、强连通、二分图等。会更难一些。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1993">P1993</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1726">P1726</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2055">P2055</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2149">P2149</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1345">P1345</a></li>
+</ul>
+<h3 id="_37">并查集<a class="headerlink" href="#_37" title="Permanent link">&para;</a></h3>
+<p>用于处理一些不相交集合的合并及查询问题。常常在使用中以森林来表示。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1111">P1111</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2024">P2024</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1197">P1197</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1196">P1196</a></li>
+</ul>
+<h3 id="_38">堆<a class="headerlink" href="#_38" title="Permanent link">&para;</a></h3>
+<p>堆总是一棵完全树；堆中某个节点的值总是不大于或不小于其父节点的值。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1801">P1801</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2278">P2278</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1631">P1631</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2085">P2085</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1484">P1484</a></li>
+</ul>
+<h3 id="_39">线段树树状数组基础<a class="headerlink" href="#_39" title="Permanent link">&para;</a></h3>
+<p>这都是比较高级的线性数据结构。在处理一些询问与修改线性问题时，是很好用的。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1972">P1972</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1198">P1198</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2023">P2023</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2161">P2161</a></li>
+</ul>
+<h3 id="_40">神奇的解法<a class="headerlink" href="#_40" title="Permanent link">&para;</a></h3>
+<p>有些问题刚开始觉得无从下手。好好想一想，尽量别看题解，否则你会大呼“简单”。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1007">P1007</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1984">P1984</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2022">P2022</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2320">P2320</a></li>
+</ul>
+<h3 id="_41">倍增<a class="headerlink" href="#_41" title="Permanent link">&para;</a></h3>
+<p>一种特殊的枚举算法，但可大大加快效率。近年noip有考到。难度较大。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1967">P1967</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1081">P1081</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1613">P1613</a></li>
+</ul>
+<h3 id="_42">强连通分量<a class="headerlink" href="#_42" title="Permanent link">&para;</a></h3>
+<p>强连通分量</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2341">P2341</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3469">P3469</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2746">P2746</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3119">P3119</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3225">P3225</a></li>
+</ul>
+<h3 id="boss-1_2">BOSS战-提高综合练习1<a class="headerlink" href="#boss-1_2" title="Permanent link">&para;</a></h3>
+<p>年轻人，又是个送上门的，让我来看看你真实的本领。啊哈哈哈哈哈！</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2264">P2264</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1772">P1772</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1083">P1083</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1979">P1979</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2939">P2939</a></li>
+</ul>
+<h3 id="boss-2_2">BOSS战-提高综合练习2<a class="headerlink" href="#boss-2_2" title="Permanent link">&para;</a></h3>
+<p>再来！这里有的题目并非单纯的考察某个算法，而是考察一种综合性的思维。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1901">P1901</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1314">P1314</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2144">P2144</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1073">P1073</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2324">P2324</a></li>
+</ul>
+<h3 id="boss-3_1">BOSS战-提高综合练习3<a class="headerlink" href="#boss-3_1" title="Permanent link">&para;</a></h3>
+<p>既然已经打倒了前面2个boss，那么第3个也是没有问题的。少年，来吧！</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1965">P1965</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1311">P1311</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2296">P2296</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1084">P1084</a></li>
+</ul>
+<h3 id="-nlogn">提高模板-nlogn数据结构<a class="headerlink" href="#-nlogn" title="Permanent link">&para;</a></h3>
+<p>虽然这些算法不是noip必须的，但是不算困难，很多题目可以使用这些方法。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P3374">P3374</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3368">P3368</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3372">P3372</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3373">P3373</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1439">P1439</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3378">P3378</a></li>
+</ul>
+<h2 id="noi">省选斗兽场 / NOI 神殿<a class="headerlink" href="#noi" title="Permanent link">&para;</a></h2>
+<p>为省选及以上选手制作的训练场。其实，省选水平的oier不需要一些外加的刷题列表，本栏仅供参考，也欢迎各位指出不足。</p>
+<h3 id="-">省选基础-读入/输出优化<a class="headerlink" href="#-" title="Permanent link">&para;</a></h3>
+<p>读入/输出优化是省选刷题时必要的一个东西，这里给出了几题，需要自己手写相应的读入输出处理。作为第一关，这一关相对简单。</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1580">P1580</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2393">P2393</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2394">P2394</a></li>
+</ul>
+<h3 id="-_1">省选基础-位运算<a class="headerlink" href="#-_1" title="Permanent link">&para;</a></h3>
+<p>位运算往往在必要的时候,能带你优化一下常数,也许是空间;也许是时间;有的时候这样可以多过很多分</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2114">P2114</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2396">P2396</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2397">P2397</a></li>
+</ul>
+<h3 id="-_2">省选基础-打表<a class="headerlink" href="#-_2" title="Permanent link">&para;</a></h3>
+<p>打表虽然很赖皮,而且基本都是非正解,但是这种办法能让我们在省选中拿到一些会超时或者会超空间的一些数据点</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1149">P1149</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1463">P1463</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1896">P1896</a></li>
+</ul>
+<h3 id="1">动态规划1<a class="headerlink" href="#1" title="Permanent link">&para;</a></h3>
+<p>动态规划</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2051">P2051</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1879">P1879</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1850">P1850</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2831">P2831</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1131">P1131</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1169">P1169</a></li>
+</ul>
+<h3 id="2">动态规划2<a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
+<p>动态规划</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1273">P1273</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3648">P3648</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2519">P2519</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2515">P2515</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3233">P3233</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2501">P2501</a></li>
+</ul>
+<h3 id="_43">网络流——最大流<a class="headerlink" href="#_43" title="Permanent link">&para;</a></h3>
+<p>最大流</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2765">P2765</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2764">P2764</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2763">P2763</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2766">P2766</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2774">P2774</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2805">P2805</a></li>
+</ul>
+<h3 id="_44">网络流——费用流<a class="headerlink" href="#_44" title="Permanent link">&para;</a></h3>
+<p>费用流</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2153">P2153</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2053">P2053</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3159">P3159</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2604">P2604</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2050">P2050</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3980">P3980</a></li>
+</ul>
+<h3 id="_45">单调队列<a class="headerlink" href="#_45" title="Permanent link">&para;</a></h3>
+<p>单调队列</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2698">P2698</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2216">P2216</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2219">P2219</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2564">P2564</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2569">P2569</a></li>
+</ul>
+<h3 id="_46">概率期望<a class="headerlink" href="#_46" title="Permanent link">&para;</a></h3>
+<p>概率期望</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2473">P2473</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2221">P2221</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3317">P3317</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3343">P3343</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3600">P3600</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3830">P3830</a></li>
+</ul>
+<h3 id="_47">二分图<a class="headerlink" href="#_47" title="Permanent link">&para;</a></h3>
+<p>二分图</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P3386">P3386</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1640">P1640</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1129">P1129</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1963">P1963</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3231">P3231</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2526">P2526</a></li>
+</ul>
+<h3 id="_48">点分治<a class="headerlink" href="#_48" title="Permanent link">&para;</a></h3>
+<p>点分治</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2634">P2634</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2664">P2664</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3806">P3806</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3676">P3676</a></li>
+</ul>
+<h3 id="_49">后缀数组<a class="headerlink" href="#_49" title="Permanent link">&para;</a></h3>
+<p>后缀数组</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P3809">P3809</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1117">P1117</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2178">P2178</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2463">P2463</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2336">P2336</a></li>
+</ul>
+<h3 id="_50">主席树<a class="headerlink" href="#_50" title="Permanent link">&para;</a></h3>
+<p>主席树</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2468">P2468</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3157">P3157</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3302">P3302</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3168">P3168</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3313">P3313</a></li>
+</ul>
+<h3 id="dp">数位DP<a class="headerlink" href="#dp" title="Permanent link">&para;</a></h3>
+<p>数位DP</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2602">P2602</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3281">P3281</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2518">P2518</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2606">P2606</a></li>
+</ul>
+<h3 id="ac">AC自动机<a class="headerlink" href="#ac" title="Permanent link">&para;</a></h3>
+<p>AC自动机</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P3808">P3808</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3796">P3796</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2444">P2444</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2414">P2414</a></li>
+</ul>
+<h3 id="_51">平衡树<a class="headerlink" href="#_51" title="Permanent link">&para;</a></h3>
+<p>平衡树</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2042">P2042</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2596">P2596</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1110">P1110</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3285">P3285</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3644">P3644</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3765">P3765</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3369">P3369</a></li>
+</ul>
+<h3 id="_52">树链剖分<a class="headerlink" href="#_52" title="Permanent link">&para;</a></h3>
+<p>树链剖分</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2590">P2590</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2486">P2486</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2146">P2146</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3258">P3258</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3178">P3178</a></li>
+</ul>
+<h3 id="_53">动态树<a class="headerlink" href="#_53" title="Permanent link">&para;</a></h3>
+<p>动态树</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P3690">P3690</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2387">P2387</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3203">P3203</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3348">P3348</a></li>
+</ul>
+<h3 id="_54">树套树<a class="headerlink" href="#_54" title="Permanent link">&para;</a></h3>
+<p>树套树</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1903">P1903</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3157">P3157</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3332">P3332</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2166">P2166</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3380">P3380</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2137">P2137</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3759">P3759</a></li>
+</ul>
+<h3 id="trie">可持久化Trie树<a class="headerlink" href="#trie" title="Permanent link">&para;</a></h3>
+<p>可持久化Trie树</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2048">P2048</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3527">P3527</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3302">P3302</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3168">P3168</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3242">P3242</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3241">P3241</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3293">P3293</a></li>
+</ul>
+<h3 id="_55">莫队算法<a class="headerlink" href="#_55" title="Permanent link">&para;</a></h3>
+<p>莫队算法</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1972">P1972</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2336">P2336</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3709">P3709</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2709">P2709</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3674">P3674</a></li>
+</ul>
+<h3 id="_56">分块<a class="headerlink" href="#_56" title="Permanent link">&para;</a></h3>
+<p>分块</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1972">P1972</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3396">P3396</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1822">P1822</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2801">P2801</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3203">P3203</a></li>
+</ul>
+<h3 id="_57">莫比乌斯反演<a class="headerlink" href="#_57" title="Permanent link">&para;</a></h3>
+<p>莫比乌斯反演</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P3768">P3768</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3172">P3172</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3455">P3455</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2522">P2522</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3327">P3327</a></li>
+</ul>
+<h3 id="_58">其他<a class="headerlink" href="#_58" title="Permanent link">&para;</a></h3>
+<p>其他</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P3377">P3377</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3261">P3261</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3382">P3382</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2571">P2571</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3222">P3222</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3187">P3187</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3199">P3199</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3292">P3292</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2824">P2824</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3285">P3285</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1552">P1552</a></li>
+</ul>
+<h2 id="usaco">USACO<a class="headerlink" href="#usaco" title="Permanent link">&para;</a></h2>
+<p>美国经典的算法练习题库，值得一刷</p>
+<h3 id="usaco-section-11">USACO-Section-1.1<a class="headerlink" href="#usaco-section-11" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1200">P1200</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1201">P1201</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1202">P1202</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1203">P1203</a></li>
+</ul>
+<h3 id="usaco-section-12">USACO-Section-1.2<a class="headerlink" href="#usaco-section-12" title="Permanent link">&para;</a></h3>
+<p>完全枚举</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P3864">P3864</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1204">P1204</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1205">P1205</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1206">P1206</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1207">P1207</a></li>
+</ul>
+<h3 id="usaco-section-13">USACO-Section-1.3<a class="headerlink" href="#usaco-section-13" title="Permanent link">&para;</a></h3>
+<p>贪心</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1208">P1208</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1209">P1209</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1211">P1211</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1444">P1444</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P3650">P3650</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2693">P2693</a></li>
+</ul>
+<h3 id="usaco-section-14">USACO-Section-1.4<a class="headerlink" href="#usaco-section-14" title="Permanent link">&para;</a></h3>
+<p>有技巧的枚举</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1214">P1214</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1215">P1215</a></li>
+</ul>
+<h3 id="usaco-section-15">USACO-Section-1.5<a class="headerlink" href="#usaco-section-15" title="Permanent link">&para;</a></h3>
+<p>二进制数</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1216">P1216</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1217">P1217</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1218">P1218</a></li>
+</ul>
+<h3 id="usaco-section-21">USACO-Section-2.1<a class="headerlink" href="#usaco-section-21" title="Permanent link">&para;</a></h3>
+<p>图论和洪水填充</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1457">P1457</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1458">P1458</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1459">P1459</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1460">P1460</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1461">P1461</a></li>
+</ul>
+<h3 id="usaco-section-22">USACO-Section-2.2<a class="headerlink" href="#usaco-section-22" title="Permanent link">&para;</a></h3>
+<p>数据结构与动态规划</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1465">P1465</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1466">P1466</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1467">P1467</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1468">P1468</a></li>
+</ul>
+<h3 id="usaco-section-23">USACO-Section-2.3<a class="headerlink" href="#usaco-section-23" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1470">P1470</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1472">P1472</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1473">P1473</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1474">P1474</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1475">P1475</a></li>
+</ul>
+<h3 id="usaco-section-24">USACO-Section-2.4<a class="headerlink" href="#usaco-section-24" title="Permanent link">&para;</a></h3>
+<p>最短路径</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1518">P1518</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1519">P1519</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1522">P1522</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1529">P1529</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1530">P1530</a></li>
+</ul>
+<h3 id="usaco-section-31">USACO-Section-3.1<a class="headerlink" href="#usaco-section-31" title="Permanent link">&para;</a></h3>
+<p>最小生成树</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1546">P1546</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2722">P2722</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2723">P2723</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2724">P2724</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2725">P2725</a></li>
+</ul>
+<h3 id="usaco-section-32">USACO-Section-3.2<a class="headerlink" href="#usaco-section-32" title="Permanent link">&para;</a></h3>
+<p>背包问题</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1134">P1134</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2727">P2727</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2728">P2728</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2729">P2729</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2730">P2730</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1828">P1828</a></li>
+</ul>
+<h3 id="usaco-section-33">USACO-Section-3.3<a class="headerlink" href="#usaco-section-33" title="Permanent link">&para;</a></h3>
+<p>欧拉回路</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2731">P2731</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2732">P2732</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1930">P1930</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2733">P2733</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2734">P2734</a></li>
+</ul>
+<h3 id="usaco-section-34">USACO-Section-3.4<a class="headerlink" href="#usaco-section-34" title="Permanent link">&para;</a></h3>
+<p>计算几何</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1827">P1827</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2735">P2735</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2736">P2736</a></li>
+</ul>
+<h3 id="usaco-section-41">USACO-Section-4.1<a class="headerlink" href="#usaco-section-41" title="Permanent link">&para;</a></h3>
+<p>最优化</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2737">P2737</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2738">P2738</a></li>
+</ul>
+<h3 id="usaco-section-42">USACO-Section-4.2<a class="headerlink" href="#usaco-section-42" title="Permanent link">&para;</a></h3>
+<p>网络流</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2740">P2740</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1894">P1894</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2751">P2751</a></li>
+</ul>
+<h3 id="usaco-section-43">USACO-Section-4.3<a class="headerlink" href="#usaco-section-43" title="Permanent link">&para;</a></h3>
+<p>高精度</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2687">P2687</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2752">P2752</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2753">P2753</a></li>
+</ul>
+<h3 id="usaco-section-44">USACO-Section-4.4<a class="headerlink" href="#usaco-section-44" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1344">P1344</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2739">P2739</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2741">P2741</a></li>
+</ul>
+<h3 id="usaco-section-51">USACO-Section-5.1<a class="headerlink" href="#usaco-section-51" title="Permanent link">&para;</a></h3>
+<p>二维凸包</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2742">P2742</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2743">P2743</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2749">P2749</a></li>
+</ul>
+<h3 id="usaco-section-52">USACO-Section-5.2<a class="headerlink" href="#usaco-section-52" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1560">P1560</a></li>
+</ul>
+<h3 id="usaco-section-53">USACO-Section-5.3<a class="headerlink" href="#usaco-section-53" title="Permanent link">&para;</a></h3>
+<p>启发式搜索</p>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P2701">P2701</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2744">P2744</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2745">P2745</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2746">P2746</a></li>
+</ul>
+<h3 id="usaco-section-54">USACO-Section-5.4<a class="headerlink" href="#usaco-section-54" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1345">P1345</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2747">P2747</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2748">P2748</a></li>
+</ul>
+<h3 id="usaco-section-55">USACO-Section-5.5<a class="headerlink" href="#usaco-section-55" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.luogu.com.cn/problem/P1709">P1709</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P1856">P1856</a></li>
+<li><a href="https://www.luogu.com.cn/problem/P2750">P2750</a></li>
+</ul>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../road/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                训练路线
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.18f0862e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.994580cf.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ['navigation.tabs'],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.9c0e82ba.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="https://cdn.staticfile.org/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      
+    
+  </body>
+</html>
