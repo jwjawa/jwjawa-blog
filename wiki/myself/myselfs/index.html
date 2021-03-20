@@ -14,7 +14,7 @@
     
     
       
-        <title>MkDocs 的特殊 Md 语法 - jwj's Wiki</title>
+        <title>给自己看的话 - jwj's Wiki</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#mkdocs-md" class="md-skip">
+        <a href="#_1" class="md-skip">
           跳转至
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              MkDocs 的特殊 Md 语法
+              给自己看的话
             
           </span>
         </div>
@@ -163,13 +163,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../../myself/myselfs/" class="md-tabs__link">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
         自我提升
       </a>
     </li>
@@ -333,15 +335,13 @@
         
   
   
-    
-  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../mkdocs/" class="md-tabs__link md-tabs__link--active">
+      <a href="../../about-wiki/mkdocs/" class="md-tabs__link">
         Wiki 相关
       </a>
     </li>
@@ -454,12 +454,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
       
       <label class="md-nav__link" for="nav-2">
         自我提升
@@ -476,11 +478,56 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../myself/myselfs/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          给自己看的话
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         给自己看的话
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    具体怎么搞
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    规划下时间
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -490,7 +537,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../myself/zikongli/" class="md-nav__link">
+      <a href="../zikongli/" class="md-nav__link">
         自控力书摘
       </a>
     </li>
@@ -1130,14 +1177,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10" >
       
       <label class="md-nav__link" for="nav-10">
         Wiki 相关
@@ -1156,7 +1201,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mkdocs/" class="md-nav__link">
+      <a href="../../about-wiki/mkdocs/" class="md-nav__link">
         MkDocs 基础使用
       </a>
     </li>
@@ -1166,20 +1211,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../about-wiki/mkdocs-md/" class="md-nav__link">
         MkDocs 的特殊 Md 语法
       </a>
-      
     </li>
   
 
@@ -1189,7 +1225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../KaTeX/" class="md-nav__link">
+      <a href="../../about-wiki/KaTeX/" class="md-nav__link">
         KaTeX 语法
       </a>
     </li>
@@ -1220,6 +1256,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    具体怎么搞
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    规划下时间
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1231,76 +1289,83 @@
               
                 
                 
-                <h1 id="mkdocs-md">MkDocs 的特殊 Md 语法<a class="headerlink" href="#mkdocs-md" title="Permanent link">&para;</a></h1>
-<p>以下<code>Markdown-mkdocs</code>语法参考自<a href="https://oi-wiki.org/intro/format/#_4">OI Wiki</a></p>
-<div class="admonition something">
-<p class="admonition-title">Something</p>
-<p>默认展开，不能收起
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
-2</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>!!!something
-    //something
-</code></pre></div>
-</td></tr></table>
-请记得在文本前面添加 4 个空格。其他的语法还是与 Markdown 语法一致。</p>
-<p>不添加 4 个空格的话，文本就不会出现在 Details 文本框里了。</p>
-</div>
-<details class="something" open="open"><summary>Something</summary><p>默认展开，可以收起
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
-2</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>???+ something
-    //something
-</code></pre></div>
-</td></tr></table></p>
-</details>
-<details class="something"><summary>Something</summary><p>默认折叠，可以展开
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
-2</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>???something
-    //something
-</code></pre></div>
-</td></tr></table></p>
-</details>
-<details class="warning"><summary>Warning</summary><p>默认折叠，可以展开</p>
-<p>标题为<code>warning</code>时显示如此
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
-2</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>???warning
-    //something
-</code></pre></div>
-</td></tr></table></p>
-</details>
-<details class="error"><summary>Error</summary><p>默认折叠，可以展开</p>
-<p>标题为<code>error</code>时显示如此
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
-2</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>???error
-    //something
-</code></pre></div>
-</td></tr></table></p>
-</details>
-<details class="note"><summary><a href="https://jwjawa.js.org/">jwj 的博客</a></summary><p>标题也可以使用 Markdown 的超链接。</p>
-<p>注意标题要打英文双引号。
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
-2</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>???note &quot;[]()&quot;
-    //something
-</code></pre></div>
-</td></tr></table></p>
-<details class="嵌套文本框测试"><summary>嵌套文本框测试</summary><p>嵌套文本框测试</p>
-</details>
-</details>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
-2
-3</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>测试脚注[^1]
-
-[^1]: 不能在 Details 文本框中使用。注意：冒号是英文冒号，冒号后面跟着一个空格。
-</code></pre></div>
-</td></tr></table>
-
-<p>测试脚注<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
-<div class="footnote">
-<hr />
-<ol>
-<li id="fn:1">
-<p>脚注不能在 Details 文本框中使用。注意：冒号是英文冒号，冒号后面跟着一个空格。&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>
+                <h1 id="_1">给自己看的话<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>有点坚持不下去或者心情不好的话就看这些，同时继续修改补充，平时有精力就别花太多时间在这上面</p>
+<p>首先要明白最终目标是高考，不要太在意短期成绩，不用太在意别人的看法</p>
+<p>很多东西自己比较特殊不能太随大流（比如语文英语这么垃圾我跟你嘛呢）</p>
+<p>其他的别太过于较真，该跟的跟，不该跟的找事做</p>
+<p>认真生活，专注当下，少想别的，天天七想八想真的是闲的蛋疼</p>
+<p>计划最好多做短期计划并努力认真实行，详细的长期计划太耗时你自己也不一定做得到</p>
+<p>一轮前专搞短板，不然你想跟别人相对论都难，抓重点搞别在意细节细节一轮再说</p>
+<p>一轮特别累但是认真过掉我认为你基本一本就稳了（草？），话是这么说但你真的甘心就考个一本？</p>
+<p>别关心目标有多难，干就完了，再想别的你特么这辈子也就这样了</p>
+<p>学习这种东西短期都是看不到效果的，得长期积累</p>
+<p>一定得坚持，别老想着都坚持这么久了给自己放个假好像你高考稳了一样的</p>
+<p>努力缓解焦虑，做实事，不要自我感动，不要想七想八</p>
+<p>想七想八的时候就想想，这些事都关我屁事，这些事你配个几把，这些事有正事重要吗没有就爬吧</p>
+<p>别每天空想着未来咋样咋样你现在还不配去想知道不</p>
+<p>心情特别不好就写点什么（写这个？），好点了就找原因（估计都是闲的），避免再次出现</p>
+<p>现在的高三再怎么样也跟你没多大关系了，你现在又不可能回去，他们毕业之后你看他们有几个记得你</p>
+<p>想想其实休学对于目前的高考形式反而是种优势，别老想着雪耻浪费感情还搞得自己心态爆炸</p>
+<p>计算机别想着搞了，初赛也别搞，搞了干嘛真的是，在€€￡身上浪费感情，这河里吗</p>
+<p>真别搞得太自卑了，其实压根就不好，狂妄可以但脚步要落实到位</p>
+<p>想想有一天，曾经的狂妄全部实现，想自卑却发现自己不配自卑，直接爽爆有木有</p>
+<p>关键你特么得淦啊不然怎么搞？做梦？</p>
+<p>好了好了，都看到这了还不去卷就给老子爬吧/cy</p>
+<h2 id="_2">具体怎么搞<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>语文：</p>
+<ul>
+<li>文言文开始背，先复习会的再把没背的一个一个开始背</li>
+<li>小说该拿的分数要拿到</li>
+<li>平时要开始注意积累了</li>
+<li>一轮一定要认真搞！一轮不认真搞语文真的没了</li>
+</ul>
+<p>数学：</p>
+<ul>
+<li>最近少搞，要搞就做个性化</li>
+<li>薄弱：函数，三角，解三角（立几解几要用这玩意的时候顿时去哔）</li>
+<li>难点：导数，解几，立几（特别是解几，导数现在认真学认真做作业）</li>
+<li>其次：统计类（最近总结一下就行了，详细的在一轮搞），复数（认真上课就行了），数列，不等式（这俩也别看太轻毕竟你也没搞多少），逻辑（总结下就行）</li>
+<li>上课听课或者搞导数，课余搞薄弱（自己去理解知识点），解几找题做，三角总结过一遍</li>
+<li>一轮的时候搞题为主，使劲搞，搞不死一直搞</li>
+</ul>
+<p>英语：</p>
+<ul>
+<li>背单词一定要坚持，别再 abandon 了</li>
+<li>开始背作文范文</li>
+<li>可以看看语法书</li>
+</ul>
+<p>物理：</p>
+<ul>
+<li>最近少搞，要搞就做个性化</li>
+<li>目前先跟课算了，内容有点多，记得预习加总结，导学案上课边听边做</li>
+<li>重中之重：机械能、动量，牛顿和曲线有点底子一轮搞足够了，当然目前最重要的是听课</li>
+<li>复习重点：电场、恒定、交变（这些是薄弱），磁场、电磁（这些是难点）</li>
+<li>一轮的时候搞题为主，使劲搞，搞不死一直搞</li>
+</ul>
+<p>生物：</p>
+<ul>
+<li>导学案上课边听边做，做个性化</li>
+<li>看书重点必修三，其次必修一，感觉这学科好像也有点注重积累</li>
+</ul>
+<p>地理：</p>
+<ul>
+<li>跟老师（莫得法你自己学也学不到什么刷题也刷不下去）</li>
+<li>看书重点必修二，其次必修三（别特么看一个月还在看人口）</li>
+<li>必修一忘得差不多了但是另外两本基本没学不搞怎么行啊，必修一就搁着吧没办法，谁叫你懒得跟那啥玩意一样</li>
+</ul>
+<h2 id="_3">规划下时间<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>早自习该英语就记单词，该语文就文言文</p>
+<p>早饭后定个计划要搞哪门搞多少一天额外的就搞一门别搞多了</p>
+<p>上课要上就认真上不上就认真搞自己的</p>
+<p>下课的时候不过瘾就继续累了就别勉强了趴一会</p>
+<p>中午午自习最好搞自己要搞的</p>
+<p>晚自习考试别逃了再怎么不会也得考</p>
+<p>不考试如果有要紧的作业先做，然后开搞就对了</p>
+<p>回家先洗别浪费时间，十点二十必须搞完其他的事</p>
+<p>看一个小时到一个半小时的网课或者搞 Wiki</p>
+<p>晚上尽量保证 6 到 7 小时睡眠吧</p>
+<p>每天记得复盘</p>
                 
               
               
@@ -1319,7 +1384,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../mkdocs/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../beiwanglu/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -1328,19 +1393,19 @@
                 <span class="md-footer-nav__direction">
                   上一页
                 </span>
-                MkDocs 基础使用
+                备忘录
               </div>
             </div>
           </a>
         
         
-          <a href="../KaTeX/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../zikongli/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   下一页
                 </span>
-                KaTeX 语法
+                自控力书摘
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">

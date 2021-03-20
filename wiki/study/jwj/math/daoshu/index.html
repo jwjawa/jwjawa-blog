@@ -1,0 +1,1876 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../../../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
+    
+    
+      
+        <title>导数 - jwj's Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.cb6bc1d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.39b8e14a.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffffff">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="white" data-md-color-accent="">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../../../.." title="jwj&#39;s Wiki" class="md-header-nav__button md-logo" aria-label="jwj's Wiki">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            jwj's Wiki
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              导数
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        首页
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../myself/myselfs/" class="md-tabs__link">
+        自我提升
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../wangke/chinese/time/" class="md-tabs__link">
+        语文笔记
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        数学笔记
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../wangke/english/zuowen/" class="md-tabs__link">
+        英语笔记
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../physic/3-4/" class="md-tabs__link">
+        物理笔记
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../wangke/biology/tiaojie/" class="md-tabs__link">
+        生物笔记
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../wangke/geography/renwen/" class="md-tabs__link">
+        地理笔记
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../oi/road/" class="md-tabs__link">
+        OI 相关
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../about-wiki/mkdocs/" class="md-tabs__link">
+        Wiki 相关
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="jwj&#39;s Wiki" class="md-nav__button md-logo" aria-label="jwj's Wiki">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    jwj's Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" >
+      
+      <label class="md-nav__link" for="nav-1">
+        首页
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="首页" data-md-level="1">
+        <label class="md-nav__title" for="nav-1">
+          <span class="md-nav__icon md-icon"></span>
+          首页
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        首页
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../scores/" class="md-nav__link">
+        成绩单
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../beiwanglu/" class="md-nav__link">
+        备忘录
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+      
+      <label class="md-nav__link" for="nav-2">
+        自我提升
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="自我提升" data-md-level="1">
+        <label class="md-nav__title" for="nav-2">
+          <span class="md-nav__icon md-icon"></span>
+          自我提升
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../myself/myselfs/" class="md-nav__link">
+        给自己看的话
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../myself/zikongli/" class="md-nav__link">
+        自控力书摘
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+      
+      <label class="md-nav__link" for="nav-3">
+        语文笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="语文笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-3">
+          <span class="md-nav__icon md-icon"></span>
+          语文笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1" >
+      
+      <label class="md-nav__link" for="nav-3-1">
+        网课笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="网课笔记" data-md-level="2">
+        <label class="md-nav__title" for="nav-3-1">
+          <span class="md-nav__icon md-icon"></span>
+          网课笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wangke/chinese/time/" class="md-nav__link">
+        语文各题型用时
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wangke/chinese/novel/" class="md-nav__link">
+        文学类文本
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+      
+      <label class="md-nav__link" for="nav-4">
+        数学笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="数学笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-4">
+          <span class="md-nav__icon md-icon"></span>
+          数学笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-1" type="checkbox" id="nav-4-1" checked>
+      
+      <label class="md-nav__link" for="nav-4-1">
+        个人笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="个人笔记" data-md-level="2">
+        <label class="md-nav__title" for="nav-4-1">
+          <span class="md-nav__icon md-icon"></span>
+          个人笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          导数
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        导数
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    极限
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    求导基本运算
+  </a>
+  
+    <nav class="md-nav" aria-label="求导基本运算">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    平均变化率
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    定义式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    基本公式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    四则运算
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    复合函数求导
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    运算加速
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    几何意义
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    单调性、极值、最值、凸凹
+  </a>
+  
+    <nav class="md-nav" aria-label="单调性、极值、最值、凸凹">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    单调性
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    极值
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    最值
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    凸凹
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    常见函数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    三次函数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    构造函数求解不等式
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2" >
+      
+      <label class="md-nav__link" for="nav-4-2">
+        网课笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="网课笔记" data-md-level="2">
+        <label class="md-nav__title" for="nav-4-2">
+          <span class="md-nav__icon md-icon"></span>
+          网课笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wangke/math/daoshu/" class="md-nav__link">
+        导数
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://magolor.cn/files/maths.pdf" class="md-nav__link">
+        神仙笔记
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+      
+      <label class="md-nav__link" for="nav-5">
+        英语笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="英语笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-5">
+          <span class="md-nav__icon md-icon"></span>
+          英语笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-1" type="checkbox" id="nav-5-1" >
+      
+      <label class="md-nav__link" for="nav-5-1">
+        网课笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="网课笔记" data-md-level="2">
+        <label class="md-nav__title" for="nav-5-1">
+          <span class="md-nav__icon md-icon"></span>
+          网课笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wangke/english/zuowen/" class="md-nav__link">
+        作文
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wangke/english/xuxie/" class="md-nav__link">
+        续写
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+      
+      <label class="md-nav__link" for="nav-6">
+        物理笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="物理笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-6">
+          <span class="md-nav__icon md-icon"></span>
+          物理笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-1" type="checkbox" id="nav-6-1" >
+      
+      <label class="md-nav__link" for="nav-6-1">
+        个人笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="个人笔记" data-md-level="2">
+        <label class="md-nav__title" for="nav-6-1">
+          <span class="md-nav__icon md-icon"></span>
+          个人笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../physic/3-4/" class="md-nav__link">
+        波、光、相对论
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-2" type="checkbox" id="nav-6-2" >
+      
+      <label class="md-nav__link" for="nav-6-2">
+        网课笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="网课笔记" data-md-level="2">
+        <label class="md-nav__title" for="nav-6-2">
+          <span class="md-nav__icon md-icon"></span>
+          网课笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wangke/physic/dongliang/" class="md-nav__link">
+        动量
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://magolor.cn/files/physics.pdf" class="md-nav__link">
+        神仙笔记
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" >
+      
+      <label class="md-nav__link" for="nav-7">
+        生物笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="生物笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-7">
+          <span class="md-nav__icon md-icon"></span>
+          生物笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7-1" type="checkbox" id="nav-7-1" >
+      
+      <label class="md-nav__link" for="nav-7-1">
+        网课笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="网课笔记" data-md-level="2">
+        <label class="md-nav__title" for="nav-7-1">
+          <span class="md-nav__icon md-icon"></span>
+          网课笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wangke/biology/tiaojie/" class="md-nav__link">
+        调节专题
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://magolor.cn/files/biology.pdf" class="md-nav__link">
+        神仙笔记
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8" >
+      
+      <label class="md-nav__link" for="nav-8">
+        地理笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="地理笔记" data-md-level="1">
+        <label class="md-nav__title" for="nav-8">
+          <span class="md-nav__icon md-icon"></span>
+          地理笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-1" type="checkbox" id="nav-8-1" >
+      
+      <label class="md-nav__link" for="nav-8-1">
+        网课笔记
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="网课笔记" data-md-level="2">
+        <label class="md-nav__title" for="nav-8-1">
+          <span class="md-nav__icon md-icon"></span>
+          网课笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wangke/geography/renwen/" class="md-nav__link">
+        人文地理
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9" >
+      
+      <label class="md-nav__link" for="nav-9">
+        OI 相关
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="OI 相关" data-md-level="1">
+        <label class="md-nav__title" for="nav-9">
+          <span class="md-nav__icon md-icon"></span>
+          OI 相关
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../oi/road/" class="md-nav__link">
+        训练路线
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../oi/luogu/" class="md-nav__link">
+        洛谷试炼场
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10" >
+      
+      <label class="md-nav__link" for="nav-10">
+        Wiki 相关
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Wiki 相关" data-md-level="1">
+        <label class="md-nav__title" for="nav-10">
+          <span class="md-nav__icon md-icon"></span>
+          Wiki 相关
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../about-wiki/mkdocs/" class="md-nav__link">
+        MkDocs 基础使用
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../about-wiki/mkdocs-md/" class="md-nav__link">
+        MkDocs 的特殊 Md 语法
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../about-wiki/KaTeX/" class="md-nav__link">
+        KaTeX 语法
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    极限
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    求导基本运算
+  </a>
+  
+    <nav class="md-nav" aria-label="求导基本运算">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    平均变化率
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    定义式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    基本公式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    四则运算
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    复合函数求导
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    运算加速
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    几何意义
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    单调性、极值、最值、凸凹
+  </a>
+  
+    <nav class="md-nav" aria-label="单调性、极值、最值、凸凹">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    单调性
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    极值
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    最值
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    凸凹
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    常见函数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    三次函数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    构造函数求解不等式
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="_1">导数<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h2 id="_2">极限<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>数列极限：当 <span><span class="MathJax_Preview">n→\infty</span><script type="math/tex">n→\infty</script></span> 时，<span><span class="MathJax_Preview">a_n</span><script type="math/tex">a_n</script></span> 是否趋近于一个常数？方法：分式上下同时除以 <span><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 或 <span><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 的多次方以使上下都可导。高阶除低阶无极限。</p>
+<p>函数极限：若 <span><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 图像在点 <span><span class="MathJax_Preview">x=x_0</span><script type="math/tex">x=x_0</script></span> 处连续且 <span><span class="MathJax_Preview">f(x_0)</span><script type="math/tex">f(x_0)</script></span> 存在，则 <span><span class="MathJax_Preview">{\lim_{x→x_0}f(x)=f(x_0)}</span><script type="math/tex">{\lim_{x→x_0}f(x)=f(x_0)}</script></span> 。</p>
+<div>
+<div class="MathJax_Preview">\forall x,a&gt;f(x)\iff a&gt;f(x)_{max}</div>
+<script type="math/tex; mode=display">\forall x,a>f(x)\iff a>f(x)_{max}</script>
+</div>
+<div>
+<div class="MathJax_Preview">\forall x,a&lt;f(x)\iff a&lt;f(x)_{min}</div>
+<script type="math/tex; mode=display">\forall x,a<f(x)\iff a<f(x)_{min}</script>
+</div>
+<hr />
+<p><del>不知道有什么用</del></p>
+<div>
+<div class="MathJax_Preview">\lim_{n→\infty}{(1+{1\over n})^n}=e≈2.71828</div>
+<script type="math/tex; mode=display">\lim_{n→\infty}{(1+{1\over n})^n}=e≈2.71828</script>
+</div>
+<div>
+<div class="MathJax_Preview">\lim_{n→\infty}\ln{(1+{1\over n})^n=1}\implies \lim_{n→\infty}{\ln(1+{1\over n})\over{1\over n}}=1</div>
+<script type="math/tex; mode=display">\lim_{n→\infty}\ln{(1+{1\over n})^n=1}\implies \lim_{n→\infty}{\ln(1+{1\over n})\over{1\over n}}=1</script>
+</div>
+<p>令<span><span class="MathJax_Preview">x={1\over n}</span><script type="math/tex">x={1\over n}</script></span>，则</p>
+<div>
+<div class="MathJax_Preview">\lim_{x→0}{\ln{(1+x)}\over x}=1</div>
+<script type="math/tex; mode=display">\lim_{x→0}{\ln{(1+x)}\over x}=1</script>
+</div>
+<p>设 <span><span class="MathJax_Preview">P(x,\ln{(1+x)})</span><script type="math/tex">P(x,\ln{(1+x)})</script></span>， <span><span class="MathJax_Preview">\ln(1+x)</span><script type="math/tex">\ln(1+x)</script></span> 过原点</p>
+<div>
+<div class="MathJax_Preview">{\ln{(1+x)}\over x}=k_{OP}\implies \lim_{x→0}{\ln{(1+x)}\over x}=k_{O切}=1</div>
+<script type="math/tex; mode=display">{\ln{(1+x)}\over x}=k_{OP}\implies \lim_{x→0}{\ln{(1+x)}\over x}=k_{O切}=1</script>
+</div>
+<p>所以 <span><span class="MathJax_Preview">O</span><script type="math/tex">O</script></span> 点切线为 <span><span class="MathJax_Preview">y=x</span><script type="math/tex">y=x</script></span>，所以 <span><span class="MathJax_Preview">x\ge\ln{(1+x)}</span><script type="math/tex">x\ge\ln{(1+x)}</script></span> （<span><span class="MathJax_Preview">x=0</span><script type="math/tex">x=0</script></span>时取等号）</p>
+<hr />
+<p><del>不知道有什么用</del></p>
+<div>
+<div class="MathJax_Preview">\lim_{x\to 0}{\sin{x}\over x}=1</div>
+<script type="math/tex; mode=display">\lim_{x\to 0}{\sin{x}\over x}=1</script>
+</div>
+<p>证明：在单位圆上作射线 <span><span class="MathJax_Preview">OA</span><script type="math/tex">OA</script></span> 和 <span><span class="MathJax_Preview">OB</span><script type="math/tex">OB</script></span>，使 <span><span class="MathJax_Preview">\angle{AOx}=\angle{BOx}=\alpha\ (\alpha\in(0,{\pi\over 2}))</span><script type="math/tex">\angle{AOx}=\angle{BOx}=\alpha\ (\alpha\in(0,{\pi\over 2}))</script></span></p>
+<div>
+<div class="MathJax_Preview">|AB|=2\sin{\alpha}&lt;弧{AB}=2\alpha\ (\alpha={l\over r}) \implies {\sin{\alpha}\over\alpha}&lt;1</div>
+<script type="math/tex; mode=display">|AB|=2\sin{\alpha}<弧{AB}=2\alpha\ (\alpha={l\over r}) \implies {\sin{\alpha}\over\alpha}<1</script>
+</div>
+<div>
+<div class="MathJax_Preview">\alpha\to0,弧{AB}\to|AB|\implies \lim_{\alpha\to0}{\sin{\alpha}\over\alpha}=1</div>
+<script type="math/tex; mode=display">\alpha\to0,弧{AB}\to|AB|\implies \lim_{\alpha\to0}{\sin{\alpha}\over\alpha}=1</script>
+</div>
+<p>设 <span><span class="MathJax_Preview">P(x,\sin{x})</span><script type="math/tex">P(x,\sin{x})</script></span> ，<span><span class="MathJax_Preview">k_{OP}={\sin{x}\over x}</span><script type="math/tex">k_{OP}={\sin{x}\over x}</script></span> ，所以</p>
+<div>
+<div class="MathJax_Preview">\lim_{x\to0}{\sin{x}\over x}=\lim_{x\to0}{k_{O切}}=1
+</div>
+<script type="math/tex; mode=display">\lim_{x\to0}{\sin{x}\over x}=\lim_{x\to0}{k_{O切}}=1
+</script>
+</div>
+<hr />
+<p>以曲带直思想</p>
+<p>割圆术，半径为 <span><span class="MathJax_Preview">R</span><script type="math/tex">R</script></span> 的圆的内接正 <span><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 边形面积为 <span><span class="MathJax_Preview">S_n</span><script type="math/tex">S_n</script></span> ，求证：</p>
+<div>
+<div class="MathJax_Preview">\lim_{n\to\infty}{S_n}=\pi R^2</div>
+<script type="math/tex; mode=display">\lim_{n\to\infty}{S_n}=\pi R^2</script>
+</div>
+<p>证明：</p>
+<div>
+<div class="MathJax_Preview">S_n={n\over 2}R^2\sin{2\pi\over n}</div>
+<script type="math/tex; mode=display">S_n={n\over 2}R^2\sin{2\pi\over n}</script>
+</div>
+<div>
+<div class="MathJax_Preview">\lim_{n\to\infty}{S_n}=R^2\lim_{n\to\infty}{({n\over 2}\sin{2\pi\over n})}=R^2\lim_{n\to\infty}{\sin{2\pi\over n}\over {2\pi\over n}}·\pi=\pi R^2
+</div>
+<script type="math/tex; mode=display">\lim_{n\to\infty}{S_n}=R^2\lim_{n\to\infty}{({n\over 2}\sin{2\pi\over n})}=R^2\lim_{n\to\infty}{\sin{2\pi\over n}\over {2\pi\over n}}·\pi=\pi R^2
+</script>
+</div>
+<h2 id="_3">求导基本运算<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h3 id="_4">平均变化率<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<div>
+<div class="MathJax_Preview">{f(x_2)-f(x_1)\over x_2-x_1}={Δy\over Δx}</div>
+<script type="math/tex; mode=display">{f(x_2)-f(x_1)\over x_2-x_1}={Δy\over Δx}</script>
+</div>
+<h3 id="_5">定义式<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>这里为了帮助理解导数的几何意义没有去掉 <span><span class="MathJax_Preview">x_0</span><script type="math/tex">x_0</script></span> 。</p>
+<div>
+<div class="MathJax_Preview">f'(x_0)=\lim_{Δx→0}{Δy\over Δx}=\lim_{Δx→0}{f(x_0+Δx)-f(x_0)\over x_0+Δx-x_0}</div>
+<script type="math/tex; mode=display">f'(x_0)=\lim_{Δx→0}{Δy\over Δx}=\lim_{Δx→0}{f(x_0+Δx)-f(x_0)\over x_0+Δx-x_0}</script>
+</div>
+<h3 id="_6">基本公式<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<div>
+<div class="MathJax_Preview">f(x)=c\implies f'(x)=0，c 为常数</div>
+<script type="math/tex; mode=display">f(x)=c\implies f'(x)=0，c 为常数</script>
+</div>
+<div>
+<div class="MathJax_Preview">f(x)=x^\alpha\implies f'(x)=\alpha x^{\alpha-1}，\alpha \in Q^*</div>
+<script type="math/tex; mode=display">f(x)=x^\alpha\implies f'(x)=\alpha x^{\alpha-1}，\alpha \in Q^*</script>
+</div>
+<div>
+<div class="MathJax_Preview">f(x)=\sin{x}\implies f'(x)=\cos{x}</div>
+<script type="math/tex; mode=display">f(x)=\sin{x}\implies f'(x)=\cos{x}</script>
+</div>
+<div>
+<div class="MathJax_Preview">f(x)=\cos{x}\implies f'(x)=-\sin{x}</div>
+<script type="math/tex; mode=display">f(x)=\cos{x}\implies f'(x)=-\sin{x}</script>
+</div>
+<div>
+<div class="MathJax_Preview">f(x)=a^x\implies f'(x)=a^x\ln{a}，f(x)=e^x\implies f'(x)=e^x</div>
+<script type="math/tex; mode=display">f(x)=a^x\implies f'(x)=a^x\ln{a}，f(x)=e^x\implies f'(x)=e^x</script>
+</div>
+<div>
+<div class="MathJax_Preview">f(x)=\log_{a}{x}\implies f'(x)={1\over x\ln{a}}，f(x)=\ln{x}\implies f'(x)={1\over x}</div>
+<script type="math/tex; mode=display">f(x)=\log_{a}{x}\implies f'(x)={1\over x\ln{a}}，f(x)=\ln{x}\implies f'(x)={1\over x}</script>
+</div>
+<h3 id="_7">四则运算<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<div>
+<div class="MathJax_Preview">[f(x)\pm g(x)]'=f'(x)\pm g'(x)</div>
+<script type="math/tex; mode=display">[f(x)\pm g(x)]'=f'(x)\pm g'(x)</script>
+</div>
+<div>
+<div class="MathJax_Preview">[f(x)g(x)]'=f'(x)g(x)+f(x)g'(x)</div>
+<script type="math/tex; mode=display">[f(x)g(x)]'=f'(x)g(x)+f(x)g'(x)</script>
+</div>
+<div>
+<div class="MathJax_Preview">[cf(x)]'=cf'(x)</div>
+<script type="math/tex; mode=display">[cf(x)]'=cf'(x)</script>
+</div>
+<div>
+<div class="MathJax_Preview">[{f(x)\over g(x)}]'={f'(x)g(x)-f(x)g'(x)\over [g(x)]^2}\ (\ g(x)\ne 0\ )</div>
+<script type="math/tex; mode=display">[{f(x)\over g(x)}]'={f'(x)g(x)-f(x)g'(x)\over [g(x)]^2}\ (\ g(x)\ne 0\ )</script>
+</div>
+<h3 id="_8">复合函数求导<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<div>
+<div class="MathJax_Preview">y=f(g(x))，y=f(u)，u=g(x)</div>
+<script type="math/tex; mode=display">y=f(g(x))，y=f(u)，u=g(x)</script>
+</div>
+<div>
+<div class="MathJax_Preview">{y_x}'={y_u}'·{u_x}'</div>
+<script type="math/tex; mode=display">{y_x}'={y_u}'·{u_x}'</script>
+</div>
+<p>有多重复合可以一直拆，可以整体使用运算法则。</p>
+<h3 id="_9">运算加速<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<div>
+<div class="MathJax_Preview">(e^xf(x))'=e^x(f(x)+f'(x))</div>
+<script type="math/tex; mode=display">(e^xf(x))'=e^x(f(x)+f'(x))</script>
+</div>
+<div>
+<div class="MathJax_Preview">({f(x)\over e^x})'={f'(x)-f(x)\over e^x}</div>
+<script type="math/tex; mode=display">({f(x)\over e^x})'={f'(x)-f(x)\over e^x}</script>
+</div>
+<p><span><span class="MathJax_Preview">[f(x)·g(x)]'</span><script type="math/tex">[f(x)·g(x)]'</script></span> 计算：在算式下写出各自的导函数，交叉相乘再相加。</p>
+<p><span><span class="MathJax_Preview">({f(x)\over g(x)})'</span><script type="math/tex">({f(x)\over g(x)})'</script></span> 计算：先写分母 <span><span class="MathJax_Preview">g^2(x)</span><script type="math/tex">g^2(x)</script></span> ，再在算式右写出各自的导函数，交叉相乘，斜上线减斜下线作为分子。</p>
+<h2 id="_10">几何意义<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h2>
+<p><span><span class="MathJax_Preview">f'(x_0)</span><script type="math/tex">f'(x_0)</script></span> 为 <span><span class="MathJax_Preview">(x_0,f(x_0))</span><script type="math/tex">(x_0,f(x_0))</script></span> 点的切线斜率</p>
+<p><span><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 在点 <span><span class="MathJax_Preview">(x_0,f(x_0))</span><script type="math/tex">(x_0,f(x_0))</script></span> 处的切线方程：</p>
+<div>
+<div class="MathJax_Preview">y-f(x_0)=f'(x_0)(x-x_0)</div>
+<script type="math/tex; mode=display">y-f(x_0)=f'(x_0)(x-x_0)</script>
+</div>
+<p>公切线：分别设点求切线方程，两条切线 <span><span class="MathJax_Preview">y=kx+b</span><script type="math/tex">y=kx+b</script></span> 中的 <span><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span> 相等， <span><span class="MathJax_Preview">b</span><script type="math/tex">b</script></span> 相等，从而列出方程组求解切点坐标。</p>
+<h2 id="_11">单调性、极值、最值、凸凹<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h2>
+<h3 id="_12">单调性<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<p>若 <span><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 在 <span><span class="MathJax_Preview">(a,b)</span><script type="math/tex">(a,b)</script></span> 的任何子区间内非常数函数，则：</p>
+<div>
+<div class="MathJax_Preview">f(x)在(a,b)\nearrow\iff f'(x)\ge 0</div>
+<script type="math/tex; mode=display">f(x)在(a,b)\nearrow\iff f'(x)\ge 0</script>
+</div>
+<div>
+<div class="MathJax_Preview">f(x)在(a,b)\searrow\iff f'(x)\le 0</div>
+<script type="math/tex; mode=display">f(x)在(a,b)\searrow\iff f'(x)\le 0</script>
+</div>
+<p>求单调性：</p>
+<ol>
+<li>求定义域，求导，分式就通分</li>
+<li>有参数时讨论情况</li>
+<li>解不等式 <span><span class="MathJax_Preview">f'(x)&gt;0</span><script type="math/tex">f'(x)>0</script></span> 或 <span><span class="MathJax_Preview">f'(x)&lt;0</span><script type="math/tex">f'(x)<0</script></span></li>
+</ol>
+<p>单调性题型：</p>
+<ol>
+<li>求单调区间、极值</li>
+<li>已知单调性，求参数范围</li>
+<li>存在单调区间，求参数范围</li>
+</ol>
+<h3 id="_13">极值<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<p>当 <span><span class="MathJax_Preview">f'(x)=0</span><script type="math/tex">f'(x)=0</script></span> 时</p>
+<div>
+<div class="MathJax_Preview">f'(x_0-Δx)&gt;0,f'(x_0+Δx)&lt;0\iff f(x_0)为极大值</div>
+<script type="math/tex; mode=display">f'(x_0-Δx)>0,f'(x_0+Δx)<0\iff f(x_0)为极大值</script>
+</div>
+<div>
+<div class="MathJax_Preview">f'(x_0-Δx)&lt;0,f'(x_0+Δx)&gt;0\iff f(x_0)为极小值</div>
+<script type="math/tex; mode=display">f'(x_0-Δx)<0,f'(x_0+Δx)>0\iff f(x_0)为极小值</script>
+</div>
+<p>求极值：</p>
+<ol>
+<li>求定义域，求导，分式就通分</li>
+<li>求单调性</li>
+<li>判断点：导数为0时、原函数无意义时（好像已经被定义域筛走了吧）、导函数无意义时（如 <span><span class="MathJax_Preview">x=1</span><script type="math/tex">x=1</script></span> ）</li>
+</ol>
+<h3 id="_14">最值<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
+<p>极值与端点处函数值比较即可，注意闭区间和开区间的区别。</p>
+<h3 id="_15">凸凹<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
+<p><span><span class="MathJax_Preview">f''(x)</span><script type="math/tex">f''(x)</script></span> 为二阶导数。原函数有可能递增也有可能递减。</p>
+<div>
+<div class="MathJax_Preview">凸\iff f'(x)\searrow\iff f''(x)\le 0</div>
+<script type="math/tex; mode=display">凸\iff f'(x)\searrow\iff f''(x)\le 0</script>
+</div>
+<div>
+<div class="MathJax_Preview">凹\iff f'(x)\nearrow\iff f''(x)\ge 0</div>
+<script type="math/tex; mode=display">凹\iff f'(x)\nearrow\iff f''(x)\ge 0</script>
+</div>
+<h2 id="_16">常见函数<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h2>
+<div>
+<div class="MathJax_Preview">f(x)=x·e^x,f'(x)=(x+1)e^x</div>
+<script type="math/tex; mode=display">f(x)=x·e^x,f'(x)=(x+1)e^x</script>
+</div>
+<div>
+<div class="MathJax_Preview">f(x)={e^x\over x},f'(x)={x-1\over x^2}e^x</div>
+<script type="math/tex; mode=display">f(x)={e^x\over x},f'(x)={x-1\over x^2}e^x</script>
+</div>
+<div>
+<div class="MathJax_Preview">f(x)=x·\ln{x},f'(x)=1+\ln{x}</div>
+<script type="math/tex; mode=display">f(x)=x·\ln{x},f'(x)=1+\ln{x}</script>
+</div>
+<div>
+<div class="MathJax_Preview">f(x)={\ln{x}\over x},f'(x)={1-\ln{x}\over x^2}</div>
+<script type="math/tex; mode=display">f(x)={\ln{x}\over x},f'(x)={1-\ln{x}\over x^2}</script>
+</div>
+<hr />
+<p>求导 <span><span class="MathJax_Preview">y=x^x</span><script type="math/tex">y=x^x</script></span> 。</p>
+<p>解：</p>
+<p>两边同取对数：</p>
+<div>
+<div class="MathJax_Preview">\ln{y}=x\ln{x}</div>
+<script type="math/tex; mode=display">\ln{y}=x\ln{x}</script>
+</div>
+<p>两边同求导，自变量为 <span><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span> ：（这步好像有问题吧）</p>
+<div>
+<div class="MathJax_Preview">\ln{y}·{y_x}'=\ln{x}+1</div>
+<script type="math/tex; mode=display">\ln{y}·{y_x}'=\ln{x}+1</script>
+</div>
+<div>
+<div class="MathJax_Preview">{y_x}'={\ln{x}+1\over x\ln{x}}</div>
+<script type="math/tex; mode=display">{y_x}'={\ln{x}+1\over x\ln{x}}</script>
+</div>
+<hr />
+<p><span><span class="MathJax_Preview">y=x-1</span><script type="math/tex">y=x-1</script></span> 是 <span><span class="MathJax_Preview">y=\ln{x}</span><script type="math/tex">y=\ln{x}</script></span> 在 <span><span class="MathJax_Preview">(1,0)</span><script type="math/tex">(1,0)</script></span> 上的切线，证明略</p>
+<h2 id="_17">三次函数<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h2>
+<div>
+<div class="MathJax_Preview">f(x)=ax^3+bx^2+cx+d\ (a≠0)</div>
+<script type="math/tex; mode=display">f(x)=ax^3+bx^2+cx+d\ (a≠0)</script>
+</div>
+<div>
+<div class="MathJax_Preview">f'(x)=3ax^2+2bx+c</div>
+<script type="math/tex; mode=display">f'(x)=3ax^2+2bx+c</script>
+</div>
+<p>拐点（对称中心）：（ <span><span class="MathJax_Preview">f''(x)=0</span><script type="math/tex">f''(x)=0</script></span> ）</p>
+<div>
+<div class="MathJax_Preview">(-{b\over 3a},f(-{b\over 3a}))</div>
+<script type="math/tex; mode=display">(-{b\over 3a},f(-{b\over 3a}))</script>
+</div>
+<p>总体方向：<span><span class="MathJax_Preview">a&gt;0</span><script type="math/tex">a>0</script></span> 时总体 <span><span class="MathJax_Preview">\nearrow</span><script type="math/tex">\nearrow</script></span>；<span><span class="MathJax_Preview">a&lt;0</span><script type="math/tex">a<0</script></span> 时总体 <span><span class="MathJax_Preview">\searrow</span><script type="math/tex">\searrow</script></span> 。</p>
+<p>单调性：</p>
+<p><span><span class="MathJax_Preview">Δ&gt;0\implies b^2-3ac&gt;0\implies</span><script type="math/tex">Δ>0\implies b^2-3ac>0\implies</script></span> 图像为 N 型或 И 型</p>
+<p><span><span class="MathJax_Preview">Δ\le 0\implies b^2-3ac\le 0\implies</span><script type="math/tex">Δ\le 0\implies b^2-3ac\le 0\implies</script></span> 图像为递增型或递减型</p>
+<p>特别地，<span><span class="MathJax_Preview">Δ=0</span><script type="math/tex">Δ=0</script></span> 时，拐点处导数为0。（ <span><span class="MathJax_Preview">f'(-{b\over 3a})=0</span><script type="math/tex">f'(-{b\over 3a})=0</script></span> ）</p>
+<p>极值点：<span><span class="MathJax_Preview">Δ&gt;0\implies b^2-3ac&gt;0</span><script type="math/tex">Δ>0\implies b^2-3ac>0</script></span> 时有极值 <span><span class="MathJax_Preview">f(x_1),f(x_2)</span><script type="math/tex">f(x_1),f(x_2)</script></span> （关于拐点对称），使用二次函数的方法处理 <span><span class="MathJax_Preview">f'(x)</span><script type="math/tex">f'(x)</script></span> 。</p>
+<h2 id="_18">构造函数求解不等式<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h2>
+<p>（待填坑</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../../../wangke/chinese/novel/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                文学类文本
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../../../wangke/math/daoshu/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  下一页
+                </span>
+                导数
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../../assets/javascripts/vendor.18f0862e.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.994580cf.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../../../..",
+          features: ['navigation.tabs'],
+          search: Object.assign({
+            worker: "../../../../assets/javascripts/worker/search.9c0e82ba.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="https://cdn.staticfile.org/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      
+    
+  </body>
+</html>
