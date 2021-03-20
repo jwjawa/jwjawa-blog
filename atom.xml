@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>jwj&#39;s blog</title>
   
-  <subtitle>此火为大.</subtitle>
+  <subtitle>越甲吞吴.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jwjawa.js.org/"/>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>网课推荐（知乎答案收集）</title>
-    <link href="https://jwjawa.js.org/whkwangke/"/>
-    <id>https://jwjawa.js.org/whkwangke/</id>
+    <link href="https://jwjawa.js.org/post/whkwangke/"/>
+    <id>https://jwjawa.js.org/post/whkwangke/</id>
     <published>2021-03-20T10:06:18.648Z</published>
     <updated>2020-07-21T05:01:01.064Z</updated>
     
@@ -45,8 +45,8 @@
   
   <entry>
     <title>在手机上使用termux写C++代码</title>
-    <link href="https://jwjawa.js.org/termuxandcpp/"/>
-    <id>https://jwjawa.js.org/termuxandcpp/</id>
+    <link href="https://jwjawa.js.org/post/termuxandcpp/"/>
+    <id>https://jwjawa.js.org/post/termuxandcpp/</id>
     <published>2021-03-20T10:06:18.630Z</published>
     <updated>2020-07-13T13:32:32.069Z</updated>
     
